@@ -174,6 +174,14 @@ export default defineNuxtConfig({
     exclude: ['/imprint', '/privacy', '/terms'],
   },
   nitro: {
+    prerender: {
+      ignore: [
+        '/auth/login',
+        '/auth/register',
+        '/en/auth/login',
+        '/en/auth/register',
+      ],
+    },
     routeRules: {
       '/how-it-works': { redirect: '/ki-transkription-wie-es-funktioniert' },
       '/en/__sitemap__/en-US.xml': { redirect: '/__sitemap__/en-US.xml' },
