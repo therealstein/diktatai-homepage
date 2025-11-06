@@ -106,12 +106,15 @@ const { t } = useI18n({
 })
 const { registerUrl } = useAppUrl();
 
-// SEO Meta Tags
+// SEO Meta Tags with Canonical URL
+const { canonicalUrl } = useSeoCanonical('/general/datasafety');
+
 useHead({
   title: t('meta.title'),
   meta: [
     { name: 'description', content: t('meta.description') }
   ],
+  link: [{ rel: 'canonical', href: canonicalUrl.value }],
 })
 </script>
 

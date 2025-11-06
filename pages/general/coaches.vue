@@ -330,15 +330,19 @@ const { t } = useI18n({
   useScope: 'local'
 })
 const { registerUrl } = useAppUrl();
-// SEO Meta Tags
+
+// SEO Meta Tags with Canonical URL
+const { canonicalUrl } = useSeoCanonical('/general/coaches');
+
 useHead({
   title: t('meta.title'),
   meta: [
-    { 
-      name: 'description', 
+    {
+      name: 'description',
       content: t('meta.description')
     }
   ],
+  link: [{ rel: 'canonical', href: canonicalUrl.value }],
 })
 
 
