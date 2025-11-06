@@ -1,9 +1,12 @@
-name: Notify Main Commits
-
+# Temporarily disabled
+# name: Notify Main Commits
+#
+# on:
+#   push:
+#     branches:
+#       - main
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   notify:

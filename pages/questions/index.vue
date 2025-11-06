@@ -30,7 +30,7 @@
         <NuxtLink
           v-for="question in questions"
           :key="question.path"
-          :to="question.path"
+          :to="getQuestionPath(question)"
           class="block p-6 bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md hover:border-primary transition-all duration-200"
         >
           <h2 class="text-xl font-semibold mb-3">{{ question.title }}</h2>
@@ -49,8 +49,18 @@
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n({ useScope: 'local' });
+const { t, locale } = useI18n({ useScope: 'local' });
 const localePath = useLocalePath();
+
+// Helper function to get the correct localized question path
+const getQuestionPath = (question: any) => {
+  const slug = question.path.split('/').pop();
+  if (locale.value === 'de') {
+    return `/fragen/${slug}`;
+  } else {
+    return `/en/questions/${slug}`;
+  }
+};
 
 // Fetch questions from Nuxt Content
 const { data: questionsData } = await useAsyncData('questions', () =>

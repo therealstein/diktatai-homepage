@@ -148,7 +148,7 @@ export default defineNuxtConfig({
         de: '/fragen',
         en: '/questions',
       },
-      'questions-slug': {
+      'questions/[slug]': {
         de: '/fragen/[slug]',
         en: '/questions/[slug]',
       },
