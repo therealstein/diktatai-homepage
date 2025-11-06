@@ -9,9 +9,9 @@
         </p>
 
         <div class="flex flex-col md:flex-row items-center justify-center gap-4">
-          <NuxtLinkLocale to="auth-register">
+          <a :href="registerUrl">
             <button class="font-display bg-pink-500 text-white text-xl font-bold py-4 px-12 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide">{{ $t('components.cta.startFree') }}</button>
-          </NuxtLinkLocale>
+          </a>
           <NuxtLinkLocale to="pricing">
             <button class="font-display border-2 border-white/70 bg-white/10 text-white text-xl font-bold py-4 px-12 rounded-full hover:bg-white/20 transition-all shadow-lg tracking-wide">{{ $t('components.cta.viewPricing') }}</button>
           </NuxtLinkLocale>
@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-// No props or custom logic needed yet
+const { registerUrl } = useAppUrl();
 </script>
 
 <style scoped>

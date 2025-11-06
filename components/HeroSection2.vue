@@ -58,7 +58,7 @@
 
         <!-- CTA Buttons -->
         <div class="flex justify-center mb-8">
-          <NuxtLinkLocale to="auth-register">
+          <a :href="registerUrl">
             <button
               class="group relative px-10 py-5 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-bold text-xl rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 tracking-wide overflow-hidden"
             >
@@ -83,7 +83,7 @@
                 </svg>
               </span>
             </button>
-          </NuxtLinkLocale>
+          </a>
         </div>
 
         <!-- Social proof -->
@@ -171,6 +171,7 @@
 
 <script setup>
 // Component is now self-contained without logo dependency
+const { registerUrl } = useAppUrl();
 </script>
 
 <style scoped>
