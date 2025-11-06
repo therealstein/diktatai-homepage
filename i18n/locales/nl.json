@@ -1,0 +1,142 @@
+{
+  "welcome": "Welkom",
+  "components": {
+    "logo": {
+      "name": "DictateAI"
+    },
+    "cta": {
+      "title": "Stop met typen: Dictate AI verzorgt de transcriptie.",
+      "description": "Zet gesproken woorden moeiteloos om in nauwkeurige tekst. Dictate AI neemt het typen voor zijn rekening zodat u zich kunt concentreren op wat ertoe doet – of het nu gaat om vergadernotities, interviews of spontane ideeën. Bespaar waardevolle tijd en verhoog uw productiviteit.",
+      "startFree": "Gratis beginnen",
+      "viewPricing": "Bekijk prijzen"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Inloggen",
+      "subtitle": "Krijg toegang tot uw Dictate AI account",
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "signIn": "Inloggen",
+      "noAccount": "Nog geen account?",
+      "signUp": "Registreren"
+    },
+    "register": {
+      "title": "Account aanmaken",
+      "subtitle": "Begin vandaag nog met Dictate AI",
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "confirmPassword": "Bevestig wachtwoord",
+      "startFree": "Gratis beginnen",
+      "haveAccount": "Heeft u al een account?",
+      "signIn": "Inloggen"
+    },
+    "mailconfirm": {
+      "title": "E-mail bevestigen",
+      "verifying": "Uw e-mailadres wordt geverifieerd...",
+      "success": "E-mailadres succesvol geverifieerd!",
+      "error": "Fout bij het verifiëren van het e-mailadres",
+      "enterCode": "Voer de verificatiecode in",
+      "code": "Code",
+      "verify": "Verifiëren",
+      "resend": "Code opnieuw verzenden"
+    },
+    "resetPassword": {
+      "title": "Wachtwoord opnieuw instellen",
+      "subtitle": "Voer uw e-mailadres in om een herstellink te ontvangen",
+      "email": "E-mailadres",
+      "sendLink": "Link verzenden",
+      "backToLogin": "Terug naar inloggen",
+      "success": "Er is een herstellink naar uw e-mailadres verzonden",
+      "error": "Fout bij het verzenden van de herstellink"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Dictate AI. Alle rechten voorbehouden.",
+    "tagline": "Uw spraakopnames nauwkeurig omgezet in tekst."
+  },
+  "app": {
+    "help": {
+      "title": "Hulp & Contact",
+      "subtitle": "We zijn er om u te helpen",
+      "description": "Vind snel antwoorden op veelgestelde vragen of neem rechtstreeks contact met ons op.",
+      "categories": {
+        "title": "Hoe kunnen we u helpen?",
+        "account": {
+          "title": "Account & Profiel",
+          "description": "Instellingen, abonnementen en accountbeheer"
+        },
+        "transcription": {
+          "title": "Transcriptie",
+          "description": "Upload, formaten en transcriptieopties"
+        },
+        "billing": {
+          "title": "Facturering",
+          "description": "Prijzen, facturen en betaalmethoden"
+        },
+        "technical": {
+          "title": "Technische Vragen",
+          "description": "Problemen oplossen en technische ondersteuning"
+        }
+      },
+      "faq": {
+        "title": "Veelgestelde Vragen",
+        "items": {
+          "howToUpload": {
+            "question": "Hoe upload ik een audiobestand?",
+            "answer": "Ga naar de transcriptiepagina, sleep uw bestand of klik op het uploadgebied. We ondersteunen MP3, WAV, MP4, M4A, AAC en meer formaten."
+          },
+          "supportedFormats": {
+            "question": "Welke bestandsformaten worden ondersteund?",
+            "answer": "We ondersteunen de meeste audio- en videoformaten: MP3, WAV, MP4, M4A, AAC, OGG, OPUS, WEBM en FLAC."
+          },
+          "maxFileSize": {
+            "question": "Wat is de maximale bestandsgrootte?",
+            "answer": "Gratis gebruikers kunnen bestanden tot 100MB uploaden. Eerste gebruikers en Pro-abonnees kunnen bestanden tot 2GB uploaden."
+          },
+          "processingTime": {
+            "question": "Hoe lang duurt transcriptie?",
+            "answer": "De verwerkingstijd hangt af van de lengte van uw opname. Normaal gesproken duurt het enkele minuten. U ontvangt een e-mail zodra uw transcriptie klaar is."
+          },
+          "changeSubscription": {
+            "question": "Hoe kan ik mijn abonnement wijzigen?",
+            "answer": "Ga naar Profiel > Abonnement om uw plan te beheren, upgraden of annuleren."
+          }
+        }
+      },
+      "email": {
+        "title": "E-mail Contact",
+        "description": "Voor vragen of problemen kunt u ons altijd per e-mail bereiken:",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd!"
+      },
+      "contactForm": {
+        "title": "Contactformulier",
+        "description": "Beschrijf uw probleem en we nemen zo snel mogelijk contact met u op.",
+        "success": "Uw bericht is succesvol verzonden. We nemen zo snel mogelijk contact met u op.",
+        "message": {
+          "label": "Uw Bericht",
+          "placeholder": "Beschrijf uw verzoek of probleem zo gedetailleerd mogelijk...",
+          "hint": "We nemen zo snel mogelijk contact met u op."
+        },
+        "screenshot": {
+          "label": "Screenshot of Afbeelding (optioneel)",
+          "hint": "Voeg een screenshot toe om ons te helpen uw probleem beter te begrijpen.",
+          "upload": "Afbeelding uploaden",
+          "change": "Afbeelding wijzigen",
+          "remove": "Verwijderen",
+          "dragDrop": "Sleep een afbeelding hierheen of klik om te uploaden",
+          "maxSize": "Max. 5MB (PNG, JPG, WEBP)"
+        },
+        "submit": "Bericht verzenden",
+        "error": {
+          "empty": "Voer alstublieft een bericht in.",
+          "general": "Er is een fout opgetreden bij het verzenden van uw bericht. Probeer het later opnieuw.",
+          "imageSize": "De afbeelding is te groot. Selecteer een afbeelding onder de 5MB.",
+          "imageFormat": "Ongeldig afbeeldingsformaat. Gebruik PNG, JPG of WEBP."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+name: Notify Main Commits
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Get commit details and send notification
+        run: |
+          # Get the latest commit info
+          COMMIT_HASH=$(git rev-parse HEAD)
+          COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+          COMMIT_AUTHOR=$(git log -1 --pretty=%an)
+          COMMIT_EMAIL=$(git log -1 --pretty=%ae)
+          COMMIT_DATE=$(git log -1 --pretty=%aI)
+
+          # Get the diff (what changed)
+          COMMIT_DIFF=$(git diff HEAD~1 HEAD --unified=1)
+
+          # Limit diff to 2000 chars to avoid huge payloads
+          COMMIT_DIFF=${COMMIT_DIFF:0:2000}
+
+          # Escape special characters for JSON
+          COMMIT_MESSAGE=$(echo "$COMMIT_MESSAGE" | sed 's/\\/\\\\/g' | sed 's/"/\\"/g' | sed 's/$/\\n/g' | tr -d '\n')
+          COMMIT_DIFF=$(echo "$COMMIT_DIFF" | sed 's/\\/\\\\/g' | sed 's/"/\\"/g' | sed 's/$/\\n/g' | tr -d '\n')
+
+          # Create JSON payload
+          PAYLOAD=$(cat <<EOF
+          {
+            "event": "main_branch_commit",
+            "repository": "${{ github.repository }}",
+            "branch": "main",
+            "commit_hash": "$COMMIT_HASH",
+            "commit_message": "$COMMIT_MESSAGE",
+            "date": "$COMMIT_DATE",
+            "commit_url": "${{ github.server_url }}/${{ github.repository }}/commit/$COMMIT_HASH",
+            "code_changes": "$COMMIT_DIFF"
+          }
+          EOF
+          )
+
+          # Send to webhook
+          curl -X POST \
+            -H 'Content-Type: application/json' \
+            -d "$PAYLOAD" \
+            https://n8n.dolo.work/webhook/6dbf2c4c-a52b-4450-a177-a49a0ef84118
+
+          echo "Notification sent successfully"

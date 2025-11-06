@@ -1,0 +1,233 @@
+<template>
+  <!-- Hero Section with background image -->
+  <div
+    class="hero min-h-[85vh] relative bg-cover bg-center flex items-center justify-center"
+    style="background-image: url('/herobg.webp')"
+  >
+    <!-- Background overlay for better contrast -->
+    <div
+      class="absolute inset-0 bg-gradient-to-br from-indigo-900/30 via-purple-900/25 to-pink-900/20"
+    ></div>
+
+    <!-- Floating decorative elements -->
+    <div class="absolute inset-0 overflow-hidden">
+      <div
+        class="absolute top-10 left-10 w-20 h-20 bg-gradient-to-br from-indigo-400/20 to-purple-400/20 rounded-full blur-xl animate-pulse"
+      ></div>
+      <div
+        class="absolute top-32 right-16 w-32 h-32 bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full blur-xl animate-pulse"
+        style="animation-delay: 1s"
+      ></div>
+      <div
+        class="absolute bottom-20 left-1/4 w-24 h-24 bg-gradient-to-br from-blue-400/20 to-indigo-400/20 rounded-full blur-xl animate-pulse"
+        style="animation-delay: 2s"
+      ></div>
+    </div>
+
+    <div
+      class="hero-content text-center w-full px-4 py-8 md:py-16 flex justify-center items-center relative z-10"
+    >
+      <!-- Main content card -->
+      <div
+        class="bg-white/80 backdrop-blur-md border border-indigo-200/60 rounded-3xl p-8 md:p-12 lg:p-16 shadow-2xl hover:shadow-3xl transition-all duration-500 w-full max-w-5xl"
+      >
+        <!-- Title with gradient text -->
+        <div class="relative mb-6">
+          <h1
+            class="animated-gradient text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent leading-tight tracking-tight"
+          >
+            {{ $t('hero.title') }}
+          </h1>
+          <!-- Glow effect behind title -->
+          <div
+            class="absolute -inset-4 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 blur-2xl rounded-2xl -z-10"
+          ></div>
+        </div>
+
+        <!-- Value proposition -->
+        <div class="mb-8">
+          <p
+            class="text-xl md:text-2xl font-semibold text-gray-800 leading-relaxed max-w-4xl mx-auto mb-4"
+          >
+            {{ $t('hero.description') }}
+          </p>
+          <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+            {{ $t('hero.subDescription') }}
+          </p>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="flex justify-center mb-8">
+          <NuxtLinkLocale to="auth-register">
+            <button
+              class="group relative px-10 py-5 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-bold text-xl rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 tracking-wide overflow-hidden"
+            >
+              <!-- Button glow effect -->
+              <div
+                class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-300"
+              ></div>
+              <span class="relative flex items-center gap-2">
+                {{ $t('hero.startNow') }}
+                <svg
+                  class="h-5 w-5 transform group-hover:translate-x-1 transition-transform"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  />
+                </svg>
+              </span>
+            </button>
+          </NuxtLinkLocale>
+        </div>
+
+        <!-- Social proof -->
+        <div class="mt-8 pt-6 border-t border-gray-200/50">
+          <div class="flex items-center justify-center gap-2 text-gray-600">
+            <div class="flex -space-x-2">
+              <div
+                class="w-8 h-8 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-full border-2 border-white flex items-center justify-center"
+              >
+                <svg
+                  class="h-4 w-4 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="w-8 h-8 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full border-2 border-white flex items-center justify-center"
+              >
+                <svg
+                  class="h-4 w-4 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="w-8 h-8 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-full border-2 border-white flex items-center justify-center"
+              >
+                <svg
+                  class="h-4 w-4 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="w-8 h-8 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full border-2 border-white flex items-center justify-center"
+              >
+                <svg
+                  class="h-4 w-4 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <span class="text-sm font-medium ml-2">{{
+              $t('hero.socialProof')
+            }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+// Component is now self-contained without logo dependency
+</script>
+
+<style scoped>
+/* Gradient text animation */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 4s ease infinite;
+}
+
+/* Enhanced hover effects */
+.hero-content > div:hover {
+  transform: translateY(-4px);
+}
+
+/* Custom shadow */
+.shadow-3xl {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.3);
+}
+
+/* Button pulse effect */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(99, 102, 241, 0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-content > div {
+    margin: 1rem;
+    padding: 2rem 1.5rem;
+  }
+
+  .grid-cols-1 {
+    gap: 1rem;
+  }
+}
+
+/* Improved glass effect */
+.bg-white\/80 {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+</style>

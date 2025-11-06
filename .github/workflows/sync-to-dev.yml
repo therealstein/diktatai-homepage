@@ -1,0 +1,21 @@
+name: Sync to Dev
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - dev
+
+jobs:
+  sync-to-dev:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Reset dev branch to current branch
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git push origin HEAD:dev --force

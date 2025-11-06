@@ -1,0 +1,311 @@
+---
+alwaysApply: false
+---
+
+# Diktat.ai Design System & Styling Rules
+
+## Core Design Principles
+
+### 1. Glass-morphism & Modern Aesthetics
+
+- Use semi-transparent backgrounds with backdrop blur effects
+- Layer multiple gradients for depth and visual interest
+- Maintain consistent opacity variations for hierarchy
+
+### 2. Brand Color System
+
+**Primary Brand Colors:**
+
+- **Indigo**: `indigo-500`, `indigo-600`, `indigo-700` (primary brand color)
+- **Purple**: `purple-600`, `purple-700` (secondary brand color)
+- **Brand Gradient**: `bg-gradient-to-r from-indigo-500 to-purple-600` (signature brand gradient)
+
+**Secondary Colors:**
+
+- **Emerald/Green**: Success states, positive actions
+- **Amber/Orange**: Warnings, premium features
+- **Red/Rose**: Errors, deletions
+- **Blue**: Information, secondary actions
+- **Gray**: Text hierarchy, backgrounds
+
+### 3. Component Patterns
+
+**Card Components:**
+
+```css
+/* Standard card pattern */
+.card-pattern {
+  @apply bg-white/70 backdrop-blur-sm border border-indigo-200/50 rounded-2xl p-6 shadow-lg;
+}
+
+/* Card hover effects */
+.card-hover {
+  @apply hover:bg-white/80 hover:shadow-xl transition-all duration-200;
+}
+```
+
+**Background System:**
+
+```css
+/* Primary backgrounds */
+bg-white/70, bg-white/80, bg-white/90 /* Semi-transparent whites */
+bg-gradient-to-br from-white/70 via-indigo-50/30 to-purple-50/30 /* Gradient backgrounds */
+
+/* Backdrop effects */
+backdrop-blur-sm, backdrop-blur-md, backdrop-blur-xl /* Glass-morphism */
+```
+
+**Border & Shadow System:**
+
+```css
+/* Borders */
+border border-indigo-200/50 /* Semi-transparent borders */
+border-2 border-dashed border-indigo-300/50 /* Dashed borders for upload areas */
+
+/* Shadows */
+shadow-lg, shadow-xl, shadow-2xl /* Progressive shadow depths */
+shadow-indigo-100/20, shadow-indigo-500/25 /* Colored shadows */
+```
+
+### 4. Interactive Elements
+
+**Button Hierarchy:**
+
+```css
+/* Primary buttons */
+bg-gradient-to-r from-indigo-500 to-purple-600
+hover:from-indigo-600 hover:to-purple-700
+transform hover:scale-105 transition-all duration-200
+
+/* Secondary buttons */
+bg-white/80 backdrop-blur-sm border border-gray-200
+hover:bg-white/90 hover:border-gray-300
+
+/* Success/Action buttons */
+bg-gradient-to-r from-green-500 to-emerald-600
+bg-gradient-to-r from-blue-500 to-indigo-600
+```
+
+**Hover States & Transitions:**
+
+```css
+/* Standard transition */
+transition-all duration-200
+
+/* Scale effects */
+hover:scale-105, hover:scale-110, group-hover:scale-110
+
+/* Shadow progression */
+hover:shadow-xl, hover:shadow-2xl
+```
+
+### 5. Typography System
+
+**Font Weights:**
+
+- `font-bold` - Headings, important labels
+- `font-semibold` - Sub-headings, emphasis
+- `font-medium` - Body text, buttons
+
+**Text Sizes:**
+
+- `text-xs` - Small details, badges
+- `text-sm` - Secondary text, descriptions
+- `text-base` - Default body text
+- `text-lg`, `text-xl` - Headings
+
+**Text Colors:**
+
+```css
+/* Hierarchy */
+text-gray-800 /* Primary text */
+text-gray-700 /* Secondary text */
+text-gray-600 /* Tertiary text */
+text-gray-500 /* Subtle text */
+
+/* Gradient text for headings */
+bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent
+```
+
+### 6. Layout & Spacing
+
+**Spacing Patterns:**
+
+```css
+/* Consistent spacing */
+space-y-4, space-y-6, space-y-8 /* Vertical stacking */
+gap-3, gap-4, gap-6 /* Flexbox gaps */
+
+/* Padding system */
+p-4, p-6, p-8 /* Card padding */
+px-3, px-4, px-6, py-2, py-3 /* Element padding */
+```
+
+**Responsive Design:**
+
+```css
+/* Mobile-first approach */
+md:block, md:hidden /* Desktop/mobile visibility */
+md:pl-80 /* Sidebar offset */
+lg:flex-row /* Layout changes */
+```
+
+### 7. Status & Badge Components
+
+**Status Badges:**
+
+```css
+/* Status badge patterns */
+.status-completed {
+  @apply bg-green-100 text-green-800 border border-green-300;
+}
+.status-processing {
+  @apply bg-blue-100 text-blue-800 border border-blue-300;
+}
+.status-failed {
+  @apply bg-red-100 text-red-800 border border-red-300;
+}
+.status-pending {
+  @apply bg-gray-100 text-gray-800 border border-gray-300;
+}
+```
+
+**Icon Containers:**
+
+```css
+.icon-container {
+  @apply w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg flex items-center justify-center;
+}
+```
+
+### 8. Premium/Pro Feature Styling
+
+**PRO Badges:**
+
+```css
+/* Rotating PRO badge */
+.pro-badge {
+  @apply bg-gradient-to-r from-amber-400 via-orange-500 to-red-500 text-white text-xs font-bold rounded-full transform rotate-12 hover:rotate-6 transition-transform;
+}
+
+/* Glow effects */
+.pro-glow {
+  @apply absolute -inset-1 bg-gradient-to-r from-amber-400 via-orange-500 to-red-500 rounded-full blur opacity-30 animate-pulse;
+}
+```
+
+### 9. Animation & Loading States
+
+**Custom Animations:**
+
+```css
+/* Pulse animation for uploads */
+@keyframes pulse-upload {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 15px rgba(99, 102, 241, 0);
+  }
+}
+
+/* Shimmer effect for loading */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+```
+
+## Design Rules for New Components
+
+### 1. Color Usage Rules
+
+- **Primary**: Always use `indigo-500` to `purple-600` gradient for primary actions
+- **Opacity**: Use `/50`, `/60`, `/70` opacity variations for layering
+- **Semantic**: Maintain color semantic meaning (green=success, red=error, amber=warning)
+
+### 2. Spacing Rules
+
+- **Vertical spacing**: Use `space-y-4` for normal spacing, `space-y-6` for section spacing
+- **Card padding**: `p-6` standard, `p-4` for smaller cards
+- **Button padding**: `px-4 py-2` for normal, `px-6 py-3` for large buttons
+
+### 3. Border & Shadow Rules
+
+- **Borders**: Always use semi-transparent borders: `border-indigo-200/50`
+- **Shadows**: Progressive shadows: `shadow-lg` → `hover:shadow-xl`
+- **Rounded corners**: `rounded-xl` standard, `rounded-2xl` for main cards
+
+### 4. Interactive State Rules
+
+- **Hover effects**: Include hover states with `hover:` prefixes
+- **Transitions**: Use `transition-all duration-200` for smooth animations
+- **Scale effects**: Apply `transform hover:scale-105` for button interactions
+
+### 5. Typography Rules
+
+- **Button text**: Use `font-medium` for buttons and important text
+- **Text hierarchy**: `text-gray-700` for primary, `text-gray-600` for secondary
+- **Gradient text**: Use for headings: `bg-gradient-to-r bg-clip-text text-transparent`
+
+### 6. Glass-morphism Rules
+
+- **Combination**: `bg-white/70` + `backdrop-blur-sm` + `border border-indigo-200/50`
+- **Layering**: Layer multiple background gradients for depth
+- **Hierarchy**: Use opacity variations for visual hierarchy
+
+### 7. Component Structure Rules
+
+- **Consistent patterns**: Follow established component patterns
+- **Responsive design**: Mobile-first approach with `md:` prefixes
+- **Accessibility**: Maintain proper contrast ratios and focus states
+
+## Implementation Examples
+
+### Standard Card Component
+
+```html
+<div
+  class="bg-white/70 backdrop-blur-sm border border-indigo-200/50 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-200"
+>
+  <!-- Card content -->
+</div>
+```
+
+### Primary Button
+
+```html
+<button
+  class="px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-medium rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
+>
+  Button Text
+</button>
+```
+
+### Status Badge
+
+```html
+<span
+  class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium bg-green-100 text-green-800 border border-green-300"
+>
+  <svg class="h-4 w-4" />
+  Status Text
+</span>
+```
+
+### Icon Container
+
+```html
+<div
+  class="w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-200"
+>
+  <svg class="h-5 w-5 text-white" />
+</div>
+```
+
+These rules ensure consistency across all components while maintaining the modern, glass-morphism aesthetic that defines the Diktat.ai brand.

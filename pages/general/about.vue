@@ -1,0 +1,264 @@
+<template>
+  <div class="bg-base-100 text-base-content">
+    <!-- Hero Section -->
+    <div class="hero min-h-[40vh] relative" style="background: linear-gradient(135deg, #EF56A4 0%, #4A90E2 100%); background-size: cover; background-position: center;">
+      <div class="hero-content text-center">
+        <div class="backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20">
+          <h1 class="font-display text-4xl font-bold text-white mb-2" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">{{ t('hero.title') }}</h1>
+          <p class="text-lg text-white" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">{{ t('hero.subtitle') }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="py-16 container mx-auto px-4 max-w-4xl">
+      <div class="prose prose-lg max-w-none">
+        <!-- Introduction -->
+        <div class="mb-12">
+          <p class="text-lg">
+            {{ t('introduction.paragraph1') }}
+          </p>
+          <p class="text-lg">
+            {{ t('introduction.paragraph2') }}
+          </p>
+        </div>
+
+        <!-- Our Story Section -->
+        <div class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300">
+          <h2 class="font-display text-2xl font-bold mb-6">{{ t('story.title') }}</h2>
+          <p class="mb-6">
+            {{ t('story.paragraph') }}
+          </p>
+          <h3 class="font-display text-xl font-bold mb-4">{{ t('story.challenge') }}</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{{ t('story.points.point1') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{{ t('story.points.point2') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{{ t('story.points.point3') }}</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Our Vision Section -->
+        <div class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300">
+          <h2 class="font-display text-2xl font-bold mb-6">{{ t('vision.title') }}</h2>
+          <p class="mb-6">
+            {{ t('vision.paragraph') }}
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{{ t('vision.points.point1') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{{ t('vision.points.point2') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{{ t('vision.points.point3') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{{ t('vision.points.point4') }}</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Today Section -->
+        <div class="mb-12">
+          <h2 class="font-display text-2xl font-bold mb-6">{{ t('today.title') }}</h2>
+          <p class="text-lg mb-6">
+            {{ t('today.paragraph1') }}
+          </p>
+          <p class="text-lg">
+            {{ t('today.paragraph2') }}
+          </p>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20">
+          <h3 class="font-display text-2xl font-bold mb-4 text-center">{{ t('cta.title') }}</h3>
+          <p class="text-lg text-center mb-8">
+            {{ t('cta.paragraph') }}
+          </p>
+          <div class="text-center">
+            <NuxtLinkLocale to="auth-register">
+              <button class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide">
+                {{ t('cta.button') }}
+              </button>
+            </NuxtLinkLocale>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+const { t } = useI18n({
+  useScope: 'local'
+})
+
+// SEO Meta Tags
+useHead({
+  title: t('meta.title'),
+  meta: [
+    { name: 'description', content: t('meta.description') }
+  ],
+})
+</script>
+
+<i18n lang="json">
+{
+  "en": {
+    "hero": {
+      "title": "About Diktat AI",
+      "subtitle": "From personal frustration to your solution"
+    },
+    "introduction": {
+      "paragraph1": "Do you know this too? Hours of tedious typing of audio recordings? Meetings, interviews, important notes - the valuable content is there, but the path to usable text is rocky and takes an infinite amount of time. Time that is urgently needed elsewhere.",
+      "paragraph2": "This very frustration was the spark that led to the founding of Diktat AI."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph": "We - the founders of Diktat AI - come from professional fields where spoken words play a central role. Whether as consultants in intensive customer discussions, as content creators in podcast production, or as entrepreneurs who need to quickly capture ideas and meeting results - we have experienced the pain of manual transcription firsthand.",
+      "challenge": "We repeatedly faced the same challenge:",
+      "points": {
+        "point1": "The fear of missing or forgetting important details in long recordings.",
+        "point2": "The enormous time investment that went into typing - time we would rather have invested in our core competencies.",
+        "point3": "The search for a solution that is not only fast but also reliable and, above all, secure."
+      }
+    },
+    "vision": {
+      "title": "Our Vision",
+      "paragraph": "Driven by this thought and our passion for efficient solutions and technology, we decided to tackle the problem ourselves. Our goal was clear:",
+      "points": {
+        "point1": "To develop a transcription solution that we would like to use ourselves.",
+        "point2": "To put simplicity and user-friendliness at the center.",
+        "point3": "To ensure the highest precision through the use of state-of-the-art AI speech recognition.",
+        "point4": "To integrate uncompromising security and data protection as fundamental pillars from the start."
+      }
+    },
+    "today": {
+      "title": "Diktat AI Today",
+      "paragraph1": "Behind Diktat AI today is a dedicated team that continuously works to further improve the service and adapt it to the needs of our users. We understand the challenges of your everyday work because we know them ourselves.",
+      "paragraph2": "Our mission is to give you valuable time back and increase your productivity - simple, safe and efficient."
+    },
+    "cta": {
+      "title": "Start now with Diktat AI",
+      "paragraph": "We are happy if Diktat AI also helps you to make your everyday work easier.",
+      "button": "Try for free"
+    },
+    "meta": {
+      "title": "About us - Diktat AI",
+      "description": "Learn more about the history and vision of Diktat AI. How frustration with time-consuming transcriptions led to an innovative solution."
+    }
+  },
+  "de": {
+    "hero": {
+      "title": "Über Diktat AI",
+      "subtitle": "Von der eigenen Frustration zur Lösung für Sie"
+    },
+    "introduction": {
+      "paragraph1": "Kennen Sie das auch? Stundenlanges, mühsames Abtippen von Audioaufnahmen? Meetings, Interviews, wichtige Notizen – die wertvollen Inhalte sind da, aber der Weg zum nutzbaren Text ist steinig und kostet unendlich viel Zeit. Zeit, die an anderer Stelle dringend gebraucht wird.",
+      "paragraph2": "Genau diese Frustration war der Funke, der zur Gründung von Diktat AI führte."
+    },
+    "story": {
+      "title": "Unsere Geschichte",
+      "paragraph": "Wir – die Gründer von Diktat AI – kommen selbst aus Berufsfeldern, in denen gesprochene Worte eine zentrale Rolle spielen. Ob als Berater in intensiven Kundengesprächen, als Content Creator bei der Produktion von Podcasts oder als Unternehmer, der schnell Ideen und Meeting-Ergebnisse festhalten muss – wir haben den Schmerz der manuellen Transkription am eigenen Leib erfahren.",
+      "challenge": "Immer wieder standen wir vor der gleichen Herausforderung:",
+      "points": {
+        "point1": "Die Angst, wichtige Details in langen Aufnahmen zu überhören oder zu vergessen.",
+        "point2": "Der enorme Zeitaufwand, der für das Abtippen draufging – Zeit, die wir lieber in unsere Kernkompetenzen investiert hätten.",
+        "point3": "Die Suche nach einer Lösung, die nicht nur schnell, sondern auch zuverlässig und vor allem sicher ist."
+      }
+    },
+    "vision": {
+      "title": "Unsere Vision",
+      "paragraph": "Angetrieben von diesem Gedanken und unserer Leidenschaft für effiziente Lösungen und Technologie, beschlossen wir, das Problem selbst anzugehen. Unser Ziel war klar:",
+      "points": {
+        "point1": "Eine Transkriptionslösung zu entwickeln, die wir selbst gerne nutzen würden.",
+        "point2": "Einfachheit und Benutzerfreundlichkeit in den Mittelpunkt zu stellen.",
+        "point3": "Höchste Präzision durch den Einsatz modernster KI-Spracherkennung zu gewährleisten.",
+        "point4": "Kompromisslose Sicherheit und Datenschutz von Anfang an als Grundpfeiler zu integrieren."
+      }
+    },
+    "today": {
+      "title": "Diktat AI heute",
+      "paragraph1": "Hinter Diktat AI steht heute ein engagiertes Team, das kontinuierlich daran arbeitet, den Service weiter zu verbessern und an die Bedürfnisse unserer Nutzer anzupassen. Wir verstehen die Herausforderungen Ihres Arbeitsalltags, weil wir sie selbst kennen.",
+      "paragraph2": "Unsere Mission ist es, Ihnen wertvolle Zeit zurückzugeben und Ihre Produktivität zu steigern – einfach, sicher und effizient."
+    },
+    "cta": {
+      "title": "Starten Sie jetzt mit Diktat AI",
+      "paragraph": "Wir freuen uns, wenn Diktat AI auch Ihnen dabei hilft, Ihren Arbeitsalltag zu erleichtern.",
+      "button": "Kostenlos testen"
+    },
+    "meta": {
+      "title": "Über uns - Diktat AI",
+      "description": "Erfahren Sie mehr über die Geschichte und Vision von Diktat AI. Wie aus der Frustration über zeitaufwändige Transkriptionen eine innovative Lösung entstand."
+    }
+  }
+}
+</i18n>
+
+<style scoped>
+/* Override accent and secondary colors with pink */
+:deep(.text-accent) {
+  color: #EF56A4 !important;
+}
+
+:deep(.text-secondary) {
+  color: #EF56A4 !important;
+}
+
+:deep(.bg-accent) {
+  background-color: #EF56A4 !important;
+}
+
+:deep(.bg-secondary) {
+  background-color: #EF56A4 !important;
+}
+
+:deep(.from-accent\/10) {
+  --tw-gradient-from: rgba(239, 86, 164, 0.1) !important;
+}
+
+:deep(.to-secondary\/10) {
+  --tw-gradient-to: rgba(239, 86, 164, 0.1) !important;
+}
+
+:deep(.border-accent\/20) {
+  border-color: rgba(239, 86, 164, 0.2) !important;
+}
+
+.card {
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+</style> 

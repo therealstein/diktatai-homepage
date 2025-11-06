@@ -1,0 +1,20 @@
+# Dependencies
+node_modules
+*.log*
+
+# Nuxt specific
+.nuxt
+.nitro
+.cache
+.output
+.data
+dist
+
+# Environment
+.env
+.env.*
+.supabase.env
+!.env.example
+
+# Database
+db/

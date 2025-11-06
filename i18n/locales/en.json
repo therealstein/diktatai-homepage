@@ -1,0 +1,972 @@
+{
+  "welcome": "Welcome",
+  "components": {
+    "logo": {
+      "name": "DictateAI"
+    },
+    "cta": {
+      "title": "Stop Typing: Dictate AI Handles the Transcription.",
+      "description": "Effortlessly transform spoken words into precise text. Dictate AI takes care of the typing so you can focus on what matters – whether it's meeting notes, interviews, or spontaneous ideas. Save valuable time and boost your productivity.",
+      "startFree": "Start Free",
+      "viewPricing": "View Pricing"
+    }
+  },
+  "userGroups": {
+    "title": "Professions for which Dictate AI is indispensable",
+    "description": "Discover how different professions use Dictate AI to make their daily work more efficient",
+    "journalists": {
+      "title": "Journalists & Editors",
+      "description": "Quickly convert interviews, press conferences, and research recordings into editable text."
+    },
+    "contentCreators": {
+      "title": "Content Creators",
+      "description": "Effortlessly create transcripts for show notes, subtitles, blog articles, or content analysis."
+    },
+    "lawyers": {
+      "title": "Lawyers & Attorneys",
+      "description": "Capture dictations, client conversations, or transcripts securely and GDPR-compliant as text."
+    },
+    "students": {
+      "title": "Students & Academics",
+      "description": "Transcribe lectures, seminars, and interviews for theses or research projects."
+    },
+    "businessLeaders": {
+      "title": "Business Leaders & Executives",
+      "description": "Accurately record meeting results, spontaneous ideas, or dictated notes."
+    },
+    "consultants": {
+      "title": "Consultants & Coaches",
+      "description": "Efficiently document client conversations and sessions for optimal follow-up."
+    }
+  },
+  "businessSolutions": {
+    "title": "Solutions for Businesses and Organizations",
+    "description": "Discover how Dictate AI is tailored to meet the specific needs of various organizations and industries",
+    "aiAct": {
+      "title": "EU AI Act & Dictate AI",
+      "description": "The new EU AI Act is coming. Learn what the AI Act means for AI applications like Dictate AI, what requirements apply, and how we're preparing for a responsible and compliant future."
+    },
+    "sme": {
+      "title": "Leveraging AI Potential for SMEs",
+      "description": "Discover how Dictate AI specifically helps small and medium-sized enterprises (SMEs) optimize processes, save valuable time, and increase productivity without major IT investments."
+    },
+    "government": {
+      "title": "Secure Use in Government Agencies",
+      "description": "Data protection, security, and reliability are crucial in the public sector. Read how Dictate AI meets the special requirements of government agencies and administrations and enables efficient workflows."
+    },
+    "regulated": {
+      "title": "Compliance in Regulated Industries",
+      "description": "Strict regulations apply to industries such as finance, law, or healthcare. Learn how Dictate AI ensures confidentiality and supports compliance requirements in transcription."
+    },
+    "business": {
+      "title": "Dictate AI for Businesses",
+      "description": "Learn more about the diverse applications of Dictate AI in businesses of all sizes – from meeting documentation to content creation. Scalable solutions for your success."
+    },
+    "suite": {
+      "title": "The Dictate AI Business Suite",
+      "description": "Discover our premium solutions for teams and power users. Benefit from advanced features, team management, priority support, and customized options for the highest demands."
+    }
+  },
+  "transcription": {
+    "noTranscriptionAvailable": "No transcription available",
+    "noTranscriptionsAvailable": "No transcriptions available",
+    "noTimestampedChunksAvailable": "No timestamped chunks available",
+    "jumpTo": "Jump to",
+    "context": "Context"
+  },
+  "navbar": {
+    "howitworks": "AI Transcription",
+    "pricing": "Pricing",
+    "login": "Login"
+  },
+  "payment": {
+    "invoiceTitle": "Invoice Purchase",
+    "invoiceDescription": "Pay conveniently by invoice. You will immediately receive access to all features.",
+    "creditCardTitle": "Credit Card",
+    "creditCardDescription": "Pay securely and conveniently with your credit card. Apple Pay or Google Pay are also available.",
+    "processing": "Processing...",
+    "completePurchase": "Complete Purchase",
+    "proceedToCreditCard": "Proceed to Credit Card Payment"
+  },
+  "hero": {
+    "title": "Autowrite with Dictate AI",
+    "description": "Dictate AI offers fast and accurate transcriptions for meetings, interviews, and more. Ideal for professionals and teams who want to save time and focus on what matters. Your data is secure and GDPR-compliant.",
+    "startNow": "Start Now",
+    "subDescription": "Save up to 80% of your time on transcription. Start free now – no credit card required.",
+    "socialProof": "Already over 1,000 users save time daily"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions about Dictate AI",
+    "description": "Here you will find answers to the most important questions about Dictate AI, your intelligent assistant for converting speech to text.",
+    "item1": {
+      "title": "What exactly does Dictate AI do?",
+      "description": "Dictate AI is your clever helper that automatically converts spoken words into written text. Simply upload your audio recording (e.g., from meetings, interviews, lectures, or voice notes) and our artificial intelligence does the rest – quickly and reliably. This way, you get a written protocol or transcript in no time, without having to type yourself."
+    },
+    "item2": {
+      "title": "Who is Dictate AI suitable for?",
+      "description": "Dictate AI is perfect for anyone who regularly needs to convert audio recordings into text and wants to save valuable time. This includes:",
+      "professionals": "Busy professionals: Effortlessly document meetings and phone calls.",
+      "teams": "Efficient teams: Quickly and easily share important conversation content in writing.",
+      "students": "Students: Convert lectures and study notes into searchable texts.",
+      "journalists": "Journalists & Podcasters: Quickly transcribe interviews and audio content.",
+      "creators": "Content Creators: Create subtitles or blog articles from your video and audio content.",
+      "noteTakers": "Anyone who takes notes: Easily capture spontaneous ideas and thoughts by voice."
+    },
+    "item3": {
+      "title": "How does Dictate AI help me save time?",
+      "description": "Manually typing audio recordings is tedious and often takes hours of your precious time. Dictate AI completes this task in a fraction of the time. Instead of getting caught up in typing, you can focus on more important tasks, prepare your content faster, or analyze your results more quickly. This means: More productivity for you and less tedious routine work."
+    },
+    "item4": {
+      "title": "Are my data safe with Dictate AI?",
+      "description": "Absolutely. Protecting your data is our top priority. We know how important confidentiality is. That's why we process all information strictly according to the requirements of the European General Data Protection Regulation (GDPR). Your audio recordings and the texts created from them are safe and secure with us – you can count on that."
+    },
+    "item5": {
+      "title": "How accurate are the transcriptions?",
+      "description": "Our artificial intelligence is trained to recognize speech very precisely and convert it into text. The accuracy is impressively high, especially with clearly understandable recordings of good sound quality. You get a solid text base that you can usually use directly or only need to minimally revise if necessary."
+    },
+    "item6": {
+      "title": "What kind of audio recordings can I upload?",
+      "description": "You can upload a variety of audio recordings. Whether recordings of meetings, conducted interviews, recorded phone calls (if legally permissible!), lectures from the lecture hall, seminar recordings, podcast episodes, or simply spontaneously recorded voice notes with your phone – Dictate AI can process them. We support the most common audio formats."
+    },
+    "item7": {
+      "title": "Is using Dictate AI complicated?",
+      "description": "No, quite the opposite! We have deliberately designed Dictate AI to be simple and intuitive. You don't need any technical knowledge or complicated training times. The process is very simple:",
+      "step1": "Upload audio recording.",
+      "step2": "Wait a short time while our AI works.",
+      "step3": "Download or copy the finished text.",
+      "conclusion": "We want you to get started right away and benefit from the advantages!"
+    },
+    "stillHaveQuestions": "Do you still have questions?",
+    "reachOutText": "If you have any other questions or need further assistance, we're happy to help you with anything related to Dictate AI.",
+    "moreQuestions": "Any Other Questions?"
+  },
+  "euStorage": {
+    "title": "Storage and Data Processing in the EU",
+    "description": "All your data is processed and stored exclusively on servers within the European Union. We rely on local infrastructure for maximum data security.",
+    "moreAboutSecurity": "More about Security"
+  },
+  "dsgvo": {
+    "title": "GDPR-compliant Data Storage",
+    "description": "Your data is encrypted according to the highest security standards and stored in compliance with GDPR. We guarantee maximum data protection for your voice recordings.",
+    "moreAboutPrivacy": "More about Privacy"
+  },
+  "app": {
+    "processingModal": {
+      "title": "Just a moment... ☕",
+      "description": "Your transcription is being created. Our AI is working at full speed! This might take a little moment. Why not grab a coffee – we'll send you an email as soon as your text is ready.",
+      "subscriberTip": "Tip: With a Diktat AI subscription, it'll be even faster next time! Subscribers benefit from prioritized processing.",
+      "subscribe": "Subscribe now",
+      "close": "Close"
+    },
+    "subscriptionLimit": {
+      "title": "Subscription Limit Reached",
+      "message": "You have reached your transcription time limit. Please subscribe to continue using the service.",
+      "subscribe": "Subscribe Now"
+    },
+    "card": {
+      "delete": "Delete",
+      "deleteConfirm": {
+        "title": "Delete Project?",
+        "message": "Are you sure you want to delete this project? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      },
+      "status": {
+        "pending": "Queue",
+        "pending_queue": "Queue",
+        "processing": "Transcribing",
+        "completed": "Transcription Ok",
+        "failed": "Failed",
+        "pending_llm": "Finalization",
+        "processing_llm": "Finalization in progress",
+        "completed_llm": "Completed",
+        "failed_llm": "Finalization failed"
+      },
+      "time": {
+        "seconds": "{count} sec ago",
+        "minutes": "{count} min ago",
+        "hours": "{count} hours ago",
+        "days": "{count} days ago"
+      },
+      "untitled": "Untitled"
+    },
+    "table": {
+      "headers": {
+        "name": "Name",
+        "status": "Status",
+        "created": "Created",
+        "updated": "Updated",
+        "actions": "Actions"
+      },
+      "noFiles": "No files",
+      "view": "View",
+      "delete": "Delete",
+      "deleteConfirm": {
+        "title": "Delete Project?",
+        "message": "Are you sure you want to delete this project? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      },
+      "unknown": "Unknown",
+      "promoBox": {
+        "title": "Try 7 Days Pro for Free",
+        "subtitle": "Upgrade for more features",
+        "features": {
+          "unlimited": "Unlimited transcriptions",
+          "diarization": "Speaker separation",
+          "faster": "Faster & more precise"
+        },
+        "benefits": {
+          "moreFunctions": "More features",
+          "productive": "Instantly productive",
+          "noRisk": "No risk"
+        },
+        "cta": "Try now",
+        "guarantee": "7 days free",
+        "cancellation": "Cancel anytime",
+        "noCard": "No credit card required"
+      }
+    },
+    "sidebar": {
+      "defaultContext": "General",
+      "defaultTitle": "Project {id}",
+      "size": "{size} KB",
+      "date": {
+        "format": "MM/DD/YYYY"
+      }
+    },
+    "transcription": {
+      "title": "Start New Transcription",
+      "upload": {
+        "title": "Upload Recording",
+        "dragDrop": "Drag and drop your files here or click to upload",
+        "formats": "Formats: MP3, WAV, MP4, M4A, AAC & more",
+        "freeTier": "Free users can only upload one file per transcription",
+        "multipleFilesError": "Multiple file upload available in Premium",
+        "upgradeNow": "Unlock now"
+      },
+      "projectMode": {
+        "title": "Project Mode",
+        "singleProject": "Single Project",
+        "filePerProject": "File Per Project",
+        "singleProjectDescription": "All files will be grouped into one project.",
+        "filePerProjectDescription": "Each file will be processed as a separate project."
+      },
+      "context": {
+        "title": "Context for Higher Accuracy",
+        "proFeature": "Unlock all contexts with PRO",
+        "upgradeToPro": "Upgrade to PRO",
+        "options": {
+          "legal": "Legal",
+          "police": "Police",
+          "journalism": "Journalism",
+          "academic": "Academic",
+          "medical": "Medical",
+          "business": "Business"
+        }
+      },
+      "settings": {
+        "title": "Settings",
+        "language": {
+          "label": "Recording Language",
+          "options": {
+            "de": "German",
+            "en": "English",
+            "fr": "French",
+            "es": "Spanish"
+          }
+        },
+        "diarization": {
+          "label1": "Speaker Diarization",
+          "label2": "(Interview/Meeting)"
+        },
+        "speakers": {
+          "label": "Speaker Count",
+          "description": "Configure the number of speakers",
+          "mode": {
+            "automatic": "Automatic"
+          },
+          "automaticDescription": "The number of speakers will be detected automatically",
+          "minSpeakers": "Min. Speakers",
+          "maxSpeakers": "Max. Speakers",
+          "quickSet": {
+            "twoSpeakers": "2 Speakers",
+            "threeSpeakers": "3 Speakers",
+            "fourSpeakers": "4 Speakers",
+            "fiveSpeakers": "5 Speakers"
+          },
+          "custom": "Custom",
+          "customPlaceholder": "Enter number",
+          "set": "Set"
+        },
+        "quality": {
+          "label": "Transcription Quality",
+          "options": {
+            "standard": "Standard",
+            "high": "High",
+            "premium": "Premium"
+          }
+        },
+        "deleteAccount": {
+          "title": "Delete Account",
+          "description": "This action cannot be undone. This will permanently delete your account and remove all your data from our servers.",
+          "reasonLabel": "Reason for deletion",
+          "reasonPlaceholder": "Please let us know why you're leaving...",
+          "optOutLabel": "Opt out from all emails",
+          "confirmLabel": "I understand that this action cannot be undone",
+          "deleteButton": "Delete Account",
+          "deleting": "Deleting Account...",
+          "subscribedWarning": "Please cancel your subscription first or contact our support to delete your account."
+        }
+      },
+      "submit": "Transcribe Now",
+      "help": {
+        "text": "Need help? "
+      }
+    },
+    "mobileTranscription": {
+      "tabs": {
+        "upload": "New Transcription",
+        "context": "Context",
+        "settings": "Settings",
+        "pro": "PRO"
+      },
+      "upload": {
+        "tapToUpload": "Tap here to upload an audio file",
+        "formats": "Formats: MP3, WAV, MP4, M4A, AAC & more",
+        "selectedFiles": "Selected files:",
+        "noFiles": "No files",
+        "files": "{count} files"
+      },
+      "context": {
+        "title": "Context for higher accuracy:"
+      },
+      "settings": {
+        "title": "Settings",
+        "language": {
+          "label": "Recording Language",
+          "options": {
+            "de": "German",
+            "en": "English",
+            "fr": "French",
+            "es": "Spanish"
+          }
+        },
+        "diarization": {
+          "label": "Speaker Diarization"
+        },
+        "quality": {
+          "label": "Transcription Quality",
+          "options": {
+            "standard": "Standard",
+            "high": "High",
+            "premium": "Premium"
+          }
+        }
+      },
+      "submit": "Transcribe Now",
+      "help": {
+        "text": "Need help? "
+      },
+      "projectMode": {
+        "title": "Project Mode",
+        "singleProject": "Single Project",
+        "filePerProject": "File Per Project",
+        "singleProjectDescription": "All files will be grouped into one project.",
+        "filePerProjectDescription": "Each file will be processed as a separate project."
+      }
+    },
+    "closedModal": {
+      "title": "Welcome & Thank You for Your Trust!",
+      "subtitle": "We're glad you've registered for Dictate AI!",
+      "message": "We're very pleased with the great interest. Currently, our capacities are temporarily fully utilized. We ask for your patience. You will automatically receive an email as soon as you can start.",
+      "button": "OK"
+    },
+    "documentView": {
+      "title": "Document Details",
+      "metadata": {
+        "documentId": "Document ID:",
+        "createdAt": "Created at:",
+        "fileSize": "File size:",
+        "context": "Context:",
+        "duration": "Duration:",
+        "status": "Status:"
+      },
+      "revisions": {
+        "title": "Revisions",
+        "viewFull": "View complete →",
+        "revision": "Revision {number}",
+        "date": "{date}"
+      },
+      "actions": {
+        "title": "Actions",
+        "viewTranscript": "View Transcript",
+        "copyText": "Copy Text",
+        "copied": "Copied!",
+        "download": "Download PDF",
+        "downloading": "Downloading...",
+        "delete": "Delete",
+        "deleting": "Deleting..."
+      }
+    },
+    "footer": {
+      "title": "Dictate AI",
+      "help": "Help",
+      "description": "Quickly and easily transform dictations into letters.",
+      "professions": "Professions",
+      "consultants": "Consultants & Coaches",
+      "contentCreators": "Content Creators",
+      "lawyers": "Lawyers & Attorneys",
+      "journalists": "Journalists & Editors",
+      "students": "Students & Academics",
+      "businessLeaders": "Business Leaders & Executives",
+      "legal": "Legal",
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "aiSecurity": "AI - Data Security",
+      "imprint": "Imprint",
+      "company": "Company",
+      "pricing": "Pricing",
+      "about": "About Us",
+      "contact": "Contact",
+      "compliance": "Compliance & Support",
+      "gdpr": "GDPR & GDPR",
+      "aiDataProcessing": "AI Data Processing",
+      "standWithUkraine": "Stand with Ukraine",
+      "copyright": "© {year} DictateAI",
+      "language": "Language"
+    },
+    "header": {
+      "subscribePro": "Subscribe to Pro",
+      "myDictations": "My Dictations",
+      "profile": "Profile",
+      "emailService": "Email Service",
+      "help": "Help",
+      "logout": "Logout"
+    },
+    "premiumModal": {
+      "title": "Get more out of your transcription!",
+      "description": "Enhance your results with premium features like context, speaker diarization, and higher quality. These are included in our subscriptions.\n\nUpgrade now for more precise, better-structured transcripts!",
+      "multipleFiles": "Uploading multiple files is a Pro feature. Upgrade to process multiple files simultaneously!",
+      "unlockPremium": "Unlock Premium Features Now",
+      "cancel": "Cancel"
+    },
+    "fileSizeErrorModal": {
+      "title": "File Size Limit Exceeded",
+      "description": "One or more of your files exceeds our maximum size limit. Please reduce the file size or split it into smaller parts.",
+      "defaultError": "File size exceeds the maximum allowed limit.",
+      "freeUser": "Your file ({size}MB) exceeds the 100MB limit for free users after their first upload. First-time users can upload up to 2GB. Subscribe to Pro for unlimited 2GB uploads.",
+      "proUser": "Your file ({size}MB) exceeds the maximum limit of 2GB. Please split the file into smaller parts.",
+      "firstTimeUser": "As a first-time user, you can upload files up to 2GB. Your file ({size}MB) is within the limit!",
+      "ok": "OK"
+    },
+    "fileFormatErrorModal": {
+      "title": "File Format Not Supported",
+      "description": "One or more of your files are in an unsupported format. Please convert the files to a supported format and try again.",
+      "ok": "OK"
+    },
+    "dragDropFallback": {
+      "toast": "The dropped item is not supported. Please select an audio or video file."
+    },
+    "durationLimitModal": {
+      "title": "Ready to Go Pro?",
+      "message": "Your {minutes}-minute audio exceeds the free 10-minute limit. Unlock unlimited length uploads and finish your transcription with a free 7-day trial of Pro.",
+      "primaryButton": "Start 7-Day Free Trial",
+      "secondaryButton": "Not Now"
+    },
+    "mobileDocumentView": {
+      "tabs": {
+        "info": "Info",
+        "revisions": "Revisions",
+        "actions": "Actions"
+      },
+      "metadata": {
+        "documentId": "Document ID:",
+        "createdAt": "Created at:",
+        "fileSize": "File size:",
+        "context": "Context:",
+        "duration": "Duration:",
+        "status": "Status:"
+      },
+      "revisions": {
+        "noRevisions": "No revisions available",
+        "viewFull": "View complete →"
+      },
+      "actions": {
+        "delete": "Delete",
+        "copy": "Copy to Clipboard",
+        "copied": "Copied!",
+        "download": "Download PDF",
+        "downloading": "Downloading..."
+      }
+    },
+    "uploadAnimation": {
+      "title": "Files are being uploaded",
+      "progress": "{progress}% completed",
+      "steps": {
+        "processFile": "Process file",
+        "transfer": "Transfer",
+        "prepareTranscription": "Prepare transcription"
+      },
+      "warning": "Please do not leave this page during upload"
+    },
+    "mobileSettings": {
+      "title": "Settings",
+      "sections": {
+        "general": "General",
+        "account": "Account",
+        "security": "Security",
+        "billing": "Billing"
+      }
+    },
+    "layout": {
+      "title": "Dictate AI"
+    },
+    "recentPosts": {
+      "title": "Recent Posts"
+    },
+    "benefitsSection": {
+      "title": "Your Clear Advantage with Dictate AI",
+      "description": "Dictate AI brings measurable added value to your daily work – through clever automation and optimized processes when converting speech to text.",
+      "benefits": {
+        "timeSaving": {
+          "title": "Massive Time Savings",
+          "description": "Say goodbye to tedious typing. Gain back hours for your important tasks, projects, and core competencies."
+        },
+        "productivity": {
+          "title": "Increased Productivity",
+          "description": "Get more done in less time. Convert spoken content into text in a flash and significantly accelerate your workflows – from meeting minutes to content creation."
+        },
+        "precision": {
+          "title": "Precise & Usable Results",
+          "description": "Get accurate text transcripts of your audio recordings that you can immediately reuse, search, edit, or archive."
+        },
+        "security": {
+          "title": "Highest Data Security & Compliance",
+          "description": "Rely on strictest confidentiality and GDPR-compliant processing. Your sensitive information and recordings are safe and protected with us at all times."
+        },
+        "focus": {
+          "title": "Focus on What Matters",
+          "description": "Reduce annoying routine tasks to a minimum. Concentrate your energy and attention on strategic decisions, creative work, or content analysis instead of typing."
+        }
+      }
+    },
+    "billingInformation": {
+      "name": "Name",
+      "businessName": "Business Name",
+      "vatId": "VAT ID",
+      "address": "Address",
+      "city": "City",
+      "postalCode": "Postal Code",
+      "country": "Country",
+      "phone": "Phone",
+      "invoiceRequired": "Please fill out when paying on invoice.",
+      "creditCardOptional": "Only fill out if an invoice or AVV is required."
+    },
+    "ctaSection": {
+      "title": "Stop Typing: Dictate AI Handles Transcription.",
+      "description": "Effortlessly transform spoken words into precise text. Dictate AI takes care of the typing so you can focus on what matters – whether it's meeting notes, interviews, or spontaneous ideas. Save valuable time and boost your productivity.",
+      "startFree": "Start Free",
+      "viewPricing": "View Pricing"
+    },
+    "dictationStatus": {
+      "pending": "Preparing...",
+      "processing": "Processing...",
+      "failed": "Error occurred",
+      "completed": "Completed"
+    },
+    "projectDetail": {
+      "back": "Back",
+      "duration": "Duration",
+      "created": "Created",
+      "views": {
+        "processed": "Formatted Transcript",
+        "raw": "Raw Transcript",
+        "timestamps": "Audio + Timestamps"
+      },
+      "error": {
+        "loadFailed": "Failed to load project",
+        "unexpectedFormat": "Failed to load project: Unexpected response format"
+      },
+      "magicTranscript": "Magic Transcript",
+      "interviewTranscript": "Interview Transcript",
+      "upsellModal": {
+        "title": "Upgrade Required",
+        "message": "{feature} is a premium feature. Upgrade to Diktat AI Pro to access this functionality and unlock enhanced transcription capabilities.",
+        "upgrade": "Upgrade to Pro",
+        "cancel": "Cancel"
+      }
+    },
+    "magicTranscript": {
+      "title": "Magic Transcript",
+      "description": "Use AI to improve your transcript with custom processing. This will create a new version of your transcript.",
+      "customPrompt": "Custom Prompt",
+      "promptPlaceholder": "E.g., 'Correct grammar and spelling', 'Format as a professional report', 'Add paragraph breaks', etc.",
+      "modelLabel": "AI Model",
+      "modelBasic": "Basic Model",
+      "modelPro": "Professional Model",
+      "proOnly": "(Pro Only)",
+      "upgradePrompt": "Upgrade to Pro for access to more powerful models",
+      "submitButton": "Process Transcript",
+      "revisionSourceLabel": "Apply to",
+      "sourceRaw": "Raw Transcript",
+      "sourceLatest": "Latest Revision",
+      "sourceSpecific": "Specific Revision",
+      "revisionNumberLabel": "Select Revision",
+      "revision": "Revision {number}",
+      "error": {
+        "processingFailed": "Failed to process transcript"
+      }
+    },
+    "interviewTranscript": {
+      "title": "Create Interview Transcript",
+      "description": "Assign names to speakers in your transcript. Each speaker ID will be replaced with the name you provide.",
+      "enterName": "Enter name",
+      "process": "Process Interview"
+    },
+    "help": {
+      "title": "Help & Contact",
+      "subtitle": "We're here to help you",
+      "description": "Find quick answers to common questions or contact us directly.",
+      "categories": {
+        "title": "How can we help you?",
+        "account": {
+          "title": "Account & Profile",
+          "description": "Settings, subscriptions, and account management"
+        },
+        "transcription": {
+          "title": "Transcription",
+          "description": "Upload, formats, and transcription options"
+        },
+        "billing": {
+          "title": "Billing",
+          "description": "Pricing, invoices, and payment methods"
+        },
+        "technical": {
+          "title": "Technical Questions",
+          "description": "Troubleshooting and technical support"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": {
+          "howToUpload": {
+            "question": "How do I upload an audio file?",
+            "answer": "Go to the transcription page, drag and drop your file or click on the upload area. We support MP3, WAV, MP4, M4A, AAC, and more formats."
+          },
+          "supportedFormats": {
+            "question": "What file formats are supported?",
+            "answer": "We support most audio and video formats: MP3, WAV, MP4, M4A, AAC, OGG, OPUS, WEBM, and FLAC."
+          },
+          "maxFileSize": {
+            "question": "What is the maximum file size?",
+            "answer": "Free users can upload files up to 100MB. First-time users and Pro subscribers can upload files up to 2GB."
+          },
+          "processingTime": {
+            "question": "How long does transcription take?",
+            "answer": "Processing time depends on the length of your recording. Typically it takes a few minutes. You will receive an email once your transcription is ready."
+          },
+          "changeSubscription": {
+            "question": "How can I change my subscription?",
+            "answer": "Go to Profile > Subscription to manage, upgrade, or cancel your plan."
+          }
+        }
+      },
+      "email": {
+        "title": "Email Contact",
+        "description": "For questions or problems, you can reach us by email at any time:",
+        "copy": "Copy",
+        "copied": "Copied!"
+      },
+      "contactForm": {
+        "title": "Contact Form",
+        "description": "Describe your issue and we'll get back to you as soon as possible.",
+        "success": "Your message has been sent successfully. We will get back to you as soon as possible.",
+        "message": {
+          "label": "Your Message",
+          "placeholder": "Describe your request or problem in as much detail as possible...",
+          "hint": "We will get back to you as soon as possible."
+        },
+        "screenshot": {
+          "label": "Screenshot or Image (optional)",
+          "hint": "Add a screenshot to help us better understand your issue.",
+          "upload": "Upload Image",
+          "change": "Change Image",
+          "remove": "Remove",
+          "dragDrop": "Drag an image here or click to upload",
+          "maxSize": "Max. 5MB (PNG, JPG, WEBP)"
+        },
+        "submit": "Send Message",
+        "error": {
+          "empty": "Please enter a message.",
+          "general": "An error occurred while sending your message. Please try again later.",
+          "imageSize": "The image is too large. Please select an image under 5MB.",
+          "imageFormat": "Invalid image format. Please use PNG, JPG, or WEBP."
+        }
+      }
+    },
+    "profile": {
+      "billingInfo": {
+        "title": "Billing Information",
+        "save": "Save Billing Information",
+        "saveSuccess": "Billing information saved successfully",
+        "saveError": "Failed to save billing information",
+        "updateError": "Failed to update billing information"
+      },
+      "subscription": {
+        "title": "Subscription",
+        "plan": "Current Plan",
+        "free": "Free",
+        "premium": "Pro Plan",
+        "usage": "Usage",
+        "remaining": "Remaining",
+        "unlimited": "Unlimited",
+        "changePlan": "Cancel",
+        "cancelTrial": "Cancel Trial",
+        "manageSubscription": "Manage Subscription",
+        "trialActive": "Trial Active",
+        "subscribeNow": "Subscribe Now",
+        "processInitiated": "Process initiated! Our team will contact you soon regarding your subscription request.",
+        "ticketError": "Failed to create support ticket. Please try again or contact support directly.",
+        "cancellationError": "Failed to cancel subscription. Please try again or contact support.",
+        "customerCenterError": "Failed to open customer portal. Please try again or contact support."
+      },
+      "usage": {
+        "title": "Usage Statistics",
+        "minutes": "minutes",
+        "monthly": "Monthly Usage",
+        "ofMonthlyLimit": "of {limit} minutes monthly limit"
+      },
+      "invoices": {
+        "title": "Invoice History",
+        "date": "Date",
+        "amount": "Amount",
+        "status": "Status",
+        "actions": "Actions",
+        "download": "Download",
+        "noInvoices": "No invoices found",
+        "fetchError": "Failed to fetch invoices",
+        "statusValues": {
+          "paid": "Paid",
+          "pending": "Pending",
+          "unpaid": "Unpaid",
+          "failed": "Failed"
+        }
+      }
+    },
+    "index": {
+      "viewMode": {
+        "cards": "Card View",
+        "table": "Table View"
+      },
+      "emptyState": {
+        "title": "Your first step to saving time: Upload your dictation."
+      },
+      "error": {
+        "initialize": "Failed to initialize page"
+      }
+    },
+    "mailservice": {
+      "title": "Email Service",
+      "personalEmail": {
+        "title": "Your Personal Email Address",
+        "proBadge": "PRO",
+        "proFeature": "PRO Feature",
+        "proDescription": "Upgrade to access your personal email"
+      },
+      "settings": {
+        "title": "Settings",
+        "receiveConfirmation": "Receive confirmation"
+      },
+      "instructions": {
+        "sendAudio": {
+          "title": "Send Audio Files",
+          "description": "Send one or more audio files to your personal email address to have them automatically transcribed.",
+          "formats": "Supported formats: MP3, WAV, M4A, FLAC, OGG, MP4",
+          "maxSize": "Maximum email content: 25 MB"
+        },
+        "projectOrganization": {
+          "title": "Project Organization",
+          "description": "How your emails are processed:",
+          "singleFile": "A single audio file creates a new project",
+          "multipleFiles": "Multiple audio files in one email are grouped in the same project",
+          "subject": "The email subject is used as the project name",
+          "content": "The email content is stored as project context"
+        }
+      },
+      "tips": {
+        "title": "Tips for Optimal Results",
+        "description": "For the best transcription results:",
+        "subject": "Use a meaningful subject to easily identify your project",
+        "quality": "Ensure good audio quality with minimal background noise",
+        "organization": "Organize related recordings in one email for better overview"
+      },
+      "error": {
+        "notLoggedIn": "User not logged in"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How Dictate AI Works",
+    "description": "Our process is simple, fast, and secure. Here's how it works:",
+    "upload": "1. Upload Your Recording",
+    "uploadDescription": "Simply drag and drop your audio file or select it from your device. We support all common audio formats.",
+    "transcription": "2. AI Transcription",
+    "transcriptionDescription": "Our advanced AI processes your recording with high accuracy, converting speech to text in minutes.",
+    "secureProcessing": "3. Secure Processing",
+    "secureProcessingDescription": "Your data is processed securely on EU servers, fully compliant with GDPR regulations.",
+    "readyToUse": "4. Ready to Use",
+    "readyToUseDescription": "Download your transcription or copy it directly to your clipboard. Your text is ready for immediate use."
+  },
+  "integrations": {
+    "title": "Seamless Integrations",
+    "description": "Dictate AI integrates with your favorite tools and workflows",
+    "available": "Available Integrations",
+    "emailTitle": "Email Integration",
+    "emailDescription": "Forward audio recordings directly to your Dictate AI email address for instant transcription.",
+    "howItWorks": "How it works:",
+    "softwareTitle": "Software Integration",
+    "softwareDescription": "Connect Dictate AI with your existing software stack through our API or webhooks.",
+    "requestSolution": "Request a custom solution",
+    "whyValuable": "Why integrations are valuable:",
+    "flexibility": "Flexibility",
+    "flexibilityDescription": "Choose how you want to use Dictate AI - through our web interface, email, or API.",
+    "timeSaving": "Time Saving",
+    "timeSavingDescription": "Automate your workflow by integrating Dictate AI directly into your existing tools.",
+    "seamlessProcesses": "Seamless Processes",
+    "seamlessProcessesDescription": "Maintain your current workflow while adding powerful transcription capabilities."
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "submit": "Login",
+      "noAccount": "Don't have an account?",
+      "register": "Register now",
+      "error": {
+        "invalidCredentials": "Invalid credentials",
+        "general": "Login failed"
+      }
+    },
+    "register": {
+      "title": "Register",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "submit": "Register",
+      "hasAccount": "Already have an account?",
+      "login": "Login now",
+      "error": {
+        "emailExists": "This email is already registered",
+        "passwordMismatch": "Passwords do not match",
+        "general": "Registration failed"
+      }
+    },
+    "confirm": {
+      "title": "Confirm Email",
+      "success": "Email successfully confirmed",
+      "error": "Email confirmation failed",
+      "redirect": "Redirecting to login..."
+    },
+    "mailconfirm": {
+      "title": "Email Confirmation",
+      "message": "Please check your email and click the confirmation link",
+      "resend": "Resend confirmation link",
+      "success": "Confirmation link has been resent",
+      "error": "Failed to send confirmation link",
+      "verifying": "Verifying...",
+      "linkFailed": "Link Verification Failed",
+      "linkFailedDescription": "The confirmation link has expired or is invalid.",
+      "useCode": "Use Confirmation Code",
+      "enterCode": "Enter Confirmation Code",
+      "enterCodeDescription": "Enter the 6-digit code from your email and your email address to confirm your account.",
+      "email": "Email Address",
+      "confirmationCode": "Confirmation Code",
+      "confirm": "Confirm Account",
+      "retryLink": "Try the link again"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "email": "Email",
+      "submit": "Send reset link",
+      "success": "Reset link has been sent",
+      "error": "Failed to send reset link",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm new password",
+      "update": "Update password",
+      "updateSuccess": "Password successfully updated",
+      "updateError": "Failed to update password"
+    },
+    "onboarding": {
+      "title": "Welcome to Dictate AI",
+      "step1": {
+        "title": "Personal Information",
+        "description": "Please enter your personal information"
+      },
+      "step2": {
+        "title": "Profession",
+        "description": "Select your profession"
+      },
+      "step3": {
+        "title": "Settings",
+        "description": "Configure your settings"
+      },
+      "next": "Next",
+      "back": "Back",
+      "complete": "Complete",
+      "error": "Failed to save information"
+    },
+    "subscribe": {
+      "title": "Choose Subscription",
+      "plans": {
+        "free": {
+          "name": "Free",
+          "description": "Basic features"
+        },
+        "pro": {
+          "name": "Pro",
+          "description": "Advanced features"
+        },
+        "business": {
+          "name": "Business",
+          "description": "For teams and businesses"
+        }
+      },
+      "features": {
+        "transcriptions": "Transcriptions per month",
+        "storage": "Storage",
+        "emailSupport": "Email support",
+        "prioritySupport": "Priority support",
+        "apiAccess": "API access",
+        "teamManagement": "Team management"
+      },
+      "select": "Select",
+      "selected": "Selected",
+      "continue": "Continue to payment",
+      "error": "Failed to load plans"
+    },
+    "purchaseSuccess": {
+      "title": "Purchase Successful",
+      "message": "Thank you for your purchase! Your account has been updated.",
+      "redirect": "Redirecting to dashboard..."
+    },
+    "invoiceConfirmation": {
+      "title": "Confirm Invoice Purchase",
+      "message": "Please confirm your invoice information",
+      "companyName": "Company name",
+      "vatId": "VAT ID",
+      "address": "Address",
+      "submit": "Confirm",
+      "success": "Invoice purchase successfully confirmed",
+      "error": "Failed to confirm invoice purchase"
+    }
+  },
+  "pages": {
+    "students": {
+      "title": "Interview Transcription for Students and Researchers - Dictate AI",
+      "description": "Dictate AI for students and researchers: Convert lectures, seminars, and interviews into searchable text effortlessly. Save time on learning and research."
+    }
+  }
+}

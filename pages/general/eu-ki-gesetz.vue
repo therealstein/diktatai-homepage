@@ -1,0 +1,422 @@
+<template>
+  <div class="bg-base-100 text-base-content">
+    <!-- Hero Section -->
+    <div
+      class="hero min-h-[40vh] relative"
+      style="
+        background: linear-gradient(135deg, #ef56a4 0%, #4a90e2 100%);
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <div class="hero-content text-center">
+        <div
+          class="backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20"
+        >
+          <h1
+            class="font-display text-4xl font-bold text-white mb-2"
+            style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
+          >
+            {{ t('hero.title') }}
+          </h1>
+          <p
+            class="text-lg text-white"
+            style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
+          >
+            {{ t('hero.subtitle') }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="py-16 container mx-auto px-4 max-w-4xl">
+      <div class="prose prose-lg max-w-none">
+        <!-- Introduction -->
+        <div class="mb-12">
+          <p class="text-lg">
+            {{ t('introduction.paragraph') }}
+          </p>
+        </div>
+
+        <!-- Diktat AI im Kontext des AI Acts -->
+        <div
+          class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
+        >
+          <h2 class="font-display text-2xl font-bold mb-6">
+            {{ t('context.title') }}
+          </h2>
+          <p class="mb-6">
+            {{ t('context.paragraph') }}
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              <span>{{ t('context.points.point1') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              <span>{{ t('context.points.point2') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              <span>{{ t('context.points.point3') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              <span>{{ t('context.points.point4') }}</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Benefits Section -->
+        <div
+          class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
+        >
+          <h2 class="font-display text-2xl font-bold mb-6">
+            {{ t('benefits.title') }}
+          </h2>
+          <p class="mb-6">
+            {{ t('benefits.paragraph') }}
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              <span>{{ t('benefits.points.point1') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              <span>{{ t('benefits.points.point2') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              <span>{{ t('benefits.points.point3') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              <span>{{ t('benefits.points.point4') }}</span>
+            </li>
+            <li class="flex items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              <span>{{ t('benefits.points.point5') }}</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Trust Section -->
+        <div class="mb-12">
+          <h2 class="font-display text-2xl font-bold mb-6">
+            {{ t('trust.title') }}
+          </h2>
+          <p class="text-lg">
+            {{ t('trust.paragraph') }}
+          </p>
+        </div>
+
+        <!-- Call to Action -->
+        <div
+          class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20"
+        >
+          <h3 class="font-display text-2xl font-bold mb-4 text-center">
+            {{ t('cta.title') }}
+          </h3>
+          <p class="text-lg text-center mb-8">
+            {{ t('cta.paragraph') }}
+          </p>
+          <div class="text-center">
+            <NuxtLinkLocale to="general-kontakt">
+              <button
+                class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
+              >
+                {{ t('cta.button') }}
+              </button>
+            </NuxtLinkLocale>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+const { t, locale } = useI18n({
+  useScope: 'local',
+});
+
+const baseUrl = 'https://diktat.ai';
+const canonicalPath = computed(() =>
+  locale.value === 'en' ? '/en/eu-ai-law' : '/eu-ki-gesetz'
+);
+const canonicalUrl = computed(() => `${baseUrl}${canonicalPath.value}`);
+
+// SEO Meta Tags (localized)
+useHead(() => ({
+  title: t('hero.title'),
+  meta: [
+    { name: 'description', content: t('seo.description') },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:url', content: canonicalUrl.value },
+    { property: 'og:title', content: t('hero.title') },
+    { property: 'og:description', content: t('seo.description') },
+    {
+      property: 'og:image',
+      content: 'https://diktat.ai/images/eu-ai-act-og.jpg',
+    },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:url', content: canonicalUrl.value },
+    { name: 'twitter:title', content: t('hero.title') },
+    { name: 'twitter:description', content: t('seo.description') },
+    {
+      name: 'twitter:image',
+      content: 'https://diktat.ai/images/eu-ai-act-og.jpg',
+    },
+  ],
+  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+}));
+</script>
+
+<i18n lang="json">
+{
+  "de": {
+    "seo": {
+      "description": "EU KI‑Gesetz einfach erklärt: Warum Diktat AI eine sichere, konforme Wahl für Transkriptionen ist."
+    },
+    "hero": {
+      "title": "EU KI-Gesetz: Warum Diktat AI Ihre sichere und konforme Wahl für Transkriptionen ist",
+      "subtitle": "Das neue KI-Gesetz (AI Act) der Europäischen Union setzt einen wichtigen Rahmen für den Einsatz künstlicher Intelligenz. Für Unternehmen und professionelle Anwender wirft dies Fragen auf: Wie stelle ich sicher, dass die von mir genutzten KI-Tools konform sind? Wie schütze ich meine Daten? Diktat AI bietet Ihnen hier Klarheit und Sicherheit. Erfahren Sie, warum unser Transkriptionsdienst nicht nur effizient, sondern auch eine verantwortungsbewusste Wahl im Einklang mit den neuen Regulierungen ist."
+    },
+    "introduction": {
+      "paragraph": "Das EU KI-Gesetz verfolgt einen risikobasierten Ansatz. Es verbietet bestimmte \"inakzeptable\" KI-Anwendungen (wie Social Scoring) und stellt hohe Anforderungen an \"Hochrisiko-Systeme\" in sensiblen Bereichen (z. B. Personalwesen, kritische Infrastrukturen)."
+    },
+    "context": {
+      "title": "Konzipiert für Effizienz, gebaut mit Verantwortung: Diktat AI und der AI Act",
+      "paragraph": "Hier punktet Diktat AI für Sie:",
+      "points": {
+        "point1": "Fokus auf geringes Risiko: Diktat AI ist darauf spezialisiert, gesprochene Sprache in Text umzuwandeln. Es trifft keine autonomen Entscheidungen mit weitreichenden Folgen für Personen und fällt daher klar nicht in die Kategorien der verbotenen oder hochriskanten KI-Systeme gemäß AI Act. Sie nutzen ein Werkzeug zur Steigerung Ihrer Produktivität, keine KI für kritische Bewertungen oder Entscheidungen.",
+        "point2": "Transparenz & Klarheit: Bei Diktat AI ist offensichtlich, dass Sie eine KI zur Unterstützung Ihrer Arbeit nutzen. Dies entspricht dem Transparenzgedanken des AI Acts für Systeme mit begrenztem Risiko.",
+        "point3": "Datenschutz als Fundament (DSGVO & AI Act): Lange bevor der AI Act verabschiedet wurde, war für uns klar: Der Schutz Ihrer Daten hat oberste Priorität. Unsere strikte Einhaltung der DSGVO – mit sicherer Verarbeitung, Verschlüsselung und klaren Richtlinien – deckt sich nahtlos mit den hohen Datenschutz- und Sicherheitsanforderungen, die auch das KI-Gesetz betont.",
+        "point4": "Keine verbotenen Praktiken: Diktat AI nutzt keine unterschwelligen Techniken, führt keine biometrische Kategorisierung sensibler Merkmale durch und erstellt keine Emotionserkennung am Arbeitsplatz. Wir konzentrieren uns ausschließlich auf präzise und nützliche Transkription."
+      }
+    },
+    "benefits": {
+      "title": "Effizienz gewinnen, Sorgenfreiheit behalten",
+      "paragraph": "Die Einführung des KI-Gesetzes bedeutet nicht, dass Sie auf die Vorteile intelligenter Werkzeuge verzichten müssen. Im Gegenteil: Mit Diktat AI wählen Sie einen Partner, der Compliance ernst nimmt. So können Sie sich weiterhin auf das Wesentliche konzentrieren:",
+      "points": {
+        "point1": "Massive Zeitersparnis: Verwandeln Sie Stunden an Tipparbeit in Minuten – sicher und konform.",
+        "point2": "Gesteigerte Produktivität: Beschleunigen Sie Ihre Workflows, von Meeting-Protokollen bis zur Content-Erstellung, ohne regulatorische Bedenken.",
+        "point3": "Präzise & Nutzbare Ergebnisse: Erhalten Sie genaue Transkripte, auf deren Grundlage Sie vertrauensvoll weiterarbeiten können.",
+        "point4": "Höchste Datensicherheit: Verlassen Sie sich auf unsere bewährten DSGVO-konformen Prozesse, die im Einklang mit dem AI Act stehen.",
+        "point5": "Fokus auf Ihre Kernkompetenzen: Überlassen Sie uns die Transkription – wir kümmern uns um die Technik und die Einhaltung der Spielregeln."
+      }
+    },
+    "trust": {
+      "title": "Ihr vertrauenswürdiger Partner im KI-Zeitalter",
+      "paragraph": "Die KI-Welt und ihre Regularien entwickeln sich ständig weiter. Als Anbieter von Diktat AI ist es unsere Aufgabe, diese Entwicklungen zu verfolgen und sicherzustellen, dass unser Dienst nicht nur leistungsstark, sondern auch verantwortungsbewusst und im Einklang mit gesetzlichen Vorgaben wie dem EU KI-Gesetz betrieben wird. Wir managen die technologische und regulatorische Komplexität im Hintergrund, damit Sie einfach und sicher arbeiten können."
+    },
+    "cta": {
+      "title": "Bereit für sorgenfreie Transkription im Einklang mit dem EU KI-Gesetz?",
+      "paragraph": "Haben Sie weitere Fragen dazu, wie Diktat AI Ihnen helfen kann, effizient und konform zu arbeiten? Möchten Sie besprechen, wie sich Diktat AI nahtlos und sicher in Ihre Prozesse integrieren lässt? Unser Team steht Ihnen gerne zur Verfügung.",
+      "button": "Jetzt Kontakt aufnehmen & sicher durchstarten"
+    }
+  },
+  "en": {
+    "seo": {
+      "description": "EU AI Act made simple: Why Diktat AI is a safe, compliant choice for transcriptions."
+    },
+    "hero": {
+      "title": "EU AI Act: Why Diktat AI Is Your Safe and Compliant Choice for Transcriptions",
+      "subtitle": "The new EU AI Act sets an important framework for the use of artificial intelligence. For companies and professional users, this raises questions: How do I ensure that the AI tools I use are compliant? How do I protect my data? Diktat AI offers clarity and security. Learn why our transcription service is not only efficient but also a responsible choice in line with the new regulations."
+    },
+    "introduction": {
+      "paragraph": "The EU AI Act follows a risk-based approach. It prohibits certain \"unacceptable\" AI applications (such as social scoring) and places high demands on \"high-risk systems\" in sensitive areas (e.g., human resources, critical infrastructure)."
+    },
+    "context": {
+      "title": "Designed for Efficiency, Built with Responsibility: Diktat AI and the AI Act",
+      "paragraph": "Here's where Diktat AI scores points for you:",
+      "points": {
+        "point1": "Focus on low risk: Diktat AI specializes in converting spoken language into text. It does not make autonomous decisions with far-reaching consequences for individuals and therefore clearly does not fall into the categories of prohibited or high-risk AI systems according to the AI Act. You are using a tool to increase your productivity, not AI for critical evaluations or decisions.",
+        "point2": "Transparency & Clarity: With Diktat AI, it is obvious that you are using AI to support your work. This aligns with the transparency principle of the AI Act for systems with limited risk.",
+        "point3": "Data protection as a foundation (GDPR & AI Act): Long before the AI Act was passed, it was clear to us: The protection of your data is our top priority. Our strict compliance with the GDPR – with secure processing, encryption, and clear guidelines – aligns seamlessly with the high data protection and security requirements that the AI Act also emphasizes.",
+        "point4": "No prohibited practices: Diktat AI does not use subliminal techniques, does not perform biometric categorization of sensitive characteristics, and does not create emotion recognition in the workplace. We focus exclusively on precise and useful transcription."
+      }
+    },
+    "benefits": {
+      "title": "Gain Efficiency, Maintain Peace of Mind",
+      "paragraph": "The introduction of the AI Act does not mean you have to forego the benefits of intelligent tools. On the contrary: With Diktat AI, you choose a partner that takes compliance seriously. This allows you to continue focusing on what matters:",
+      "points": {
+        "point1": "Massive time savings: Turn hours of typing work into minutes – safely and compliantly.",
+        "point2": "Increased productivity: Accelerate your workflows, from meeting minutes to content creation, without regulatory concerns.",
+        "point3": "Precise & Usable Results: Get accurate transcripts that you can confidently work with.",
+        "point4": "Highest data security: Rely on our proven GDPR-compliant processes that align with the AI Act.",
+        "point5": "Focus on your core competencies: Leave the transcription to us – we take care of the technology and compliance with the rules."
+      }
+    },
+    "trust": {
+      "title": "Your Trusted Partner in the AI Era",
+      "paragraph": "The AI world and its regulations are constantly evolving. As the provider of Diktat AI, it is our responsibility to follow these developments and ensure that our service is not only powerful but also responsible and in line with legal requirements such as the EU AI Act. We manage the technological and regulatory complexity in the background so that you can work simply and safely."
+    },
+    "cta": {
+      "title": "Ready for Worry-Free Transcription in Line with the EU AI Act?",
+      "paragraph": "Do you have more questions about how Diktat AI can help you work efficiently and compliantly? Would you like to discuss how Diktat AI can be seamlessly and securely integrated into your processes? Our team is happy to assist you.",
+      "button": "Contact us now & start securely"
+    }
+  }
+}
+</i18n>
+
+<style scoped>
+/* Override accent and secondary colors with pink */
+:deep(.text-accent) {
+  color: #ef56a4 !important;
+}
+
+:deep(.text-secondary) {
+  color: #ef56a4 !important;
+}
+
+:deep(.bg-accent) {
+  background-color: #ef56a4 !important;
+}
+
+:deep(.bg-secondary) {
+  background-color: #ef56a4 !important;
+}
+
+:deep(.from-accent\/10) {
+  --tw-gradient-from: rgba(239, 86, 164, 0.1) !important;
+}
+
+:deep(.to-secondary\/10) {
+  --tw-gradient-to: rgba(239, 86, 164, 0.1) !important;
+}
+
+:deep(.border-accent\/20) {
+  border-color: rgba(239, 86, 164, 0.2) !important;
+}
+
+.card {
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+</style>
