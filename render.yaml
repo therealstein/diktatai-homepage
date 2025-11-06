@@ -1,0 +1,16 @@
+services:
+  # Marketing Site + App - Combined Static Site (SSG)
+  - type: web
+    name: diktatai-marketing
+    env: static
+    buildCommand: npm install && npm run generate
+    staticPublishPath: .output/public
+    domains:
+      - diktat.ai
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: /*
+        name: Content-Security-Policy
+        value: "frame-ancestors 'self';"

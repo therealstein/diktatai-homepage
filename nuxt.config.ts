@@ -2,6 +2,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-03-03',
   devtools: { enabled: false },
   app: {
+    buildAssetsDir: '/_nuxt-landing/',
     head: {
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
