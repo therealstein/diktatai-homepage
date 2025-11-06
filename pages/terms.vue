@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-const {{ locale }} = useI18n();
+const { locale } = useI18n();
 
 // Content for both languages
 const content = {
@@ -62,7 +62,7 @@ useHead({
           : 'Legal information for Diktat AI transcription service.'
       ),
     },
-    {{ name: 'robots', content: 'noindex, nofollow' }},
+    { name: 'robots', content: 'noindex, nofollow' },
   ],
 });
 </script>
