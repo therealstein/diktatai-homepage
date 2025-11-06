@@ -56,14 +56,6 @@ export default defineNuxtConfig({
         de: '/',
         en: '/',
       },
-      page: {
-        de: '/page',
-        en: '/page',
-      },
-      'page/slug': {
-        de: '/page/:slug',
-        en: '/page/:slug',
-      },
       pricing: {
         de: '/preise',
         en: '/pricing',

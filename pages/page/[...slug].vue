@@ -26,13 +26,6 @@
         <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:font-display prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-p:text-lg prose-a:text-primary-600 hover:prose-a:text-primary-500 prose-strong:text-primary-600 prose-blockquote:border-l-4 prose-blockquote:border-primary-500 prose-blockquote:pl-4 prose-blockquote:italic">
           <ContentRenderer :value="page" />
         </div>
-
-        <!-- Back to Pages Link -->
-        <div class="mt-12 text-center">
-          <NuxtLinkLocale to="/page" class="text-primary-600 dark:text-primary-400 hover:underline font-medium">
-            {{ t('page.backToPages') }}
-          </NuxtLinkLocale>
-        </div>
       </article>
       
       <div v-else class="text-center mb-8">
@@ -41,9 +34,6 @@
             <div class="text-6xl">🔍</div>
             <h2 class="text-2xl font-display font-bold">{{ t('page.notFound') }}</h2>
             <p class="text-lg text-base-content/80">{{ t('page.notFoundDescription') }}</p>
-            <NuxtLinkLocale to="/page" class="btn btn-primary">
-              {{ t('page.backToPages') }}
-            </NuxtLinkLocale>
           </div>
         </div>
       </div>

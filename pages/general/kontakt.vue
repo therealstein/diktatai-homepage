@@ -117,7 +117,7 @@
                   />
                   <label for="privacy" class="label-text text-sm cursor-pointer" style="word-break: break-word; overflow-wrap: break-word;">
                     {{ t('form.privacyPrefix') }}
-                    <NuxtLink :to="t('form.privacyUrl')" class="text-pink-500 hover:text-pink-600 underline">{{ t('form.privacyLink') }}</NuxtLink>
+                    <NuxtLinkLocale to="privacy" class="text-pink-500 hover:text-pink-600 underline">{{ t('form.privacyLink') }}</NuxtLinkLocale>
                     {{ t('form.privacySuffix') }}
                   </label>
                 </div>
@@ -368,7 +368,7 @@ const handleSubmit = async () => {
       "phonePlaceholder": "Ihre Telefonnummer",
       "privacyPrefix": "Ich habe die",
       "privacyLink": "Datenschutzerklärung",
-      "privacyUrl": "/datenschutz",
+      "privacyUrl": "/privacy",
       "privacySuffix": "gelesen und stimme der Verarbeitung meiner Daten zur Beantwortung meiner Anfrage zu.",
       "website": "Website",
       "submit": "Nachricht senden",
