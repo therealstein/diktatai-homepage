@@ -27,10 +27,10 @@
       </div>
       
       <div v-else class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        <NuxtLink 
-          v-for="question in questions" 
-          :key="question.id"
-          :to="localePath(`questions`) + '/' + question.slug"
+        <NuxtLink
+          v-for="question in questions"
+          :key="question.path"
+          :to="question.path"
           class="block p-6 bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md hover:border-primary transition-all duration-200"
         >
           <h2 class="text-xl font-semibold mb-3">{{ question.title }}</h2>
@@ -49,20 +49,21 @@
 </template>
 
 <script setup lang="ts">
-const { getCollection } = useWp();
 const { t } = useI18n({ useScope: 'local' });
 const localePath = useLocalePath();
-console.log(localePath('questions'));
 
-// Fetch questions with server-side rendering
-// Our updated useWp already returns useAsyncData results
-const { data, pending, error } = getCollection('questions');
+// Fetch questions from Nuxt Content
+const { data: questionsData } = await useAsyncData('questions', () =>
+  queryCollection('questions').all()
+);
 
 // Computed property to access the questions array
 const questions = computed(() => {
-  const edges = data.value?.data?.questions?.edges || [];
-  return edges.map(edge => edge.node);
+  return questionsData.value || [];
 });
+
+const pending = ref(false);
+const error = ref(null);
 
 // Set page title and meta
 useHead({

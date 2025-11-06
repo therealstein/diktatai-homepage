@@ -24,5 +24,14 @@ export default defineContentConfig({
         locale: z.string(),
       }),
     }),
+    questions: defineCollection({
+      type: 'page',
+      source: 'questions/*.md',
+      schema: z.object({
+        title: z.string(),
+        description: z.string(),
+        locale: z.string(),
+      }),
+    }),
   },
 });

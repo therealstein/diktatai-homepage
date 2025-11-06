@@ -7,11 +7,11 @@
       <div
         class="bg-white/70 backdrop-blur-sm border border-indigo-200/50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-200"
       >
-        <section v-if="data && data.title" class="space-y-6">
+        <section class="space-y-6">
           <!-- Title with gradient -->
           <div class="text-center pb-6 border-b border-indigo-200/30">
             <h1 class="text-4xl font-bold bg-gradient-to-r text-black mb-2">
-              {{ data.title }}
+              {{ pageContent.title }}
             </h1>
             <div
               class="h-1 w-24 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full mx-auto"
@@ -19,92 +19,51 @@
           </div>
 
           <!-- Content -->
-          <div class="prose-custom">
-            <div v-nuxt-html="renderedContent"></div>
-          </div>
+          <div class="prose-custom" v-html="pageContent.content"></div>
         </section>
-
-        <!-- Loading State -->
-        <div v-else-if="pending" class="flex items-center justify-center py-16">
-          <div class="flex flex-col items-center space-y-4">
-            <div
-              class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"
-            ></div>
-            <p class="text-gray-600 font-medium">Loading content...</p>
-          </div>
-        </div>
-
-        <!-- Error State -->
-        <div v-else-if="error" class="flex items-center justify-center py-16">
-          <div
-            class="bg-red-100 border border-red-300 rounded-xl p-6 text-center"
-          >
-            <div
-              class="w-12 h-12 bg-red-500 rounded-lg flex items-center justify-center mx-auto mb-4"
-            >
-              <svg
-                class="h-6 w-6 text-white"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </div>
-            <h3 class="text-lg font-semibold text-red-800 mb-2">
-              Error loading content
-            </h3>
-            <p class="text-red-600">
-              Please try refreshing the page or contact support if the problem
-              persists.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-const { locale } = useI18n();
-const { getItemBySlug } = useWp();
+const {{ locale }} = useI18n();
+
+// Content for both languages
+const content = {
+  de: {
+    title: "\ud83d\udcc4 Impressum",
+    content: "\n<p><strong>Diktat.AI ist ein Produkt der ARTDROP O\u00dc</strong><br><em>Diktat.AI \u2013 entwickelt mit \ud83d\udc9c und KI</em></p>\n\n<p>M\u00e4nnim\u00e4e/1, Pudisoo k\u00fcla<br>Kuusalu vald, Harju maakond<br>74626 Estland<br><br>Vertretungsberechtigt: Steffen Stein</p>\n\n<p>\ud83d\udcec Kontakt? Einfach \u00fcber unser <a href=\"https://diktat.ai/kontakt\" data-type=\"link\" data-id=\"https://diktat.ai/kontakt\">Formular</a> \u2013 wir m\u00f6gen strukturierte Anfragen.</p>\n\n<p>\ud83e\uddfe Eingetragen im Estnischen Handelsregister (e-\u00c4riregister)<br>Registernummer: 17092348<br><br>\ud83d\udcca USt-ID: Derzeit nicht umsatzsteuerlich registriert gem\u00e4\u00df estnischem Recht (Micro Company / Kleinunternehmensregelung)</p>\n\n<h3 class=\"wp-block-heading\">\ud83d\udca1 Noch ein paar rechtliche Kleinigkeiten</h3>\n\n<p>Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil und sind hierzu auch nicht verpflichtet.<br>Falls doch mal etwas schieflaufen sollte, sprich uns einfach an \u2013 wir finden bestimmt eine L\u00f6sung.</p>\n\n<p>\ud83d\udcea <strong>Bitte keine Werbung. Wirklich.</strong><br>Wir freuen uns \u00fcber Post. Aber nicht \u00fcber Werbe-E-Mails.<br>Kurz gesagt: Keine unerw\u00fcnschten Angebote, keine Massenmails, keine \u201eIch wollte nur mal fragen\u201c-Anfragen.<br>Wird\u2019s zu bunt, reagieren wir unentspannt \u2013 vielleicht mit einem Augenrollen, vielleicht auch mit einem rechtlichen Hinweis. \ud83d\udc9c</p>\n\n<p>Dieses Impressum gilt \u00fcbrigens auch f\u00fcr unsere Online-Pr\u00e4senzen in sozialen Netzwerken oder auf anderen Plattformen, auf denen wir aktiv sind oder sein werden.</p>\n\n<p><strong>Stand: Juli 2025</strong><br>Wenn sich etwas \u00e4ndert, aktualisieren wir das hier. Versprochen.</p>\n"
+  },
+  en: {
+    title: "\ud83d\udcc4 Imprint",
+    content: "\n<p></p>\n\n<p><strong>Diktat.AI is a product of ARTDROP O\u00dc</strong><br><em>Diktat.AI \u2013 built with \ud83d\udc9c and AI</em></p>\n\n<p>M\u00e4nnim\u00e4e/1, Pudisoo village<br>Kuusalu Parish, Harju County<br>74626 Estonia</p>\n\n<p>Authorized representative: Steffen Stein<br><br>\ud83d\udcec Want to get in touch? Use our <a href=\"https://diktat.ai/contact\" data-type=\"link\" data-id=\"https://diktat.ai/kontakt\">contact form</a> \u2013 we like things tidy.</p>\n\n<p>\ud83e\uddfe Registered with the Estonian Commercial Register (e-\u00c4riregister)<br>Company registration number: 17092348<br><br>\ud83d\udcca VAT ID: Not currently VAT registered under Estonian law (micro company scheme)</p>\n\n<h3 class=\"wp-block-heading\">\ud83d\udca1 A few legal notes</h3>\n\n<p>We don\u2019t take part in consumer dispute resolution procedures \u2013 mainly because we\u2019d much rather solve things together than fill out forms.<br>So if something\u2019s bothering you: talk to us. We\u2019re friendly humans and always up for finding a good fix.</p>\n\n<p>\ud83d\udcea <strong>No unsolicited marketing. Seriously.</strong><br>We love emails \u2013 just not the cold-pitch kind.<br>No bulk offers, no outreach templates, no \u201cjust reaching out\u201d messages.<br>If it gets out of hand, we may respond \u2013 maybe with an eye roll, maybe with legal steps. \ud83d\udc9c</p>\n\n<p>This imprint also applies to any other platform where we\u2019re active or may become active in future, including social media.</p>\n\n<p><strong>Last updated: July 2025</strong><br>If anything changes, we\u2019ll update this page. Promise.</p>\n"
+  }
+};
+
+// Get content based on current locale
+const pageContent = computed(() => {
+  return content[locale.value] || content.de;
+});
 
 // SEO Meta Tags
 useHead({
-  title:
-    locale.value === 'de' ? 'Impressum - Diktat AI' : 'Imprint - Diktat AI',
+  title: computed(() =>
+    locale.value === 'de'
+      ? 'Impressum - Diktat AI'
+      : 'Impressum - Diktat AI'
+  ),
   meta: [
     {
       name: 'description',
-      content:
+      content: computed(() =>
         locale.value === 'de'
-          ? 'Rechtliche Informationen und Impressum für den Diktat AI Transkriptionsdienst.'
-          : 'Legal information and imprint for Diktat AI transcription service.',
+          ? 'Rechtliche Informationen für den Diktat AI Transkriptionsdienst.'
+          : 'Legal information for Diktat AI transcription service.'
+      ),
     },
-    { name: 'robots', content: 'noindex, nofollow' },
+    {{ name: 'robots', content: 'noindex, nofollow' }},
   ],
-});
-
-const pageSlug = computed(() =>
-  locale.value === 'de' ? 'impressum' : 'imprint'
-);
-
-// Use our SSR-compatible composable
-const { data, pending, error } = getItemBySlug(
-  'pages',
-  pageSlug.value,
-  locale.value
-);
-
-// Compute the rendered content from blocks
-const renderedContent = computed(() => {
-  if (!data.value || !data.value.editorBlocks) return '';
-  return data.value.editorBlocks.map((block) => block.renderedHtml).join('');
 });
 </script>
 
