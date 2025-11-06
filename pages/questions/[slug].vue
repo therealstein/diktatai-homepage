@@ -3,11 +3,11 @@
     <div v-if="pending" class="py-10 text-center">
       <p class="text-gray-500">Loading question...</p>
     </div>
-    <div v-else-if="data" class="question-detail">
-      <h1 class="text-3xl font-bold mb-6">{{ data.title }}</h1>
+    <div v-else-if="question" class="question-detail">
+      <h1 class="text-3xl font-bold mb-6">{{ question.title }}</h1>
 
-      <!-- Render all blocks -->
-      <BlockRenderer :blocks="data.editorBlocks" :loading="pending" />
+      <!-- Render content -->
+      <div class="prose prose-lg max-w-none" v-html="question.body"></div>
     </div>
     <div v-else class="text-center py-12">
       <h1 class="text-3xl font-bold text-gray-700">Question Not Found</h1>
@@ -24,26 +24,25 @@
   </div>
 </template>
 <script setup lang="ts">
-import BlockRenderer from '~/blocks/BlockRenderer.vue';
-
 const route = useRoute();
 const slug = route.params.slug as string;
 
-// You can still use your composable
-const { getItemBySlug } = useWp();
-
-// Call it inside asyncData() for SSR
-const { data, pending, error } = await getItemBySlug('questions', slug);
+// Fetch from Nuxt Content
+const { data: question, pending } = await useAsyncData(`question-${slug}`, () =>
+  queryCollection('questions')
+    .path(`/questions/${slug}`)
+    .first()
+);
 
 useHead(() => ({
-  title: data.value?.title || 'Question Not Found',
+  title: question.value?.title || 'Question Not Found',
   meta: [
     {
       name: 'description',
-      content: `Question: ${data.value?.title || ''}`,
+      content: question.value?.description || `Question: ${question.value?.title || ''}`,
     },
     // Add noindex when not found
-    ...(data.value
+    ...(question.value
       ? []
       : [
           { name: 'robots', content: 'noindex, nofollow' },

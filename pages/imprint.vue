@@ -7,11 +7,11 @@
       <div
         class="bg-white/70 backdrop-blur-sm border border-indigo-200/50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-200"
       >
-        <section v-if="data && data.title" class="space-y-6">
+        <section class="space-y-6">
           <!-- Title with gradient -->
           <div class="text-center pb-6 border-b border-indigo-200/30">
             <h1 class="text-4xl font-bold bg-gradient-to-r text-black mb-2">
-              {{ data.title }}
+              📄 Impressum
             </h1>
             <div
               class="h-1 w-24 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full mx-auto"
@@ -20,51 +20,25 @@
 
           <!-- Content -->
           <div class="prose-custom">
-            <div v-nuxt-html="renderedContent"></div>
+            <p><strong>Diktat.AI ist ein Produkt der ARTDROP OÜ</strong><br><em>Diktat.AI – entwickelt mit 💜 und KI</em></p>
+
+            <p>Männimäe/1, Pudisoo küla<br>Kuusalu vald, Harju maakond<br>74626 Estland<br><br>Vertretungsberechtigt: Steffen Stein</p>
+
+            <p>📬 Kontakt? Einfach über unser <a href="https://diktat.ai/kontakt" class="text-indigo-600 hover:text-purple-600 underline transition-colors duration-200">Formular</a> – wir mögen strukturierte Anfragen.</p>
+
+            <p>🧾 Eingetragen im Estnischen Handelsregister (e-Äriregister)<br>Registernummer: 17092348<br><br>📊 USt-ID: Derzeit nicht umsatzsteuerlich registriert gemäß estnischem Recht (Micro Company / Kleinunternehmensregelung)</p>
+
+            <h3 class="wp-block-heading">💡 Noch ein paar rechtliche Kleinigkeiten</h3>
+
+            <p>Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil und sind hierzu auch nicht verpflichtet.<br>Falls doch mal etwas schieflaufen sollte, sprich uns einfach an – wir finden bestimmt eine Lösung.</p>
+
+            <p>📪 <strong>Bitte keine Werbung. Wirklich.</strong><br>Wir freuen uns über Post. Aber nicht über Werbe-E-Mails.<br>Kurz gesagt: Keine unerwünschten Angebote, keine Massenmails, keine „Ich wollte nur mal fragen"-Anfragen.<br>Wird's zu bunt, reagieren wir unentspannt – vielleicht mit einem Augenrollen, vielleicht auch mit einem rechtlichen Hinweis. 💜</p>
+
+            <p>Dieses Impressum gilt übrigens auch für unsere Online-Präsenzen in sozialen Netzwerken oder auf anderen Plattformen, auf denen wir aktiv sind oder sein werden.</p>
+
+            <p><strong>Stand: Juli 2025</strong><br>Wenn sich etwas ändert, aktualisieren wir das hier. Versprochen.</p>
           </div>
         </section>
-
-        <!-- Loading State -->
-        <div v-else-if="pending" class="flex items-center justify-center py-16">
-          <div class="flex flex-col items-center space-y-4">
-            <div
-              class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"
-            ></div>
-            <p class="text-gray-600 font-medium">Loading content...</p>
-          </div>
-        </div>
-
-        <!-- Error State -->
-        <div v-else-if="error" class="flex items-center justify-center py-16">
-          <div
-            class="bg-red-100 border border-red-300 rounded-xl p-6 text-center"
-          >
-            <div
-              class="w-12 h-12 bg-red-500 rounded-lg flex items-center justify-center mx-auto mb-4"
-            >
-              <svg
-                class="h-6 w-6 text-white"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </div>
-            <h3 class="text-lg font-semibold text-red-800 mb-2">
-              Error loading content
-            </h3>
-            <p class="text-red-600">
-              Please try refreshing the page or contact support if the problem
-              persists.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -72,7 +46,6 @@
 
 <script setup>
 const { locale } = useI18n();
-const { getItemBySlug } = useWp();
 
 // SEO Meta Tags
 useHead({
@@ -88,23 +61,6 @@ useHead({
     },
     { name: 'robots', content: 'noindex, nofollow' },
   ],
-});
-
-const pageSlug = computed(() =>
-  locale.value === 'de' ? 'impressum' : 'imprint'
-);
-
-// Use our SSR-compatible composable
-const { data, pending, error } = getItemBySlug(
-  'pages',
-  pageSlug.value,
-  locale.value
-);
-
-// Compute the rendered content from blocks
-const renderedContent = computed(() => {
-  if (!data.value || !data.value.editorBlocks) return '';
-  return data.value.editorBlocks.map((block) => block.renderedHtml).join('');
 });
 </script>
 
