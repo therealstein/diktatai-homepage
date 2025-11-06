@@ -163,6 +163,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxtjs/sitemap',
+    '@nuxt/content',
     '@nuxtjs/i18n',
   ],
   sitemap: {
