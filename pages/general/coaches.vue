@@ -10,11 +10,11 @@
           <p class="text-xl text-white mb-8" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">
             {{ t('heroSubtitle') }}
           </p>
-          <NuxtLinkLocale to="auth-register">
+          <a :href="registerUrl">
             <button class="font-display bg-white text-pink-500 text-xl font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition-all shadow-lg tracking-wide">
               {{ t('heroCta') }}
             </button>
-          </NuxtLinkLocale>
+          </a>
         </div>
       </div>
     </div>
@@ -308,11 +308,11 @@
             {{ t('ctaSubtitle') }}
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <NuxtLinkLocale to="auth-register">
+            <a :href="registerUrl">
               <button class="btn btn-primary btn-lg">
                 {{ t('ctaButton1') }}
               </button>
-            </NuxtLinkLocale >
+            </a>
             <NuxtLinkLocale to="pricing">
               <button class="btn btn-outline btn-lg">
                 {{ t('ctaButton2') }}
@@ -329,6 +329,7 @@
 const { t } = useI18n({
   useScope: 'local'
 })
+const { registerUrl } = useAppUrl();
 // SEO Meta Tags
 useHead({
   title: t('meta.title'),

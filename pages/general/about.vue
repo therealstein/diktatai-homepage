@@ -104,11 +104,11 @@
             {{ t('cta.paragraph') }}
           </p>
           <div class="text-center">
-            <NuxtLinkLocale to="auth-register">
+            <a :href="registerUrl">
               <button class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide">
                 {{ t('cta.button') }}
               </button>
-            </NuxtLinkLocale>
+            </a>
           </div>
         </div>
       </div>
@@ -120,6 +120,7 @@
 const { t } = useI18n({
   useScope: 'local'
 })
+const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags
 useHead({

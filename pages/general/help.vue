@@ -169,7 +169,8 @@
 <script setup>
 const { t } = useI18n({
   useScope: 'local',
-});
+})
+const { registerUrl } = useAppUrl();;
 
 // SEO Meta Tags
 useHead({

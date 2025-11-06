@@ -76,7 +76,7 @@
 
           <!-- CTA Button -->
           <div class="flex justify-center mb-8">
-            <NuxtLinkLocale to="auth-register">
+            <a :href="registerUrl">
               <button
                 class="group relative px-10 py-5 bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold text-xl rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 tracking-wide overflow-hidden"
               >
@@ -101,7 +101,7 @@
                   </svg>
                 </span>
               </button>
-            </NuxtLinkLocale>
+            </a>
           </div>
 
           <!-- Trust signals / Social proof -->
@@ -421,13 +421,13 @@
           <p class="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
             Über 1.000 Nutzer vertrauen bereits auf Diktat AI
           </p>
-          <NuxtLinkLocale to="auth-register">
+          <a :href="registerUrl">
             <button
               class="px-10 py-5 bg-white text-pink-600 font-bold text-xl rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 tracking-wide"
             >
               {{ t('cta.start') }}
             </button>
-          </NuxtLinkLocale>
+          </a>
         </div>
       </div>
 
@@ -679,13 +679,13 @@
           </p>
 
           <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <NuxtLinkLocale to="auth-register">
+            <a :href="registerUrl">
               <button
                 class="px-10 py-5 bg-white text-pink-600 font-bold text-xl rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 tracking-wide w-full sm:w-auto"
               >
                 {{ t('sections.final.links.start') }}
               </button>
-            </NuxtLinkLocale>
+            </a>
             <NuxtLinkLocale to="pricing">
               <button
                 class="px-10 py-5 bg-transparent border-2 border-white text-white font-bold text-xl rounded-2xl hover:bg-white hover:text-pink-600 transition-all duration-300 tracking-wide w-full sm:w-auto"
@@ -717,7 +717,8 @@
 <script setup>
 const { t } = useI18n({
   useScope: 'local',
-});
+})
+const { registerUrl } = useAppUrl();;
 
 // SEO Meta Tags
 useHead({

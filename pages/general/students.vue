@@ -6,11 +6,11 @@
         <div class="backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20">
           <h1 class="font-display text-4xl font-bold text-white mb-2" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">Smarter Studieren & Forschen – Transkripte statt Tippen</h1>
           <p class="text-lg text-white" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">Verwandle Vorlesungen, Seminare und Interviews mühelos in durchsuchbaren Text. Gewinne wertvolle Zeit für Prüfungen, Abschlussarbeiten und Publikationen.</p>
-          <NuxtLinkLocale to="auth-register" class="mt-6 inline-block">
+          <a :href="registerUrl" class="mt-6 inline-block">
             <button class="font-display bg-white text-pink-500 text-xl font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition-all shadow-lg tracking-wide">
               Jetzt kostenlos starten & Zeit sparen
             </button>
-          </NuxtLinkLocale>
+          </a>
         </div>
       </div>
     </div>
@@ -182,6 +182,7 @@
 
 <script setup>
 const { t } = useI18n()
+const { registerUrl } = useAppUrl();
 // SEO Meta Tags
 useHead({
   title: t('pages.students.title'),
