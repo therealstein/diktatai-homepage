@@ -1,5 +1,5 @@
 services:
-  # Marketing Site - Static Site (SSG)
+  # Marketing Site + App - Combined Static Site (SSG)
   - type: web
     name: diktatai-marketing
     env: static
@@ -7,46 +7,6 @@ services:
     staticPublishPath: .output/public
     domains:
       - diktat.ai
-    routes:
-      # Rewrite app routes to the web app service
-      - type: rewrite
-        source: /app
-        destination: https://diktatai-7kea.onrender.com/app
-      - type: rewrite
-        source: /app/*
-        destination: https://diktatai-7kea.onrender.com/app/:splat
-
-      # Rewrite localized app routes (e.g., /en/app)
-      - type: rewrite
-        source: /en/app
-        destination: https://diktatai-7kea.onrender.com/en/app
-      - type: rewrite
-        source: /en/app/*
-        destination: https://diktatai-7kea.onrender.com/en/app/:splat
-
-      # Rewrite auth routes
-      - type: rewrite
-        source: /auth
-        destination: https://diktatai-7kea.onrender.com/auth
-      - type: rewrite
-        source: /auth/*
-        destination: https://diktatai-7kea.onrender.com/auth/:splat
-
-      # Rewrite API routes
-      - type: rewrite
-        source: /api
-        destination: https://diktatai-7kea.onrender.com/api
-      - type: rewrite
-        source: /api/*
-        destination: https://diktatai-7kea.onrender.com/api/:splat
-
-      # Rewrite localized auth routes if needed
-      - type: rewrite
-        source: /en/auth
-        destination: https://diktatai-7kea.onrender.com/en/auth
-      - type: rewrite
-        source: /en/auth/*
-        destination: https://diktatai-7kea.onrender.com/en/auth/:splat
     headers:
       - path: /*
         name: X-Frame-Options
