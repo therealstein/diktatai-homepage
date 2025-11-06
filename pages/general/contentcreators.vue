@@ -421,14 +421,18 @@ const { t } = useI18n({
 })
 const { registerUrl } = useAppUrl();
 
+// SEO Meta Tags with Canonical URL
+const { canonicalUrl } = useSeoCanonical('/general/contentcreators');
+
 useHead({
   title: t('hero.title'),
   meta: [
-    { 
-      name: 'description', 
-      content: t('hero.subtitle') 
+    {
+      name: 'description',
+      content: t('hero.subtitle')
     }
   ],
+  link: [{ rel: 'canonical', href: canonicalUrl.value }],
 })
 
 // Enable local translations with inline messages

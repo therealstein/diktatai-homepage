@@ -26,10 +26,13 @@ const { t } = useI18n({
   useScope: 'local',
 });
 
-// SEO Meta Tags
+// SEO Meta Tags with Canonical URL
+const { canonicalUrl } = useSeoCanonical('/');
+
 useHead({
   title: t('title'),
   meta: [{ name: 'description', content: t('description') }],
+  link: [{ rel: 'canonical', href: canonicalUrl.value }],
 });
 </script>
 
