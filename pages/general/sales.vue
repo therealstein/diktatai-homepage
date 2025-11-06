@@ -36,13 +36,13 @@
           <p class="text-xl">
             {{ t('mainText') }}
           </p>
-          <NuxtLinkLocale to="auth-register" class="mt-6 inline-block">
+          <a :href="registerUrl" class="mt-6 inline-block">
             <button
               class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
             >
               {{ t('ctaButton') }}
             </button>
-          </NuxtLinkLocale>
+          </a>
         </div>
 
         <!-- Business Benefits Section -->
@@ -326,13 +326,13 @@
             {{ t('finalCtaText') }}
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <NuxtLinkLocale to="auth-register">
+            <a :href="registerUrl">
               <button
                 class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide w-full sm:w-auto"
               >
                 {{ t('startFree') }}
               </button>
-            </NuxtLinkLocale>
+            </a>
             <NuxtLinkLocale to="pricing">
               <button
                 class="font-display bg-white text-pink-500 text-xl font-bold py-3 px-8 rounded-full hover:bg-gray-50 transition-all shadow-lg tracking-wide border-2 border-pink-500 w-full sm:w-auto"
@@ -362,7 +362,8 @@
 // SEO Meta Tags
 const { t } = useI18n({
   useScope: 'local',
-});
+})
+const { registerUrl } = useAppUrl();;
 useHead({
   title: t('seoTitle'),
   meta: [{ name: 'description', content: t('seoDescription') }],

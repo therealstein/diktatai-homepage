@@ -38,6 +38,11 @@
               >{{ $t('navbar.pricing') }}</NuxtLinkLocale
             >
           </li>
+          <li>
+            <a :href="loginUrl" class="btn btn-ghost font-display"
+              >{{ $t('navbar.login') }}</a
+            >
+          </li>
         </ul>
       </div>
     </div>
@@ -85,6 +90,14 @@
             >{{ $t('navbar.pricing') }}</NuxtLinkLocale
           >
         </li>
+        <li>
+          <a
+            :href="loginUrl"
+            class="btn btn-ghost font-display"
+            @click="isMenuOpen = false"
+            >{{ $t('navbar.login') }}</a
+          >
+        </li>
       </ul>
     </div>
   </div>
@@ -92,4 +105,5 @@
 
 <script setup lang="ts">
 const isMenuOpen = ref(false);
+const { loginUrl } = useAppUrl();
 </script>

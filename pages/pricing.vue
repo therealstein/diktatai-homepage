@@ -87,13 +87,13 @@
 
           <!-- CTA Buttons -->
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <NuxtLinkLocale to="auth-register">
+            <a :href="registerUrl">
               <button
                 class="px-8 py-4 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 {{ t('hero.cta.primary') }}
               </button>
-            </NuxtLinkLocale>
+            </a>
             <NuxtLinkLocale to="how-it-works">
               <button
                 class="px-8 py-4 bg-white border-2 border-indigo-500 text-indigo-600 font-semibold rounded-xl hover:bg-indigo-50 transition-all duration-200 shadow-lg hover:shadow-xl"
@@ -226,13 +226,13 @@
             <p class="text-sm text-gray-600 mb-4 font-medium">
               {{ t('freePlan.noCreditCard') }}
             </p>
-            <NuxtLinkLocale to="auth-register" class="block">
+            <a :href="registerUrl" class="block">
               <button
                 class="w-full px-6 py-3 bg-white border-2 border-emerald-500 text-emerald-600 font-semibold rounded-xl hover:bg-emerald-50 transition-all duration-200 shadow-lg hover:shadow-xl"
               >
                 {{ t('freePlan.cta') }}
               </button>
-            </NuxtLinkLocale>
+            </a>
           </div>
         </div>
 
@@ -411,13 +411,13 @@
           </ul>
 
           <div class="text-center">
-            <NuxtLinkLocale to="auth-register" class="block">
+            <a :href="registerUrl" class="block">
               <button
                 class="w-full px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 {{ t('proPlan.cta') }}
               </button>
-            </NuxtLinkLocale>
+            </a>
           </div>
         </div>
 
@@ -724,6 +724,8 @@
 const { t } = useI18n({
   useScope: 'local',
 });
+
+const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags
 useHead({

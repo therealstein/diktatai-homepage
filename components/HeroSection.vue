@@ -15,21 +15,21 @@
           {{ $t('hero.description') }}
         </p>
         <div class="flex flex-col items-center mt-6">
-          <NuxtLinkLocale to="auth-register">
+          <a :href="registerUrl">
             <button class="font-display bg-pink-500 text-white text-lg md:text-xl font-bold py-3 px-10 md:py-4 md:px-14 rounded-full hover:bg-pink-600 transition-all shadow-xl tracking-wide">{{ $t('hero.startNow') }}</button>
-          </NuxtLinkLocale>
+          </a>
         </div>
       </div>
       
       <!-- Logo Container -->
       <div class="backdrop-blur-sm bg-white/20 p-8 md:p-10 rounded-3xl shadow-2xl border border-white/30 w-full md:w-1/5 mt-8 md:mt-0">
         <div class="logo-container flex justify-center">
-          <NuxtLinkLocale to="auth-register">
+          <a :href="registerUrl">
             <div class="logo-wrapper">
               <LogoSingle class="logo-animation" />
             </div>
             <span class="tooltip font-display font-medium">Diktat AI</span>
-          </NuxtLinkLocale>
+          </a>
         </div>
       </div>
     </div>
@@ -38,6 +38,8 @@
 
 <script setup>
 import LogoSingle from './LogoSingle.vue';
+
+const { registerUrl } = useAppUrl();
 </script>
 
 <style scoped>

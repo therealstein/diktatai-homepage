@@ -164,11 +164,11 @@
         <div class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20 text-center">
           <h3 class="font-display text-2xl font-bold mb-4">{{ t('cta.title') }}</h3>
           <div class="flex flex-col md:flex-row items-center justify-center gap-4 mt-6">
-            <NuxtLinkLocale to="auth-register">
+            <a :href="registerUrl">
               <button class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide w-full md:w-auto">
                 {{ t('cta.register') }}
               </button>
-            </NuxtLinkLocale>
+            </a>
             <NuxtLinkLocale to="pricing" class="btn btn-outline btn-accent px-8 rounded-full">
               {{ t('cta.pricing') }}
             </NuxtLinkLocale>
@@ -186,6 +186,8 @@
 const { t } = useI18n({
   useScope: 'local'
 })
+
+const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags
 useHead({
