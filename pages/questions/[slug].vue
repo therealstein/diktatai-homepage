@@ -7,7 +7,9 @@
       <h1 class="text-3xl font-bold mb-6">{{ question.title }}</h1>
 
       <!-- Render content -->
-      <div class="prose prose-lg max-w-none" v-html="question.body"></div>
+      <div class="prose prose-lg max-w-none">
+        <ContentRenderer :value="question" />
+      </div>
     </div>
     <div v-else class="text-center py-12">
       <h1 class="text-3xl font-bold text-gray-700">Question Not Found</h1>

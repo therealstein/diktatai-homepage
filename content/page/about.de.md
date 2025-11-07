@@ -55,7 +55,7 @@ def process_speech(audio_input):
 
 Haben Sie Fragen oder möchten Sie mehr erfahren? Kontaktieren Sie uns unter:
 
-- Email: info@diktat.ai
+- Email: support@diktat.ai
 - Telefon: +49 (0) 123 456789
 - Adresse: Musterstraße 123, 12345 Berlin
 

@@ -69,9 +69,9 @@
               </h3>
               <p class="mb-4">{{ t('support.email.description') }}</p>
               <a
-                href="mailto:info@diktat.ai"
+                href="mailto:support@diktat.ai"
                 class="text-pink-500 hover:text-pink-600 font-bold"
-                >info@diktat.ai</a
+                >support@diktat.ai</a
               >
             </div>
           </div>
