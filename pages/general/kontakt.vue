@@ -167,7 +167,7 @@
             <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
               <h3 class="font-display text-xl font-bold mb-4">{{ t('alternatives.email.title') }}</h3>
               <p class="mb-4">{{ t('alternatives.email.description') }}</p>
-              <a href="mailto:info@diktat.ai" class="text-pink-500 hover:text-pink-600 font-bold">info@diktat.ai</a>
+              <a href="mailto:support@diktat.ai" class="text-pink-500 hover:text-pink-600 font-bold">support@diktat.ai</a>
             </div>
 
             <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
