@@ -62,9 +62,11 @@ const getQuestionPath = (question: any) => {
   }
 };
 
-// Fetch questions from Nuxt Content
+// Fetch questions from Nuxt Content filtered by locale
 const { data: questionsData } = await useAsyncData('questions', () =>
-  queryCollection('questions').all()
+  queryCollection('questions')
+    .where('locale', locale.value)
+    .all()
 );
 
 // Computed property to access the questions array
