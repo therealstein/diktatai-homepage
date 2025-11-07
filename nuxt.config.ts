@@ -176,6 +176,8 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
+      crawlLinks: true,
+      routes: ['/fragen', '/en/questions'],
       ignore: [
         '/auth/login',
         '/auth/register',
@@ -190,6 +192,10 @@ export default defineNuxtConfig({
         proxy: 'https://eu-assets.i.posthog.com/static/**',
       },
       '/cruncher/**': { proxy: 'https://eu.i.posthog.com/**' },
+      '/fragen': { prerender: true },
+      '/fragen/**': { prerender: true },
+      '/en/questions': { prerender: true },
+      '/en/questions/**': { prerender: true },
       '/**': {
         headers: {
           'X-Frame-Options': 'SAMEORIGIN',
