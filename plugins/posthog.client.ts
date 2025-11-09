@@ -2,7 +2,7 @@ import { defineNuxtPlugin, useRuntimeConfig, useRouter } from '#app';
 import { nextTick } from 'vue';
 import posthog from 'posthog-js';
 import type { User } from '@supabase/supabase-js';
-import { captureMarketingParams, getStoredMarketingParams } from '~/utils/marketingParams';
+import { getStoredMarketingParams } from '~/utils/marketingParams';
 
 export default defineNuxtPlugin((nuxtApp) => {
   const runtimeConfig = useRuntimeConfig();
@@ -40,11 +40,6 @@ export default defineNuxtPlugin((nuxtApp) => {
     },
   });
 
-  // Capture marketing parameters on initial page load
-  if (typeof window !== 'undefined') {
-    captureMarketingParams(window.location.href);
-  }
-
   // Make sure that pageviews are captured with each route change
   const router = useRouter();
   router.beforeEach((to, from) => {
@@ -66,12 +61,6 @@ export default defineNuxtPlugin((nuxtApp) => {
 
   router.afterEach((to) => {
     nextTick(() => {
-      // Capture marketing parameters from the new route
-      if (typeof window !== 'undefined') {
-        const fullUrl = 'https://diktat.ai' + to.fullPath;
-        captureMarketingParams(fullUrl);
-      }
-
       // Skip pageview tracking for /app/ routes (tracked server-side)
       // Matches both /app/ and /en/app/ (i18n prefixed routes)
       if (to.path.includes('/app/')) {
