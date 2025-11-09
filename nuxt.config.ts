@@ -203,32 +203,10 @@ export default defineNuxtConfig({
         },
       },
     },
-    storage:
-      process.env.IS_DEV === 'active'
-        ? {
-            cache: {
-              driver: 'fs',
-              base: '.data/cache-wp',
-            },
-          }
-        : {
-            cache: {
-              driver: 'redis',
-              base: 'diktatai-wp',
-              url: process.env.NUXT_REDIS_URL,
-              ttl: 60 * 60 * 24 * 30,
-            },
-          },
-    devStorage: {
-      cache: {
-        driver: 'fs',
-        base: '.data/cache-wp',
-      },
-    },
   },
   runtimeConfig: {
     public: {
-      posthogPublicKey: process.env.NUXT_POSTHOG_KEY,
+      posthogPublicKey: 'phc_rEnn5wxbM2FCvmYNEuRu2w8Onbs5WII8VfKylyZcSBs',
       posthogHost: 'https://ph.diktat.ai',
       isDev: process.env.IS_DEV === 'active' || false,
     },
