@@ -1,7 +1,3 @@
----
-alwaysApply: false
----
-
 # Diktat.ai Design System & Styling Rules
 
 ## Core Design Principles
@@ -307,5 +303,3 @@ lg:flex-row /* Layout changes */
   <svg class="h-5 w-5 text-white" />
 </div>
 ```
-
-These rules ensure consistency across all components while maintaining the modern, glass-morphism aesthetic that defines the Diktat.ai brand.
