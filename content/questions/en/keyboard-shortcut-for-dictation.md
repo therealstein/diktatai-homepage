@@ -169,4 +169,4 @@ locale: en
 
 <p>However, if you need professional, accurate, and secure transcriptions of audio recordings – whether from dictations, interviews, or meetings – then <strong>Diktat AI</strong> is the solution that saves you valuable time and increases your productivity.</p>
 
-<p><strong>Would you like to experience Diktat AI for yourself? <a href="/pricing">Try Diktat AI for free now!</a></strong></p>
+<p><strong>Would you like to experience Diktat AI for yourself? <a href="/en/pricing">Try Diktat AI for free now!</a></strong></p>

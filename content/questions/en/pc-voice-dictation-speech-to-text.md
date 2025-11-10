@@ -193,7 +193,7 @@ locale: en
 
 <p>While direct dictation on PC is practical for spontaneous notes and composing texts in real-time, Diktat AI offers the perfect complement for processing and archiving existing audio content. This way, you can save yourself the tedious manual typing work and focus on what's essential.</p>
 
-<p><a href="/pricing">Learn more about Diktat AI and try it for free!</a> (Link to your pricing page or a specific landing page for Diktat AI)</p>
+<p><a href="/en/pricing">Learn more about Diktat AI and try it for free!</a> (Link to your pricing page or a specific landing page for Diktat AI)</p>
 
 <h2 class="wp-block-heading">Conclusion</h2>
 
