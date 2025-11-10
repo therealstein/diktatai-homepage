@@ -28,11 +28,12 @@
 <script setup lang="ts">
 const route = useRoute();
 const slug = route.params.slug as string;
+const { locale } = useI18n();
 
-// Fetch from Nuxt Content
-const { data: question, pending } = await useAsyncData(`question-${slug}`, () =>
+// Fetch from Nuxt Content using the locale-specific path
+const { data: question, pending } = await useAsyncData(`question-${locale.value}-${slug}`, () =>
   queryCollection('questions')
-    .path(`/questions/${slug}`)
+    .path(`/questions/${locale.value}/${slug}`)
     .first()
 );
 

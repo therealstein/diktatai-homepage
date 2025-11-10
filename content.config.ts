@@ -26,7 +26,7 @@ export default defineContentConfig({
     }),
     questions: defineCollection({
       type: 'page',
-      source: 'questions/*.md',
+      source: 'questions/**/*.md',
       schema: z.object({
         title: z.string(),
         description: z.string(),

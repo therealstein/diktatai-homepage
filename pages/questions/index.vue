@@ -62,15 +62,14 @@ const getQuestionPath = (question: any) => {
   }
 };
 
-// Fetch all questions from Nuxt Content and filter by locale in JavaScript
-const { data: questionsData } = await useAsyncData('questions', () =>
-  queryCollection('questions').all()
+// Fetch questions from the locale-specific folder
+const { data: questionsData } = await useAsyncData(`questions-${locale.value}`, () =>
+  queryCollection('questions').path(`/questions/${locale.value}`).all()
 );
 
-// Computed property to access and filter the questions array by locale
+// Computed property to access the questions array
 const questions = computed(() => {
-  const allQuestions = questionsData.value || [];
-  return allQuestions.filter((q: any) => q.locale === locale.value);
+  return questionsData.value || [];
 });
 
 const pending = ref(false);
