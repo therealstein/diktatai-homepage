@@ -311,10 +311,12 @@ locale: de
 
 <p>Genau hier kommen spezialisierte KI-Transkriptionsdienste wie <strong>Diktat AI</strong> ins Spiel. Wenn du regelmäßig Audioaufnahmen (Interviews, Diktate vom Diktiergerät, Meeting-Mitschriften) in präzisen Text umwandeln musst, bietet Diktat AI entscheidende Vorteile:</p>
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
-<h3 style="color: white; margin-top: 0;">Professionelle Transkription für Mac-Nutzer</h3>
-<p style="color: white; font-size: 1.1rem;">Laden Sie Ihre Audioaufnahmen hoch und erhalten Sie präzise Transkripte – ideal für lange Interviews und Meetings.</p>
-<p style="margin-bottom: 0;"><a href="/preise" style="display: inline-block; background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Kostenlos testen</a></p>
+<div class="bg-white/70 backdrop-blur-md border border-indigo-200/50 rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-200 my-8 text-center">
+  <h3 class="text-2xl font-bold text-gray-800 mb-3">Professionelle Transkription für Mac-Nutzer</h3>
+  <p class="text-lg text-gray-700 mb-6">Laden Sie Ihre Audioaufnahmen hoch und erhalten Sie präzise Transkripte – ideal für lange Interviews und Meetings.</p>
+  <a href="/preise" class="inline-block px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-medium rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+    Kostenlos testen
+  </a>
 </div>
 
 <ul class="wp-block-list">
