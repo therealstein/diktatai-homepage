@@ -23,6 +23,7 @@
       <div v-else-if="questions.length === 0" class="py-12 text-center">
         <div class="max-w-md mx-auto p-8 bg-gray-50 rounded-lg border border-gray-200">
           <p class="text-gray-500">{{ t('noQuestions') }}</p>
+          <pre class="mt-4 text-left text-xs">Debug: locale={{ locale }}, questionsData={{ questionsData }}</pre>
         </div>
       </div>
       
@@ -62,14 +63,18 @@ const getQuestionPath = (question: any) => {
   }
 };
 
-// Fetch questions from the locale-specific folder
-const { data: questionsData } = await useAsyncData(`questions-${locale.value}`, () =>
-  queryCollection('questions').path(`/questions/${locale.value}`).all()
+// Fetch all questions first to debug
+const { data: allQuestionsData } = await useAsyncData(`all-questions`, () =>
+  queryCollection('questions').all()
 );
 
-// Computed property to access the questions array
+// Filter by locale in computed
 const questions = computed(() => {
-  return questionsData.value || [];
+  const all = allQuestionsData.value || [];
+  console.log('All questions:', all.length, all);
+  const filtered = all.filter(q => q.locale === locale.value);
+  console.log('Filtered questions for locale', locale.value, ':', filtered.length);
+  return filtered;
 });
 
 const pending = ref(false);
