@@ -169,6 +169,12 @@ locale: en
 
 <p>This is exactly where <strong>Diktat AI</strong> comes in. Our AI-powered transcription service specializes in converting spoken content – whether short notes or hours-long audio recordings – into written text quickly, accurately, and securely.</p>
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">More Than Just Messenger Dictation</h3>
+<p style="color: white; font-size: 1.1rem;">Professional transcription for interviews, meetings and long recordings – accurate and GDPR-compliant.</p>
+<p style="margin-bottom: 0;"><a href="/en/pricing" style="display: inline-block; background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Try Free</a></p>
+</div>
+
 <p><strong>When is Diktat AI the better choice?</strong></p>
 
 <ul class="wp-block-list">

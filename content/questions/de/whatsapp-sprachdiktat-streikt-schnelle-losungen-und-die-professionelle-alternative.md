@@ -169,6 +169,12 @@ locale: de
 
 <p>Genau hier setzt <strong>Diktat AI</strong> an. Unser KI-gestützter Transkriptionsdienst ist darauf spezialisiert, gesprochene Inhalte – egal ob kurze Notizen oder stundenlange Audioaufnahmen – schnell, präzise und sicher in geschriebenen Text umzuwandeln.</p>
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Mehr als nur Messenger-Diktat</h3>
+<p style="color: white; font-size: 1.1rem;">Professionelle Transkription für Interviews, Meetings und lange Aufnahmen – präzise und DSGVO-konform.</p>
+<p style="margin-bottom: 0;"><a href="/preise" style="display: inline-block; background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Kostenlos testen</a></p>
+</div>
+
 <p><strong>Wann ist Diktat AI die bessere Wahl?</strong></p>
 
 <ul class="wp-block-list">

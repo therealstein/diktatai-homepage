@@ -103,6 +103,12 @@ locale: de
 
 <p>Die größte Veränderung im Bereich des Sprachdiktats kommt durch den Einsatz von <strong>Künstlicher Intelligenz (KI)</strong>. Moderne KI-gestützte Transkriptionsdienste wie <strong>Diktat AI</strong> automatisieren den mühsamen Prozess des Abtippens und heben das Sprachdiktat auf ein neues Level.</p>
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Erleben Sie die KI-Revolution</h3>
+<p style="color: white; font-size: 1.1rem;">Von Stunden manueller Arbeit zu Minuten automatischer Transkription – das ist die Kraft moderner KI.</p>
+<p style="margin-bottom: 0;"><a href="/preise" style="display: inline-block; background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Kostenlos testen</a></p>
+</div>
+
 <p><strong>So funktioniert modernes Sprachdiktat mit Diktat AI:</strong></p>
 
 <ol class="wp-block-list">
@@ -207,5 +213,5 @@ locale: de
 
 <p>Verabschieden Sie sich vom mühsamen Abtippen und entdecken Sie die Freiheit und Geschwindigkeit des KI-gestützten Sprachdiktats. Konzentrieren Sie sich auf das, was wirklich zählt – Ihre Inhalte und Ideen. Diktat AI kümmert sich um den Rest.</p>
 
-<p><strong>Probieren Sie Diktat AI kostenlos aus und erleben Sie selbst, wie einfach Sprachdiktate sein können!</strong></p>
+<p><strong>Bereit für modernes Sprachdiktat? <a href="/preise">Starten Sie jetzt kostenlos mit Diktat AI!</a></strong></p>
 

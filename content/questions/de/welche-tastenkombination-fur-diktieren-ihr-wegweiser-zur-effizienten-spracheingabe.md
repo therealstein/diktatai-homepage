@@ -93,6 +93,12 @@ locale: de
 
 <p>Wenn es darum geht, vorhandene Audioaufnahmen – Ihre Diktate, Interviews, Meetings oder Sprachnotizen – schnell, präzise und sicher in Text umzuwandeln, kommt <strong>Diktat AI</strong> ins Spiel.</p>
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Keine Tastenkombination nötig</h3>
+<p style="color: white; font-size: 1.1rem;">Einfach Audio hochladen und in Minuten ein perfektes Transkript erhalten – so einfach ist moderne Transkription.</p>
+<p style="margin-bottom: 0;"><a href="/preise" style="display: inline-block; background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Jetzt kostenlos testen</a></p>
+</div>
+
 <p>Diktat AI ist kein Tool, das Sie mit einer System-Tastenkombination für die direkte Spracheingabe starten. Stattdessen ist es ein spezialisierter KI-gestützter Dienst, der Ihre <strong>Audio-Dateien</strong> in geschriebenen Text verwandelt.</p>
 
 <p><strong>So funktioniert Diktat AI:</strong></p>

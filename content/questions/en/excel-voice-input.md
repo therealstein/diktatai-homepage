@@ -207,6 +207,10 @@ locale: en
 
 <p>Even though Diktat AI doesn't control Excel directly via voice commands, it's an incredibly powerful partner to <strong>revolutionize the process of data entry for your spreadsheets.</strong> By quickly and precisely converting your spoken words into text, you save valuable time, increase your productivity, and can focus on what matters: using your data, not its tedious capture.</p>
 
-<p><strong>Try it out!</strong> Use the free trial version of Diktat AI and experience for yourself how easily and efficiently you can prepare your Excel data with voice. No more typing - let Diktat AI do the groundwork </p>
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Revolutionize Your Excel Data Entry</h3>
+<p style="color: white; font-size: 1.1rem;">Dictate your data and transfer it to Excel in seconds. No more typing errors!</p>
+<p style="margin-bottom: 0;"><a href="/en/pricing" style="display: inline-block; background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Try Free Now</a></p>
+</div>
 
 <p></p>

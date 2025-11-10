@@ -311,6 +311,12 @@ locale: de
 
 <p>Genau hier kommen spezialisierte KI-Transkriptionsdienste wie <strong>Diktat AI</strong> ins Spiel. Wenn du regelmäßig Audioaufnahmen (Interviews, Diktate vom Diktiergerät, Meeting-Mitschriften) in präzisen Text umwandeln musst, bietet Diktat AI entscheidende Vorteile:</p>
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Professionelle Transkription für Mac-Nutzer</h3>
+<p style="color: white; font-size: 1.1rem;">Laden Sie Ihre Audioaufnahmen hoch und erhalten Sie präzise Transkripte – ideal für lange Interviews und Meetings.</p>
+<p style="margin-bottom: 0;"><a href="/preise" style="display: inline-block; background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Kostenlos testen</a></p>
+</div>
+
 <ul class="wp-block-list">
 <li><strong>Hochladen von Audiodateien:</strong> Einfach deine MP3, WAV, M4A etc. hochladen und die KI erledigt den Rest.</li>
 
@@ -348,4 +354,6 @@ locale: de
 <p>Für professionelle Transkriptionsanforderungen, bei denen es um die Umwandlung bestehender Audioaufnahmen in Text geht, um höchste Präzision auch bei schwierigen Bedingungen oder um die Verarbeitung großer Datenmengen unter strengen Datenschutzauflagen, sind spezialisierte Dienste wie <strong>Diktat AI</strong> die effizientere und leistungsstärkere Lösung. Sie nehmen dir das manuelle Abtippen ab, damit du dich auf deine Kernkompetenzen konzentrieren kannst.</p>
 
 <p>Nutze die Werkzeuge, die am besten zu deiner Aufgabe passen – ob das schnelle Diktat einer E-Mail am Mac oder die professionelle Transkription deines letzten Interviews mit Diktat AI.</p>
+
+<p><strong>Bereit für professionelle Transkription? <a href="/preise">Starten Sie jetzt kostenlos mit Diktat AI!</a></strong></p>
 

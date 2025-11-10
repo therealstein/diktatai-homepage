@@ -159,6 +159,12 @@ locale: en
 
 <p>For this purpose, specialized transcription services like <strong>Diktat AI</strong> are the ideal solution.</p>
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Convert Audio Recordings to Text?</h3>
+<p style="color: white; font-size: 1.1rem;">Upload your MP3, WAV or M4A and get precise transcripts – GDPR-compliant on EU servers.</p>
+<p style="margin-bottom: 0;"><a href="/en/pricing" style="display: inline-block; background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Try Free Now</a></p>
+</div>
+
 <p><strong>Diktat AI</strong> specializes in converting spoken content from audio recordings into written text quickly, accurately, and securely.</p>
 
 <ul class="wp-block-list">

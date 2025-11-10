@@ -183,6 +183,12 @@ locale: de
 
 <p>Diktat AI ist ein KI-gestützter Transkriptionsdienst, der speziell dafür entwickelt wurde, gesprochene Inhalte schnell und genau in Text umzuwandeln. Mit einem starken Fokus auf DSGVO-Konformität und Datenverarbeitung ausschließlich in der EU bietet Diktat AI eine sichere Umgebung für Ihre Audioaufnahmen. Ob Interviews, Meetings, Diktate oder spontane Notizen – laden Sie einfach Ihre Audiodatei hoch, und unsere KI erledigt den Rest.</p>
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Keine Lust mehr auf technische Probleme?</h3>
+<p style="color: white; font-size: 1.1rem;">Mit Diktat AI funktioniert Transkription einfach – ohne komplizierte Einstellungen oder Fehlermeldungen.</p>
+<p style="margin-bottom: 0;"><a href="/preise" style="display: inline-block; background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Jetzt kostenlos testen</a></p>
+</div>
+
 <p><strong>Vorteile von Diktat AI:</strong></p>
 
 <ul class="wp-block-list">

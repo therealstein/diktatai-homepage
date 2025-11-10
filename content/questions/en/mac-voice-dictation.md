@@ -311,6 +311,12 @@ locale: en
 
 <p>This is exactly where specialized AI transcription services like <strong>Diktat AI</strong> come into play. If you regularly need to convert audio recordings (interviews, dictations from voice recorders, meeting transcriptions) into accurate text, Diktat AI offers crucial advantages:</p>
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Professional Transcription for Mac Users</h3>
+<p style="color: white; font-size: 1.1rem;">Upload your audio recordings and get precise transcripts – ideal for long interviews and meetings.</p>
+<p style="margin-bottom: 0;"><a href="/en/pricing" style="display: inline-block; background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Try Free</a></p>
+</div>
+
 <ul class="wp-block-list">
 <li><strong>Upload audio files:</strong> Simply upload your MP3, WAV, M4A etc. and the AI does the rest.</li>
 
@@ -348,3 +354,5 @@ locale: en
 <p>For professional transcription requirements, where it's about converting existing audio recordings into text, achieving highest precision even under difficult conditions, or processing large volumes of data under strict data protection requirements, specialized services like <strong>Diktat AI</strong> are the more efficient and powerful solution. They take the manual typing off your hands so you can focus on your core competencies.</p>
 
 <p>Use the tools that best fit your task – whether it's quickly dictating an email on Mac or professionally transcribing your latest interview with Diktat AI.</p>
+
+<p><strong>Ready for professional transcription? <a href="/en/pricing">Start free with Diktat AI now!</a></strong></p>

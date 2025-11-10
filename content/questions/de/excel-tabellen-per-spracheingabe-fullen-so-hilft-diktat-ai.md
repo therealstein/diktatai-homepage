@@ -207,7 +207,11 @@ locale: de
 
 <p>Auch wenn Diktat AI Excel nicht direkt per Sprachbefehl steuert, ist es ein unglaublich mächtiger Partner, um den Prozess der <strong>Dateneingabe für Ihre Tabellenkalkulationen zu revolutionieren.</strong> Durch die schnelle und präzise Umwandlung Ihrer gesprochenen Worte in Text sparen Sie wertvolle Zeit, steigern Ihre Produktivität und können sich auf das Wesentliche konzentrieren: die Nutzung Ihrer Daten, nicht deren mühsame Erfassung.</p>
 
-<p><strong>Probieren Sie es aus!</strong> Nutzen Sie die kostenlose Testversion von Diktat AI und erleben Sie selbst, wie einfach und effizient Sie Ihre Excel-Daten per Sprache vorbereiten können. Schluss mit Tippen – lassen Sie Diktat AI die Vorarbeit </p>
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Revolutionieren Sie Ihre Excel-Dateneingabe</h3>
+<p style="color: white; font-size: 1.1rem;">Diktieren Sie Ihre Daten und übertragen Sie sie in Sekundenschnelle in Excel. Keine Tippfehler mehr!</p>
+<p style="margin-bottom: 0;"><a href="/preise" style="display: inline-block; background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Jetzt kostenlos ausprobieren</a></p>
+</div>
 
 <p></p>
 
