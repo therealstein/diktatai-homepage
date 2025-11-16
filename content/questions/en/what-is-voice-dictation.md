@@ -103,6 +103,14 @@ locale: en
 
 <p>The biggest change in voice dictation comes through the use of <strong>Artificial Intelligence (AI)</strong>. Modern AI-powered transcription services like <strong>Diktat AI</strong> automate the tedious process of typing and elevate voice dictation to a new level.</p>
 
+<div class="bg-white/70 backdrop-blur-md border border-indigo-200/50 rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-200 my-8 text-center">
+  <h3 class="text-2xl font-bold text-gray-800 mb-3">Experience the AI Revolution</h3>
+  <p class="text-lg text-gray-700 mb-6">From hours of manual work to minutes of automatic transcription – that's the power of modern AI.</p>
+  <a href="/en/pricing" class="inline-block px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-medium rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+    Try Free
+  </a>
+</div>
+
 <p><strong>How modern voice dictation works with Diktat AI:</strong></p>
 
 <ol class="wp-block-list">
@@ -207,4 +215,4 @@ locale: en
 
 <p>Say goodbye to tedious typing and discover the freedom and speed of AI-powered voice dictation. Focus on what really matters – your content and ideas. Diktat AI takes care of the rest.</p>
 
-<p><strong>Try Diktat AI for free and experience for yourself how easy voice dictation can be!</strong></p>
+<p><strong>Ready for modern voice dictation? <a href="/en/pricing">Start free with Diktat AI now!</a></strong></p>

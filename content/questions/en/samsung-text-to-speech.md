@@ -185,4 +185,6 @@ locale: en
 
 <p>And if you ever want to go the opposite way – that is, convert spoken content into text – then services like <strong>Diktat AI</strong> are just right for saving you tedious typing work and boosting your productivity.</p>
 
+<p><strong>Want to convert audio to text? <a href="/en/pricing">Try Diktat AI free</a> – accurate, fast, and GDPR-compliant!</strong></p>
+
 <p></p>

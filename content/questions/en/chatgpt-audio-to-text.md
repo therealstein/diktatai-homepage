@@ -51,6 +51,14 @@ locale: en
 
 <p>If your goal is the fast, accurate, and secure conversion of audio recordings to text, then specialized AI-powered transcription services are clearly the better choice. This is where <strong>Diktat AI</strong> comes into play.</p>
 
+<div class="bg-white/70 backdrop-blur-md border border-indigo-200/50 rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-200 my-8 text-center">
+  <h3 class="text-2xl font-bold text-gray-800 mb-3">The Real AI Transcription Solution</h3>
+  <p class="text-lg text-gray-700 mb-6">Upload → AI Analysis → Finished Transcript. Professional transcription made simple.</p>
+  <a href="/en/pricing" class="inline-block px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-medium rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+    Try Free Now
+  </a>
+</div>
+
 <p>Diktat AI was developed for exactly this purpose:</p>
 
 <ul class="wp-block-list">
@@ -94,3 +102,5 @@ locale: en
 <p>If you're looking for a reliable, fast, and above all <strong>data protection-compliant solution for converting audio to text</strong>, specialized services like <strong>Diktat AI</strong> have a clear advantage. They offer not only the necessary functionality, but also the security and focus on EU data protection standards that are essential, especially for professional and sensitive content.</p>
 
 <p>Save time, boost your productivity, and ensure your data is protected – with a solution built for transcription.</p>
+
+<p><strong>Want to experience it yourself? <a href="/en/pricing">Try Diktat AI free now!</a></strong></p>

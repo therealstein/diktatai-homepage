@@ -185,5 +185,7 @@ locale: de
 
 <p>Und wenn du mal den umgekehrten Weg gehen möchtest – also gesprochene Inhalte in Text umwandeln – dann sind Dienste wie <strong>Diktat AI</strong> genau das Richtige, um dir mühsame Tipparbeit abzunehmen und deine Produktivität zu steigern.</p>
 
+<p><strong>Möchten Sie Audio in Text umwandeln? <a href="/preise">Probieren Sie Diktat AI kostenlos aus</a> – präzise, schnell und DSGVO-konform!</strong></p>
+
 <p></p>
 

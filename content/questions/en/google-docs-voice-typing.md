@@ -331,6 +331,14 @@ locale: en
 
 <p>When your requirements go beyond simple dictation, especially when it comes to <strong>transcribing existing audio recordings</strong> (interviews, meetings, podcasts), <strong>highest precision</strong> even with technical terminology, <strong>GDPR-compliant processing of sensitive data on EU servers</strong>, or <strong>integrations into existing workflows</strong>, then free tools like the Google Docs feature reach their limits.</p>
 
+<div class="bg-white/70 backdrop-blur-md border border-indigo-200/50 rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-200 my-8 text-center">
+  <h3 class="text-2xl font-bold text-gray-800 mb-3">Ready for Professional Transcription?</h3>
+  <p class="text-lg text-gray-700 mb-6">Upload your audio recordings and get precise transcripts in minutes – GDPR-compliant on EU servers.</p>
+  <a href="/en/pricing" class="inline-block px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-medium rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+    Try Free Now
+  </a>
+</div>
+
 <p>Here specialized services like <strong>Diktat AI</strong> offer crucial advantages:</p>
 
 <ul class="wp-block-list">
@@ -364,3 +372,5 @@ locale: en
 <li><strong>Possibility for integration via API or simple email upload.</strong></li>
 
 <p>For everyday dictation tasks, however, Google Docs Voice-to-Text is a great helper. Try it out and experience for yourself how much more efficient your text creation can become!</p>
+
+<p><strong>For professional transcriptions: <a href="/en/pricing">Start free with Diktat AI now</a> and save hours of typing work!</strong></p>
