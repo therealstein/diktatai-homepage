@@ -30,17 +30,17 @@
         <ul class="menu menu-horizontal px-1">
           <li>
             <NuxtLinkLocale to="how-it-works" class="btn btn-ghost font-display"
-              >{{ $t('navbar.howitworks') }}</NuxtLinkLocale
+              >{{ t('howitworks') }}</NuxtLinkLocale
             >
           </li>
           <li>
             <NuxtLinkLocale to="pricing" class="btn btn-ghost font-display"
-              >{{ $t('navbar.pricing') }}</NuxtLinkLocale
+              >{{ t('pricing') }}</NuxtLinkLocale
             >
           </li>
           <li>
             <a :href="loginUrl" class="btn btn-ghost font-display"
-              >{{ $t('navbar.login') }}</a
+              >{{ t('login') }}</a
             >
           </li>
         </ul>
@@ -79,7 +79,7 @@
             to="how-it-works"
             class="btn btn-ghost font-display"
             @click="isMenuOpen = false"
-            >{{ $t('navbar.howitworks') }}</NuxtLinkLocale
+            >{{ t('howitworks') }}</NuxtLinkLocale
           >
         </li>
         <li>
@@ -87,7 +87,7 @@
             to="pricing"
             class="btn btn-ghost font-display"
             @click="isMenuOpen = false"
-            >{{ $t('navbar.pricing') }}</NuxtLinkLocale
+            >{{ t('pricing') }}</NuxtLinkLocale
           >
         </li>
         <li>
@@ -95,7 +95,7 @@
             :href="loginUrl"
             class="btn btn-ghost font-display"
             @click="isMenuOpen = false"
-            >{{ $t('navbar.login') }}</a
+            >{{ t('login') }}</a
           >
         </li>
       </ul>
@@ -104,6 +104,27 @@
 </template>
 
 <script setup lang="ts">
-const isMenuOpen = ref(false);
-const { loginUrl } = useAppUrl();
+const { t } = useI18n()
+const isMenuOpen = ref(false)
+const { loginUrl } = useAppUrl()
 </script>
+
+<i18n lang="json">
+{
+  "de": {
+    "howitworks": "KI Transkription",
+    "pricing": "Preise",
+    "login": "Anmelden"
+  },
+  "en": {
+    "howitworks": "AI Transcription",
+    "pricing": "Pricing",
+    "login": "Login"
+  },
+  "nl": {
+    "howitworks": "AI Transcriptie",
+    "pricing": "Prijzen",
+    "login": "Inloggen"
+  }
+}
+</i18n>

@@ -100,7 +100,7 @@ const { data: page } = await useAsyncData(`page-${path}`, async () => {
       "notFound": "Seite nicht gefunden",
       "notFoundDescription": "Die gesuchte Seite konnte leider nicht gefunden werden."
     }
-  }
+  },
   "nl": {
     "page": {
       "backToPages": "← Terug naar de pagina's",

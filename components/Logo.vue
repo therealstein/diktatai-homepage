@@ -42,11 +42,25 @@
           -1px -1px 1px rgba(255, 255, 255, 0.3);
       "
       >
-      {{ t('components.logo.name') }}
+      {{ t('name') }}
     </span>
   </div>
 </template>
-<script setup>
-const { t } = useI18n()
 
+<script setup lang="ts">
+const { t } = useI18n()
 </script>
+
+<i18n lang="json">
+{
+  "de": {
+    "name": "DiktatAI"
+  },
+  "en": {
+    "name": "DictateAI"
+  },
+  "nl": {
+    "name": "DiktatAI"
+  }
+}
+</i18n>

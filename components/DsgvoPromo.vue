@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
+
 <template>
   <div
     class="glass-card bg-white/60 backdrop-blur-sm border border-indigo-200/50 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 h-full"
@@ -22,16 +26,16 @@
         </svg>
       </div>
       <h3 class="text-xl font-bold text-gray-800 mb-3">
-        {{ $t('dsgvo.title') }}
+        {{ t('title') }}
       </h3>
       <p class="text-gray-600 mb-4 leading-relaxed text-sm">
-        {{ $t('dsgvo.description') }}
+        {{ t('description') }}
       </p>
       <NuxtLinkLocale to="privacy">
         <button
           class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-200 shadow-md hover:shadow-lg transform hover:scale-105 text-sm"
         >
-          {{ $t('dsgvo.moreAboutPrivacy') }}
+          {{ t('moreAboutPrivacy') }}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-4 w-4"
@@ -58,3 +62,23 @@
   -webkit-backdrop-filter: blur(16px);
 }
 </style>
+
+<i18n lang="json">
+{
+  "de": {
+    "title": "DSGVO-konforme Datenspeicherung",
+    "description": "Ihre Daten werden nach höchsten Sicherheitsstandards verschlüsselt und DSGVO-konform gespeichert. Wir garantieren maximalen Datenschutz für Ihre Sprachaufnahmen.",
+    "moreAboutPrivacy": "Mehr über Datenschutz"
+  },
+  "en": {
+    "title": "GDPR-compliant Data Storage",
+    "description": "Your data is encrypted according to the highest security standards and stored in compliance with GDPR. We guarantee maximum data protection for your voice recordings.",
+    "moreAboutPrivacy": "More about Privacy"
+  },
+  "nl": {
+    "title": "GDPR-conforme gegevensopslag",
+    "description": "Uw gegevens worden volgens de hoogste veiligheidsnormen versleuteld en GDPR-conform opgeslagen. Wij garanderen maximale gegevensbescherming voor uw spraakopnames.",
+    "moreAboutPrivacy": "Meer over gegevensbescherming"
+  }
+}
+</i18n>

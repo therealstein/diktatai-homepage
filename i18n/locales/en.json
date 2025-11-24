@@ -1,83 +1,11 @@
 {
   "welcome": "Welcome",
-  "components": {
-    "logo": {
-      "name": "DictateAI"
-    },
-    "cta": {
-      "title": "Stop Typing: Dictate AI Handles the Transcription.",
-      "description": "Effortlessly transform spoken words into precise text. Dictate AI takes care of the typing so you can focus on what matters – whether it's meeting notes, interviews, or spontaneous ideas. Save valuable time and boost your productivity.",
-      "startFree": "Start Free",
-      "viewPricing": "View Pricing"
-    }
-  },
-  "userGroups": {
-    "title": "Professions for which Dictate AI is indispensable",
-    "description": "Discover how different professions use Dictate AI to make their daily work more efficient",
-    "journalists": {
-      "title": "Journalists & Editors",
-      "description": "Quickly convert interviews, press conferences, and research recordings into editable text."
-    },
-    "contentCreators": {
-      "title": "Content Creators",
-      "description": "Effortlessly create transcripts for show notes, subtitles, blog articles, or content analysis."
-    },
-    "lawyers": {
-      "title": "Lawyers & Attorneys",
-      "description": "Capture dictations, client conversations, or transcripts securely and GDPR-compliant as text."
-    },
-    "students": {
-      "title": "Students & Academics",
-      "description": "Transcribe lectures, seminars, and interviews for theses or research projects."
-    },
-    "businessLeaders": {
-      "title": "Business Leaders & Executives",
-      "description": "Accurately record meeting results, spontaneous ideas, or dictated notes."
-    },
-    "consultants": {
-      "title": "Consultants & Coaches",
-      "description": "Efficiently document client conversations and sessions for optimal follow-up."
-    }
-  },
-  "businessSolutions": {
-    "title": "Solutions for Businesses and Organizations",
-    "description": "Discover how Dictate AI is tailored to meet the specific needs of various organizations and industries",
-    "aiAct": {
-      "title": "EU AI Act & Dictate AI",
-      "description": "The new EU AI Act is coming. Learn what the AI Act means for AI applications like Dictate AI, what requirements apply, and how we're preparing for a responsible and compliant future."
-    },
-    "sme": {
-      "title": "Leveraging AI Potential for SMEs",
-      "description": "Discover how Dictate AI specifically helps small and medium-sized enterprises (SMEs) optimize processes, save valuable time, and increase productivity without major IT investments."
-    },
-    "government": {
-      "title": "Secure Use in Government Agencies",
-      "description": "Data protection, security, and reliability are crucial in the public sector. Read how Dictate AI meets the special requirements of government agencies and administrations and enables efficient workflows."
-    },
-    "regulated": {
-      "title": "Compliance in Regulated Industries",
-      "description": "Strict regulations apply to industries such as finance, law, or healthcare. Learn how Dictate AI ensures confidentiality and supports compliance requirements in transcription."
-    },
-    "business": {
-      "title": "Dictate AI for Businesses",
-      "description": "Learn more about the diverse applications of Dictate AI in businesses of all sizes – from meeting documentation to content creation. Scalable solutions for your success."
-    },
-    "suite": {
-      "title": "The Dictate AI Business Suite",
-      "description": "Discover our premium solutions for teams and power users. Benefit from advanced features, team management, priority support, and customized options for the highest demands."
-    }
-  },
   "transcription": {
     "noTranscriptionAvailable": "No transcription available",
     "noTranscriptionsAvailable": "No transcriptions available",
     "noTimestampedChunksAvailable": "No timestamped chunks available",
     "jumpTo": "Jump to",
     "context": "Context"
-  },
-  "navbar": {
-    "howitworks": "AI Transcription",
-    "pricing": "Pricing",
-    "login": "Login"
   },
   "payment": {
     "invoiceTitle": "Invoice Purchase",
@@ -87,68 +15,6 @@
     "processing": "Processing...",
     "completePurchase": "Complete Purchase",
     "proceedToCreditCard": "Proceed to Credit Card Payment"
-  },
-  "hero": {
-    "title": "Autowrite with Dictate AI",
-    "description": "Dictate AI offers fast and accurate transcriptions for meetings, interviews, and more. Ideal for professionals and teams who want to save time and focus on what matters. Your data is secure and GDPR-compliant.",
-    "startNow": "Start Now",
-    "subDescription": "Save up to 80% of your time on transcription. Start free now – no credit card required.",
-    "socialProof": "Already over 1,000 users save time daily"
-  },
-  "faq": {
-    "title": "Frequently Asked Questions about Dictate AI",
-    "description": "Here you will find answers to the most important questions about Dictate AI, your intelligent assistant for converting speech to text.",
-    "item1": {
-      "title": "What exactly does Dictate AI do?",
-      "description": "Dictate AI is your clever helper that automatically converts spoken words into written text. Simply upload your audio recording (e.g., from meetings, interviews, lectures, or voice notes) and our artificial intelligence does the rest – quickly and reliably. This way, you get a written protocol or transcript in no time, without having to type yourself."
-    },
-    "item2": {
-      "title": "Who is Dictate AI suitable for?",
-      "description": "Dictate AI is perfect for anyone who regularly needs to convert audio recordings into text and wants to save valuable time. This includes:",
-      "professionals": "Busy professionals: Effortlessly document meetings and phone calls.",
-      "teams": "Efficient teams: Quickly and easily share important conversation content in writing.",
-      "students": "Students: Convert lectures and study notes into searchable texts.",
-      "journalists": "Journalists & Podcasters: Quickly transcribe interviews and audio content.",
-      "creators": "Content Creators: Create subtitles or blog articles from your video and audio content.",
-      "noteTakers": "Anyone who takes notes: Easily capture spontaneous ideas and thoughts by voice."
-    },
-    "item3": {
-      "title": "How does Dictate AI help me save time?",
-      "description": "Manually typing audio recordings is tedious and often takes hours of your precious time. Dictate AI completes this task in a fraction of the time. Instead of getting caught up in typing, you can focus on more important tasks, prepare your content faster, or analyze your results more quickly. This means: More productivity for you and less tedious routine work."
-    },
-    "item4": {
-      "title": "Are my data safe with Dictate AI?",
-      "description": "Absolutely. Protecting your data is our top priority. We know how important confidentiality is. That's why we process all information strictly according to the requirements of the European General Data Protection Regulation (GDPR). Your audio recordings and the texts created from them are safe and secure with us – you can count on that."
-    },
-    "item5": {
-      "title": "How accurate are the transcriptions?",
-      "description": "Our artificial intelligence is trained to recognize speech very precisely and convert it into text. The accuracy is impressively high, especially with clearly understandable recordings of good sound quality. You get a solid text base that you can usually use directly or only need to minimally revise if necessary."
-    },
-    "item6": {
-      "title": "What kind of audio recordings can I upload?",
-      "description": "You can upload a variety of audio recordings. Whether recordings of meetings, conducted interviews, recorded phone calls (if legally permissible!), lectures from the lecture hall, seminar recordings, podcast episodes, or simply spontaneously recorded voice notes with your phone – Dictate AI can process them. We support the most common audio formats."
-    },
-    "item7": {
-      "title": "Is using Dictate AI complicated?",
-      "description": "No, quite the opposite! We have deliberately designed Dictate AI to be simple and intuitive. You don't need any technical knowledge or complicated training times. The process is very simple:",
-      "step1": "Upload audio recording.",
-      "step2": "Wait a short time while our AI works.",
-      "step3": "Download or copy the finished text.",
-      "conclusion": "We want you to get started right away and benefit from the advantages!"
-    },
-    "stillHaveQuestions": "Do you still have questions?",
-    "reachOutText": "If you have any other questions or need further assistance, we're happy to help you with anything related to Dictate AI.",
-    "moreQuestions": "Any Other Questions?"
-  },
-  "euStorage": {
-    "title": "Storage and Data Processing in the EU",
-    "description": "All your data is processed and stored exclusively on servers within the European Union. We rely on local infrastructure for maximum data security.",
-    "moreAboutSecurity": "More about Security"
-  },
-  "dsgvo": {
-    "title": "GDPR-compliant Data Storage",
-    "description": "Your data is encrypted according to the highest security standards and stored in compliance with GDPR. We guarantee maximum data protection for your voice recordings.",
-    "moreAboutPrivacy": "More about Privacy"
   },
   "app": {
     "processingModal": {
@@ -409,33 +275,6 @@
         "deleting": "Deleting..."
       }
     },
-    "footer": {
-      "title": "Dictate AI",
-      "help": "Help",
-      "description": "Quickly and easily transform dictations into letters.",
-      "professions": "Professions",
-      "consultants": "Consultants & Coaches",
-      "contentCreators": "Content Creators",
-      "lawyers": "Lawyers & Attorneys",
-      "journalists": "Journalists & Editors",
-      "students": "Students & Academics",
-      "businessLeaders": "Business Leaders & Executives",
-      "legal": "Legal",
-      "terms": "Terms",
-      "privacy": "Privacy",
-      "aiSecurity": "AI - Data Security",
-      "imprint": "Imprint",
-      "company": "Company",
-      "pricing": "Pricing",
-      "about": "About Us",
-      "contact": "Contact",
-      "compliance": "Compliance & Support",
-      "gdpr": "GDPR & GDPR",
-      "aiDataProcessing": "AI Data Processing",
-      "standWithUkraine": "Stand with Ukraine",
-      "copyright": "© {year} DictateAI",
-      "language": "Language"
-    },
     "header": {
       "subscribePro": "Subscribe to Pro",
       "myDictations": "My Dictations",
@@ -522,35 +361,6 @@
     "layout": {
       "title": "Dictate AI"
     },
-    "recentPosts": {
-      "title": "Recent Posts"
-    },
-    "benefitsSection": {
-      "title": "Your Clear Advantage with Dictate AI",
-      "description": "Dictate AI brings measurable added value to your daily work – through clever automation and optimized processes when converting speech to text.",
-      "benefits": {
-        "timeSaving": {
-          "title": "Massive Time Savings",
-          "description": "Say goodbye to tedious typing. Gain back hours for your important tasks, projects, and core competencies."
-        },
-        "productivity": {
-          "title": "Increased Productivity",
-          "description": "Get more done in less time. Convert spoken content into text in a flash and significantly accelerate your workflows – from meeting minutes to content creation."
-        },
-        "precision": {
-          "title": "Precise & Usable Results",
-          "description": "Get accurate text transcripts of your audio recordings that you can immediately reuse, search, edit, or archive."
-        },
-        "security": {
-          "title": "Highest Data Security & Compliance",
-          "description": "Rely on strictest confidentiality and GDPR-compliant processing. Your sensitive information and recordings are safe and protected with us at all times."
-        },
-        "focus": {
-          "title": "Focus on What Matters",
-          "description": "Reduce annoying routine tasks to a minimum. Concentrate your energy and attention on strategic decisions, creative work, or content analysis instead of typing."
-        }
-      }
-    },
     "billingInformation": {
       "name": "Name",
       "businessName": "Business Name",
@@ -562,12 +372,6 @@
       "phone": "Phone",
       "invoiceRequired": "Please fill out when paying on invoice.",
       "creditCardOptional": "Only fill out if an invoice or AVV is required."
-    },
-    "ctaSection": {
-      "title": "Stop Typing: Dictate AI Handles Transcription.",
-      "description": "Effortlessly transform spoken words into precise text. Dictate AI takes care of the typing so you can focus on what matters – whether it's meeting notes, interviews, or spontaneous ideas. Save valuable time and boost your productivity.",
-      "startFree": "Start Free",
-      "viewPricing": "View Pricing"
     },
     "dictationStatus": {
       "pending": "Preparing...",
@@ -805,36 +609,6 @@
         "notLoggedIn": "User not logged in"
       }
     }
-  },
-  "howItWorks": {
-    "title": "How Dictate AI Works",
-    "description": "Our process is simple, fast, and secure. Here's how it works:",
-    "upload": "1. Upload Your Recording",
-    "uploadDescription": "Simply drag and drop your audio file or select it from your device. We support all common audio formats.",
-    "transcription": "2. AI Transcription",
-    "transcriptionDescription": "Our advanced AI processes your recording with high accuracy, converting speech to text in minutes.",
-    "secureProcessing": "3. Secure Processing",
-    "secureProcessingDescription": "Your data is processed securely on EU servers, fully compliant with GDPR regulations.",
-    "readyToUse": "4. Ready to Use",
-    "readyToUseDescription": "Download your transcription or copy it directly to your clipboard. Your text is ready for immediate use."
-  },
-  "integrations": {
-    "title": "Seamless Integrations",
-    "description": "Dictate AI integrates with your favorite tools and workflows",
-    "available": "Available Integrations",
-    "emailTitle": "Email Integration",
-    "emailDescription": "Forward audio recordings directly to your Dictate AI email address for instant transcription.",
-    "howItWorks": "How it works:",
-    "softwareTitle": "Software Integration",
-    "softwareDescription": "Connect Dictate AI with your existing software stack through our API or webhooks.",
-    "requestSolution": "Request a custom solution",
-    "whyValuable": "Why integrations are valuable:",
-    "flexibility": "Flexibility",
-    "flexibilityDescription": "Choose how you want to use Dictate AI - through our web interface, email, or API.",
-    "timeSaving": "Time Saving",
-    "timeSavingDescription": "Automate your workflow by integrating Dictate AI directly into your existing tools.",
-    "seamlessProcesses": "Seamless Processes",
-    "seamlessProcessesDescription": "Maintain your current workflow while adding powerful transcription capabilities."
   },
   "auth": {
     "login": {

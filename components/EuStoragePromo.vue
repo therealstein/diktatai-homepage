@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { NuxtLinkLocale } from '#components';
+const { t } = useI18n()
 </script>
 
 <template>
@@ -26,16 +26,16 @@ import { NuxtLinkLocale } from '#components';
         </svg>
       </div>
       <h3 class="text-xl font-bold text-gray-800 mb-3">
-        {{ $t('euStorage.title') }}
+        {{ t('title') }}
       </h3>
       <p class="text-gray-600 mb-4 leading-relaxed text-sm">
-        {{ $t('euStorage.description') }}
+        {{ t('description') }}
       </p>
       <NuxtLinkLocale to="general-datasafety">
         <button
           class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white font-semibold rounded-lg transition-all duration-200 shadow-md hover:shadow-lg transform hover:scale-105 text-sm"
         >
-          {{ $t('euStorage.moreAboutSecurity') }}
+          {{ t('moreAboutSecurity') }}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-4 w-4"
@@ -62,3 +62,23 @@ import { NuxtLinkLocale } from '#components';
   -webkit-backdrop-filter: blur(16px);
 }
 </style>
+
+<i18n lang="json">
+{
+  "de": {
+    "title": "Speicherung und Datenverarbeitung in der EU",
+    "description": "Alle Ihre Daten werden ausschließlich auf Servern innerhalb der Europäischen Union verarbeitet und gespeichert. Wir setzen auf lokale Infrastruktur für maximale Datensicherheit.",
+    "moreAboutSecurity": "Mehr über Sicherheit"
+  },
+  "en": {
+    "title": "Storage and Data Processing in the EU",
+    "description": "All your data is processed and stored exclusively on servers within the European Union. We rely on local infrastructure for maximum data security.",
+    "moreAboutSecurity": "More about Security"
+  },
+  "nl": {
+    "title": "Opslag en gegevensverwerking in de EU",
+    "description": "Al uw gegevens worden uitsluitend op servers binnen de Europese Unie verwerkt en opgeslagen. We zetten in op lokale infrastructuur voor maximale gegevensbeveiliging.",
+    "moreAboutSecurity": "Meer over beveiliging"
+  }
+}
+</i18n>

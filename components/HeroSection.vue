@@ -6,21 +6,21 @@
       <div class="backdrop-blur-sm bg-white/20 p-6 md:p-10 rounded-3xl shadow-2xl border border-white/30 w-full md:w-3/5 lg:w-3/5">
         <div class="relative w-full flex justify-center mb-6 md:mb-8 px-4 md:px-8">
           <h1 class="font-display text-2xl md:text-5xl lg:text-5xl font-bold text-white tracking-tight leading-tight" style="text-shadow: 0 3px 6px rgba(0,0,0,0.4);">
-            {{ $t('hero.title') }}
+            {{ t('title') }}
           </h1>
           <div class="absolute -inset-1 bg-gradient-to-r from-accent to-secondary opacity-30 blur-lg rounded-lg">
           </div>
         </div>
         <p class="py-6 md:py-8 text-lg md:text-xl font-medium text-white leading-relaxed tracking-wide max-w-2xl mx-auto" style="text-shadow: 0 0 6px rgba(0,0,0,0.8);">
-          {{ $t('hero.description') }}
+          {{ t('description') }}
         </p>
         <div class="flex flex-col items-center mt-6">
           <a :href="registerUrl">
-            <button class="font-display bg-pink-500 text-white text-lg md:text-xl font-bold py-3 px-10 md:py-4 md:px-14 rounded-full hover:bg-pink-600 transition-all shadow-xl tracking-wide">{{ $t('hero.startNow') }}</button>
+            <button class="font-display bg-pink-500 text-white text-lg md:text-xl font-bold py-3 px-10 md:py-4 md:px-14 rounded-full hover:bg-pink-600 transition-all shadow-xl tracking-wide">{{ t('startNow') }}</button>
           </a>
         </div>
       </div>
-      
+
       <!-- Logo Container -->
       <div class="backdrop-blur-sm bg-white/20 p-8 md:p-10 rounded-3xl shadow-2xl border border-white/30 w-full md:w-1/5 mt-8 md:mt-0">
         <div class="logo-container flex justify-center">
@@ -36,10 +36,11 @@
   </div>
 </template>
 
-<script setup>
-import LogoSingle from './LogoSingle.vue';
+<script setup lang="ts">
+import LogoSingle from './LogoSingle.vue'
 
-const { registerUrl } = useAppUrl();
+const { t } = useI18n()
+const { registerUrl } = useAppUrl()
 </script>
 
 <style scoped>
@@ -118,4 +119,30 @@ const { registerUrl } = useAppUrl();
     transform: scale(1);
   }
 }
-</style> 
+</style>
+
+<i18n lang="json">
+{
+  "de": {
+    "title": "Automatisch Schreiben mit Diktat AI",
+    "description": "Diktat AI bietet schnelle und präzise Transkriptionen für Meetings, Interviews und mehr. Ideal für Berufstätige und Teams, die Zeit sparen und sich auf das Wesentliche konzentrieren möchten. Ihre Daten sind sicher und DSGVO-konform.",
+    "startNow": "Jetzt starten",
+    "subDescription": "Sparen Sie bis zu 80% Ihrer Zeit bei der Transkription. Starten Sie jetzt kostenlos – keine Kreditkarte erforderlich.",
+    "socialProof": "Bereits über 1.000 Nutzer sparen täglich Zeit"
+  },
+  "en": {
+    "title": "Autowrite with Dictate AI",
+    "description": "Dictate AI offers fast and accurate transcriptions for meetings, interviews, and more. Ideal for professionals and teams who want to save time and focus on what matters. Your data is secure and GDPR-compliant.",
+    "startNow": "Start Now",
+    "subDescription": "Save up to 80% of your time on transcription. Start free now – no credit card required.",
+    "socialProof": "Already over 1,000 users save time daily"
+  },
+  "nl": {
+    "title": "Transcriberen met Diktat AI",
+    "description": "Diktat AI biedt snelle en nauwkeurige transcripties voor meetings, interviews en meer. Ideaal voor professionals en teams die tijd willen besparen en zich op het wezenlijke willen concentreren. Uw gegevens zijn veilig en worden GDPR-conform verwerkt.",
+    "startNow": "Nu starten",
+    "subDescription": "Bespaar tot 80% van uw tijd bij het transcriberen. Start nu gratis – geen creditcard vereist.",
+    "socialProof": "Al meer dan 1.000 gebruikers besparen dagelijks tijd"
+  }
+}
+</i18n> 

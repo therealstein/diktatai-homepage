@@ -1,9 +1,9 @@
 <template>
   <div class="container mx-auto px-4 py-20">
     <div class="text-center mb-16">
-      <h2 class="font-display text-4xl font-bold tracking-tight mb-5">{{ $t('integrations.title') }}</h2>
+      <h2 class="font-display text-4xl font-bold tracking-tight mb-5">{{ t('title') }}</h2>
       <p class="text-lg max-w-2xl mx-auto text-base-content/80">
-        {{ $t('integrations.description') }}
+        {{ t('description') }}
       </p>
     </div>
     
@@ -23,18 +23,18 @@
               </svg>
             </div>
             <div class="inline-flex items-center px-4 py-1 rounded-full bg-white/20 text-white text-sm font-medium">
-              {{ $t('integrations.available') }}
+              {{ t('available') }}
             </div>
           </div>
-          
-          <h3 class="text-3xl font-display font-bold text-white mb-4">{{ $t('integrations.emailTitle') }}</h3>
+
+          <h3 class="text-3xl font-display font-bold text-white mb-4">{{ t('emailTitle') }}</h3>
           <p class="text-white/90 text-lg mb-6 flex-grow">
-            {{ $t('integrations.emailDescription') }}
+            {{ t('emailDescription') }}
           </p>
-          
+
           <div class="mt-auto">
             <NuxtLinkLocale to="general-help" class="inline-flex items-center gap-2 bg-white text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition-colors duration-300">
-              {{ $t('integrations.howItWorks') }}
+              {{ t('howItWorks') }}
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -59,21 +59,21 @@
               </svg>
             </div>
             <div class="inline-flex items-center px-4 py-1 rounded-full bg-[#003976]/30 text-white text-sm font-medium">
-              {{ $t('integrations.available') }}
+              {{ t('available') }}
             </div>
           </div>
-          
-          <h3 class="text-3xl font-display font-bold text-white mb-4">{{ $t('integrations.softwareTitle') }}</h3>
+
+          <h3 class="text-3xl font-display font-bold text-white mb-4">{{ t('softwareTitle') }}</h3>
           <p class="text-white/90 text-lg mb-6 flex-grow">
-            {{ $t('integrations.softwareDescription') }}
+            {{ t('softwareDescription') }}
           </p>
-          
+
           <div class="mt-auto">
-            <NuxtLinkLocale 
-              to="general-kontakt" 
+            <NuxtLinkLocale
+              to="general-kontakt"
               class="inline-flex items-center gap-2 bg-[#003976] text-white hover:bg-[#00457d] px-6 py-3 rounded-lg font-medium transition-colors duration-300"
             >
-              {{ $t('integrations.requestSolution') }}
+              {{ t('requestSolution') }}
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -84,29 +84,88 @@
     </div>
 
     <div class="mt-16 text-center">
-      <h3 class="text-2xl font-bold mb-6">{{ $t('integrations.whyValuable') }}</h3>
+      <h3 class="text-2xl font-bold mb-6">{{ t('whyValuable') }}</h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
         <div>
-          <h4 class="font-bold mb-2">{{ $t('integrations.flexibility') }}</h4>
-          <p class="text-base-content/80">{{ $t('integrations.flexibilityDescription') }}</p>
+          <h4 class="font-bold mb-2">{{ t('flexibility') }}</h4>
+          <p class="text-base-content/80">{{ t('flexibilityDescription') }}</p>
         </div>
         <div>
-          <h4 class="font-bold mb-2">{{ $t('integrations.timeSaving') }}</h4>
-          <p class="text-base-content/80">{{ $t('integrations.timeSavingDescription') }}</p>
+          <h4 class="font-bold mb-2">{{ t('timeSaving') }}</h4>
+          <p class="text-base-content/80">{{ t('timeSavingDescription') }}</p>
         </div>
         <div>
-          <h4 class="font-bold mb-2">{{ $t('integrations.seamlessProcesses') }}</h4>
-          <p class="text-base-content/80">{{ $t('integrations.seamlessProcessesDescription') }}</p>
+          <h4 class="font-bold mb-2">{{ t('seamlessProcesses') }}</h4>
+          <p class="text-base-content/80">{{ t('seamlessProcessesDescription') }}</p>
         </div>
       </div>
     </div>
   </div>
 </template>
 
-<script setup>
-// Remove the old notification function since it's no longer needed
+<script setup lang="ts">
+const { t } = useI18n()
 </script>
 
 <style scoped>
 /* Add any component-specific styles here if needed */
-</style> 
+</style>
+
+<i18n lang="json">
+{
+  "de": {
+    "title": "Nahtlose Integrationen",
+    "description": "Diktat AI fügt sich nahtlos in Ihre bevorzugten Tools und Workflows ein",
+    "available": "Verfügbar",
+    "emailTitle": "E-Mail-Integration",
+    "emailDescription": "Leiten Sie Audioaufnahmen direkt an Ihre Diktat AI E-Mail-Adresse weiter für sofortige Transkription.",
+    "howItWorks": "So funktioniert's:",
+    "softwareTitle": "Software-Integration",
+    "softwareDescription": "Verbinden Sie Diktat AI über unsere API oder Webhooks mit Ihrem bestehenden Software-Stack.",
+    "requestSolution": "Individuelle Lösung anfragen",
+    "whyValuable": "Warum Integrationen wertvoll sind:",
+    "flexibility": "Flexibilität",
+    "flexibilityDescription": "Wählen Sie, wie Sie Diktat AI nutzen möchten – über unsere Web-Oberfläche, E-Mail oder API.",
+    "timeSaving": "Zeitersparnis",
+    "timeSavingDescription": "Automatisieren Sie Ihren Workflow durch die direkte Integration von Diktat AI in Ihre bestehenden Tools.",
+    "seamlessProcesses": "Nahtlose Prozesse",
+    "seamlessProcessesDescription": "Behalten Sie Ihren aktuellen Workflow bei und fügen Sie leistungsstarke Transkriptionsfunktionen hinzu."
+  },
+  "en": {
+    "title": "Seamless Integrations",
+    "description": "Dictate AI integrates with your favorite tools and workflows",
+    "available": "Available",
+    "emailTitle": "Email Integration",
+    "emailDescription": "Forward audio recordings directly to your Dictate AI email address for instant transcription.",
+    "howItWorks": "How it works:",
+    "softwareTitle": "Software Integration",
+    "softwareDescription": "Connect Dictate AI with your existing software stack through our API or webhooks.",
+    "requestSolution": "Request a custom solution",
+    "whyValuable": "Why integrations are valuable:",
+    "flexibility": "Flexibility",
+    "flexibilityDescription": "Choose how you want to use Dictate AI - through our web interface, email, or API.",
+    "timeSaving": "Time Saving",
+    "timeSavingDescription": "Automate your workflow by integrating Dictate AI directly into your existing tools.",
+    "seamlessProcesses": "Seamless Processes",
+    "seamlessProcessesDescription": "Maintain your current workflow while adding powerful transcription capabilities."
+  },
+  "nl": {
+    "title": "Diktat AI past zich aan uw workflow aan",
+    "description": "We maken het u gemakkelijk om transcripties precies daar te ontvangen waar u ze nodig heeft. Ontdek onze flexibele mogelijkheden om Diktat AI naadloos in uw dagelijkse werk te integreren.",
+    "available": "Beschikbaar",
+    "emailTitle": "Eenvoudig per e-mail transcriberen",
+    "emailDescription": "De snelste weg naar het voltooide transcript – helemaal zonder login. Stuur ons uw audiobestand direct als bijlage per e-mail. Diktat AI neemt de omzetting naar tekst over en levert u het resultaat comfortabel terug.",
+    "howItWorks": "Zo werkt het:",
+    "softwareTitle": "Automatische koppeling met uw software",
+    "softwareDescription": "Naadloze integratie voor maximale efficiëntie. Uw transcripties landen automatisch precies daar waar u ze verder verwerkt – of het nu in uw CRM-systeem, uw projectmanagementsoftware of een ander belangrijk hulpmiddel is.",
+    "requestSolution": "Individuele oplossing aanvragen",
+    "whyValuable": "Waarom integraties waardevol zijn:",
+    "flexibility": "Flexibiliteit",
+    "flexibilityDescription": "Kies hoe u Diktat AI wilt gebruiken - via onze webinterface, e-mail of API.",
+    "timeSaving": "Tijdsbesparing",
+    "timeSavingDescription": "Automatiseer uw workflow door directe integratie van Diktat AI in uw bestaande tools.",
+    "seamlessProcesses": "Naadloze processen",
+    "seamlessProcessesDescription": "Behoud uw huidige workflow en voeg krachtige transcriptiefuncties toe."
+  }
+}
+</i18n> 

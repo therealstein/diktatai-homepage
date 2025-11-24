@@ -1,10 +1,10 @@
 <template>
   <div class="container mx-auto px-4 py-16">
-    <h2 class="font-display text-4xl font-bold text-center mb-4 tracking-tight">{{ $t('businessSolutions.title') }}</h2>
+    <h2 class="font-display text-4xl font-bold text-center mb-4 tracking-tight">{{ t('title') }}</h2>
     <p class="text-lg font-medium text-base-content/80 max-w-3xl mx-auto text-center mb-12 leading-relaxed">
-      {{ $t('businessSolutions.description') }}
+      {{ t('description') }}
     </p>
-    
+
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- EU KI-Gesetz Card -->
       <NuxtLinkLocale to="general-eu-ki-gesetz" class="card glass bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 rounded-3xl border border-base-300">
@@ -16,8 +16,8 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('businessSolutions.aiAct.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('businessSolutions.aiAct.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('aiAct.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('aiAct.description') }}</p>
         </div>
       </NuxtLinkLocale>
 
@@ -31,8 +31,8 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('businessSolutions.sme.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('businessSolutions.sme.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('sme.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('sme.description') }}</p>
         </div>
       </NuxtLinkLocale>
 
@@ -46,8 +46,8 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('businessSolutions.government.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('businessSolutions.government.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('government.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('government.description') }}</p>
         </div>
       </NuxtLinkLocale>
 
@@ -61,8 +61,8 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('businessSolutions.regulated.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('businessSolutions.regulated.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('regulated.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('regulated.description') }}</p>
         </div>
       </NuxtLinkLocale>
 
@@ -76,8 +76,8 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('businessSolutions.business.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('businessSolutions.business.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('business.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('business.description') }}</p>
         </div>
       </NuxtLinkLocale>
 
@@ -91,16 +91,16 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('businessSolutions.suite.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('businessSolutions.suite.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('suite.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('suite.description') }}</p>
         </div>
       </NuxtLinkLocale>
     </div>
   </div>
 </template>
 
-<script setup>
-// No props or custom logic needed yet
+<script setup lang="ts">
+const { t } = useI18n()
 </script>
 
 <style scoped>
@@ -110,4 +110,93 @@
 .card:hover {
   transform: translateY(-5px);
 }
-</style> 
+</style>
+
+<i18n lang="json">
+{
+  "de": {
+    "title": "Lösungen für Unternehmen und Organisationen",
+    "description": "Entdecken Sie, wie Diktat AI speziell auf die Anforderungen verschiedener Organisationen und Branchen zugeschnitten ist",
+    "aiAct": {
+      "title": "EU KI-Gesetz (AI Act) & Diktat AI",
+      "description": "Das neue EU KI-Gesetz kommt. Erfahren Sie, was der AI Act für KI-Anwendungen wie Diktat AI bedeutet, welche Anforderungen gelten und wie wir uns auf eine verantwortungsvolle und konforme Zukunft vorbereiten."
+    },
+    "sme": {
+      "title": "KI-Potenziale im Mittelstand nutzen",
+      "description": "Entdecken Sie, wie Diktat AI speziell kleinen und mittleren Unternehmen (KMU) hilft, Prozesse zu optimieren, wertvolle Zeit zu sparen und die Produktivität ohne große IT-Investitionen zu steigern."
+    },
+    "government": {
+      "title": "Sicherer Einsatz in Behörden",
+      "description": "Datenschutz, Sicherheit und Zuverlässigkeit sind im öffentlichen Sektor entscheidend. Lesen Sie, wie Diktat AI die besonderen Anforderungen von Behörden und Verwaltungen erfüllt und effiziente Workflows ermöglicht."
+    },
+    "regulated": {
+      "title": "Compliance in Regulierten Branchen",
+      "description": "Für Branchen wie Finanzen, Recht oder Gesundheit gelten strenge Vorschriften. Erfahren Sie, wie Diktat AI Vertraulichkeit gewährleistet und Compliance-Anforderungen bei der Transkription unterstützt."
+    },
+    "business": {
+      "title": "Diktat AI für Unternehmen",
+      "description": "Erfahren Sie mehr über die vielfältigen Einsatzmöglichkeiten von Diktat AI in Unternehmen jeder Größe – von der Meeting-Dokumentation bis zur Content-Erstellung. Skalierbare Lösungen für Ihren Erfolg."
+    },
+    "suite": {
+      "title": "Die Diktat AI Business Suite",
+      "description": "Entdecken Sie unsere Premium-Lösungen für Teams und Power-User. Profitieren Sie von erweiterten Funktionen, Team-Management, Prioritäts-Support und maßgeschneiderten Optionen für höchste Ansprüche."
+    }
+  },
+  "en": {
+    "title": "Solutions for Businesses and Organizations",
+    "description": "Discover how Dictate AI is tailored to meet the specific needs of various organizations and industries",
+    "aiAct": {
+      "title": "EU AI Act & Dictate AI",
+      "description": "The new EU AI Act is coming. Learn what the AI Act means for AI applications like Dictate AI, what requirements apply, and how we're preparing for a responsible and compliant future."
+    },
+    "sme": {
+      "title": "Leveraging AI Potential for SMEs",
+      "description": "Discover how Dictate AI specifically helps small and medium-sized enterprises (SMEs) optimize processes, save valuable time, and increase productivity without major IT investments."
+    },
+    "government": {
+      "title": "Secure Use in Government Agencies",
+      "description": "Data protection, security, and reliability are crucial in the public sector. Read how Dictate AI meets the special requirements of government agencies and administrations and enables efficient workflows."
+    },
+    "regulated": {
+      "title": "Compliance in Regulated Industries",
+      "description": "Strict regulations apply to industries such as finance, law, or healthcare. Learn how Dictate AI ensures confidentiality and supports compliance requirements in transcription."
+    },
+    "business": {
+      "title": "Dictate AI for Businesses",
+      "description": "Learn more about the diverse applications of Dictate AI in businesses of all sizes – from meeting documentation to content creation. Scalable solutions for your success."
+    },
+    "suite": {
+      "title": "The Dictate AI Business Suite",
+      "description": "Discover our premium solutions for teams and power users. Benefit from advanced features, team management, priority support, and customized options for the highest demands."
+    }
+  },
+  "nl": {
+    "title": "Oplossingen voor bedrijven en organisaties",
+    "description": "Ontdek hoe Diktat AI speciaal is afgestemd op de eisen van verschillende organisaties en branches",
+    "aiAct": {
+      "title": "EU AI-Wet (AI Act) & Diktat AI",
+      "description": "De nieuwe EU AI-Wet komt eraan. Lees wat de AI Act betekent voor AI-toepassingen zoals Diktat AI, welke eisen gelden en hoe we ons voorbereiden op een verantwoorde en conforme toekomst."
+    },
+    "sme": {
+      "title": "AI-potentieel in het MKB benutten",
+      "description": "Ontdek hoe Diktat AI specifiek kleine en middelgrote ondernemingen (MKB) helpt om processen te optimaliseren, waardevolle tijd te besparen en de productiviteit te verhogen zonder grote IT-investeringen."
+    },
+    "government": {
+      "title": "Veilig gebruik in overheidsinstanties",
+      "description": "Gegevensbescherming, veiligheid en betrouwbaarheid zijn cruciaal in de publieke sector. Lees hoe Diktat AI voldoet aan de bijzondere eisen van overheidsinstanties en overheden en efficiënte workflows mogelijk maakt."
+    },
+    "regulated": {
+      "title": "Compliance in gereguleerde branches",
+      "description": "Voor branches zoals financiën, recht of gezondheidszorg gelden strenge voorschriften. Lees hoe Diktat AI vertrouwelijkheid waarborgt en compliance-eisen bij transcriptie ondersteunt."
+    },
+    "business": {
+      "title": "Diktat AI voor bedrijven",
+      "description": "Lees meer over de veelzijdige toepassingsmogelijkheden van Diktat AI in bedrijven van elke omvang – van meeting-documentatie tot content-creatie. Schaalbare oplossingen voor uw succes."
+    },
+    "suite": {
+      "title": "De Diktat AI Business Suite",
+      "description": "Ontdek onze premium-oplossingen voor teams en power-users. Profiteer van uitgebreide functies, team-management, prioriteitsondersteuning en maatwerkopties voor de hoogste eisen."
+    }
+  }
+}
+</i18n> 

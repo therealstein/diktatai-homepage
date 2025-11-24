@@ -1,8 +1,8 @@
 <template>
   <div class="container mx-auto px-4 py-16">
-    <h2 class="font-display text-4xl font-bold text-center mb-4 tracking-tight">{{ $t('userGroups.title') }}</h2>
+    <h2 class="font-display text-4xl font-bold text-center mb-4 tracking-tight">{{ t('title') }}</h2>
     <p class="text-lg font-medium text-base-content/80 max-w-3xl mx-auto text-center mb-12 leading-relaxed">
-      {{ $t('userGroups.description') }}
+      {{ t('description') }}
     </p>
     
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -16,8 +16,8 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('userGroups.journalists.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('userGroups.journalists.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('journalists.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('journalists.description') }}</p>
         </div>
       </NuxtLinkLocale>
 
@@ -31,8 +31,8 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('userGroups.contentCreators.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('userGroups.contentCreators.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('contentCreators.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('contentCreators.description') }}</p>
         </div>
       </NuxtLinkLocale>
 
@@ -46,8 +46,8 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('userGroups.lawyers.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('userGroups.lawyers.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('lawyers.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('lawyers.description') }}</p>
         </div>
       </NuxtLinkLocale>
 
@@ -63,8 +63,8 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('userGroups.students.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('userGroups.students.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('students.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('students.description') }}</p>
         </div>
       </NuxtLinkLocale>
 
@@ -78,8 +78,8 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('userGroups.businessLeaders.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('userGroups.businessLeaders.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('businessLeaders.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('businessLeaders.description') }}</p>
         </div>
       </NuxtLinkLocale>
 
@@ -93,16 +93,16 @@
           </div>
         </figure>
         <div class="card-body items-center text-center">
-          <h3 class="card-title font-display text-xl font-bold">{{ $t('userGroups.consultants.title') }}</h3>
-          <p class="text-base-content/80 leading-relaxed">{{ $t('userGroups.consultants.description') }}</p>
+          <h3 class="card-title font-display text-xl font-bold">{{ t('consultants.title') }}</h3>
+          <p class="text-base-content/80 leading-relaxed">{{ t('consultants.description') }}</p>
         </div>
       </NuxtLinkLocale>
     </div>
   </div>
 </template>
 
-<script setup>
-// No props or custom logic needed yet
+<script setup lang="ts">
+const { t } = useI18n()
 </script>
 
 <style scoped>
@@ -112,4 +112,93 @@
 .card:hover {
   transform: translateY(-5px);
 }
-</style> 
+</style>
+
+<i18n lang="json">
+{
+  "de": {
+    "title": "Berufsgruppen, für die Diktat AI unverzichtbar ist",
+    "description": "Entdecken Sie, wie verschiedene Berufsgruppen Diktat AI nutzen, um ihre tägliche Arbeit effizienter zu gestalten",
+    "journalists": {
+      "title": "Journalisten & Redakteure",
+      "description": "Wandeln Sie Interviews, Pressekonferenzen und Recherche-Aufnahmen blitzschnell in bearbeitbaren Text um."
+    },
+    "contentCreators": {
+      "title": "Content Creators",
+      "description": "Erstellen Sie mühelos Transkripte für Show Notes, Untertitel, Blogartikel oder zur Inhaltsanalyse."
+    },
+    "lawyers": {
+      "title": "Juristen & Anwälte",
+      "description": "Erfassen Sie Diktate, Mandantengespräche oder Protokolle sicher und DSGVO-konform als Text."
+    },
+    "students": {
+      "title": "Studenten & Akademiker",
+      "description": "Transkribieren Sie Vorlesungen, Seminare und Interviews für Abschlussarbeiten oder Forschungsprojekte."
+    },
+    "businessLeaders": {
+      "title": "Geschäftsleute & Führungskräfte",
+      "description": "Halten Sie Meeting-Ergebnisse, spontane Ideen oder diktierte Notizen präzise fest."
+    },
+    "consultants": {
+      "title": "Berater & Coaches",
+      "description": "Dokumentieren Sie Kundengespräche und Sitzungen effizient für eine optimale Nachbereitung."
+    }
+  },
+  "en": {
+    "title": "Professions for which Dictate AI is indispensable",
+    "description": "Discover how different professions use Dictate AI to make their daily work more efficient",
+    "journalists": {
+      "title": "Journalists & Editors",
+      "description": "Quickly convert interviews, press conferences, and research recordings into editable text."
+    },
+    "contentCreators": {
+      "title": "Content Creators",
+      "description": "Effortlessly create transcripts for show notes, subtitles, blog articles, or content analysis."
+    },
+    "lawyers": {
+      "title": "Lawyers & Attorneys",
+      "description": "Capture dictations, client conversations, or transcripts securely and GDPR-compliant as text."
+    },
+    "students": {
+      "title": "Students & Academics",
+      "description": "Transcribe lectures, seminars, and interviews for theses or research projects."
+    },
+    "businessLeaders": {
+      "title": "Business Leaders & Executives",
+      "description": "Accurately record meeting results, spontaneous ideas, or dictated notes."
+    },
+    "consultants": {
+      "title": "Consultants & Coaches",
+      "description": "Efficiently document client conversations and sessions for optimal follow-up."
+    }
+  },
+  "nl": {
+    "title": "Beroepsgroepen waarvoor Diktat AI onmisbaar is",
+    "description": "Ontdek hoe verschillende beroepsgroepen Diktat AI gebruiken om hun dagelijkse werk efficiënter te maken",
+    "journalists": {
+      "title": "Journalisten & Redacteuren",
+      "description": "Zet interviews, persconferenties en onderzoeksopnames razendsnel om in bewerkbare tekst."
+    },
+    "contentCreators": {
+      "title": "Content Creators",
+      "description": "Creëer moeiteloos transcripties voor show notes, ondertitels, blogartikelen of voor inhoudsanalyse."
+    },
+    "lawyers": {
+      "title": "Juristen & Advocaten",
+      "description": "Leg dictaten, cliëntgesprekken of aantekeningen veilig en GDPR-conform vast als tekst."
+    },
+    "students": {
+      "title": "Studenten & Academici",
+      "description": "Transcribeer colleges, seminars en interviews voor afstudeerprojecten of onderzoeksprojecten."
+    },
+    "businessLeaders": {
+      "title": "Zakenmensen & Leidinggevenden",
+      "description": "Leg meeting-resultaten, spontane ideeën of gedicteerde notities nauwkeurig vast."
+    },
+    "consultants": {
+      "title": "Adviseurs & Coaches",
+      "description": "Documenteer klantgesprekken en sessies efficiënt voor optimale naverwerking."
+    }
+  }
+}
+</i18n> 

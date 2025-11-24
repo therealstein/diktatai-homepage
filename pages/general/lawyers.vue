@@ -44,7 +44,7 @@
                   clip-rule="evenodd"
                 />
               </svg>
-              Server in Deutschland
+              {{ t("badge.euServer") }}
             </span>
           </div>
 
@@ -147,7 +147,7 @@
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="text-sm font-medium">Server in Deutschland</span>
+                <span class="text-sm font-medium">{{ t("badge.euServer") }}</span>
               </div>
             </div>
           </div>
@@ -735,6 +735,9 @@ useHead({
 <i18n lang="json">
 {
   "de": {
+    "badge": {
+      "euServer": "Server in der EU"
+    },
     "meta": {
       "title": "Diktat AI für Kanzleien = Effiziente Transkription für Kanzleien",
       "description": "Diktat AI für Kanzleien: Effiziente Transkription von juristischen Diktaten, Mandantengesprächen und Vermerken. DSGVO-konform & sicher."
@@ -857,6 +860,9 @@ useHead({
     }
   },
   "en": {
+    "badge": {
+      "euServer": "Server in the EU"
+    },
     "meta": {
       "title": "Diktat AI for Law Firms = Efficient Transcription for Law Firms",
       "description": "Diktat AI for Law Firms: Efficient transcription of legal dictations, client meetings, and memos. GDPR-compliant & secure."
@@ -979,6 +985,9 @@ useHead({
     }
   },
   "nl": {
+    "badge": {
+      "euServer": "Server in de EU"
+    },
     "meta": {
       "title": "DiktatAI voor advocatenkantoren = Efficiënte transcriptie voor kantoren",
       "description": "DiktatAI voor advocatenkantoren: Efficiënte transcriptie van juridische dictaten, cliëntgesprekken en aantekeningen. AVG-conform & veilig."

@@ -1,83 +1,11 @@
 {
   "welcome": "Willkommen",
-  "components": {
-    "logo": {
-      "name": "DiktatAI"
-    },
-    "cta": {
-      "title": "Schluss mit Tippen: Diktat AI erledigt die Transkription.",
-      "description": "Verwandeln Sie gesprochene Worte mühelos in präzisen Text. Diktat AI nimmt Ihnen die Tipparbeit ab, damit Sie sich auf das Wesentliche konzentrieren können – egal ob Meeting-Notizen, Interviews oder spontane Ideen. Sparen Sie wertvolle Zeit und steigern Sie Ihre Produktivität.",
-      "startFree": "Kostenlos starten",
-      "viewPricing": "Preise ansehen"
-    }
-  },
-  "userGroups": {
-    "title": "Berufsgruppen, für die Diktat AI unverzichtbar ist",
-    "description": "Entdecken Sie, wie verschiedene Berufsgruppen Diktat AI nutzen, um ihre tägliche Arbeit effizienter zu gestalten",
-    "journalists": {
-      "title": "Journalisten & Redakteure",
-      "description": "Verwandeln Sie Interviews, Pressekonferenzen und Recherche-Aufnahmen blitzschnell in bearbeitbaren Text."
-    },
-    "contentCreators": {
-      "title": "Content Creator",
-      "description": "Erstellen Sie mühelos Transkripte für Show Notes, Untertitel, Blogartikel oder zur Inhaltanalyse."
-    },
-    "lawyers": {
-      "title": "Juristen & Anwälte",
-      "description": "Erfassen Sie Diktate, Mandantengespräche oder Mitschriften sicher und DSGVO-konform als Text."
-    },
-    "students": {
-      "title": "Studierende & Akademiker",
-      "description": "Transkribieren Sie Vorlesungen, Seminare und Interviews für Abschlussarbeiten oder Forschungsprojekte."
-    },
-    "businessLeaders": {
-      "title": "Geschäftsleute & Führungskräfte",
-      "description": "Halten Sie Meeting-Ergebnisse, spontane Ideen oder diktierte Notizen präzise fest."
-    },
-    "consultants": {
-      "title": "Berater & Coaches",
-      "description": "Dokumentieren Sie Kundengespräche und Sitzungen effizient für optimale Nachbereitung."
-    }
-  },
-  "businessSolutions": {
-    "title": "Lösungen für Unternehmen und Organisationen",
-    "description": "Entdecken Sie, wie Diktat AI speziell auf die Anforderungen verschiedener Organisationen und Branchen zugeschnitten ist",
-    "aiAct": {
-      "title": "EU KI-Gesetz (AI Act) & Diktat AI",
-      "description": "Das neue EU KI-Gesetz kommt. Erfahren Sie, was der AI Act für KI-Anwendungen wie Diktat AI bedeutet, welche Anforderungen gelten und wie wir uns auf eine verantwortungsvolle und konforme Zukunft vorbereiten."
-    },
-    "sme": {
-      "title": "KI-Potenziale im Mittelstand nutzen",
-      "description": "Entdecken Sie, wie Diktat AI speziell kleinen und mittleren Unternehmen (KMU) hilft, Prozesse zu optimieren, wertvolle Zeit zu sparen und die Produktivität ohne große IT-Investitionen zu steigern."
-    },
-    "government": {
-      "title": "Sicherer Einsatz in Behörden",
-      "description": "Datenschutz, Sicherheit und Zuverlässigkeit sind im öffentlichen Sektor entscheidend. Lesen Sie, wie Diktat AI die besonderen Anforderungen von Behörden und Verwaltungen erfüllt und effiziente Workflows ermöglicht."
-    },
-    "regulated": {
-      "title": "Compliance in Regulierten Branchen",
-      "description": "Für Branchen wie Finanzen, Recht oder Gesundheit gelten strenge Vorschriften. Erfahren Sie, wie Diktat AI Vertraulichkeit gewährleistet und Compliance-Anforderungen bei der Transkription unterstützt."
-    },
-    "business": {
-      "title": "Diktat AI für Unternehmen",
-      "description": "Erfahren Sie mehr über die vielfältigen Einsatzmöglichkeiten von Diktat AI in Unternehmen jeder Größe – von der Meeting-Dokumentation bis zur Content-Erstellung. Skalierbare Lösungen für Ihren Erfolg."
-    },
-    "suite": {
-      "title": "Die Diktat AI Business Suite",
-      "description": "Entdecken Sie unsere Premium-Lösungen für Teams und Power-User. Profitieren Sie von erweiterten Funktionen, Team-Management, Prioritäts-Support und maßgeschneiderten Optionen für höchste Ansprüche."
-    }
-  },
   "transcription": {
     "noTranscriptionAvailable": "Keine Transkription verfügbar",
     "noTranscriptionsAvailable": "Keine Transkriptionen verfügbar",
     "noTimestampedChunksAvailable": "Keine Transkriptionsabschnitte mit Zeitstempeln verfügbar",
     "jumpTo": "Springe zu",
     "context": "Kontext"
-  },
-  "navbar": {
-    "howitworks": "KI Transkription",
-    "pricing": "Preise",
-    "login": "Anmelden"
   },
   "payment": {
     "invoiceTitle": "Rechnungskauf",
@@ -87,68 +15,6 @@
     "processing": "Verarbeitung...",
     "completePurchase": "Kostenpflichtig abschließen",
     "proceedToCreditCard": "Weiter zur Kreditkartenzahlung"
-  },
-  "hero": {
-    "title": "Transkribieren mit Diktat AI",
-    "description": "Diktat AI bietet schnelle und präzise Transkriptionen für Meetings, Interviews und mehr. Ideal für Berufstätige und Teams, die Zeit sparen und sich auf das Wesentliche konzentrieren möchten. Ihre Daten sind sicher und werden DSGVO-konform verarbeitet.",
-    "startNow": "Jetzt starten",
-    "subDescription": "Sparen Sie bis zu 80% Ihrer Zeit bei der Transkription. Jetzt kostenlos starten – keine Kreditkarte erforderlich.",
-    "socialProof": "Schon über 1.000 Nutzer sparen täglich Zeit"
-  },
-  "faq": {
-    "title": "Häufig gestellte Fragen zu Diktat AI",
-    "description": "Hier finden Sie Antworten auf die wichtigsten Fragen zu Diktat AI, Ihrem intelligenten Assistenten für die Umwandlung von Sprache in Text.",
-    "item1": {
-      "title": "Was genau macht Diktat AI?",
-      "description": "Diktat AI ist Ihr cleverer Helfer, der gesprochene Worte automatisch in geschriebenen Text umwandelt. Laden Sie einfach Ihre Audioaufnahme hoch (z.B. von Meetings, Interviews, Vorlesungen oder Sprachnotizen) und unsere künstliche Intelligenz erledigt den Rest – schnell und zuverlässig. So erhalten Sie im Handumdrehen ein schriftliches Protokoll oder eine Mitschrift, ohne selbst tippen zu müssen."
-    },
-    "item2": {
-      "title": "Für wen ist Diktat AI geeignet?",
-      "description": "Diktat AI ist perfekt für alle, die regelmäßig Audioaufnahmen in Text umwandeln müssen und dabei wertvolle Zeit sparen möchten. Dazu gehören:",
-      "professionals": "Vielbeschäftigte Berufstätige: Protokollieren Sie Meetings und Telefonate mühelos.",
-      "teams": "Effiziente Teams: Teilen Sie wichtige Gesprächsinhalte schnell und einfach schriftlich.",
-      "students": "Studierende: Wandeln Sie Vorlesungen und Lernnotizen in durchsuchbare Texte um.",
-      "journalists": "Journalisten & Podcaster: Transkribieren Sie Interviews und Audioinhalte blitzschnell.",
-      "creators": "Content Creator: Erstellen Sie Untertitel oder Blogartikel aus Ihren Video- und Audioinhalten.",
-      "noteTakers": "Jeder, der Notizen macht: Halten Sie spontane Ideen und Gedanken einfach per Sprache fest."
-    },
-    "item3": {
-      "title": "Wie hilft mir Diktat AI, Zeit zu sparen?",
-      "description": "Das manuelle Abtippen von Audioaufnahmen ist mühsam und kostet oft Stunden Ihrer kostbaren Zeit. Diktat AI erledigt diese Aufgabe in einem Bruchteil der Zeit. Statt sich mit dem Tippen aufzuhalten, können Sie sich auf wichtigere Aufgaben konzentrieren, Ihre Inhalte schneller aufbereiten oder Ihre Ergebnisse zügiger analysieren. Das bedeutet: Mehr Produktivität für Sie und weniger lästige Routinearbeit."
-    },
-    "item4": {
-      "title": "Sind meine Daten bei Diktat AI sicher?",
-      "description": "Absolut. Der Schutz Ihrer Daten hat für uns höchste Priorität. Wir wissen, wie wichtig Vertraulichkeit ist. Deshalb verarbeiten wir alle Informationen streng nach den Vorgaben der europäischen Datenschutz-Grundverordnung (DSGVO). Ihre Audioaufnahmen und die daraus erstellten Texte sind bei uns sicher und geschützt – darauf können Sie sich verlassen."
-    },
-    "item5": {
-      "title": "Wie genau sind die Transkriptionen?",
-      "description": "Unsere künstliche Intelligenz ist darauf trainiert, Sprache sehr präzise zu erkennen und in Text umzuwandeln. Die Genauigkeit ist beeindruckend hoch, besonders bei klar verständlichen Aufnahmen mit guter Tonqualität. Sie erhalten eine solide Textgrundlage, die Sie in den meisten Fällen direkt weiterverwenden oder bei Bedarf nur noch minimal überarbeiten müssen."
-    },
-    "item6": {
-      "title": "Welche Art von Audioaufnahmen kann ich hochladen?",
-      "description": "Sie können verschiedenste Audioaufnahmen hochladen. Ob Mitschnitte von Besprechungen, geführte Interviews, aufgezeichnete Telefonate (sofern rechtlich zulässig!), Vorlesungen aus dem Hörsaal, Seminarmitschnitte, Podcast-Episoden oder einfach spontan aufgenommene Sprachnotizen mit dem Handy – Diktat AI kann sie verarbeiten. Wir unterstützen die gängigsten Audioformate."
-    },
-    "item7": {
-      "title": "Ist die Bedienung von Diktat AI kompliziert?",
-      "description": "Nein, ganz im Gegenteil! Wir haben Diktat AI bewusst einfach und intuitiv gestaltet. Sie benötigen keine technischen Vorkenntnisse oder komplizierten Einarbeitungszeiten. Der Prozess ist denkbar simpel:",
-      "step1": "Audioaufnahme hochladen.",
-      "step2": "Kurz warten, während unsere KI arbeitet.",
-      "step3": "Fertigen Text herunterladen oder kopieren.",
-      "conclusion": "Wir möchten, dass Sie sofort loslegen und von den Vorteilen profitieren können!"
-    },
-    "stillHaveQuestions": "Haben Sie noch Fragen?",
-    "reachOutText": "Falls Sie weitere Fragen haben oder Unterstützung benötigen, helfen wir Ihnen gerne bei allen Anliegen rund um Diktat AI.",
-    "moreQuestions": "Haben Sie weitere Fragen?"
-  },
-  "euStorage": {
-    "title": "Speicherung und Datenverarbeitung in der EU",
-    "description": "Alle Ihre Daten werden ausschließlich auf Servern innerhalb der Europäischen Union verarbeitet und gespeichert. Wir setzen auf lokale Infrastruktur für maximale Datensicherheit.",
-    "moreAboutSecurity": "Mehr über Sicherheit"
-  },
-  "dsgvo": {
-    "title": "DSGVO-konforme Datenspeicherung",
-    "description": "Ihre Daten werden nach höchsten Sicherheitsstandards verschlüsselt und DSGVO-konform gespeichert. Wir garantieren maximalen Datenschutz für Ihre Sprachaufnahmen.",
-    "moreAboutPrivacy": "Mehr über Datenschutz"
   },
   "app": {
     "processingModal": {
@@ -397,33 +263,6 @@
         "deleting": "Wird gelöscht..."
       }
     },
-    "footer": {
-      "title": "Diktat AI",
-      "help": "Hilfe",
-      "description": "Diktate schnell und einfach in Briefe verwandeln.",
-      "professions": "Berufsgruppen",
-      "consultants": "Berater & Coaches",
-      "contentCreators": "Content Creator",
-      "lawyers": "Juristen & Anwälte",
-      "journalists": "Journalisten & Redakteure",
-      "students": "Studierende & Akademiker",
-      "businessLeaders": "Geschäftsleute & Führungskräfte",
-      "legal": "Rechtliches",
-      "terms": "Bedingungen",
-      "privacy": "Datenschutz",
-      "aiSecurity": "KI - Datensicherheit",
-      "imprint": "Impressum",
-      "company": "Unternehmen",
-      "pricing": "Preise",
-      "about": "Über uns",
-      "contact": "Kontakt",
-      "compliance": "Compliance & Support",
-      "gdpr": "DSGVO & GDPR",
-      "aiDataProcessing": "KI Datenverarbeitung",
-      "standWithUkraine": "Stand with Ukraine",
-      "copyright": "© {year} DiktatAI",
-      "language": "Sprache"
-    },
     "header": {
       "subscribePro": "Pro abonnieren",
       "myDictations": "Meine Diktate",
@@ -508,35 +347,6 @@
     "layout": {
       "title": "Diktat AI"
     },
-    "recentPosts": {
-      "title": "Neueste Beiträge"
-    },
-    "benefitsSection": {
-      "title": "Ihr klarer Vorteil mit Diktat AI",
-      "description": "Diktat AI bringt messbaren Mehrwert in Ihren Arbeitsalltag – durch clevere Automatisierung und optimierte Prozesse bei der Umwandlung von Sprache in Text.",
-      "benefits": {
-        "timeSaving": {
-          "title": "Massive Zeitersparnis",
-          "description": "Verabschieden Sie sich vom mühsamen Abtippen. Gewinnen Sie Stunden zurück für Ihre wichtigen Aufgaben, Projekte und Kernkompetenzen."
-        },
-        "productivity": {
-          "title": "Gesteigerte Produktivität",
-          "description": "Erledigen Sie mehr in weniger Zeit. Wandeln Sie gesprochene Inhalte blitzschnell in Text um und beschleunigen Sie Ihre Arbeitsabläufe spürbar – vom Meetingprotokoll bis zur Content-Erstellung."
-        },
-        "precision": {
-          "title": "Präzise & Nutzbare Ergebnisse",
-          "description": "Erhalten Sie genaue Text-Transkripte Ihrer Audioaufnahmen, die Sie sofort weiterverwenden, durchsuchen, bearbeiten oder archivieren können."
-        },
-        "security": {
-          "title": "Höchste Datensicherheit & Konformität",
-          "description": "Verlassen Sie sich auf strengste Vertraulichkeit und DSGVO-konforme Verarbeitung. Ihre sensiblen Informationen und Aufnahmen sind bei uns jederzeit sicher und geschützt."
-        },
-        "focus": {
-          "title": "Fokus auf das Wesentliche",
-          "description": "Reduzieren Sie lästige Routineaufgaben auf ein Minimum. Konzentrieren Sie Ihre Energie und Aufmerksamkeit auf strategische Entscheidungen, kreative Arbeit oder die Analyse von Inhalten statt auf das Tippen."
-        }
-      }
-    },
     "billingInformation": {
       "name": "Name",
       "businessName": "Firmenname",
@@ -548,12 +358,6 @@
       "phone": "Telefon",
       "invoiceRequired": "Bitte ausfüllen, bei Kauf auf Rechnung.",
       "creditCardOptional": "Nur ausfüllen, wenn eine Rechnung oder ein AVV benötigt wird."
-    },
-    "ctaSection": {
-      "title": "Schluss mit Tippen: Diktat AI erledigt die Transkription.",
-      "description": "Verwandeln Sie gesprochene Worte mühelos in präzisen Text. Diktat AI nimmt Ihnen die Tipparbeit ab, damit Sie sich auf das Wesentliche konzentrieren können – egal ob Meeting-Notizen, Interviews oder spontane Ideen. Sparen Sie wertvolle Zeit und steigern Sie Ihre Produktivität.",
-      "startFree": "Kostenlos starten",
-      "viewPricing": "Preise ansehen"
     },
     "dictationStatus": {
       "pending": "Wird vorbereitet...",
@@ -805,36 +609,6 @@
       "enterName": "Namen eingeben",
       "process": "Interview verarbeiten"
     }
-  },
-  "howItWorks": {
-    "title": "Einfach. Schnell. Effizient.",
-    "description": "Sparen Sie wertvolle Zeit mit unserem unkomplizierten Diktierprozess. In nur wenigen Schritten verwandeln wir Ihre Sprachaufnahmen in perfekt formatierte Texte.",
-    "upload": "Aufnahme hochladen",
-    "uploadDescription": "Mit einem Klick starten",
-    "transcription": "KI-Transkription",
-    "transcriptionDescription": "Präzise Spracherkennung",
-    "secureProcessing": "Sichere Verarbeitung",
-    "secureProcessingDescription": "DSGVO-konform & verschlüsselt",
-    "readyToUse": "Sofort einsatzbereit",
-    "readyToUseDescription": "Formatierter Text zum Download"
-  },
-  "integrations": {
-    "title": "Diktat AI passt sich Ihrem Workflow an",
-    "description": "Wir machen es Ihnen leicht, Transkriptionen genau dort zu erhalten, wo Sie sie benötigen. Entdecken Sie unsere flexiblen Möglichkeiten, Diktat AI nahtlos in Ihre tägliche Arbeit zu integrieren.",
-    "available": "Verfügbar",
-    "emailTitle": "Einfach per E-Mail transkribieren",
-    "emailDescription": "Der schnellste Weg zur fertigen Mitschrift – ganz ohne Login. Senden Sie uns Ihre Audiodatei direkt als Anhang per E-Mail. Diktat AI übernimmt die Umwandlung in Text und liefert Ihnen das Ergebnis bequem zurück.",
-    "howItWorks": "So funktioniert es:",
-    "softwareTitle": "Automatische Anbindung an Ihre Software",
-    "softwareDescription": "Nahtlose Integration für maximale Effizienz. Ihre Transkripte landen automatisch genau dort, wo Sie sie weiterverarbeiten – sei es in Ihrem CRM-System, Ihrer Projektmanagement-Software oder einem anderen wichtigen Tool.",
-    "requestSolution": "Individuelle Lösung anfordern",
-    "whyValuable": "Warum Integrationen wertvoll sind:",
-    "flexibility": "Flexibilität",
-    "flexibilityDescription": "Wählen Sie, wie Sie Diktat AI nutzen möchten - über unsere Weboberfläche, E-Mail oder API.",
-    "timeSaving": "Zeitersparnis",
-    "timeSavingDescription": "Automatisieren Sie Ihren Workflow durch direkte Integration von Diktat AI in Ihre bestehenden Tools.",
-    "seamlessProcesses": "Nahtlose Prozesse",
-    "seamlessProcessesDescription": "Behalten Sie Ihren aktuellen Workflow bei und fügen Sie leistungsstarke Transkriptionsfunktionen hinzu."
   },
   "auth": {
     "login": {

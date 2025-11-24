@@ -119,7 +119,7 @@ useHead({
     "readMore": "Weiterlesen",
     "errorMessage": "Beim Laden der Fragen ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
     "metaDescription": "Entdecken Sie unsere Sammlung von Fragen und Antworten."
-  }
+  },
   "nl": {
     "title": "Vragen",
     "heroSubtitle": "Ontdek onze veelgestelde vragen en vind de antwoorden die u helpen",

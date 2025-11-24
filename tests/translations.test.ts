@@ -6,7 +6,10 @@ import {
   findVueFilesWithI18n,
   getKeys,
   findMissingKeys,
-  findExtraKeys
+  findExtraKeys,
+  analyzeKeyUsage,
+  groupKeysByNamespace,
+  KeyUsage
 } from './i18n-utils'
 
 const ROOT_DIR = join(__dirname, '..')
@@ -194,3 +197,94 @@ function checkEmptyValues(
     }
   }
 }
+
+describe('Translation Key Usage Analysis', () => {
+  const vueFilesWithI18n = findVueFilesWithI18n(ROOT_DIR)
+  const deLocalePath = join(LOCALES_DIR, 'de.json')
+
+  it('should analyze global key usage and report summary', () => {
+    const report = analyzeKeyUsage(deLocalePath, ROOT_DIR, vueFilesWithI18n)
+
+    console.log('\n' + '='.repeat(80))
+    console.log('TRANSLATION KEY USAGE REPORT')
+    console.log('='.repeat(80))
+    console.log(`\nTotal keys in de.json: ${report.summary.total}`)
+    console.log(`├── Used globally (via $t/t): ${report.summary.global}`)
+    console.log(`├── In component i18n blocks: ${report.summary.component}`)
+    console.log(`└── Unused/not found: ${report.summary.unused}`)
+
+    // Group global keys by namespace for better overview
+    const globalByNamespace = groupKeysByNamespace(report.globalKeys)
+
+    console.log('\n' + '-'.repeat(80))
+    console.log('GLOBAL KEYS BY NAMESPACE (need to move to components)')
+    console.log('-'.repeat(80))
+
+    for (const [namespace, keys] of Object.entries(globalByNamespace).sort()) {
+      console.log(`\n📦 ${namespace} (${keys.length} keys)`)
+      for (const keyUsage of keys.slice(0, 5)) {
+        console.log(`   └── ${keyUsage.key}`)
+        console.log(`       Used in: ${keyUsage.usedIn.slice(0, 3).join(', ')}${keyUsage.usedIn.length > 3 ? '...' : ''}`)
+      }
+      if (keys.length > 5) {
+        console.log(`   ... and ${keys.length - 5} more keys`)
+      }
+    }
+
+    if (report.unusedKeys.length > 0) {
+      const unusedByNamespace = groupKeysByNamespace(report.unusedKeys)
+
+      console.log('\n' + '-'.repeat(80))
+      console.log('POTENTIALLY UNUSED KEYS (consider removing)')
+      console.log('-'.repeat(80))
+
+      for (const [namespace, keys] of Object.entries(unusedByNamespace).sort()) {
+        console.log(`\n⚠️  ${namespace} (${keys.length} keys)`)
+        for (const keyUsage of keys) {
+          console.log(`   └── ${keyUsage.key}`)
+        }
+      }
+    }
+
+    console.log('\n' + '='.repeat(80))
+
+    // This test always passes, it's for reporting only
+    expect(report.summary.total).toBeGreaterThan(0)
+  })
+
+  it('should list all global keys that need component migration', () => {
+    const report = analyzeKeyUsage(deLocalePath, ROOT_DIR, vueFilesWithI18n)
+
+    // Create a detailed migration guide
+    const migrationGuide: Record<string, { key: string; files: string[] }[]> = {}
+
+    for (const keyUsage of report.globalKeys) {
+      for (const file of keyUsage.usedIn) {
+        if (!migrationGuide[file]) {
+          migrationGuide[file] = []
+        }
+        migrationGuide[file].push({ key: keyUsage.key, files: keyUsage.usedIn })
+      }
+    }
+
+    console.log('\n' + '='.repeat(80))
+    console.log('MIGRATION GUIDE: Global keys to component i18n')
+    console.log('='.repeat(80))
+    console.log('\nFiles that need i18n blocks added or updated:\n')
+
+    const sortedFiles = Object.entries(migrationGuide)
+      .sort((a, b) => b[1].length - a[1].length)
+
+    for (const [file, keys] of sortedFiles.slice(0, 20)) {
+      console.log(`📄 ${file} (${keys.length} keys)`)
+    }
+
+    if (sortedFiles.length > 20) {
+      console.log(`\n... and ${sortedFiles.length - 20} more files`)
+    }
+
+    console.log('\n' + '='.repeat(80))
+
+    expect(true).toBe(true)
+  })
+})

@@ -36,7 +36,7 @@
           <h1
             class="animated-gradient text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent leading-tight tracking-tight"
           >
-            {{ $t('hero.title') }}
+            {{ t('title') }}
           </h1>
           <!-- Glow effect behind title -->
           <div
@@ -49,10 +49,10 @@
           <p
             class="text-xl md:text-2xl font-semibold text-gray-800 leading-relaxed max-w-4xl mx-auto mb-4"
           >
-            {{ $t('hero.description') }}
+            {{ t('description') }}
           </p>
           <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-            {{ $t('hero.subDescription') }}
+            {{ t('subDescription') }}
           </p>
         </div>
 
@@ -67,7 +67,7 @@
                 class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-300"
               ></div>
               <span class="relative flex items-center gap-2">
-                {{ $t('hero.startNow') }}
+                {{ t('startNow') }}
                 <svg
                   class="h-5 w-5 transform group-hover:translate-x-1 transition-transform"
                   fill="none"
@@ -160,7 +160,7 @@
               </div>
             </div>
             <span class="text-sm font-medium ml-2">{{
-              $t('hero.socialProof')
+              t('socialProof')
             }}</span>
           </div>
         </div>
@@ -170,7 +170,7 @@
 </template>
 
 <script setup>
-// Component is now self-contained without logo dependency
+const { t } = useI18n()
 const { registerUrl } = useAppUrl();
 </script>
 
@@ -232,3 +232,29 @@ const { registerUrl } = useAppUrl();
   -webkit-backdrop-filter: blur(20px);
 }
 </style>
+
+<i18n lang="json">
+{
+  "de": {
+    "title": "Transkribieren mit Diktat AI",
+    "description": "Diktat AI bietet schnelle und präzise Transkriptionen für Meetings, Interviews und mehr. Ideal für Berufstätige und Teams, die Zeit sparen und sich auf das Wesentliche konzentrieren möchten. Ihre Daten sind sicher und werden DSGVO-konform verarbeitet.",
+    "startNow": "Jetzt starten",
+    "subDescription": "Sparen Sie bis zu 80% Ihrer Zeit bei der Transkription. Jetzt kostenlos starten – keine Kreditkarte erforderlich.",
+    "socialProof": "Schon über 1.000 Nutzer sparen täglich Zeit"
+  },
+  "en": {
+    "title": "Autowrite with Dictate AI",
+    "description": "Dictate AI offers fast and accurate transcriptions for meetings, interviews, and more. Ideal for professionals and teams who want to save time and focus on what matters. Your data is secure and GDPR-compliant.",
+    "startNow": "Start Now",
+    "subDescription": "Save up to 80% of your time on transcription. Start free now – no credit card required.",
+    "socialProof": "Already over 1,000 users save time daily"
+  },
+  "nl": {
+    "title": "Transcriberen met Diktat AI",
+    "description": "Diktat AI biedt snelle en nauwkeurige transcripties voor meetings, interviews en meer. Ideaal voor professionals en teams die tijd willen besparen en zich op het wezenlijke willen concentreren. Uw gegevens zijn veilig en worden GDPR-conform verwerkt.",
+    "startNow": "Nu starten",
+    "subDescription": "Bespaar tot 80% van uw tijd bij het transcriberen. Start nu gratis – geen creditcard vereist.",
+    "socialProof": "Al meer dan 1.000 gebruikers besparen dagelijks tijd"
+  }
+}
+</i18n>

@@ -1,17 +1,17 @@
 <template>
   <div class="card bg-base-200 rounded-2xl border border-base-300 p-8">
-    <h2 class="text-2xl font-display font-bold mb-6">{{ $t('app.recentPosts.title') }}</h2>
+    <h2 class="text-2xl font-display font-bold mb-6">{{ t('title') }}</h2>
     <div class="space-y-6">
-      <NuxtLink 
-        v-for="post in recentPosts" 
-        :key="post.path" 
+      <NuxtLink
+        v-for="post in recentPosts"
+        :key="post.path"
         :to="post.path"
         class="block group"
       >
         <div class="flex gap-4 items-start">
           <div v-if="post.image" class="w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden">
-            <img 
-              :src="post.image" 
+            <img
+              :src="post.image"
               :alt="post.title"
               class="w-full h-full object-cover"
             />
@@ -30,9 +30,10 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+const { t } = useI18n()
 const { path } = useRoute()
-const { data: recentPosts } = await useAsyncData('recent-posts', () => 
+const { data: recentPosts } = await useAsyncData('recent-posts', () =>
   queryCollection('blog')
     .where({ _path: { $ne: path } })
     .sort({ date: -1 })
@@ -40,11 +41,25 @@ const { data: recentPosts } = await useAsyncData('recent-posts', () =>
     .find()
 )
 
-const formatDate = (date) => {
+const formatDate = (date: string) => {
   return new Date(date).toLocaleDateString('de-DE', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
   })
 }
-</script> 
+</script>
+
+<i18n lang="json">
+{
+  "de": {
+    "title": "Neueste Beiträge"
+  },
+  "en": {
+    "title": "Recent Posts"
+  },
+  "nl": {
+    "title": "Recente berichten"
+  }
+}
+</i18n> 
