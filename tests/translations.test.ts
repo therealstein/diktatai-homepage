@@ -51,7 +51,7 @@ describe('Global Locale Files (i18n/locales/*.json)', () => {
   it('should have valid JSON in all locale files', () => {
     for (const { name } of localeFiles) {
       expect(localeData[name]).toBeDefined()
-      expect(localeData[name].keys.length).toBeGreaterThan(0)
+      // Empty objects are valid - translations moved to component i18n blocks
     }
   })
 
@@ -249,7 +249,8 @@ describe('Translation Key Usage Analysis', () => {
     console.log('\n' + '='.repeat(80))
 
     // This test always passes, it's for reporting only
-    expect(report.summary.total).toBeGreaterThan(0)
+    // Empty global files are valid - translations moved to component i18n blocks
+    expect(report.summary.total).toBeGreaterThanOrEqual(0)
   })
 
   it('should list all global keys that need component migration', () => {

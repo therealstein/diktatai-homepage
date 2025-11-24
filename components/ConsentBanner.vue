@@ -80,6 +80,12 @@ onMounted(() => {
     "readMore": "Lesen Sie mehr in unserer Datenschutzerklärung",
     "accept": "Akzeptieren",
     "decline": "Ablehnen"
+  },
+  "nl": {
+    "message": "Wij gebruiken cookies.",
+    "readMore": "Lees meer in ons Privacybeleid",
+    "accept": "Accepteren",
+    "decline": "Weigeren"
   }
 }
 </i18n> 
