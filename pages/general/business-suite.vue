@@ -17,13 +17,13 @@
             class="font-display text-4xl font-bold text-white mb-2"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.title') }}
+            {{ t("hero.title") }}
           </h1>
           <p
             class="text-lg text-white"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.subtitle') }}
+            {{ t("hero.subtitle") }}
           </p>
         </div>
       </div>
@@ -35,9 +35,9 @@
         <!-- Part 1 Section -->
         <div class="mb-12">
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('part1.title') }}
+            {{ t("part1.title") }}
           </h2>
-          <p class="mb-8">{{ t('part1.intro') }}</p>
+          <p class="mb-8">{{ t("part1.intro") }}</p>
 
           <div class="space-y-8">
             <!-- On-Premise Feature -->
@@ -62,10 +62,10 @@
                   </svg>
                 </div>
                 <h3 class="font-bold">
-                  {{ t('part1.features.onpremise.title') }}
+                  {{ t("part1.features.onpremise.title") }}
                 </h3>
               </div>
-              <p>{{ t('part1.features.onpremise.description') }}</p>
+              <p>{{ t("part1.features.onpremise.description") }}</p>
             </div>
 
             <!-- Authentication Feature -->
@@ -89,9 +89,9 @@
                     />
                   </svg>
                 </div>
-                <h3 class="font-bold">{{ t('part1.features.auth.title') }}</h3>
+                <h3 class="font-bold">{{ t("part1.features.auth.title") }}</h3>
               </div>
-              <p>{{ t('part1.features.auth.description') }}</p>
+              <p>{{ t("part1.features.auth.description") }}</p>
             </div>
 
             <!-- Data Storage Feature -->
@@ -116,10 +116,10 @@
                   </svg>
                 </div>
                 <h3 class="font-bold">
-                  {{ t('part1.features.datastorage.title') }}
+                  {{ t("part1.features.datastorage.title") }}
                 </h3>
               </div>
-              <p>{{ t('part1.features.datastorage.description') }}</p>
+              <p>{{ t("part1.features.datastorage.description") }}</p>
             </div>
 
             <!-- Compliance Feature -->
@@ -144,10 +144,10 @@
                   </svg>
                 </div>
                 <h3 class="font-bold">
-                  {{ t('part1.features.compliance.title') }}
+                  {{ t("part1.features.compliance.title") }}
                 </h3>
               </div>
-              <p>{{ t('part1.features.compliance.description') }}</p>
+              <p>{{ t("part1.features.compliance.description") }}</p>
             </div>
 
             <!-- Custom Training Feature -->
@@ -172,10 +172,10 @@
                   </svg>
                 </div>
                 <h3 class="font-bold">
-                  {{ t('part1.features.training.title') }}
+                  {{ t("part1.features.training.title") }}
                 </h3>
               </div>
-              <p>{{ t('part1.features.training.description') }}</p>
+              <p>{{ t("part1.features.training.description") }}</p>
             </div>
           </div>
         </div>
@@ -185,10 +185,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('part2.title') }}
+            {{ t("part2.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('part2.intro') }}
+            {{ t("part2.intro") }}
           </p>
 
           <div
@@ -209,16 +209,16 @@
                   d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
                 />
               </svg>
-              <h3 class="text-xl font-bold">{{ t('part2.api.title') }}</h3>
+              <h3 class="text-xl font-bold">{{ t("part2.api.title") }}</h3>
             </div>
-            <p>{{ t('part2.api.description') }}</p>
+            <p>{{ t("part2.api.description") }}</p>
           </div>
         </div>
 
         <!-- Benefits Section -->
         <div class="mb-12">
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('benefits.title') }}
+            {{ t("benefits.title") }}
           </h2>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -236,7 +236,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefits.points.point1') }}</span>
+              <span>{{ t("benefits.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -253,7 +253,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefits.points.point2') }}</span>
+              <span>{{ t("benefits.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -270,7 +270,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefits.points.point3') }}</span>
+              <span>{{ t("benefits.points.point3") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -287,7 +287,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefits.points.point4') }}</span>
+              <span>{{ t("benefits.points.point4") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -304,7 +304,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefits.points.point5') }}</span>
+              <span>{{ t("benefits.points.point5") }}</span>
             </li>
           </ul>
         </div>
@@ -314,10 +314,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('forWhom.title') }}
+            {{ t("forWhom.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('forWhom.intro') }}
+            {{ t("forWhom.intro") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -335,7 +335,7 @@
                   d="M13 10V3L4 14h7v7l9-11h-7z"
                 />
               </svg>
-              <span>{{ t('forWhom.points.point1') }}</span>
+              <span>{{ t("forWhom.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -352,7 +352,7 @@
                   d="M13 10V3L4 14h7v7l9-11h-7z"
                 />
               </svg>
-              <span>{{ t('forWhom.points.point2') }}</span>
+              <span>{{ t("forWhom.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -369,7 +369,7 @@
                   d="M13 10V3L4 14h7v7l9-11h-7z"
                 />
               </svg>
-              <span>{{ t('forWhom.points.point3') }}</span>
+              <span>{{ t("forWhom.points.point3") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -386,7 +386,7 @@
                   d="M13 10V3L4 14h7v7l9-11h-7z"
                 />
               </svg>
-              <span>{{ t('forWhom.points.point4') }}</span>
+              <span>{{ t("forWhom.points.point4") }}</span>
             </li>
           </ul>
         </div>
@@ -396,17 +396,17 @@
           class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20"
         >
           <h3 class="font-display text-2xl font-bold mb-4 text-center">
-            {{ t('cta.title') }}
+            {{ t("cta.title") }}
           </h3>
           <p class="text-lg text-center mb-8">
-            {{ t('cta.paragraph') }}
+            {{ t("cta.paragraph") }}
           </p>
           <div class="text-center">
             <NuxtLinkLocale to="general-kontakt">
               <button
                 class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
               >
-                {{ t('cta.button') }}
+                {{ t("cta.button") }}
               </button>
             </NuxtLinkLocale>
           </div>
@@ -418,41 +418,41 @@
 
 <script setup>
 const { t, locale } = useI18n({
-  useScope: 'local',
+  useScope: "local",
 });
 
-const baseUrl = 'https://diktat.ai';
+const baseUrl = "https://diktat.ai";
 const canonicalPath = computed(() =>
-  locale.value === 'en' ? '/en/business-suite' : '/business-suite'
+  locale.value === "en" ? "/en/business-suite" : "/business-suite",
 );
 const canonicalUrl = computed(() => `${baseUrl}${canonicalPath.value}`);
 
 // SEO Meta Tags (localized)
 useHead(() => ({
-  title: t('hero.title'),
+  title: t("hero.title"),
   meta: [
     {
-      name: 'description',
-      content: t('seo.description'),
+      name: "description",
+      content: t("seo.description"),
     },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: canonicalUrl.value },
-    { property: 'og:title', content: t('hero.title') },
-    { property: 'og:description', content: t('seo.description') },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: canonicalUrl.value },
+    { property: "og:title", content: t("hero.title") },
+    { property: "og:description", content: t("seo.description") },
     {
-      property: 'og:image',
-      content: 'https://diktat.ai/images/business-suite-og.jpg',
+      property: "og:image",
+      content: "https://diktat.ai/images/business-suite-og.jpg",
     },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:url', content: canonicalUrl.value },
-    { name: 'twitter:title', content: t('hero.title') },
-    { name: 'twitter:description', content: t('seo.description') },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:url", content: canonicalUrl.value },
+    { name: "twitter:title", content: t("hero.title") },
+    { name: "twitter:description", content: t("seo.description") },
     {
-      name: 'twitter:image',
-      content: 'https://diktat.ai/images/business-suite-og.jpg',
+      name: "twitter:image",
+      content: "https://diktat.ai/images/business-suite-og.jpg",
     },
   ],
-  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
 }));
 </script>
 
@@ -592,6 +592,74 @@ useHead(() => ({
       "title": "Ready for a Customized Transcription Solution?",
       "paragraph": "Discuss your specific requirements for integration, security, and control with us. Let's find out together how the Diktat AI Business Suite can take efficiency in your company to the next level.",
       "button": "Contact Us & Discuss Business Suite"
+    }
+  },
+  "nl": {
+    "seo": {
+      "description": "Business Suite van DiktatAI: On-Premise, SSO, API & Training – maximale veiligheid en controle."
+    },
+    "hero": {
+      "title": "De DiktatAI Business Suite: Volledige controle, naadloze integratie.",
+      "subtitle": "Voor ondernemingen die meer dan een standaardoplossing nodig hebben: De DiktatAI Business Suite biedt uitgebreide mogelijkheden voor diepe integratie in uw bestaande IT-infrastructuur en softwarelandschap. Verkrijg maximale controle over uw gegevens, voldoe aan de strengste compliance-eisen en pas de transcriptieprestaties exact aan uw behoeften aan."
+    },
+    "part1": {
+      "title": "Deel 1: Op maat gemaakte inbedding in uw infrastructuur en richtlijnen",
+      "intro": "De Business Suite geeft u de controle terug en maakt naadloze integratie in uw kernsystemen en beveiligingsarchitecturen mogelijk.",
+      "features": {
+        "onpremise": {
+          "title": "Uw gegevens, uw infrastructuur: On-Premise of Private Cloud optie",
+          "description": "Behoud volledige gegevenssoevereiniteit. Met de Business Suite bieden we u de mogelijkheid om DiktatAI op uw eigen servers (On-Premise) of in uw toegewijde Private Cloud-omgeving te draaien. Zo zorgt u ervoor dat alle gegevensverwerkingsprocessen binnen uw gecontroleerde infrastructuur en volgens uw interne richtlijnen plaatsvinden."
+        },
+        "auth": {
+          "title": "Naadloze authenticatie: Integratie in uw identiteitsbeheer",
+          "description": "Vereenvoudig de toegang en verhoog de veiligheid. We koppelen DiktatAI aan uw bestaande authenticatiesystemen. Of het nu gaat om Microsoft Azure AD, Okta, Ping Identity of andere SAML 2.0-gebaseerde oplossingen – uw medewerkers gebruiken hun vertrouwde bedrijfslogins. Dit vermindert de administratieve last en zorgt ervoor dat alleen geautoriseerde gebruikers toegang hebben."
+        },
+        "datastorage": {
+          "title": "Volledige gegevensopslag op uw locatie",
+          "description": "Maximale controle en compliance. Bepaal zelf waar uw gevoelige audio- en tekstgegevens worden opgeslagen. Bij een On-Premise-oplossing blijven alle gegevens fysiek binnen uw gedefinieerde omgeving, wat het naleven van de strengste compliance-voorschriften (bijv. in kritieke infrastructuren of de financiële sector) vergemakkelijkt."
+        },
+        "compliance": {
+          "title": "Implementatie van uw strengste gegevensrichtlijnen",
+          "description": "Compliance volgens uw voorschriften. We werken nauw met u samen om ervoor te zorgen dat de werking van DiktatAI voldoet aan uw specifieke compliance-, beveiligings- en privacyvereisten. Van gegevensminimalisatie tot specifieke auditvereisten – we configureren de oplossing dienovereenkomstig."
+        },
+        "training": {
+          "title": "Op maat gemaakte precisie: Training op uw bedrijfsgegevens (Optioneel)",
+          "description": "Hoogste nauwkeurigheid voor uw vaktaal. Voor sectoren met zeer specifieke terminologie of bijzondere akoestische omgevingen bieden we optioneel de mogelijkheid om de AI-modellen aanvullend te trainen op uw geanonimiseerde bedrijfsgegevens. Dit kan de herkenningsnauwkeurigheid voor uw specifieke toepassingen verder optimaliseren."
+        }
+      }
+    },
+    "part2": {
+      "title": "Deel 2: Integratie in uw bestaande systemen en workflows",
+      "intro": "De Business Suite is ontworpen om naadloos te integreren in uw dagelijkse werkprocessen en de software die u gebruikt.",
+      "api": {
+        "title": "Flexibel en krachtig: API-interfaces voor uw systemen",
+        "description": "Automatiseer uw processen. Gebruik onze uitgebreide API (Application Programming Interface)-interfaces om de krachtige transcriptiefunctie van DiktatAI direct in uw bestaande applicaties te integreren. Of het nu gaat om CRM-systemen, documentbeheer (DMS), ERP-software, brancheoplossingen of individuele eigen ontwikkelingen – geef audiogegevens direct door en ontvang transcripties automatisch terug. Optimaliseer workflows, vermijd handmatige stappen en verhoog de efficiëntie van uw kernprocessen."
+      }
+    },
+    "benefits": {
+      "title": "Uw op maat gemaakte transcriptie-krachtcentrale",
+      "points": {
+        "point1": "Maximale controle: Beslis over infrastructuur, gegevensopslag en toegang.",
+        "point2": "Hoogste veiligheid & compliance: Voldoe aan de strengste interne en externe voorschriften (AVG, branchenormen).",
+        "point3": "Naadloze integratie: Integreer DiktatAI diep in uw IT-landschap (SSO, On-Premise) en software (API).",
+        "point4": "Optionele aanpassing: Optimaliseer de nauwkeurigheid door training op specifieke bedrijfsgegevens.",
+        "point5": "Verhoogde efficiëntie: Automatiseer workflows door directe systeemkoppeling via API."
+      }
+    },
+    "forWhom": {
+      "title": "De oplossing voor veeleisende vereisten",
+      "intro": "De DiktatAI Business Suite is bijzonder geschikt voor:",
+      "points": {
+        "point1": "Ondernemingen in sterk gereguleerde sectoren (gezondheidszorg, financiën, recht, vitale infrastructuur).",
+        "point2": "Organisaties met specifieke IT-beveiligings- en compliance-voorschriften.",
+        "point3": "Grotere bedrijven en teams met behoefte aan centraal beheer en controle.",
+        "point4": "Bedrijven die AI-transcriptie diep en geautomatiseerd in hun kernprocessen willen integreren."
+      }
+    },
+    "cta": {
+      "title": "Klaar voor een op maat gemaakte transcriptie-oplossing?",
+      "paragraph": "Bespreek met ons uw specifieke vereisten voor integratie, veiligheid en controle. Laten we samen ontdekken hoe de DiktatAI Business Suite de efficiëntie in uw onderneming naar een hoger niveau kan tillen.",
+      "button": "Contact opnemen & Business Suite bespreken"
     }
   }
 }

@@ -17,13 +17,13 @@
             class="font-display text-4xl font-bold text-white mb-2"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('heroTitle') }}
+            {{ t("heroTitle") }}
           </h1>
           <p
             class="text-lg text-white"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('heroSubtitle') }}
+            {{ t("heroSubtitle") }}
           </p>
         </div>
       </div>
@@ -34,13 +34,13 @@
       <div class="prose prose-lg max-w-none">
         <div class="text-center mb-12">
           <p class="text-xl">
-            {{ t('mainText') }}
+            {{ t("mainText") }}
           </p>
           <a :href="registerUrl" class="mt-6 inline-block">
             <button
               class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
             >
-              {{ t('ctaButton') }}
+              {{ t("ctaButton") }}
             </button>
           </a>
         </div>
@@ -50,9 +50,9 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('businessBenefitsTitle') }}
+            {{ t("businessBenefitsTitle") }}
           </h2>
-          <p class="mb-6">{{ t('businessBenefitsIntro') }}</p>
+          <p class="mb-6">{{ t("businessBenefitsIntro") }}</p>
           <ul class="space-y-4">
             <li class="flex items-start">
               <svg
@@ -69,7 +69,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefit1') }}</span>
+              <span>{{ t("benefit1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -86,7 +86,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefit2') }}</span>
+              <span>{{ t("benefit2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -103,7 +103,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefit3') }}</span>
+              <span>{{ t("benefit3") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -120,7 +120,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefit4') }}</span>
+              <span>{{ t("benefit4") }}</span>
             </li>
           </ul>
         </div>
@@ -130,9 +130,9 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('processTitle') }}
+            {{ t("processTitle") }}
           </h2>
-          <p class="mb-6">{{ t('processIntro') }}</p>
+          <p class="mb-6">{{ t("processIntro") }}</p>
           <ul class="space-y-4">
             <li class="flex items-start">
               <div
@@ -140,7 +140,7 @@
               >
                 1
               </div>
-              <span>{{ t('step1') }}</span>
+              <span>{{ t("step1") }}</span>
             </li>
             <li class="flex items-start">
               <div
@@ -148,7 +148,7 @@
               >
                 2
               </div>
-              <span>{{ t('step2') }}</span>
+              <span>{{ t("step2") }}</span>
             </li>
             <li class="flex items-start">
               <div
@@ -156,7 +156,7 @@
               >
                 3
               </div>
-              <span>{{ t('step3') }}</span>
+              <span>{{ t("step3") }}</span>
             </li>
             <li class="flex items-start">
               <div
@@ -164,7 +164,7 @@
               >
                 4
               </div>
-              <span>{{ t('step4') }}</span>
+              <span>{{ t("step4") }}</span>
             </li>
           </ul>
         </div>
@@ -174,9 +174,9 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('advantagesTitle') }}
+            {{ t("advantagesTitle") }}
           </h2>
-          <p class="mb-6">{{ t('advantagesIntro') }}</p>
+          <p class="mb-6">{{ t("advantagesIntro") }}</p>
           <ul class="space-y-4">
             <li class="flex items-start">
               <svg
@@ -193,7 +193,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('advantage1') }}</span>
+              <span>{{ t("advantage1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -210,7 +210,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('advantage2') }}</span>
+              <span>{{ t("advantage2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -227,7 +227,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('advantage3') }}</span>
+              <span>{{ t("advantage3") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -244,7 +244,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('advantage4') }}</span>
+              <span>{{ t("advantage4") }}</span>
             </li>
           </ul>
         </div>
@@ -254,29 +254,29 @@
           class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20 mb-12"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('integrationTitle') }}
+            {{ t("integrationTitle") }}
           </h2>
           <div class="grid md:grid-cols-2 gap-8">
             <div>
               <h3 class="font-display text-xl font-bold mb-4">
-                {{ t('emailTitle') }}
+                {{ t("emailTitle") }}
               </h3>
-              <p>{{ t('emailText') }}</p>
+              <p>{{ t("emailText") }}</p>
               <NuxtLinkLocale
                 to="how-it-works"
                 class="text-accent hover:underline mt-2 inline-block"
-                >{{ t('emailLink') }}</NuxtLinkLocale
+                >{{ t("emailLink") }}</NuxtLinkLocale
               >
             </div>
             <div>
               <h3 class="font-display text-xl font-bold mb-4">
-                {{ t('apiTitle') }}
+                {{ t("apiTitle") }}
               </h3>
-              <p>{{ t('apiText') }}</p>
+              <p>{{ t("apiText") }}</p>
               <NuxtLinkLocale
                 to="general-kontakt"
                 class="text-accent hover:underline mt-2 inline-block"
-                >{{ t('apiLink') }}</NuxtLinkLocale
+                >{{ t("apiLink") }}</NuxtLinkLocale
               >
             </div>
           </div>
@@ -285,32 +285,32 @@
         <!-- FAQ Section -->
         <div class="mb-12">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('faqTitle') }}
+            {{ t("faqTitle") }}
           </h2>
           <div class="space-y-6">
             <div class="card bg-base-200 p-6 rounded-2xl">
               <h3 class="font-display text-xl font-bold mb-2">
-                {{ t('faq1Question') }}
+                {{ t("faq1Question") }}
               </h3>
-              <p>{{ t('faq1Answer') }}</p>
+              <p>{{ t("faq1Answer") }}</p>
             </div>
             <div class="card bg-base-200 p-6 rounded-2xl">
               <h3 class="font-display text-xl font-bold mb-2">
-                {{ t('faq2Question') }}
+                {{ t("faq2Question") }}
               </h3>
-              <p>{{ t('faq2Answer') }}</p>
+              <p>{{ t("faq2Answer") }}</p>
             </div>
             <div class="card bg-base-200 p-6 rounded-2xl">
               <h3 class="font-display text-xl font-bold mb-2">
-                {{ t('faq3Question') }}
+                {{ t("faq3Question") }}
               </h3>
-              <p>{{ t('faq3Answer') }}</p>
+              <p>{{ t("faq3Answer") }}</p>
             </div>
             <div class="card bg-base-200 p-6 rounded-2xl">
               <h3 class="font-display text-xl font-bold mb-2">
-                {{ t('faq4Question') }}
+                {{ t("faq4Question") }}
               </h3>
-              <p>{{ t('faq4Answer') }}</p>
+              <p>{{ t("faq4Answer") }}</p>
             </div>
           </div>
         </div>
@@ -320,36 +320,36 @@
           class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20 text-center"
         >
           <h2 class="font-display text-2xl font-bold mb-4">
-            {{ t('finalCtaTitle') }}
+            {{ t("finalCtaTitle") }}
           </h2>
           <p class="text-lg mb-8">
-            {{ t('finalCtaText') }}
+            {{ t("finalCtaText") }}
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a :href="registerUrl">
               <button
                 class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide w-full sm:w-auto"
               >
-                {{ t('startFree') }}
+                {{ t("startFree") }}
               </button>
             </a>
             <NuxtLinkLocale to="pricing">
               <button
                 class="font-display bg-white text-pink-500 text-xl font-bold py-3 px-8 rounded-full hover:bg-gray-50 transition-all shadow-lg tracking-wide border-2 border-pink-500 w-full sm:w-auto"
               >
-                {{ t('viewPricing') }}
+                {{ t("viewPricing") }}
               </button>
             </NuxtLinkLocale>
           </div>
           <div class="mt-8 space-x-4">
             <NuxtLinkLocale to="pricing" class="text-accent hover:underline">{{
-              t('pricingModels')
+              t("pricingModels")
             }}</NuxtLinkLocale>
             <span class="text-gray-400">|</span>
             <NuxtLinkLocale
               to="general-datasafety"
               class="text-accent hover:underline"
-              >{{ t('securityArchitecture') }}</NuxtLinkLocale
+              >{{ t("securityArchitecture") }}</NuxtLinkLocale
             >
           </div>
         </div>
@@ -361,12 +361,12 @@
 <script setup>
 // SEO Meta Tags
 const { t } = useI18n({
-  useScope: 'local',
-})
-const { registerUrl } = useAppUrl();;
+  useScope: "local",
+});
+const { registerUrl } = useAppUrl();
 useHead({
-  title: t('seoTitle'),
-  meta: [{ name: 'description', content: t('seoDescription') }],
+  title: t("seoTitle"),
+  meta: [{ name: "description", content: t("seoDescription") }],
 });
 </script>
 
@@ -467,6 +467,54 @@ useHead({
     "viewPricing": "View Pricing",
     "pricingModels": "Pricing Models for Businesses",
     "securityArchitecture": "Security Architecture"
+  },
+  "nl": {
+    "seoTitle": "Business & Management Transcriptie - Diktat AI",
+    "seoDescription": "Diktat AI voor zakelijke klanten: Efficiënte transcriptie voor vergadernotulen, strategienotities en dictaten. Bespaar tijd en verhoog uw productiviteit.",
+    "heroTitle": "Diktat AI voor Business & Management",
+    "heroSubtitle": "Zet vergadernotulen, strategienotities en gedicteerde ideeën razendsnel om in nauwkeurige tekst",
+    "mainText": "Bespaar waardevolle managementtijd en verhoog uw productiviteit – veilig & AVG-conform.",
+    "ctaButton": "Verhoog nu uw efficiëntie",
+    "businessBenefitsTitle": "Uw strategische voordeel in de zakelijke praktijk",
+    "businessBenefitsIntro": "Ontdek hoe leidinggevenden, managers en drukbezette professionals Diktat AI gebruiken om hun dagelijkse taken te optimaliseren:",
+    "benefit1": "Efficiënte vergaderdocumentatie: Leg resultaten, besluiten en actiepunten uit besprekingen nauwkeurig en zonder tijdverlies vast.",
+    "benefit2": "Spontane ideeën & dictaten: Leg strategische gedachten, memo's en e-mailconcepten eenvoudig via spraak vast – altijd en overal.",
+    "benefit3": "Belangrijke gesprekken vastleggen: Documenteer telefoongesprekken en klantgesprekken volledig als tekstbasis (met toestemming).",
+    "benefit4": "Strategie & planning: Zet brainstormsessies en workshopresultaten snel om in bruikbare documenten.",
+    "processTitle": "Eenvoudig. Snel. Vertrouwelijk.",
+    "processIntro": "Ons ongecompliceerde proces bespaart u waardevolle managementtijd en levert resultaten waar u op kunt vertrouwen:",
+    "step1": "Opname uploaden: Vergaderopname, dictaat etc. veilig met één klik starten.",
+    "step2": "AI-transcriptie: Nauwkeurige omzetting door voor business geoptimaliseerde spraakherkenning.",
+    "step3": "Veilige verwerking: Strikt AVG-conform & versleuteld op EU-servers.",
+    "step4": "Direct gebruiksklaar: Geformatteerde tekst voor rapporten, notulen, CRM of e-mails.",
+    "advantagesTitle": "Uw duidelijke voordeel voor leiderschap & productiviteit",
+    "advantagesIntro": "Verhoog de effectiviteit van uw werk en win ruimte voor strategische taken:",
+    "advantage1": "Enorme tijdsbesparing: Delegeer het typen. Win uren terug voor strategisch leiderschap, klantrelaties en belangrijke kerntaken.",
+    "advantage2": "Verhoogde management-efficiëntie: Versnel rapportage, notulering en informatiedeling binnen het team.",
+    "advantage3": "Nauwkeurige documentatie: Ontvang exacte tekstprotocollen als betrouwbare basis voor beslissingen en compliance.",
+    "advantage4": "Hoogste databeveiliging: Bescherm gevoelige bedrijfsinformatie door AVG-conforme verwerking in de EU.",
+    "integrationTitle": "Naadloze integratie in uw business-tools",
+    "emailTitle": "E-mail transcriptie",
+    "emailText": "De snelste weg voor dringende memo's. Stuur uw audiobestand als bijlage – Diktat AI levert de tekst discreet terug.",
+    "emailLink": "Zo werkt het →",
+    "apiTitle": "API-koppeling",
+    "apiText": "Integreer Diktat AI direct in uw CRM-systeem of andere bedrijfstoepassingen voor geautomatiseerde workflows.",
+    "apiLink": "Vraag een oplossing op maat aan →",
+    "faqTitle": "Veelgestelde vragen",
+    "faq1Question": "Wat levert Diktat AI mijn bedrijf op?",
+    "faq1Answer": "Diktat AI zet gesproken inhoud automatisch om in tekst. Dit bespaart enorm veel tijd bij documentatie en stelt u in staat zich op waardevolle taken te concentreren.",
+    "faq2Question": "Zijn onze bedrijfsgegevens veilig?",
+    "faq2Answer": "Ja. We werken strikt volgens de AVG, gebruiken versleuteling en verwerken alle data uitsluitend op servers binnen de EU. Uw bedrijfsdata is beschermd.",
+    "faq3Question": "Hoe nauwkeurig zijn de transcripties?",
+    "faq3Answer": "De nauwkeurigheid is bij goede audiokwaliteit zeer hoog en uitstekend geschikt voor de meeste zakelijke toepassingen. U krijgt een solide tekstbasis die snel kan worden afgerond.",
+    "faq4Question": "Is de bediening ingewikkeld?",
+    "faq4Answer": "Nee, Diktat AI is bewust extreem eenvoudig ontworpen: opname uploaden, even wachten, tekst ontvangen. Geen installatie, geen training nodig. U kunt direct beginnen.",
+    "finalCtaTitle": "Klaar met typwerk: Meer tijd voor leiderschap",
+    "finalCtaText": "Optimaliseer uw werkprocessen, verhoog de productiviteit en focus u op de groei van uw bedrijf.",
+    "startFree": "Gratis starten",
+    "viewPricing": "Bekijk prijzen",
+    "pricingModels": "Prijsmodellen voor bedrijven",
+    "securityArchitecture": "Beveiligingsarchitectuur"
   }
 }
 </i18n>

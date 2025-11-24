@@ -17,13 +17,13 @@
             class="font-display text-4xl font-bold text-white mb-2"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.title') }}
+            {{ t("hero.title") }}
           </h1>
           <p
             class="text-lg text-white"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.subtitle') }}
+            {{ t("hero.subtitle") }}
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@
         <!-- Introduction -->
         <div class="mb-12">
           <p class="text-lg">
-            {{ t('introduction.paragraph') }}
+            {{ t("introduction.paragraph") }}
           </p>
         </div>
 
@@ -44,10 +44,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('timeSection.title') }}
+            {{ t("timeSection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('timeSection.paragraph') }}
+            {{ t("timeSection.paragraph") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -65,7 +65,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('timeSection.points.point1') }}</span>
+              <span>{{ t("timeSection.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -82,7 +82,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('timeSection.points.point2') }}</span>
+              <span>{{ t("timeSection.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -99,7 +99,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('timeSection.points.point3') }}</span>
+              <span>{{ t("timeSection.points.point3") }}</span>
             </li>
           </ul>
         </div>
@@ -109,10 +109,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('precisionSection.title') }}
+            {{ t("precisionSection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('precisionSection.paragraph') }}
+            {{ t("precisionSection.paragraph") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -130,7 +130,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('precisionSection.points.point1') }}</span>
+              <span>{{ t("precisionSection.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -147,7 +147,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('precisionSection.points.point2') }}</span>
+              <span>{{ t("precisionSection.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -164,7 +164,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('precisionSection.points.point3') }}</span>
+              <span>{{ t("precisionSection.points.point3") }}</span>
             </li>
           </ul>
         </div>
@@ -174,10 +174,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('securitySection.title') }}
+            {{ t("securitySection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('securitySection.paragraph') }}
+            {{ t("securitySection.paragraph") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -195,7 +195,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('securitySection.points.point1') }}</span>
+              <span>{{ t("securitySection.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -212,7 +212,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('securitySection.points.point2') }}</span>
+              <span>{{ t("securitySection.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -229,7 +229,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('securitySection.points.point3') }}</span>
+              <span>{{ t("securitySection.points.point3") }}</span>
             </li>
           </ul>
         </div>
@@ -239,10 +239,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('integrationSection.title') }}
+            {{ t("integrationSection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('integrationSection.paragraph') }}
+            {{ t("integrationSection.paragraph") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -260,7 +260,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('integrationSection.points.point1') }}</span>
+              <span>{{ t("integrationSection.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -277,7 +277,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('integrationSection.points.point2') }}</span>
+              <span>{{ t("integrationSection.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -294,7 +294,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('integrationSection.points.point3') }}</span>
+              <span>{{ t("integrationSection.points.point3") }}</span>
             </li>
           </ul>
         </div>
@@ -304,10 +304,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('examplesSection.title') }}
+            {{ t("examplesSection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('examplesSection.paragraph') }}
+            {{ t("examplesSection.paragraph") }}
           </p>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div
@@ -329,10 +329,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('examplesSection.examples.example1.title') }}
+                  {{ t("examplesSection.examples.example1.title") }}
                 </h3>
               </div>
-              <p>{{ t('examplesSection.examples.example1.description') }}</p>
+              <p>{{ t("examplesSection.examples.example1.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
@@ -353,10 +353,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('examplesSection.examples.example2.title') }}
+                  {{ t("examplesSection.examples.example2.title") }}
                 </h3>
               </div>
-              <p>{{ t('examplesSection.examples.example2.description') }}</p>
+              <p>{{ t("examplesSection.examples.example2.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
@@ -377,10 +377,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('examplesSection.examples.example3.title') }}
+                  {{ t("examplesSection.examples.example3.title") }}
                 </h3>
               </div>
-              <p>{{ t('examplesSection.examples.example3.description') }}</p>
+              <p>{{ t("examplesSection.examples.example3.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
@@ -401,10 +401,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('examplesSection.examples.example4.title') }}
+                  {{ t("examplesSection.examples.example4.title") }}
                 </h3>
               </div>
-              <p>{{ t('examplesSection.examples.example4.description') }}</p>
+              <p>{{ t("examplesSection.examples.example4.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300 md:col-span-2"
@@ -425,10 +425,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('examplesSection.examples.example5.title') }}
+                  {{ t("examplesSection.examples.example5.title") }}
                 </h3>
               </div>
-              <p>{{ t('examplesSection.examples.example5.description') }}</p>
+              <p>{{ t("examplesSection.examples.example5.description") }}</p>
             </div>
           </div>
         </div>
@@ -436,10 +436,10 @@
         <!-- Conclusion -->
         <div class="mb-12">
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('conclusion.title') }}
+            {{ t("conclusion.title") }}
           </h2>
           <p class="text-lg">
-            {{ t('conclusion.paragraph') }}
+            {{ t("conclusion.paragraph") }}
           </p>
         </div>
 
@@ -448,17 +448,17 @@
           class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20"
         >
           <h3 class="font-display text-2xl font-bold mb-4 text-center">
-            {{ t('cta.title') }}
+            {{ t("cta.title") }}
           </h3>
           <p class="text-lg text-center mb-8">
-            {{ t('cta.paragraph') }}
+            {{ t("cta.paragraph") }}
           </p>
           <div class="text-center">
             <NuxtLinkLocale to="general-kontakt">
               <button
                 class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
               >
-                {{ t('cta.button') }}
+                {{ t("cta.button") }}
               </button>
             </NuxtLinkLocale>
           </div>
@@ -470,43 +470,43 @@
 
 <script setup>
 const { t, locale } = useI18n({
-  useScope: 'local',
+  useScope: "local",
 });
 
-const baseUrl = 'https://diktat.ai';
+const baseUrl = "https://diktat.ai";
 const canonicalPath = computed(() =>
-  locale.value === 'en'
-    ? '/en/public-sector-ai-security'
-    : '/behoerden-ki-sicherheit'
+  locale.value === "en"
+    ? "/en/public-sector-ai-security"
+    : "/behoerden-ki-sicherheit",
 );
 const canonicalUrl = computed(() => `${baseUrl}${canonicalPath.value}`);
 
 // SEO Meta Tags (localized)
 useHead(() => ({
-  title: t('hero.title'),
+  title: t("hero.title"),
   meta: [
     {
-      name: 'description',
-      content: t('seo.description'),
+      name: "description",
+      content: t("seo.description"),
     },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: canonicalUrl.value },
-    { property: 'og:title', content: t('hero.title') },
-    { property: 'og:description', content: t('seo.description') },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: canonicalUrl.value },
+    { property: "og:title", content: t("hero.title") },
+    { property: "og:description", content: t("seo.description") },
     {
-      property: 'og:image',
-      content: 'https://diktat.ai/images/behoerden-og.jpg',
+      property: "og:image",
+      content: "https://diktat.ai/images/behoerden-og.jpg",
     },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:url', content: canonicalUrl.value },
-    { name: 'twitter:title', content: t('hero.title') },
-    { name: 'twitter:description', content: t('seo.description') },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:url", content: canonicalUrl.value },
+    { name: "twitter:title", content: t("hero.title") },
+    { name: "twitter:description", content: t("seo.description") },
     {
-      name: 'twitter:image',
-      content: 'https://diktat.ai/images/behoerden-og.jpg',
+      name: "twitter:image",
+      content: "https://diktat.ai/images/behoerden-og.jpg",
     },
   ],
-  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
 }));
 </script>
 
@@ -676,6 +676,89 @@ useHead(() => ({
       "title": "Ready for Optimized Documentation Processes?",
       "paragraph": "Discover how Diktat AI can help you save valuable time and increase efficiency. Contact us for a non-binding consultation or learn more about our solutions for the public sector.",
       "button": "Contact us now"
+    }
+  },
+  "nl": {
+    "seo": {
+      "description": "Hoe DiktatAI overheidsdocumentatie versnelt – efficiënt, veilig, AVG-conform."
+    },
+    "hero": {
+      "title": "Meer tijd voor burgers: Hoe DiktatAI de documentatie bij overheden revolutioneert",
+      "subtitle": "De publieke sector staat voor bijzondere uitdagingen: Stijgende eisen aan transparantie en documentatie treffen op schaarse middelen en de constante druk om efficiënter te werken. DiktatAI is uw intelligente oplossing voor snelle, nauwkeurige en veilige transcripties in de overheidsomgeving."
+    },
+    "introduction": {
+      "paragraph": "Het opstellen van notulen voor vergaderingen, het uitschrijven van dictaten voor beschikkingen en rapporten of het documenteren van burgergesprekken legt beslag op waardevolle werktijd die elders dringend nodig is. Het handmatig uittypen van audio-opnames is niet alleen tijdrovend, maar ook foutgevoelig. Hier komt DiktatAI in beeld – uw slimme oplossing voor efficiënte overheidsprocessen."
+    },
+    "timeSection": {
+      "title": "Enorme tijdsbesparing voor kerntaken",
+      "paragraph": "Stel u voor hoeveel tijd uw medewerkers dagelijks besteden aan het uittypen van dictaten of het opstellen van vergadernotulen. DiktatAI vermindert deze inspanning drastisch:",
+      "points": {
+        "point1": "Snelle notulering: Zet opnames van gemeenteraadsvergaderingen, commissiebijeenkomsten, interne besprekingen of hoorzittingen in enkele minuten om in tekst. De gewonnen tijd kan direct worden besteed aan inhoudelijke nabewerking of andere belangrijke taken.",
+        "point2": "Efficiëntere correspondentie: Dicteer beschikkingen, dossieraantekeningen, rapporten of e-mails en laat DiktatAI de omzetting naar geschreven tekst verzorgen. Ideaal voor leidinggevenden, ambtenaren en juristen in de overheid.",
+        "point3": "Ontlasting van administratief personeel: Automatiseer een groot deel van het transcriptiewerk en stel uw administratief medewerkers in staat zich te concentreren op complexere administratieve taken."
+      }
+    },
+    "precisionSection": {
+      "title": "Precisie en traceerbaarheid in documentatie",
+      "paragraph": "Juist in de publieke sector is accurate documentatie onmisbaar. DiktatAI levert een zeer nauwkeurige tekstbasis:",
+      "points": {
+        "point1": "Minimalisering van overdrachtsfouten: Onze AI is getraind om spraak exact te herkennen, waardoor fouten die bij handmatig typen kunnen ontstaan, worden verminderd.",
+        "point2": "Verbeterde doorzoekbaarheid: Getranscribeerde teksten zijn digitaal doorzoekbaar. Vind specifieke informatie in notulen of dictaten in enkele seconden terug, zonder lange audio-opnames te moeten doorluisteren.",
+        "point3": "Consistente kwaliteit: De AI levert constant goede resultaten, onafhankelijk van dagvorm of vermoeidheid die bij handmatige transcriptie een rol kunnen spelen."
+      }
+    },
+    "securitySection": {
+      "title": "Hoogste gegevensbeveiliging en AVG-conformiteit",
+      "paragraph": "De omgang met gevoelige burger- en overheidsgegevens vereist de hoogste beveiligingsstandaarden. DiktatAI is zich bewust van deze verantwoordelijkheid:",
+      "points": {
+        "point1": "Strikte AVG-naleving: We verwerken uw gegevens strikt volgens de richtlijnen van de Algemene Verordening Gegevensbescherming. Vertrouwelijkheid en veiligheid staan voorop.",
+        "point2": "Veilige verwerking: Uw audio-opnames en de daaruit gegenereerde teksten worden versleuteld en uitsluitend op beveiligde servers binnen de EU verwerkt.",
+        "point3": "Geen compromissen bij vertrouwelijkheid: U behoudt volledige controle over uw gegevens. DiktatAI is een tool die u dient, zonder uw gegevens voor andere doeleinden te gebruiken."
+      }
+    },
+    "integrationSection": {
+      "title": "Eenvoudige integratie in bestaande werkprocessen",
+      "paragraph": "De invoering van nieuwe tools hoeft geen hindernis te zijn. DiktatAI is bewust eenvoudig gehouden:",
+      "points": {
+        "point1": "Intuïtieve bediening: Upload audiobestanden eenvoudig via ons platform of gebruik de praktische e-mailfunctie. Geen ingewikkelde software-installatie of langdurige training nodig.",
+        "point2": "Flexibel inzetbaar: Of het nu gaat om bestanden op de werkplek-computer of mobiel via dicteerrecorder opgenomen – DiktatAI past zich aan uw behoeften aan.",
+        "point3": "Snelle resultaten: Ontvang uw transcripties tijdig terug en integreer ze direct in uw vertrouwde tekstverwerkings- of documentbeheersystemen."
+      }
+    },
+    "examplesSection": {
+      "title": "Concrete toepassingsvoorbeelden bij overheden",
+      "paragraph": "DiktatAI kan op tal van gebieden binnen de overheid waardevol worden ingezet:",
+      "examples": {
+        "example1": {
+          "title": "Gremia & vergaderingen",
+          "description": "Notulen van gemeenteraad-, provinciale staten-, commissie- of interne teamvergaderingen snel en accuraat opstellen."
+        },
+        "example2": {
+          "title": "Juridische afdelingen",
+          "description": "Dictaten voor processtukken, aantekeningen en adviezen efficiënt in tekst omzetten."
+        },
+        "example3": {
+          "title": "Sociale diensten & jeugdzorg",
+          "description": "Documentatie van adviesgesprekken of huisbezoeken met inachtneming van privacywetgeving."
+        },
+        "example4": {
+          "title": "Bouw- & planningsafdelingen",
+          "description": "Verslagen van locatiebezoeken, hoorzittingen of planningsbesprekingen tijdig beschikbaar maken."
+        },
+        "example5": {
+          "title": "Interne administratie",
+          "description": "Opstellen van circulaires, rapporten of trainingsmateriaal uit gedicteerde voorbeelden zonder langdurig typwerk."
+        }
+      }
+    },
+    "conclusion": {
+      "title": "De stap naar moderne overheid",
+      "paragraph": "DiktatAI is meer dan alleen een transcriptiedienst. Het is een instrument voor de modernisering van uw overheidsprocessen. Door routinetaken zoals typen te automatiseren, creëert u ruimte voor uw medewerkers, verhoogt u de kwaliteit van uw documentatie en waarborgt u tegelijkertijd de hoogste gegevensbeveiliging volgens de AVG. Maak de stap naar een efficiëntere en eigentijdse overheid."
+    },
+    "cta": {
+      "title": "Klaar voor geoptimaliseerde documentatieprocessen?",
+      "paragraph": "Ontdek hoe DiktatAI u kan helpen waardevolle tijd te besparen en de efficiëntie te verhogen. Neem contact met ons op voor een vrijblijvend advies of leer meer over onze oplossingen voor de publieke sector.",
+      "button": "Nu contact opnemen"
     }
   }
 }

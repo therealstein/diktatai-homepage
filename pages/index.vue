@@ -49,6 +49,10 @@ useHead({
   "de": {
     "title": "KI-unterstützte Transkription Software - Diktat AI",
     "description": "Sprache in Text – fix, präzise und datenschutz-first. Einfach zu bedienen und made for professionals. 💜"
+  },
+  "nl": {
+    "title": "AI-aangedreven Transcriptie Software - Diktat AI",
+    "description": "Spraak naar tekst – snel, nauwkeurig en privacy-first. Eenvoudig te gebruiken en gemaakt voor professionals. 💜"
   }
 }
 </i18n>

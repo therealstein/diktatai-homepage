@@ -17,13 +17,13 @@
             class="font-display text-4xl font-bold text-white mb-2"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.title') }}
+            {{ t("hero.title") }}
           </h1>
           <p
             class="text-lg text-white"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.subtitle') }}
+            {{ t("hero.subtitle") }}
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@
         <!-- Introduction -->
         <div class="mb-12">
           <p class="text-lg">
-            {{ t('introduction.paragraph') }}
+            {{ t("introduction.paragraph") }}
           </p>
         </div>
 
@@ -44,10 +44,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('context.title') }}
+            {{ t("context.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('context.paragraph') }}
+            {{ t("context.paragraph") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -65,7 +65,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('context.points.point1') }}</span>
+              <span>{{ t("context.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -82,7 +82,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('context.points.point2') }}</span>
+              <span>{{ t("context.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -99,7 +99,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('context.points.point3') }}</span>
+              <span>{{ t("context.points.point3") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -116,7 +116,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('context.points.point4') }}</span>
+              <span>{{ t("context.points.point4") }}</span>
             </li>
           </ul>
         </div>
@@ -126,10 +126,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('benefits.title') }}
+            {{ t("benefits.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('benefits.paragraph') }}
+            {{ t("benefits.paragraph") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -147,7 +147,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefits.points.point1') }}</span>
+              <span>{{ t("benefits.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -164,7 +164,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefits.points.point2') }}</span>
+              <span>{{ t("benefits.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -181,7 +181,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefits.points.point3') }}</span>
+              <span>{{ t("benefits.points.point3") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -198,7 +198,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefits.points.point4') }}</span>
+              <span>{{ t("benefits.points.point4") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -215,7 +215,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefits.points.point5') }}</span>
+              <span>{{ t("benefits.points.point5") }}</span>
             </li>
           </ul>
         </div>
@@ -223,10 +223,10 @@
         <!-- Trust Section -->
         <div class="mb-12">
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('trust.title') }}
+            {{ t("trust.title") }}
           </h2>
           <p class="text-lg">
-            {{ t('trust.paragraph') }}
+            {{ t("trust.paragraph") }}
           </p>
         </div>
 
@@ -235,17 +235,17 @@
           class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20"
         >
           <h3 class="font-display text-2xl font-bold mb-4 text-center">
-            {{ t('cta.title') }}
+            {{ t("cta.title") }}
           </h3>
           <p class="text-lg text-center mb-8">
-            {{ t('cta.paragraph') }}
+            {{ t("cta.paragraph") }}
           </p>
           <div class="text-center">
             <NuxtLinkLocale to="general-kontakt">
               <button
                 class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
               >
-                {{ t('cta.button') }}
+                {{ t("cta.button") }}
               </button>
             </NuxtLinkLocale>
           </div>
@@ -257,38 +257,38 @@
 
 <script setup>
 const { t, locale } = useI18n({
-  useScope: 'local',
+  useScope: "local",
 });
 
-const baseUrl = 'https://diktat.ai';
+const baseUrl = "https://diktat.ai";
 const canonicalPath = computed(() =>
-  locale.value === 'en' ? '/en/eu-ai-law' : '/eu-ki-gesetz'
+  locale.value === "en" ? "/en/eu-ai-law" : "/eu-ki-gesetz",
 );
 const canonicalUrl = computed(() => `${baseUrl}${canonicalPath.value}`);
 
 // SEO Meta Tags (localized)
 useHead(() => ({
-  title: t('hero.title'),
+  title: t("hero.title"),
   meta: [
-    { name: 'description', content: t('seo.description') },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: canonicalUrl.value },
-    { property: 'og:title', content: t('hero.title') },
-    { property: 'og:description', content: t('seo.description') },
+    { name: "description", content: t("seo.description") },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: canonicalUrl.value },
+    { property: "og:title", content: t("hero.title") },
+    { property: "og:description", content: t("seo.description") },
     {
-      property: 'og:image',
-      content: 'https://diktat.ai/images/eu-ai-act-og.jpg',
+      property: "og:image",
+      content: "https://diktat.ai/images/eu-ai-act-og.jpg",
     },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:url', content: canonicalUrl.value },
-    { name: 'twitter:title', content: t('hero.title') },
-    { name: 'twitter:description', content: t('seo.description') },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:url", content: canonicalUrl.value },
+    { name: "twitter:title", content: t("hero.title") },
+    { name: "twitter:description", content: t("seo.description") },
     {
-      name: 'twitter:image',
-      content: 'https://diktat.ai/images/eu-ai-act-og.jpg',
+      name: "twitter:image",
+      content: "https://diktat.ai/images/eu-ai-act-og.jpg",
     },
   ],
-  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
 }));
 </script>
 
@@ -376,6 +376,48 @@ useHead(() => ({
       "title": "Ready for Worry-Free Transcription in Line with the EU AI Act?",
       "paragraph": "Do you have more questions about how Diktat AI can help you work efficiently and compliantly? Would you like to discuss how Diktat AI can be seamlessly and securely integrated into your processes? Our team is happy to assist you.",
       "button": "Contact us now & start securely"
+    }
+  },
+  "nl": {
+    "seo": {
+      "description": "EU AI-wet eenvoudig uitgelegd: Waarom DiktatAI een veilige, conforme keuze is voor transcripties."
+    },
+    "hero": {
+      "title": "EU AI-wet: Waarom DiktatAI uw veilige en conforme keuze is voor transcripties",
+      "subtitle": "De nieuwe AI-wet (AI Act) van de Europese Unie zet een belangrijk kader voor het gebruik van kunstmatige intelligentie. Voor bedrijven en professionele gebruikers roept dit vragen op: Hoe zorg ik ervoor dat de AI-tools die ik gebruik conform zijn? Hoe bescherm ik mijn gegevens? DiktatAI biedt u hier duidelijkheid en zekerheid. Ontdek waarom onze transcriptiedienst niet alleen efficiënt is, maar ook een verantwoorde keuze in overeenstemming met de nieuwe regelgeving."
+    },
+    "introduction": {
+      "paragraph": "De EU AI-wet hanteert een risicogebaseerde aanpak. Het verbiedt bepaalde \"onaanvaardbare\" AI-toepassingen (zoals social scoring) en stelt hoge eisen aan \"hoog-risicosystemen\" in gevoelige gebieden (bijv. personeelszaken, kritieke infrastructuren)."
+    },
+    "context": {
+      "title": "Ontworpen voor efficiëntie, gebouwd met verantwoordelijkheid: DiktatAI en de AI Act",
+      "paragraph": "Hier scoort DiktatAI voor u:",
+      "points": {
+        "point1": "Focus op laag risico: DiktatAI is gespecialiseerd in het omzetten van gesproken taal naar tekst. Het neemt geen autonome beslissingen met verstrekkende gevolgen voor personen en valt daarom duidelijk niet in de categorieën van verboden of hoogriskante AI-systemen volgens de AI Act. U gebruikt een tool om uw productiviteit te verhogen, geen AI voor kritieke beoordelingen of beslissingen.",
+        "point2": "Transparantie & duidelijkheid: Bij DiktatAI is het evident dat u AI gebruikt ter ondersteuning van uw werk. Dit komt overeen met de transparantiegedachte van de AI Act voor systemen met beperkt risico.",
+        "point3": "Gegevensbescherming als fundament (AVG & AI Act): Lang voordat de AI Act werd aangenomen, was het voor ons duidelijk: de bescherming van uw gegevens heeft topprioriteit. Onze strikte naleving van de AVG – met veilige verwerking, versleuteling en heldere richtlijnen – sluit naadloos aan bij de hoge privacy- en beveiligingseisen die ook de AI-wet benadrukt.",
+        "point4": "Geen verboden praktijken: DiktatAI gebruikt geen onderbewuste technieken, voert geen biometrische categorisering van gevoelige kenmerken uit en maakt geen emotieherkenning op de werkplek. We concentreren ons uitsluitend op nauwkeurige en nuttige transcriptie."
+      }
+    },
+    "benefits": {
+      "title": "Efficiëntie winnen, zorgeloosheid behouden",
+      "paragraph": "De invoering van de AI-wet betekent niet dat u moet afzien van de voordelen van intelligente tools. Integendeel: met DiktatAI kiest u een partner die compliance serieus neemt. Zo kunt u zich blijven concentreren op wat belangrijk is:",
+      "points": {
+        "point1": "Enorme tijdsbesparing: Zet uren typwerk om in minuten – veilig en conform.",
+        "point2": "Verhoogde productiviteit: Versnel uw workflows, van vergadernotulen tot contentcreatie, zonder zorgen over regelgeving.",
+        "point3": "Nauwkeurige & bruikbare resultaten: Ontvang precieze transcripties waarop u met vertrouwen kunt voortbouwen.",
+        "point4": "Hoogste gegevensbeveiliging: Vertrouw op onze bewezen AVG-conforme processen, die in lijn zijn met de AI Act.",
+        "point5": "Focus op uw kerncompetenties: Laat de transcriptie aan ons over – wij zorgen voor de techniek en de naleving van de regels."
+      }
+    },
+    "trust": {
+      "title": "Uw betrouwbare partner in het AI-tijdperk",
+      "paragraph": "De AI-wereld en haar regelgeving ontwikkelen zich voortdurend. Als aanbieder van DiktatAI is het onze taak om deze ontwikkelingen te volgen en ervoor te zorgen dat onze dienst niet alleen krachtig is, maar ook verantwoord en in overeenstemming met wettelijke voorschriften zoals de EU AI-wet wordt uitgevoerd. We beheren de technologische en regelgevende complexiteit op de achtergrond, zodat u eenvoudig en veilig kunt werken."
+    },
+    "cta": {
+      "title": "Klaar voor zorgeloze transcriptie in overeenstemming met de EU AI-wet?",
+      "paragraph": "Heeft u nog vragen over hoe DiktatAI u kan helpen efficiënt en conform te werken? Wilt u bespreken hoe DiktatAI naadloos en veilig in uw processen kan worden geïntegreerd? Ons team staat graag voor u klaar.",
+      "button": "Nu contact opnemen & veilig van start gaan"
     }
   }
 }

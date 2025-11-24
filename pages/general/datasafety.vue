@@ -1,11 +1,30 @@
 <template>
   <div class="bg-base-100 text-base-content">
     <!-- Hero Section -->
-    <div class="hero min-h-[40vh] relative" style="background: linear-gradient(135deg, #EF56A4 0%, #4A90E2 100%); background-size: cover; background-position: center;">
+    <div
+      class="hero min-h-[40vh] relative"
+      style="
+        background: linear-gradient(135deg, #ef56a4 0%, #4a90e2 100%);
+        background-size: cover;
+        background-position: center;
+      "
+    >
       <div class="hero-content text-center">
-        <div class="backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20">
-          <h1 class="font-display text-4xl font-bold text-white mb-2" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">{{ t('hero.title') }}</h1>
-          <p class="text-lg text-white" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">{{ t('hero.subtitle') }}</p>
+        <div
+          class="backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20"
+        >
+          <h1
+            class="font-display text-4xl font-bold text-white mb-2"
+            style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
+          >
+            {{ t("hero.title") }}
+          </h1>
+          <p
+            class="text-lg text-white"
+            style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
+          >
+            {{ t("hero.subtitle") }}
+          </p>
         </div>
       </div>
     </div>
@@ -13,84 +32,168 @@
     <!-- Main Content -->
     <div class="py-16 container mx-auto px-4 max-w-4xl">
       <div class="prose prose-lg max-w-none">
-        <h2 class="font-display text-3xl font-bold mb-8 text-center">{{ t('main.title') }}</h2>
-        
+        <h2 class="font-display text-3xl font-bold mb-8 text-center">
+          {{ t("main.title") }}
+        </h2>
+
         <div class="mb-12">
           <p class="text-lg">
-            {{ t('main.intro') }}
+            {{ t("main.intro") }}
           </p>
         </div>
 
         <!-- EU Data Processing Section -->
-        <div class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300">
-          <h3 class="font-display text-2xl font-bold mb-6">{{ t('eu.title') }}</h3>
-          <p class="mb-6">{{ t('eu.intro') }}</p>
+        <div
+          class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
+        >
+          <h3 class="font-display text-2xl font-bold mb-6">
+            {{ t("eu.title") }}
+          </h3>
+          <p class="mb-6">{{ t("eu.intro") }}</p>
           <ul class="space-y-4">
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('eu.points.0') }}</span>
+              <span>{{ t("eu.points.0") }}</span>
             </li>
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('eu.points.1') }}</span>
+              <span>{{ t("eu.points.1") }}</span>
             </li>
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('eu.points.2') }}</span>
+              <span>{{ t("eu.points.2") }}</span>
             </li>
           </ul>
         </div>
 
         <!-- GDPR Section -->
-        <div class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300">
-          <h3 class="font-display text-2xl font-bold mb-6">{{ t('gdpr.title') }}</h3>
-          <p class="mb-6">{{ t('gdpr.intro') }}</p>
+        <div
+          class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
+        >
+          <h3 class="font-display text-2xl font-bold mb-6">
+            {{ t("gdpr.title") }}
+          </h3>
+          <p class="mb-6">{{ t("gdpr.intro") }}</p>
           <ul class="space-y-4">
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('gdpr.points.0') }}</span>
+              <span>{{ t("gdpr.points.0") }}</span>
             </li>
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('gdpr.points.1') }}</span>
+              <span>{{ t("gdpr.points.1") }}</span>
             </li>
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('gdpr.points.2') }}</span>
+              <span>{{ t("gdpr.points.2") }}</span>
             </li>
           </ul>
         </div>
 
         <!-- Trust Section -->
         <div class="mb-12">
-          <h3 class="font-display text-2xl font-bold mb-6">{{ t('trust.title') }}</h3>
+          <h3 class="font-display text-2xl font-bold mb-6">
+            {{ t("trust.title") }}
+          </h3>
           <p class="text-lg mb-6">
-            {{ t('trust.content') }}
+            {{ t("trust.content") }}
           </p>
         </div>
 
         <!-- Call to Action -->
-        <div class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20">
-          <h3 class="font-display text-2xl font-bold mb-4 text-center">{{ t('cta.title') }}</h3>
+        <div
+          class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20"
+        >
+          <h3 class="font-display text-2xl font-bold mb-4 text-center">
+            {{ t("cta.title") }}
+          </h3>
           <p class="text-lg text-center mb-8">
-            {{ t('cta.content') }}
+            {{ t("cta.content") }}
           </p>
           <div class="text-center">
             <a :href="registerUrl">
-              <button class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide">
-                {{ t('cta.button') }}
+              <button
+                class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
+              >
+                {{ t("cta.button") }}
               </button>
             </a>
           </div>
@@ -102,20 +205,18 @@
 
 <script setup>
 const { t } = useI18n({
-  useScope: 'local'
-})
+  useScope: "local",
+});
 const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags with Canonical URL
-const { canonicalUrl } = useSeoCanonical('/general/datasafety');
+const { canonicalUrl } = useSeoCanonical("/general/datasafety");
 
 useHead({
-  title: t('meta.title'),
-  meta: [
-    { name: 'description', content: t('meta.description') }
-  ],
-  link: [{ rel: 'canonical', href: canonicalUrl.value }],
-})
+  title: t("meta.title"),
+  meta: [{ name: "description", content: t("meta.description") }],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
+});
 </script>
 
 <i18n lang="json">
@@ -201,6 +302,47 @@ useHead({
       "title": "Sicherheit - Diktat AI",
       "description": "Erfahren Sie mehr über unsere Sicherheitsmaßnahmen und wie wir Ihre Daten schützen. Diktat AI verarbeitet alle Daten ausschließlich in der EU nach DSGVO-Standards."
     }
+  },
+  "nl": {
+    "hero": {
+      "title": "Veiligheid bij DiktatAI",
+      "subtitle": "Uw gegevens zijn veilig bij ons"
+    },
+    "main": {
+      "title": "Vertrouwen & veiligheid: Zo beschermt DiktatAI uw gegevens",
+      "intro": "We weten het: De inhoud van uw audio-opnames is vaak vertrouwelijk. Of het nu gaat om gevoelige zakelijke gesprekken, persoonlijke interviews of belangrijke college-aantekeningen – de bescherming van uw gegevens heeft voor ons bij DiktatAI absolute prioriteit. Daarom hebben we vanaf het begin ervoor gezorgd dat uw informatie bij ons veilig en beschermd is, zodat u onze service zorgeloos kunt gebruiken en u volledig kunt concentreren op uw inhoud."
+    },
+    "eu": {
+      "title": "Consequente gegevensbescherming: Verwerking alleen in de EU",
+      "intro": "Een centrale pijler van onze veiligheidsstrategie is de locatie van onze techniek:",
+      "points": [
+        "Al uw gegevens blijven in Europa: Zowel uw geüploade audiobestanden als de daaruit gemaakte teksten worden uitsluitend verwerkt en opgeslagen op servers binnen de Europese Unie.",
+        "Geen omwegen via derde landen: We gebruiken bewust serverlocaties binnen de EU. Dat betekent voor u: Uw gegevens vallen onder de strenge Europese privacywetgeving – bekend als een van de hoogste standaarden wereldwijd.",
+        "Maximale controle, minimaal risico: Door uw gegevens lokaal in de EU te houden, waarborgen we niet alleen de naleving van wettelijke voorschriften, maar minimaliseren we ook de risico's die verbonden kunnen zijn aan internationale gegevensoverdrachten."
+      ]
+    },
+    "gdpr": {
+      "title": "Strikt volgens AVG-richtlijnen",
+      "intro": "Vanzelfsprekend werken we conform de Algemene Verordening Gegevensbescherming (AVG). Dat betekent voor u:",
+      "points": [
+        "Uw rechten staan centraal: We respecteren uw recht op inzage, correctie en verwijdering van uw gegevens.",
+        "Transparantie: We leggen open uit hoe uw gegevens worden verwerkt.",
+        "Doelbinding: Uw gegevens worden alleen gebruikt voor het doel van transcriptie en niet anderszins gebruikt of verkocht."
+      ]
+    },
+    "trust": {
+      "title": "Uw vertrouwen is ons hoogste goed",
+      "content": "We begrijpen dat u ons gevoelige informatie toevertrouwt. Dit vertrouwen nemen we zeer serieus. Daarom investeren we continu in de veiligheid van ons platform en onze processen. We zetten in op bewezen technologieën en strenge interne richtlijnen om de integriteit en vertrouwelijkheid van uw gegevens te allen tijde te waarborgen."
+    },
+    "cta": {
+      "title": "Gebruik DiktatAI met een gerust gevoel",
+      "content": "Vertrouw op DiktatAI niet alleen voor snelle en nauwkeurige tekstherkenning, maar ook voor compromisloze veiligheid volgens Europese standaarden. Uw privacy en de bescherming van uw gegevens zijn een vast onderdeel van onze belofte aan u.",
+      "button": "Nu gratis starten"
+    },
+    "meta": {
+      "title": "Veiligheid - DiktatAI",
+      "description": "Lees meer over onze beveiligingsmaatregelen en hoe we uw gegevens beschermen. DiktatAI verwerkt alle gegevens uitsluitend in de EU volgens AVG-standaarden."
+    }
   }
 }
 </i18n>
@@ -208,19 +350,19 @@ useHead({
 <style scoped>
 /* Override accent and secondary colors with pink */
 :deep(.text-accent) {
-  color: #EF56A4 !important;
+  color: #ef56a4 !important;
 }
 
 :deep(.text-secondary) {
-  color: #EF56A4 !important;
+  color: #ef56a4 !important;
 }
 
 :deep(.bg-accent) {
-  background-color: #EF56A4 !important;
+  background-color: #ef56a4 !important;
 }
 
 :deep(.bg-secondary) {
-  background-color: #EF56A4 !important;
+  background-color: #ef56a4 !important;
 }
 
 :deep(.from-accent\/10) {
@@ -243,4 +385,4 @@ useHead({
 .card:hover {
   transform: translateY(-5px);
 }
-</style> 
+</style>

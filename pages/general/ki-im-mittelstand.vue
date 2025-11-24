@@ -17,13 +17,13 @@
             class="font-display text-4xl font-bold text-white mb-2"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.title') }}
+            {{ t("hero.title") }}
           </h1>
           <p
             class="text-lg text-white"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.subtitle') }}
+            {{ t("hero.subtitle") }}
           </p>
         </div>
       </div>
@@ -35,10 +35,10 @@
         <!-- Introduction -->
         <div class="mb-12">
           <p class="text-lg">
-            {{ t('introduction.paragraph1') }}
+            {{ t("introduction.paragraph1") }}
           </p>
           <p class="text-lg">
-            {{ t('introduction.paragraph2') }}
+            {{ t("introduction.paragraph2") }}
           </p>
         </div>
 
@@ -47,10 +47,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('practicalSection.title') }}
+            {{ t("practicalSection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('practicalSection.paragraph') }}
+            {{ t("practicalSection.paragraph") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -68,7 +68,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('practicalSection.points.point1') }}</span>
+              <span>{{ t("practicalSection.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -85,7 +85,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('practicalSection.points.point2') }}</span>
+              <span>{{ t("practicalSection.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -102,7 +102,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('practicalSection.points.point3') }}</span>
+              <span>{{ t("practicalSection.points.point3") }}</span>
             </li>
           </ul>
         </div>
@@ -112,10 +112,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('competitiveSection.title') }}
+            {{ t("competitiveSection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('competitiveSection.paragraph') }}
+            {{ t("competitiveSection.paragraph") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -133,7 +133,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('competitiveSection.points.point1') }}</span>
+              <span>{{ t("competitiveSection.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -150,7 +150,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('competitiveSection.points.point2') }}</span>
+              <span>{{ t("competitiveSection.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -167,7 +167,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('competitiveSection.points.point3') }}</span>
+              <span>{{ t("competitiveSection.points.point3") }}</span>
             </li>
           </ul>
         </div>
@@ -177,10 +177,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('demystifySection.title') }}
+            {{ t("demystifySection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('demystifySection.paragraph') }}
+            {{ t("demystifySection.paragraph") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -198,7 +198,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('demystifySection.points.point1') }}</span>
+              <span>{{ t("demystifySection.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -215,7 +215,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('demystifySection.points.point2') }}</span>
+              <span>{{ t("demystifySection.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -232,7 +232,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('demystifySection.points.point3') }}</span>
+              <span>{{ t("demystifySection.points.point3") }}</span>
             </li>
           </ul>
         </div>
@@ -242,10 +242,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('examplesSection.title') }}
+            {{ t("examplesSection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('examplesSection.paragraph') }}
+            {{ t("examplesSection.paragraph") }}
           </p>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div
@@ -267,10 +267,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('examplesSection.examples.example1.title') }}
+                  {{ t("examplesSection.examples.example1.title") }}
                 </h3>
               </div>
-              <p>{{ t('examplesSection.examples.example1.description') }}</p>
+              <p>{{ t("examplesSection.examples.example1.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
@@ -291,10 +291,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('examplesSection.examples.example2.title') }}
+                  {{ t("examplesSection.examples.example2.title") }}
                 </h3>
               </div>
-              <p>{{ t('examplesSection.examples.example2.description') }}</p>
+              <p>{{ t("examplesSection.examples.example2.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
@@ -315,10 +315,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('examplesSection.examples.example3.title') }}
+                  {{ t("examplesSection.examples.example3.title") }}
                 </h3>
               </div>
-              <p>{{ t('examplesSection.examples.example3.description') }}</p>
+              <p>{{ t("examplesSection.examples.example3.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
@@ -339,10 +339,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('examplesSection.examples.example4.title') }}
+                  {{ t("examplesSection.examples.example4.title") }}
                 </h3>
               </div>
-              <p>{{ t('examplesSection.examples.example4.description') }}</p>
+              <p>{{ t("examplesSection.examples.example4.description") }}</p>
             </div>
           </div>
         </div>
@@ -352,13 +352,13 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('diktaiAISection.title') }}
+            {{ t("diktaiAISection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('diktaiAISection.paragraph1') }}
+            {{ t("diktaiAISection.paragraph1") }}
           </p>
           <p class="mb-6">
-            {{ t('diktaiAISection.paragraph2') }}
+            {{ t("diktaiAISection.paragraph2") }}
           </p>
           <div
             class="p-6 bg-base-100 rounded-xl shadow-lg border border-accent/20"
@@ -379,20 +379,20 @@
                 />
               </svg>
               <h3 class="text-xl font-bold">
-                {{ t('diktaiAISection.highlight.title') }}
+                {{ t("diktaiAISection.highlight.title") }}
               </h3>
             </div>
-            <p>{{ t('diktaiAISection.highlight.description') }}</p>
+            <p>{{ t("diktaiAISection.highlight.description") }}</p>
           </div>
         </div>
 
         <!-- Conclusion -->
         <div class="mb-12">
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('conclusion.title') }}
+            {{ t("conclusion.title") }}
           </h2>
           <p class="text-lg">
-            {{ t('conclusion.paragraph') }}
+            {{ t("conclusion.paragraph") }}
           </p>
         </div>
 
@@ -401,10 +401,10 @@
           class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20"
         >
           <h3 class="font-display text-2xl font-bold mb-4 text-center">
-            {{ t('cta.title') }}
+            {{ t("cta.title") }}
           </h3>
           <p class="text-lg text-center mb-8">
-            {{ t('cta.paragraph') }}
+            {{ t("cta.paragraph") }}
           </p>
           <div class="text-center">
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -412,14 +412,14 @@
                 <button
                   class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
                 >
-                  {{ t('cta.button') }}
+                  {{ t("cta.button") }}
                 </button>
               </NuxtLinkLocale>
               <NuxtLinkLocale to="general-business-suite">
                 <button
                   class="font-display bg-white text-pink-500 text-xl font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition-all shadow-lg tracking-wide border-2 border-pink-500"
                 >
-                  {{ t('cta.button2') }}
+                  {{ t("cta.button2") }}
                 </button>
               </NuxtLinkLocale>
             </div>
@@ -432,40 +432,40 @@
 
 <script setup>
 const { t, locale } = useI18n({
-  useScope: 'local',
+  useScope: "local",
 });
 
-const baseUrl = 'https://diktat.ai';
+const baseUrl = "https://diktat.ai";
 const canonicalPath = computed(() =>
-  locale.value === 'en'
-    ? '/en/ai-in-small-and-medium-sized-enterprises'
-    : '/ki-im-mittelstand'
+  locale.value === "en"
+    ? "/en/ai-in-small-and-medium-sized-enterprises"
+    : "/ki-im-mittelstand",
 );
 const canonicalUrl = computed(() => `${baseUrl}${canonicalPath.value}`);
 
 // SEO Meta Tags (localized)
 useHead(() => ({
-  title: t('hero.title'),
+  title: t("hero.title"),
   meta: [
-    { name: 'description', content: t('seo.description') },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: canonicalUrl.value },
-    { property: 'og:title', content: t('hero.title') },
-    { property: 'og:description', content: t('seo.description') },
+    { name: "description", content: t("seo.description") },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: canonicalUrl.value },
+    { property: "og:title", content: t("hero.title") },
+    { property: "og:description", content: t("seo.description") },
     {
-      property: 'og:image',
-      content: 'https://diktat.ai/images/ki-mittelstand-og.jpg',
+      property: "og:image",
+      content: "https://diktat.ai/images/ki-mittelstand-og.jpg",
     },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:url', content: canonicalUrl.value },
-    { name: 'twitter:title', content: t('hero.title') },
-    { name: 'twitter:description', content: t('seo.description') },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:url", content: canonicalUrl.value },
+    { name: "twitter:title", content: t("hero.title") },
+    { name: "twitter:description", content: t("seo.description") },
     {
-      name: 'twitter:image',
-      content: 'https://diktat.ai/images/ki-mittelstand-og.jpg',
+      name: "twitter:image",
+      content: "https://diktat.ai/images/ki-mittelstand-og.jpg",
     },
   ],
-  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
 }));
 </script>
 
@@ -631,6 +631,87 @@ useHead(() => ({
       "paragraph": "Discover how easy it can be to start using AI. Test Diktat AI and experience for yourself how artificial intelligence can make your everyday work easier.",
       "button": "Contact us",
       "button2": "Try Business Suite now"
+    }
+  },
+  "nl": {
+    "seo": {
+      "description": "AI in het MKB pragmatisch gebruiken: Direct meerwaarde, AVG-conform – zonder grote budgetten."
+    },
+    "hero": {
+      "title": "AI in het MKB: Geen toekomstmuziek, maar uw tool voor vandaag!",
+      "subtitle": "Het MKB is het hart van de economie – pragmatisch, innovatief en dicht bij de klant. Maar het onderwerp kunstmatige intelligentie (AI) lijkt vaak een domein van grote bedrijven? Niets is minder waar! AI is allang geen abstract concept meer, maar biedt concrete, toegankelijke oplossingen."
+    },
+    "introduction": {
+      "paragraph1": "AI in het MKB is geen luxe meer, maar een praktische noodzaak die juist middelgrote en kleine ondernemingen helpt om efficiënter, concurrerender en toekomstbestendiger te worden.",
+      "paragraph2": "Vergeet science-fiction: het gaat om intelligente tools die routinetaken automatiseren (zoals het vervelende uittypen van dictaten!), processen optimaliseren en u waardevolle tijd teruggeven – tijd voor uw kernactiviteiten, uw klanten en strategische beslissingen. De eerste stap is eenvoudiger dan u denkt!"
+    },
+    "practicalSection": {
+      "title": "Praktische AI-oplossingen voor het MKB",
+      "paragraph": "Kunstmatige intelligentie hoeft niet complex te zijn. Integendeel: juist voor het MKB zijn er eenvoudig te implementeren oplossingen die direct meerwaarde creëren:",
+      "points": {
+        "point1": "Automatisering van administratieve taken zoals transcriptie van vergaderingen, klantgesprekken of interne dictaten",
+        "point2": "Snellere informatieverwerking door intelligente tekstanalyse en -categorisering",
+        "point3": "Tijdsbesparing bij routinetaken – uw medewerkers kunnen zich concentreren op waardetoevoegende activiteiten"
+      }
+    },
+    "competitiveSection": {
+      "title": "AI als motor voor meer concurrentievermogen",
+      "paragraph": "In een snel veranderende wereld is stilstand geen optie – ook niet voor het sterke MKB. Kunstmatige intelligentie is daarbij geen trend die u moet volgen, maar een krachtige hefboom:",
+      "points": {
+        "point1": "Minder tijd voor administratieve hindernissen, meer ruimte voor innovatie",
+        "point2": "Geoptimaliseerde klantcommunicatie door snellere reactietijden en betere documentatie",
+        "point3": "Vrijheid creëren in het team, zodat u zich kunt concentreren op wat uw onderneming uniek maakt"
+      }
+    },
+    "demystifySection": {
+      "title": "AI in het MKB: Geen angst voor de black box!",
+      "paragraph": "Kunstmatige intelligentie – klinkt ingewikkeld, duur en alleen iets voor tech-giganten? Dit beeld blijft hardnekkig bestaan, maar komt allang niet meer overeen met de realiteit:",
+      "points": {
+        "point1": "Het gaat er niet om uw onderneming volledig om te gooien, maar om gericht slimme technologieën in te zetten waar ze de grootste meerwaarde brengen",
+        "point2": "Veel AI-oplossingen zijn tegenwoordig gebruiksvriendelijk, AVG-conform en vereisen geen diepgaande technische kennis",
+        "point3": "De start kan stapsgewijs gebeuren – begin met een concrete toepassing zoals geautomatiseerde transcriptie en breid uw AI-gebruik naar behoefte uit"
+      }
+    },
+    "examplesSection": {
+      "title": "Concrete AI-toepassingen voor het MKB",
+      "paragraph": "Zie hier enkele voorbeelden hoe AI vandaag al in het MKB wordt ingezet:",
+      "examples": {
+        "example1": {
+          "title": "Geautomatiseerde notulen",
+          "description": "Laat uw vergaderingen automatisch transcriberen en omzetten in gestructureerde notulen – inclusief automatische herkenning van taken en deadlines."
+        },
+        "example2": {
+          "title": "Verbeterde klantcommunicatie",
+          "description": "Klantgesprekken kunnen automatisch worden gedocumenteerd, zodat waardevolle informatie niet verloren gaat en uw team zich volledig op het gesprek kan concentreren."
+        },
+        "example3": {
+          "title": "Datagedreven beslissingen",
+          "description": "AI-tools kunnen uw bedrijfsgegevens analyseren en u helpen trends te herkennen en gefundeerde strategische beslissingen te nemen."
+        },
+        "example4": {
+          "title": "Intelligente tekstgeneratie",
+          "description": "Maak met AI-ondersteuning sneller eerste concepten voor offertes, rapporten of marketingteksten, die uw team alleen nog hoeft aan te passen."
+        }
+      }
+    },
+    "diktaiAISection": {
+      "title": "DiktatAI: Uw eerste praktische stap in de AI-wereld",
+      "paragraph1": "Met DiktatAI kunt u direct en zonder voorkennis beginnen met het gebruik van AI. Onze oplossing zet gesproken taal – uit vergaderingen, klantgesprekken of uw eigen notities – om in nauwkeurige tekst.",
+      "paragraph2": "Dit is een perfect voorbeeld van het zinvolle gebruik van AI in het MKB: een duidelijk afgebakende taak wordt efficiënt geautomatiseerd, bespaart tijd en verbetert tegelijkertijd de kwaliteit van de resultaten.",
+      "highlight": {
+        "title": "Uw concrete voordeel met DiktatAI:",
+        "description": "Tot 80% tijdsbesparing bij documentatie, AVG-conforme verwerking van alle gegevens, eenvoudige integratie in uw bestaande werkprocessen en direct inzetbaar zonder technische voorkennis."
+      }
+    },
+    "conclusion": {
+      "title": "AI in het MKB: Het juiste moment is nu",
+      "paragraph": "Kunstmatige intelligentie is geen futuristisch concept meer, maar een praktisch instrument dat uw onderneming vandaag al kan helpen efficiënter en concurrerender te werken. De start hoeft niet complex of duur te zijn – met de juiste partner en gerichte oplossingen zoals DiktatAI kunt u direct profiteren van de voordelen van AI."
+    },
+    "cta": {
+      "title": "Klaar voor uw eerste stap in de AI-wereld?",
+      "paragraph": "Ontdek hoe eenvoudig de start met AI kan zijn. Test DiktatAI en ervaar zelf hoe kunstmatige intelligentie uw werkdag kan verlichten.",
+      "button": "Contact opnemen",
+      "button2": "Nu Business Suite ontdekken"
     }
   }
 }

@@ -1,18 +1,35 @@
 <template>
   <div class="bg-base-100 text-base-content">
     <!-- Hero Section -->
-    <div class="hero min-h-[50vh] relative" style="background: linear-gradient(135deg, #EF56A4 0%, #4A90E2 100%); background-size: cover; background-position: center;">
+    <div
+      class="hero min-h-[50vh] relative"
+      style="
+        background: linear-gradient(135deg, #ef56a4 0%, #4a90e2 100%);
+        background-size: cover;
+        background-position: center;
+      "
+    >
       <div class="hero-content text-center">
-        <div class="backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20 max-w-3xl">
-          <h1 class="font-display text-4xl font-bold text-white mb-4" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">
-            {{ t('hero.title') }}
+        <div
+          class="backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20 max-w-3xl"
+        >
+          <h1
+            class="font-display text-4xl font-bold text-white mb-4"
+            style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
+          >
+            {{ t("hero.title") }}
           </h1>
-          <p class="text-xl text-white mb-8" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">
-            {{ t('hero.subtitle') }}
+          <p
+            class="text-xl text-white mb-8"
+            style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
+          >
+            {{ t("hero.subtitle") }}
           </p>
           <a :href="registerUrl">
-            <button class="font-display bg-white text-pink-500 text-xl font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition-all shadow-lg tracking-wide">
-              {{ t('hero.cta') }}
+            <button
+              class="font-display bg-white text-pink-500 text-xl font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition-all shadow-lg tracking-wide"
+            >
+              {{ t("hero.cta") }}
             </button>
           </a>
         </div>
@@ -25,46 +42,54 @@
         <!-- Journalist Tools Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('journalistTools.title') }}
+            {{ t("journalistTools.title") }}
           </h2>
           <p class="text-lg mb-8">
-            {{ t('journalistTools.intro') }}
+            {{ t("journalistTools.intro") }}
           </p>
-          
+
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h3 class="font-display text-xl font-bold mb-3">
-                {{ t('journalistTools.interviews.title') }}
+                {{ t("journalistTools.interviews.title") }}
               </h3>
               <p>
-                {{ t('journalistTools.interviews.description') }}
+                {{ t("journalistTools.interviews.description") }}
               </p>
             </div>
-            
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h3 class="font-display text-xl font-bold mb-3">
-                {{ t('journalistTools.pressConferences.title') }}
+                {{ t("journalistTools.pressConferences.title") }}
               </h3>
               <p>
-                {{ t('journalistTools.pressConferences.description') }}
+                {{ t("journalistTools.pressConferences.description") }}
               </p>
             </div>
-            
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h3 class="font-display text-xl font-bold mb-3">
-                {{ t('journalistTools.research.title') }}
+                {{ t("journalistTools.research.title") }}
               </h3>
               <p>
-                {{ t('journalistTools.research.description') }}
+                {{ t("journalistTools.research.description") }}
               </p>
             </div>
-            
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h3 class="font-display text-xl font-bold mb-3">
-                {{ t('journalistTools.podcast.title') }}
+                {{ t("journalistTools.podcast.title") }}
               </h3>
               <p>
-                {{ t('journalistTools.podcast.description') }}
+                {{ t("journalistTools.podcast.description") }}
               </p>
             </div>
           </div>
@@ -73,58 +98,82 @@
         <!-- Process Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('process.title') }}
+            {{ t("process.title") }}
           </h2>
           <p class="text-lg mb-8 text-center">
-            {{ t('process.intro') }}
+            {{ t("process.intro") }}
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-center mb-4">
-                <div class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4">1</div>
+                <div
+                  class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4"
+                >
+                  1
+                </div>
                 <h3 class="font-display text-xl font-bold">
-                  {{ t('process.upload.title') }}
+                  {{ t("process.upload.title") }}
                 </h3>
               </div>
               <p>
-                {{ t('process.upload.description') }}
+                {{ t("process.upload.description") }}
               </p>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-center mb-4">
-                <div class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4">2</div>
+                <div
+                  class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4"
+                >
+                  2
+                </div>
                 <h3 class="font-display text-xl font-bold">
-                  {{ t('process.transcription.title') }}
+                  {{ t("process.transcription.title") }}
                 </h3>
               </div>
               <p>
-                {{ t('process.transcription.description') }}
+                {{ t("process.transcription.description") }}
               </p>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-center mb-4">
-                <div class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4">3</div>
+                <div
+                  class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4"
+                >
+                  3
+                </div>
                 <h3 class="font-display text-xl font-bold">
-                  {{ t('process.security.title') }}
+                  {{ t("process.security.title") }}
                 </h3>
               </div>
               <p>
-                {{ t('process.security.description') }}
+                {{ t("process.security.description") }}
               </p>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-center mb-4">
-                <div class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4">4</div>
+                <div
+                  class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4"
+                >
+                  4
+                </div>
                 <h3 class="font-display text-xl font-bold">
-                  {{ t('process.ready.title') }}
+                  {{ t("process.ready.title") }}
                 </h3>
               </div>
               <p>
-                {{ t('process.ready.description') }}
+                {{ t("process.ready.description") }}
               </p>
             </div>
           </div>
@@ -133,72 +182,124 @@
         <!-- Advantages Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('advantages.title') }}
+            {{ t("advantages.title") }}
           </h2>
           <p class="text-lg mb-8 text-center">
-            {{ t('advantages.intro') }}
+            {{ t("advantages.intro") }}
           </p>
 
           <div class="space-y-6">
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
                 <div>
                   <h3 class="font-display text-xl font-bold mb-2">
-                    {{ t('advantages.timeSaving.title') }}
+                    {{ t("advantages.timeSaving.title") }}
                   </h3>
                   <p>
-                    {{ t('advantages.timeSaving.description') }}
+                    {{ t("advantages.timeSaving.description") }}
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
                 <div>
                   <h3 class="font-display text-xl font-bold mb-2">
-                    {{ t('advantages.fasterPublication.title') }}
+                    {{ t("advantages.fasterPublication.title") }}
                   </h3>
                   <p>
-                    {{ t('advantages.fasterPublication.description') }}
+                    {{ t("advantages.fasterPublication.description") }}
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
                 <div>
                   <h3 class="font-display text-xl font-bold mb-2">
-                    {{ t('advantages.preciseResults.title') }}
+                    {{ t("advantages.preciseResults.title") }}
                   </h3>
                   <p>
-                    {{ t('advantages.preciseResults.description') }}
+                    {{ t("advantages.preciseResults.description") }}
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
                 <div>
                   <h3 class="font-display text-xl font-bold mb-2">
-                    {{ t('advantages.dataSecurity.title') }}
+                    {{ t("advantages.dataSecurity.title") }}
                   </h3>
                   <p>
-                    {{ t('advantages.dataSecurity.description') }}
+                    {{ t("advantages.dataSecurity.description") }}
                   </p>
                 </div>
               </div>
@@ -209,63 +310,76 @@
         <!-- Workflow Integration Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('workflow.title') }}
+            {{ t("workflow.title") }}
           </h2>
           <p class="text-lg mb-8 text-center">
-            {{ t('workflow.intro') }}
+            {{ t("workflow.intro") }}
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h3 class="font-display text-xl font-bold mb-4">
-                {{ t('workflow.email.title') }}
+                {{ t("workflow.email.title") }}
               </h3>
               <p class="mb-4">
-                {{ t('workflow.email.description') }}
+                {{ t("workflow.email.description") }}
               </p>
-              <NuxtLinkLocale to="how-it-works" class="text-pink-500 hover:text-pink-600 font-bold">
-                {{ t('workflow.email.link') }}
+              <NuxtLinkLocale
+                to="how-it-works"
+                class="text-pink-500 hover:text-pink-600 font-bold"
+              >
+                {{ t("workflow.email.link") }}
               </NuxtLinkLocale>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h3 class="font-display text-xl font-bold mb-4">
-                {{ t('workflow.api.title') }}
+                {{ t("workflow.api.title") }}
               </h3>
               <p class="mb-4">
-                {{ t('workflow.api.description') }}
+                {{ t("workflow.api.description") }}
               </p>
               <NuxtLinkLocale to="general-kontakt" class="btn btn-primary">
-                {{ t('workflow.api.link') }}
+                {{ t("workflow.api.link") }}
               </NuxtLinkLocale>
             </div>
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h4 class="font-display text-lg font-bold mb-2">
-                {{ t('workflow.speed.title') }}
+                {{ t("workflow.speed.title") }}
               </h4>
               <p>
-                {{ t('workflow.speed.description') }}
+                {{ t("workflow.speed.description") }}
               </p>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h4 class="font-display text-lg font-bold mb-2">
-                {{ t('workflow.flexibility.title') }}
+                {{ t("workflow.flexibility.title") }}
               </h4>
               <p>
-                {{ t('workflow.flexibility.description') }}
+                {{ t("workflow.flexibility.description") }}
               </p>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h4 class="font-display text-lg font-bold mb-2">
-                {{ t('workflow.efficiency.title') }}
+                {{ t("workflow.efficiency.title") }}
               </h4>
               <p>
-                {{ t('workflow.efficiency.description') }}
+                {{ t("workflow.efficiency.description") }}
               </p>
             </div>
           </div>
@@ -274,17 +388,17 @@
         <!-- FAQ Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('faq.title') }}
+            {{ t("faq.title") }}
           </h2>
           <div class="space-y-6">
             <div class="collapse collapse-plus bg-base-200 rounded-2xl">
-              <input type="radio" name="faq-accordion" checked="checked" /> 
+              <input type="radio" name="faq-accordion" checked="checked" />
               <div class="collapse-title font-display text-xl font-bold">
-                {{ t('faq.whatIs.question') }}
+                {{ t("faq.whatIs.question") }}
               </div>
               <div class="collapse-content">
                 <p>
-                  {{ t('faq.whatIs.answer') }}
+                  {{ t("faq.whatIs.answer") }}
                 </p>
               </div>
             </div>
@@ -292,11 +406,11 @@
             <div class="collapse collapse-plus bg-base-200 rounded-2xl">
               <input type="radio" name="faq-accordion" />
               <div class="collapse-title font-display text-xl font-bold">
-                {{ t('faq.suitable.question') }}
+                {{ t("faq.suitable.question") }}
               </div>
               <div class="collapse-content">
                 <p>
-                  {{ t('faq.suitable.answer') }}
+                  {{ t("faq.suitable.answer") }}
                 </p>
               </div>
             </div>
@@ -304,11 +418,11 @@
             <div class="collapse collapse-plus bg-base-200 rounded-2xl">
               <input type="radio" name="faq-accordion" />
               <div class="collapse-title font-display text-xl font-bold">
-                {{ t('faq.accuracy.question') }}
+                {{ t("faq.accuracy.question") }}
               </div>
               <div class="collapse-content">
                 <p>
-                  {{ t('faq.accuracy.answer') }}
+                  {{ t("faq.accuracy.answer") }}
                 </p>
               </div>
             </div>
@@ -316,11 +430,11 @@
             <div class="collapse collapse-plus bg-base-200 rounded-2xl">
               <input type="radio" name="faq-accordion" />
               <div class="collapse-title font-display text-xl font-bold">
-                {{ t('faq.security.question') }}
+                {{ t("faq.security.question") }}
               </div>
               <div class="collapse-content">
                 <p>
-                  {{ t('faq.security.answer') }}
+                  {{ t("faq.security.answer") }}
                 </p>
               </div>
             </div>
@@ -328,22 +442,24 @@
         </div>
 
         <!-- Final CTA Section -->
-        <div class="card bg-gradient-to-br from-pink-500/10 to-blue-500/10 shadow-xl p-8 rounded-3xl border border-pink-500/20">
+        <div
+          class="card bg-gradient-to-br from-pink-500/10 to-blue-500/10 shadow-xl p-8 rounded-3xl border border-pink-500/20"
+        >
           <h2 class="font-display text-3xl font-bold mb-4 text-center">
-            {{ t('finalCta.title') }}
+            {{ t("finalCta.title") }}
           </h2>
           <p class="text-lg text-center mb-8">
-            {{ t('finalCta.description') }}
+            {{ t("finalCta.description") }}
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a :href="registerUrl">
               <button class="btn btn-primary btn-lg">
-                {{ t('finalCta.start') }}
+                {{ t("finalCta.start") }}
               </button>
             </a>
             <NuxtLinkLocale to="pricing">
               <button class="btn btn-outline btn-lg">
-                {{ t('finalCta.pricing') }}
+                {{ t("finalCta.pricing") }}
               </button>
             </NuxtLinkLocale>
           </div>
@@ -354,24 +470,23 @@
 </template>
 
 <script setup>
-import { NuxtLinkLocale } from '#components';
-
+import { NuxtLinkLocale } from "#components";
 
 const { t } = useI18n({
-  useScope: 'local'
-})
+  useScope: "local",
+});
 const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags
 useHead({
-  title: t('hero.title'),
+  title: t("hero.title"),
   meta: [
-    { 
-      name: 'description', 
-      content: t('hero.subtitle') 
-    }
+    {
+      name: "description",
+      content: t("hero.subtitle"),
+    },
   ],
-})
+});
 </script>
 
 <i18n>
@@ -611,26 +726,144 @@ useHead({
       "start": "Kostenlos starten & testen",
       "pricing": "Preise ansehen"
     }
-  }
+  },
+  "nl": {
+    "hero": {
+      "title": "DiktatAI: Bliksemsnel transcriberen voor journalisten & redacteuren",
+      "subtitle": "Zet interviews, persconferenties en onderzoeksopnames binnen enkele minuten om in nauwkeurige, citeerbare tekst. Focus op het verhaal, niet op het typen – en haal elke deadline.",
+      "cta": "Start nu met transcriberen"
+    },
+    "journalistTools": {
+      "title": "Uw onmisbare tool in de redactie",
+      "intro": "Of het nu voor print, online, radio of tv is – ontdek hoe journalisten en redacteuren DiktatAI gebruiken om sneller en efficiënter te werken:",
+      "interviews": {
+        "title": "Interviews & quotes",
+        "description": "Zet gespreksopnames razendsnel om in tekst – voor nauwkeurige citaten en snelle artikelconcepten."
+      },
+      "pressConferences": {
+        "title": "Persconferenties & evenementen",
+        "description": "Leg alle belangrijke uitspraken en details vast als doorzoekbare tekst, ook onder tijdsdruk."
+      },
+      "research": {
+        "title": "Onderzoek & achtergrondgesprekken",
+        "description": "Maak audio-notities en opnames van telefoongesprekken eenvoudig bruikbaar en doorzoekbaar."
+      },
+      "podcast": {
+        "title": "Podcast & videocontent",
+        "description": "Maak moeiteloos transcripties voor shownotes, ondertitels of voor hergebruik als artikel."
+      }
+    },
+    "process": {
+      "title": "Eenvoudig. Snel. Betrouwbaar.",
+      "intro": "Ons ongecompliceerde proces levert u transcripties wanneer u ze nodig heeft – zonder omwegen.",
+      "upload": {
+        "title": "Opname uploaden",
+        "description": "Interview, persconferentie-opname etc. met één klik starten."
+      },
+      "transcription": {
+        "title": "AI-transcriptie",
+        "description": "Nauwkeurige omzetting door intelligente spraakherkenning."
+      },
+      "security": {
+        "title": "Veilige verwerking",
+        "description": "Strikt AVG-conform & versleuteld op EU-servers."
+      },
+      "ready": {
+        "title": "Direct gebruiksklaar",
+        "description": "Geformatteerde tekst om te downloaden, kopiëren en plakken."
+      }
+    },
+    "advantages": {
+      "title": "Uw duidelijke voordeel bij onderzoek en productie",
+      "intro": "DiktatAI lost een van de grootste tijdvreters in de journalistiek op – zodat u zich kunt concentreren op wat telt.",
+      "timeSaving": {
+        "title": "Enorme tijdsbesparing",
+        "description": "Urenlang uittypen behoort tot het verleden. Win waardevolle tijd voor onderzoek, schrijven en het halen van uw deadlines."
+      },
+      "fasterPublication": {
+        "title": "Snellere publicatie",
+        "description": "Ga sneller van opname naar afgewerkt artikel. Verwerk meer materiaal in kortere tijd en verhoog uw output."
+      },
+      "preciseResults": {
+        "title": "Nauwkeurige & citeerbare resultaten",
+        "description": "Ontvang exacte teksttranscripties als betrouwbare basis voor uw artikelen, rapporten en citaten. Gemakkelijk doorzoekbaar en bewerkbaar."
+      },
+      "dataSecurity": {
+        "title": "Hoogste databeveiliging & bronnenbescherming",
+        "description": "Bescherm uw vertrouwelijke interviews en bronnen. Wij garanderen AVG-conforme verwerking uitsluitend binnen de EU."
+      }
+    },
+    "workflow": {
+      "title": "DiktatAI past zich aan uw redactionele workflow aan",
+      "intro": "We weten dat het snel moet gaan. Gebruik DiktatAI flexibel, zoals het het beste bij uw manier van werken past.",
+      "email": {
+        "title": "Eenvoudig transcriberen via e-mail",
+        "description": "De snelste weg naar tekst: stuur uw audiobestand direct als e-mailbijlage. DiktatAI levert het transcript direct terug. Ideaal voor onderweg of snelle ondersteuning.",
+        "link": "Zo werkt het →"
+      },
+      "api": {
+        "title": "Naadloze integratie (via API)",
+        "description": "Integreer DiktatAI direct in uw redactiesystemen of tools. Automatiseer het transcriptieproces voor maximale efficiëntie.",
+        "link": "Vraag een oplossing op maat aan"
+      },
+      "speed": {
+        "title": "Snelheid",
+        "description": "Ontvang transcripties vaak sneller dan u zelf kunt typen."
+      },
+      "flexibility": {
+        "title": "Flexibiliteit",
+        "description": "Gebruik DiktatAI vanaf uw bureau of mobiel via e-mail."
+      },
+      "efficiency": {
+        "title": "Efficiëntie",
+        "description": "Verminder handmatige stappen en versnel het hele productieproces."
+      }
+    },
+    "faq": {
+      "title": "Veelgestelde vragen over DiktatAI voor journalisten",
+      "whatIs": {
+        "question": "Wat doet DiktatAI precies voor journalisten?",
+        "answer": "DiktatAI zet uw audio-opnames – interviews, persconferenties, telefoonopnames (met toestemming!), onderzoeksgesprekken – automatisch om in geschreven tekst. U uploadt het bestand, onze AI levert het transcript."
+      },
+      "suitable": {
+        "question": "Is DiktatAI geschikt voor mijn redactie?",
+        "answer": "Ja, DiktatAI is perfect voor individuele journalisten, freelancers, redactieteams en complete mediahuizen die regelmatig audio-inhoud moeten uitschrijven en waardevolle tijd willen besparen."
+      },
+      "accuracy": {
+        "question": "Hoe nauwkeurig zijn de transcripties voor citaten?",
+        "answer": "Onze AI biedt een hoge nauwkeurigheid, vooral bij heldere audiokwaliteit. U krijgt een zeer goede tekstbasis die u snel kunt controleren en voor exacte citaten kunt gebruiken. Dit bespaart enorm veel tijd vergeleken met volledig uittypen."
+      },
+      "security": {
+        "question": "Zijn mijn bronnen en interviews veilig bij DiktatAI?",
+        "answer": "Absoluut. De bescherming van uw data en bronnen heeft de hoogste prioriteit. We werken strikt AVG-conform en verwerken alle data op beveiligde servers uitsluitend binnen de EU."
+      }
+    },
+    "finalCta": {
+      "title": "Klaar met typemarathons na het interview",
+      "description": "DiktatAI is uw snelle en betrouwbare partner voor transcriptie in de journalistiek. Win uren terug, versnel uw berichtgeving en concentreer u op wat u het beste kunt: geweldige verhalen vertellen.",
+      "start": "Gratis starten & testen",
+      "pricing": "Bekijk prijzen"
+    }
+}
 }
 </i18n>
 
 <style scoped>
 /* Override accent and secondary colors with pink */
 :deep(.text-accent) {
-  color: #EF56A4 !important;
+  color: #ef56a4 !important;
 }
 
 :deep(.text-secondary) {
-  color: #EF56A4 !important;
+  color: #ef56a4 !important;
 }
 
 :deep(.bg-accent) {
-  background-color: #EF56A4 !important;
+  background-color: #ef56a4 !important;
 }
 
 :deep(.bg-secondary) {
-  background-color: #EF56A4 !important;
+  background-color: #ef56a4 !important;
 }
 
 .card {
@@ -641,4 +874,4 @@ useHead({
 .card:hover {
   transform: translateY(-5px);
 }
-</style> 
+</style>

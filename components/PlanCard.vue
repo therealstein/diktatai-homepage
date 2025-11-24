@@ -17,7 +17,7 @@
             clip-rule="evenodd"
           />
         </svg>
-        <span>{{ t('sevenDaysFree') }}</span>
+        <span>{{ t("sevenDaysFree") }}</span>
       </div>
     </div>
 
@@ -96,7 +96,7 @@
             <div
               class="w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin"
             ></div>
-            <span>{{ t('loading') }}</span>
+            <span>{{ t("loading") }}</span>
           </div>
           <div
             v-else-if="isSelected"
@@ -116,9 +116,9 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span>{{ t('selected') }}</span>
+            <span>{{ t("selected") }}</span>
           </div>
-          <span v-else>{{ t('selectPlan') }}</span>
+          <span v-else>{{ t("selectPlan") }}</span>
         </button>
       </div>
     </div>
@@ -127,7 +127,7 @@
 
 <script setup lang="ts">
 const { t } = useI18n({
-  useScope: 'local',
+  useScope: "local",
 });
 
 interface Plan {
@@ -149,7 +149,7 @@ defineProps<{
 }>();
 
 defineEmits<{
-  (e: 'select', plan: Plan): void;
+  (e: "select", plan: Plan): void;
 }>();
 </script>
 
@@ -184,6 +184,12 @@ defineEmits<{
     "loading": "Wird geladen...",
     "selected": "Ausgewählt",
     "selectPlan": "Plan wählen"
+  },
+  "nl": {
+    "sevenDaysFree": "7 dagen gratis",
+    "loading": "Wordt geladen...",
+    "selected": "Geselecteerd",
+    "selectPlan": "Kies een plan"
   }
 }
 </i18n>

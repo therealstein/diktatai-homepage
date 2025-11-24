@@ -17,13 +17,13 @@
             class="font-display text-4xl font-bold text-white mb-4"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.title') }}
+            {{ t("hero.title") }}
           </h1>
           <p
             class="text-xl text-white mb-8"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.subtitle') }}
+            {{ t("hero.subtitle") }}
           </p>
         </div>
       </div>
@@ -35,17 +35,17 @@
         <!-- Introduction -->
         <div class="mb-16">
           <p class="text-lg mb-8 text-center">
-            {{ t('introduction.text') }}
+            {{ t("introduction.text") }}
           </p>
         </div>
 
         <!-- Direct Support Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('support.title') }}
+            {{ t("support.title") }}
           </h2>
           <p class="text-lg mb-8">
-            {{ t('support.description') }}
+            {{ t("support.description") }}
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -53,11 +53,11 @@
               class="card bg-base-200 p-6 rounded-2xl border border-base-300"
             >
               <h3 class="font-display text-xl font-bold mb-4">
-                {{ t('support.contactForm.title') }}
+                {{ t("support.contactForm.title") }}
               </h3>
-              <p class="mb-4">{{ t('support.contactForm.description') }}</p>
+              <p class="mb-4">{{ t("support.contactForm.description") }}</p>
               <NuxtLinkLocale to="general-kontakt" class="btn btn-primary">{{
-                t('support.contactForm.button')
+                t("support.contactForm.button")
               }}</NuxtLinkLocale>
             </div>
 
@@ -65,9 +65,9 @@
               class="card bg-base-200 p-6 rounded-2xl border border-base-300"
             >
               <h3 class="font-display text-xl font-bold mb-4">
-                {{ t('support.email.title') }}
+                {{ t("support.email.title") }}
               </h3>
-              <p class="mb-4">{{ t('support.email.description') }}</p>
+              <p class="mb-4">{{ t("support.email.description") }}</p>
               <a
                 href="mailto:support@diktat.ai"
                 class="text-pink-500 hover:text-pink-600 font-bold"
@@ -78,14 +78,14 @@
 
           <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
             <h3 class="font-display text-xl font-bold mb-4">
-              {{ t('support.helpTips.title') }}
+              {{ t("support.helpTips.title") }}
             </h3>
             <ul class="list-disc pl-6 space-y-2">
-              <li>{{ t('support.helpTips.points.0') }}</li>
-              <li>{{ t('support.helpTips.points.1') }}</li>
-              <li>{{ t('support.helpTips.points.2') }}</li>
-              <li>{{ t('support.helpTips.points.3') }}</li>
-              <li>{{ t('support.helpTips.points.4') }}</li>
+              <li>{{ t("support.helpTips.points.0") }}</li>
+              <li>{{ t("support.helpTips.points.1") }}</li>
+              <li>{{ t("support.helpTips.points.2") }}</li>
+              <li>{{ t("support.helpTips.points.3") }}</li>
+              <li>{{ t("support.helpTips.points.4") }}</li>
             </ul>
           </div>
         </div>
@@ -93,10 +93,10 @@
         <!-- Guides Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('guides.title') }}
+            {{ t("guides.title") }}
           </h2>
           <p class="text-lg mb-8 text-center">
-            {{ t('guides.description') }}
+            {{ t("guides.description") }}
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -104,15 +104,15 @@
               class="card bg-base-200 p-6 rounded-2xl border border-base-300"
             >
               <h3 class="font-display text-xl font-bold mb-4">
-                {{ t('guides.gettingStarted.title') }}
+                {{ t("guides.gettingStarted.title") }}
               </h3>
-              <p class="mb-4">{{ t('guides.gettingStarted.description') }}</p>
+              <p class="mb-4">{{ t("guides.gettingStarted.description") }}</p>
               <ol class="list-decimal pl-6 space-y-2">
-                <li>{{ t('guides.gettingStarted.steps.0') }}</li>
-                <li>{{ t('guides.gettingStarted.steps.1') }}</li>
-                <li>{{ t('guides.gettingStarted.steps.2') }}</li>
-                <li>{{ t('guides.gettingStarted.steps.3') }}</li>
-                <li>{{ t('guides.gettingStarted.steps.4') }}</li>
+                <li>{{ t("guides.gettingStarted.steps.0") }}</li>
+                <li>{{ t("guides.gettingStarted.steps.1") }}</li>
+                <li>{{ t("guides.gettingStarted.steps.2") }}</li>
+                <li>{{ t("guides.gettingStarted.steps.3") }}</li>
+                <li>{{ t("guides.gettingStarted.steps.4") }}</li>
               </ol>
             </div>
 
@@ -120,16 +120,16 @@
               class="card bg-base-200 p-6 rounded-2xl border border-base-300"
             >
               <h3 class="font-display text-xl font-bold mb-4">
-                {{ t('guides.emailTranscription.title') }}
+                {{ t("guides.emailTranscription.title") }}
               </h3>
               <p class="mb-4">
-                {{ t('guides.emailTranscription.description') }}
+                {{ t("guides.emailTranscription.description") }}
               </p>
               <ol class="list-decimal pl-6 space-y-2">
-                <li>{{ t('guides.emailTranscription.steps.0') }}</li>
-                <li>{{ t('guides.emailTranscription.steps.1') }}</li>
-                <li>{{ t('guides.emailTranscription.steps.2') }}</li>
-                <li>{{ t('guides.emailTranscription.steps.3') }}</li>
+                <li>{{ t("guides.emailTranscription.steps.0") }}</li>
+                <li>{{ t("guides.emailTranscription.steps.1") }}</li>
+                <li>{{ t("guides.emailTranscription.steps.2") }}</li>
+                <li>{{ t("guides.emailTranscription.steps.3") }}</li>
               </ol>
             </div>
 
@@ -137,15 +137,15 @@
               class="card bg-base-200 p-6 rounded-2xl border border-base-300"
             >
               <h3 class="font-display text-xl font-bold mb-4">
-                {{ t('guides.tips.title') }}
+                {{ t("guides.tips.title") }}
               </h3>
-              <p class="mb-4">{{ t('guides.tips.description') }}</p>
+              <p class="mb-4">{{ t("guides.tips.description") }}</p>
               <ul class="list-disc pl-6 space-y-2">
-                <li>{{ t('guides.tips.points.0') }}</li>
-                <li>{{ t('guides.tips.points.1') }}</li>
-                <li>{{ t('guides.tips.points.2') }}</li>
-                <li>{{ t('guides.tips.points.3') }}</li>
-                <li>{{ t('guides.tips.points.4') }}</li>
+                <li>{{ t("guides.tips.points.0") }}</li>
+                <li>{{ t("guides.tips.points.1") }}</li>
+                <li>{{ t("guides.tips.points.2") }}</li>
+                <li>{{ t("guides.tips.points.3") }}</li>
+                <li>{{ t("guides.tips.points.4") }}</li>
               </ul>
             </div>
           </div>
@@ -156,10 +156,10 @@
           class="card bg-base-200 p-6 rounded-2xl border border-base-300 mb-16"
         >
           <h2 class="font-display text-2xl font-bold mb-4">
-            {{ t('responseTime.title') }}
+            {{ t("responseTime.title") }}
           </h2>
-          <p class="mb-4">{{ t('responseTime.description') }}</p>
-          <p>{{ t('responseTime.conclusion') }}</p>
+          <p class="mb-4">{{ t("responseTime.description") }}</p>
+          <p>{{ t("responseTime.conclusion") }}</p>
         </div>
       </div>
     </div>
@@ -168,22 +168,22 @@
 
 <script setup>
 const { t } = useI18n({
-  useScope: 'local',
-})
-const { registerUrl } = useAppUrl();;
+  useScope: "local",
+});
+const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags with Canonical URL
-const { canonicalUrl } = useSeoCanonical('/general/help');
+const { canonicalUrl } = useSeoCanonical("/general/help");
 
 useHead({
-  title: t('seo.title'),
+  title: t("seo.title"),
   meta: [
     {
-      name: 'description',
-      content: t('seo.description'),
+      name: "description",
+      content: t("seo.description"),
     },
   ],
-  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
 });
 </script>
 
@@ -369,6 +369,83 @@ useHead({
     "seo": {
       "title": "Hilfe & Support - Diktat AI - Schnelle & präzise Transkription",
       "description": "Hilfe und Support für Diktat AI. Finden Sie Anleitungen, Kontaktmöglichkeiten und Antworten auf häufig gestellte Fragen zu unserem Transkriptions-Service."
+    }
+  },
+  "nl": {
+    "hero": {
+      "title": "Hulp & Support",
+      "subtitle": "Welkom bij de hulpsectie van DiktatAI!"
+    },
+    "introduction": {
+      "text": "We willen ervoor zorgen dat u het beste uit onze service haalt en uw transcriptietaken moeiteloos kunt uitvoeren. Op deze pagina vindt u informatie over hoe u ondersteuning kunt krijgen als u vragen heeft of hulp nodig heeft."
+    },
+    "support": {
+      "title": "Directe ondersteuning aanvragen – Wij staan voor u klaar!",
+      "description": "Heeft u een specifieke vraag over DiktatAI, heeft u hulp nodig bij een functie of is er een probleem opgetreden? Ons supportteam helpt u graag verder.",
+      "contactForm": {
+        "title": "Contactformulier",
+        "description": "De beste manier om uw verzoek gedetailleerd aan ons door te geven. Gebruik ons contactformulier om uw vraag gestructureerd naar ons te sturen.",
+        "button": "Naar het contactformulier"
+      },
+      "email": {
+        "title": "E-mail support",
+        "description": "U kunt ons ook direct een e-mail sturen. Beschrijf uw vraag of probleem zo nauwkeurig mogelijk."
+      },
+      "helpTips": {
+        "title": "Om u snel te kunnen helpen:",
+        "points": [
+          "Een duidelijke beschrijving van het probleem of uw vraag",
+          "Welke stappen heeft u al ondernomen?",
+          "Welk besturingssysteem en welke browser gebruikt u?",
+          "Is er een foutmelding weergegeven? (Zo ja, wat was de exacte melding?)",
+          "Uw e-mailadres dat gekoppeld is aan uw DiktatAI-account"
+        ]
+      }
+    },
+    "guides": {
+      "title": "Eerste stappen & handleidingen",
+      "description": "Wilt u meer weten over het gebruik van bepaalde functies? Hier vindt u nuttige handleidingen en tips:",
+      "gettingStarted": {
+        "title": "Eerste stappen",
+        "description": "Zo uploadt u succesvol uw eerste audiobestand en ontvangt u een transcriptie:",
+        "steps": [
+          "Log in op uw DiktatAI-account",
+          "Klik op 'Nieuwe transcriptie'",
+          "Selecteer uw audiobestand of sleep het naar het uploadgebied",
+          "Wacht tot de transcriptie voltooid is",
+          "Download uw transcriptie of kopieer deze direct"
+        ]
+      },
+      "emailTranscription": {
+        "title": "E-mail transcriptie",
+        "description": "De e-mail transcriptie gebruiken – Een stap-voor-stap uitleg:",
+        "steps": [
+          "Schrijf een e-mail naar transcribe bij diktat.ai",
+          "Voeg uw audiobestand toe als bijlage",
+          "Vermeld in het onderwerp of u een transcriptie of ondertitels nodig heeft",
+          "Binnen enkele minuten ontvangt u uw transcriptie per e-mail terug"
+        ]
+      },
+      "tips": {
+        "title": "Tips & trucs",
+        "description": "Hoe u door goede audiokwaliteit nauwkeurigere transcriptieresultaten behaalt:",
+        "points": [
+          "Gebruik een goede microfoon voor opnames",
+          "Verminder achtergrondgeluiden",
+          "Spreek duidelijk en in normaal tempo",
+          "Houd een constant volume aan",
+          "Vermijd te veel sprekerwisselingen in korte tijd"
+        ]
+      }
+    },
+    "responseTime": {
+      "title": "Onze reactietijden",
+      "description": "We weten dat u snelle hulp nodig heeft. Ons team doet zijn best om alle supportverzoeken tijdig te beantwoorden. Over het algemeen kunt u op werkdagen binnen 24-48 uur rekenen op een eerste reactie van ons.",
+      "conclusion": "We streven ernaar om u een soepele en efficiënte ervaring met DiktatAI te bieden. Aarzel niet om direct contact met ons op te nemen bij vragen of wanneer u ondersteuning nodig heeft!"
+    },
+    "seo": {
+      "title": "Hulp & Support - DiktatAI - Snelle & nauwkeurige transcriptie",
+      "description": "Hulp en support voor DiktatAI. Vind handleidingen, contactmogelijkheden en antwoorden op veelgestelde vragen over onze transcriptieservice."
     }
   }
 }

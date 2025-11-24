@@ -3,7 +3,7 @@
     <!-- Modern Hero Section with Background Image and Glass Effect -->
     <div
       class="hero min-h-[85vh] relative bg-cover bg-center flex items-center justify-center"
-      style="background-image: url('/herobg.webp')"
+      style="background-image: url(&quot;/herobg.webp&quot;)"
     >
       <!-- Background overlay for better contrast -->
       <div
@@ -37,11 +37,7 @@
             <span
               class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-pink-100 to-purple-100 border border-pink-300/50 rounded-full text-sm font-semibold text-pink-700"
             >
-              <svg
-                class="h-4 w-4"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
+              <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
                 <path
                   fill-rule="evenodd"
                   d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
@@ -57,7 +53,7 @@
             <h1
               class="animated-gradient text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent leading-tight tracking-tight"
             >
-              {{ t('hero.title') }}
+              {{ t("hero.title") }}
             </h1>
             <!-- Glow effect behind title -->
             <div
@@ -70,7 +66,7 @@
             <p
               class="text-xl md:text-2xl font-semibold text-gray-800 leading-relaxed max-w-4xl mx-auto"
             >
-              {{ t('hero.subtitle') }}
+              {{ t("hero.subtitle") }}
             </p>
           </div>
 
@@ -85,7 +81,7 @@
                   class="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-300"
                 ></div>
                 <span class="relative flex items-center justify-center gap-2">
-                  {{ t('cta.start') }}
+                  {{ t("cta.start") }}
                   <svg
                     class="h-5 w-5 transform group-hover:translate-x-1 transition-transform"
                     fill="none"
@@ -135,7 +131,9 @@
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="text-sm font-medium">In 2 Minuten startbereit</span>
+                <span class="text-sm font-medium"
+                  >In 2 Minuten startbereit</span
+                >
               </div>
               <div class="flex items-center gap-2">
                 <svg
@@ -149,9 +147,7 @@
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="text-sm font-medium"
-                  >Server in Deutschland</span
-                >
+                <span class="text-sm font-medium">Server in Deutschland</span>
               </div>
             </div>
           </div>
@@ -166,7 +162,7 @@
         <h2
           class="font-display text-4xl md:text-5xl font-bold mb-4 text-center bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent"
         >
-          {{ t('sections.indispensable.title') }}
+          {{ t("sections.indispensable.title") }}
         </h2>
         <p class="text-center text-gray-600 mb-12 text-lg max-w-3xl mx-auto">
           Speziell entwickelt für die Anforderungen moderner Kanzleien
@@ -195,8 +191,10 @@
                   />
                 </svg>
               </div>
-              <h3 class="font-display text-lg md:text-2xl font-bold text-gray-800 break-words">
-                {{ t('sections.indispensable.lawyers.title') }}
+              <h3
+                class="font-display text-lg md:text-2xl font-bold text-gray-800 break-words"
+              >
+                {{ t("sections.indispensable.lawyers.title") }}
               </h3>
             </div>
             <ul class="space-y-4">
@@ -216,7 +214,7 @@
                   />
                 </svg>
                 <span class="text-gray-700">{{
-                  t('sections.indispensable.lawyers.points.0')
+                  t("sections.indispensable.lawyers.points.0")
                 }}</span>
               </li>
               <li class="flex items-start">
@@ -235,7 +233,7 @@
                   />
                 </svg>
                 <span class="text-gray-700">{{
-                  t('sections.indispensable.lawyers.points.1')
+                  t("sections.indispensable.lawyers.points.1")
                 }}</span>
               </li>
               <li class="flex items-start">
@@ -254,7 +252,7 @@
                   />
                 </svg>
                 <span class="text-gray-700">{{
-                  t('sections.indispensable.lawyers.points.2')
+                  t("sections.indispensable.lawyers.points.2")
                 }}</span>
               </li>
             </ul>
@@ -282,8 +280,10 @@
                   />
                 </svg>
               </div>
-              <h3 class="font-display text-lg md:text-2xl font-bold text-gray-800 break-words">
-                {{ t('sections.indispensable.refas.title') }}
+              <h3
+                class="font-display text-lg md:text-2xl font-bold text-gray-800 break-words"
+              >
+                {{ t("sections.indispensable.refas.title") }}
               </h3>
             </div>
             <ul class="space-y-4">
@@ -303,7 +303,7 @@
                   />
                 </svg>
                 <span class="text-gray-700">{{
-                  t('sections.indispensable.refas.points.0')
+                  t("sections.indispensable.refas.points.0")
                 }}</span>
               </li>
               <li class="flex items-start">
@@ -322,7 +322,7 @@
                   />
                 </svg>
                 <span class="text-gray-700">{{
-                  t('sections.indispensable.refas.points.1')
+                  t("sections.indispensable.refas.points.1")
                 }}</span>
               </li>
               <li class="flex items-start">
@@ -341,7 +341,7 @@
                   />
                 </svg>
                 <span class="text-gray-700">{{
-                  t('sections.indispensable.refas.points.2')
+                  t("sections.indispensable.refas.points.2")
                 }}</span>
               </li>
             </ul>
@@ -354,25 +354,23 @@
         <h2
           class="font-display text-4xl md:text-5xl font-bold mb-4 text-center bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent"
         >
-          {{ t('sections.process.title') }}
+          {{ t("sections.process.title") }}
         </h2>
         <p class="text-center text-gray-600 mb-12 text-lg max-w-3xl mx-auto">
-          {{ t('sections.process.description') }}
+          {{ t("sections.process.description") }}
         </p>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div
-            v-for="(step, index) in 4"
-            :key="index"
-            class="relative group"
-          >
+          <div v-for="(step, index) in 4" :key="index" class="relative group">
             <div
               class="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 h-full"
             >
               <div
                 class="w-14 h-14 bg-gradient-to-br from-pink-500 to-purple-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300"
               >
-                <span class="text-white font-bold text-xl">{{ index + 1 }}</span>
+                <span class="text-white font-bold text-xl">{{
+                  index + 1
+                }}</span>
               </div>
               <p class="text-gray-700 leading-relaxed">
                 {{ t(`sections.process.steps.${index}`) }}
@@ -415,8 +413,10 @@
           ></div>
         </div>
         <div class="relative z-10">
-          <h3 class="font-display text-3xl md:text-4xl font-bold text-white mb-4">
-            {{ t('cta.optimize') }}
+          <h3
+            class="font-display text-3xl md:text-4xl font-bold text-white mb-4"
+          >
+            {{ t("cta.optimize") }}
           </h3>
           <p class="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
             Über 1.000 Nutzer vertrauen bereits auf Diktat AI
@@ -425,7 +425,7 @@
             <button
               class="px-10 py-5 bg-white text-pink-600 font-bold text-xl rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 tracking-wide"
             >
-              {{ t('cta.start') }}
+              {{ t("cta.start") }}
             </button>
           </a>
         </div>
@@ -436,10 +436,10 @@
         <h2
           class="font-display text-4xl md:text-5xl font-bold mb-4 text-center bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent"
         >
-          {{ t('sections.advantages.title') }}
+          {{ t("sections.advantages.title") }}
         </h2>
         <p class="text-center text-gray-600 mb-12 text-lg max-w-3xl mx-auto">
-          {{ t('sections.advantages.description') }}
+          {{ t("sections.advantages.description") }}
         </p>
 
         <div class="grid md:grid-cols-2 gap-6">
@@ -482,10 +482,10 @@
         <h2
           class="font-display text-4xl md:text-5xl font-bold mb-4 text-center bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent"
         >
-          {{ t('sections.workflow.title') }}
+          {{ t("sections.workflow.title") }}
         </h2>
         <p class="text-center text-gray-600 mb-12 text-lg max-w-3xl mx-auto">
-          {{ t('sections.workflow.description') }}
+          {{ t("sections.workflow.description") }}
         </p>
 
         <div class="grid md:grid-cols-2 gap-8 mb-8">
@@ -512,17 +512,17 @@
                 </svg>
               </div>
               <h3 class="font-display text-2xl font-bold text-gray-800">
-                {{ t('sections.workflow.email.title') }}
+                {{ t("sections.workflow.email.title") }}
               </h3>
             </div>
             <p class="text-gray-700 mb-4">
-              {{ t('sections.workflow.email.description') }}
+              {{ t("sections.workflow.email.description") }}
             </p>
             <NuxtLinkLocale
               to="how-it-works"
               class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold"
             >
-              {{ t('sections.workflow.email.link') }}
+              {{ t("sections.workflow.email.link") }}
               <svg
                 class="h-4 w-4"
                 fill="none"
@@ -562,17 +562,17 @@
                 </svg>
               </div>
               <h3 class="font-display text-2xl font-bold text-gray-800">
-                {{ t('sections.workflow.integration.title') }}
+                {{ t("sections.workflow.integration.title") }}
               </h3>
             </div>
             <p class="text-gray-700 mb-4">
-              {{ t('sections.workflow.integration.description') }}
+              {{ t("sections.workflow.integration.description") }}
             </p>
             <NuxtLinkLocale to="general-kontakt">
               <button
                 class="px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold rounded-xl hover:from-green-600 hover:to-emerald-700 transition-all shadow-md hover:shadow-lg"
               >
-                {{ t('sections.workflow.integration.button') }}
+                {{ t("sections.workflow.integration.button") }}
               </button>
             </NuxtLinkLocale>
           </div>
@@ -581,7 +581,7 @@
         <!-- Workflow Benefits -->
         <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-200">
           <h3 class="font-display text-2xl font-bold mb-6 text-gray-800">
-            {{ t('sections.workflow.benefits.title') }}
+            {{ t("sections.workflow.benefits.title") }}
           </h3>
           <div class="grid md:grid-cols-3 gap-6">
             <div
@@ -615,10 +615,10 @@
         <h2
           class="font-display text-4xl md:text-5xl font-bold mb-4 text-center bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent"
         >
-          {{ t('sections.faq.title') }}
+          {{ t("sections.faq.title") }}
         </h2>
         <p class="text-center text-gray-600 mb-12 text-lg max-w-3xl mx-auto">
-          {{ t('sections.faq.description') }}
+          {{ t("sections.faq.description") }}
         </p>
 
         <div class="max-w-4xl mx-auto space-y-4">
@@ -672,10 +672,10 @@
           <h2
             class="font-display text-3xl md:text-5xl font-bold text-white mb-4"
           >
-            {{ t('sections.final.title') }}
+            {{ t("sections.final.title") }}
           </h2>
           <p class="text-white/90 text-lg md:text-xl mb-10 max-w-3xl mx-auto">
-            {{ t('sections.final.description') }}
+            {{ t("sections.final.description") }}
           </p>
 
           <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -683,14 +683,14 @@
               <button
                 class="px-10 py-5 bg-white text-pink-600 font-bold text-xl rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 tracking-wide w-full sm:w-auto"
               >
-                {{ t('sections.final.links.start') }}
+                {{ t("sections.final.links.start") }}
               </button>
             </a>
             <NuxtLinkLocale to="pricing">
               <button
                 class="px-10 py-5 bg-transparent border-2 border-white text-white font-bold text-xl rounded-2xl hover:bg-white hover:text-pink-600 transition-all duration-300 tracking-wide w-full sm:w-auto"
               >
-                {{ t('sections.final.links.pricing') }}
+                {{ t("sections.final.links.pricing") }}
               </button>
             </NuxtLinkLocale>
           </div>
@@ -699,13 +699,13 @@
             <NuxtLinkLocale
               to="pricing"
               class="hover:text-white transition-colors font-medium"
-              >{{ t('sections.final.links.pricing') }}</NuxtLinkLocale
+              >{{ t("sections.final.links.pricing") }}</NuxtLinkLocale
             >
             <span>•</span>
             <NuxtLinkLocale
               to="general-datasafety"
               class="hover:text-white transition-colors font-medium"
-              >{{ t('sections.final.links.security') }}</NuxtLinkLocale
+              >{{ t("sections.final.links.security") }}</NuxtLinkLocale
             >
           </div>
         </div>
@@ -716,17 +716,17 @@
 
 <script setup>
 const { t } = useI18n({
-  useScope: 'local',
-})
-const { registerUrl } = useAppUrl();;
+  useScope: "local",
+});
+const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags
 useHead({
-  title: t('meta.title'),
+  title: t("meta.title"),
   meta: [
     {
-      name: 'description',
-      content: t('meta.description'),
+      name: "description",
+      content: t("meta.description"),
     },
   ],
 });
@@ -974,6 +974,128 @@ useHead({
           "start": "Start Now",
           "pricing": "Pricing Models",
           "security": "Security Standards"
+        }
+      }
+    }
+  },
+  "nl": {
+    "meta": {
+      "title": "DiktatAI voor advocatenkantoren = Efficiënte transcriptie voor kantoren",
+      "description": "DiktatAI voor advocatenkantoren: Efficiënte transcriptie van juridische dictaten, cliëntgesprekken en aantekeningen. AVG-conform & veilig."
+    },
+    "hero": {
+      "title": "Dictaten AVG-conform transcriberen met AI",
+      "subtitle": "Zet uw juridische dictaten in seconden om in nauwkeurige processtukken - veilig en snel"
+    },
+    "cta": {
+      "optimize": "Optimaliseer nu uw kantoorpraktijk",
+      "start": "Gratis testen – met verwerkersovereenkomst",
+      "pricing": "Prijzen bekijken"
+    },
+    "sections": {
+      "indispensable": {
+        "title": "DiktatAI: Onmisbaar voor de moderne kantoorpraktijk",
+        "lawyers": {
+          "title": "Advocaten & juristen:",
+          "points": [
+            "Dicteer processtukken, aantekeningen, adviezen en correspondentie direct.",
+            "Leg cliëntgesprekken en besprekingsresultaten moeiteloos vast als tekst.",
+            "Versnel de dossierbehandeling door snelle beschikbaarheid van verslagen."
+          ]
+        },
+        "refas": {
+          "title": "Juridisch medewerkers & secretaresses:",
+          "points": [
+            "Verwerk advocatendictaten in recordtijd en maak documenten sneller.",
+            "Verminder typefouten en verhoog de nauwkeurigheid bij tekstcreatie.",
+            "Win tijd voor meer uitdagende taken in kantoororganisatie en cliëntbegeleiding."
+          ]
+        }
+      },
+      "process": {
+        "title": "Eenvoudig. Snel. Vertrouwelijk.",
+        "description": "Ons ongecompliceerde proces bespaart u waardevolle uren. Zet spraakopnames in enkele stappen veilig om in bewerkbare, juridisch bruikbare teksten.",
+        "steps": [
+          "Opname uploaden: Dictaten, gespreksopnames etc. met één klik starten.",
+          "AI-transcriptie: Nauwkeurige omzetting door gespecialiseerde spraakherkenning.",
+          "Veilige verwerking: Strikt AVG-conform & end-to-end versleuteld.",
+          "Direct inzetbaar: Geformatteerde tekst om te downloaden voor uw dossiers & software."
+        ]
+      },
+      "advantages": {
+        "title": "Uw duidelijke voordeel in de kantoorpraktijk met DiktatAI",
+        "description": "DiktatAI brengt meetbare meerwaarde door slimme automatisering – speciaal voor de eisen in de juridische sector.",
+        "points": [
+          "Enorme tijdsbesparing: Gedaan met urenlang uittypen van dictaten of verslagen. Win tijd voor juridische kerntaken en cliëntbegeleiding.",
+          "Verhoogde kantoorefficiëntie: Doe meer in minder tijd. Versnel merkbaar het opstellen van processtukken, protocollen en aantekeningen.",
+          "Nauwkeurige & bruikbare resultaten: Ontvang precieze teksttranscripties van uw opnames als betrouwbare basis voor uw juridisch werk en documentatie.",
+          "Hoogste gegevensbeveiliging & geheimhouding: Vertrouw op strikte vertrouwelijkheid conform AVG en beroepsgeheim. Uw gevoelige cliëntgegevens zijn bij ons veilig.",
+          "Focus op juridisch advies & strategie: Verminder administratieve routine. Concentreer uw expertise op dossierbehandeling, cliëntgesprekken en strategische beslissingen."
+        ]
+      },
+      "workflow": {
+        "title": "DiktatAI past zich aan uw kantoorworkflow aan",
+        "description": "We maken het u gemakkelijk om transcripties naadloos in uw juridische werkprocessen te integreren.",
+        "email": {
+          "title": "Beschikbaar: Eenvoudig transcriberen via e-mail",
+          "description": "De snelste weg naar het afgewerkte verslag – helemaal zonder inloggen. Stuur uw audiobestand (dictaat, meeting-opname) direct als bijlage per e-mail. DiktatAI levert de tekst veilig terug.",
+          "link": "Zo werkt het"
+        },
+        "integration": {
+          "title": "Beschikbaar: Directe koppeling met uw kantoorsoftware",
+          "description": "Naadloze integratie voor maximale efficiëntie. Stel u voor: uw transcripties komen automatisch waar u ze nodig heeft – direct in uw dossierbeheer of kantoorsoftware.",
+          "button": "Individuele oplossing aanvragen"
+        },
+        "benefits": {
+          "title": "Waarom deze opties waardevol zijn voor uw kantoor:",
+          "points": [
+            "Flexibiliteit: Kies de methode die het beste past bij uw werkwijze.",
+            "Tijdsbesparing: Verminder handmatige stappen en verwerkingstijden drastisch.",
+            "Naadloze processen: Integreer transcripties direct in uw gevestigde kantoorprocessen."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Veelgestelde vragen over DiktatAI voor advocatenkantoren",
+        "description": "Antwoorden op de belangrijkste vragen voor advocaten en juridisch medewerkers.",
+        "questions": [
+          {
+            "title": "Wat doet DiktatAI precies voor juristen?",
+            "answer": "DiktatAI zet uw gesproken woorden – of het nu dictaten voor processtukken, cliëntgesprekken, interne aantekeningen of onderhandelingsnotities zijn – automatisch om in geschreven tekst. U uploadt de audio-opname, onze AI verzorgt de transcriptie."
+          },
+          {
+            "title": "Is DiktatAI geschikt voor mijn kantoor?",
+            "answer": "Absoluut. DiktatAI is ideaal voor advocaten, notarissen, juridisch medewerkers en complete kantoren of juridische afdelingen die regelmatig dictaten of gespreksopnames uitschrijven en daarbij tijd en middelen willen besparen."
+          },
+          {
+            "title": "Hoe helpt DiktatAI tijd te besparen in de kantoorpraktijk?",
+            "answer": "Handmatig transcriberen is extreem tijdrovend. DiktatAI doet dit in een fractie van de tijd. Deze gewonnen tijd kunt u direct investeren in cliëntwerk, acquisitie of strategische planning."
+          },
+          {
+            "title": "Zijn mijn cliëntgegevens veilig bij DiktatAI?",
+            "answer": "Ja. Gegevensbeveiliging en vertrouwelijkheid zijn ons hoogste gebod. We verwerken alle gegevens strikt volgens AVG op servers uitsluitend binnen de EU. Uw gevoelige informatie is beschermd door technische en organisatorische maatregelen."
+          },
+          {
+            "title": "Hoe nauwkeurig zijn de transcripties van juridische inhoud?",
+            "answer": "Onze AI levert hoge nauwkeurigheid, vooral bij goede audiokwaliteit. U krijgt een solide tekstbasis die u snel kunt controleren en indien nodig vakspecifiek kunt aanpassen. De tijdsinvestering is aanzienlijk minder dan bij volledig uittypen."
+          },
+          {
+            "title": "Welke audio-opnames kan ik gebruiken?",
+            "answer": "Gebruik opnames van dicteerrecorders, smartphones, online meetings (bijv. Teams, Zoom – met toestemming), cliëntgesprekken (met toestemming) en meer. Gangbare audioformaten worden ondersteund."
+          },
+          {
+            "title": "Is de bediening ingewikkeld? Heb ik IT-support nodig?",
+            "answer": "Nee. DiktatAI is bewust eenvoudig gehouden: opname uploaden, even wachten, afgewerkte tekst ontvangen. Geen ingewikkelde installatie of inwerkperiode nodig. U kunt direct beginnen."
+          }
+        ]
+      },
+      "final": {
+        "title": "Klaar met moeizaam typen: Concentreer u op uw cliënten.",
+        "description": "DiktatAI is uw betrouwbare partner voor de snelle en veilige omzetting van spraak naar tekst in de kantooromgeving. Optimaliseer uw werkprocessen, verhoog de efficiëntie en win waardevolle tijd terug.",
+        "links": {
+          "start": "Nu beginnen",
+          "pricing": "Prijsmodellen",
+          "security": "Beveiligingsstandaarden"
         }
       }
     }

@@ -324,6 +324,43 @@ useHead({
       "pricing": "View Pricing",
       "help": "Frequently Asked Questions"
     }
+  },
+  "nl": {
+    "seo": {
+      "title": "Zo werkt het - Diktat AI",
+      "description": "Ontdek hoe eenvoudig spraakherkenning werkt met Diktat AI. Transformeer uw audio-opnames in tekst in slechts 3 stappen."
+    },
+    "hero": {
+      "title": "In 3 eenvoudige stappen naar uw kant-en-klare transcriptie",
+      "description": "Met Diktat AI transformeert u uw audio-opnames snel en moeiteloos naar tekst via ons veilige platform. Zo bespaart u waardevolle tijd."
+    },
+    "process": {
+      "title": "Zo werkt Diktat AI"
+    },
+    "steps": {
+      "step1": {
+        "title": "Stap 1: Opname uploaden",
+        "description": "Upload uw audiobestand (bijv. MP3, WAV, M4A van meetings, interviews, dictaten) met slechts één klik direct via ons veilige webplatform."
+      },
+      "step2": {
+        "title": "Stap 2: AI doet het werk",
+        "description": "Leun achterover! Onze geavanceerde kunstmatige intelligentie analyseert uw opname veilig en GDPR-conform. De gesproken woorden worden nauwkeurig herkend en omgezet in geschreven tekst. Dit proces duurt meestal slechts een fractie van de audiolengte."
+      },
+      "step3": {
+        "title": "Stap 3: Transcriptie ontvangen & gebruiken",
+        "description": "Zodra de transcriptie klaar is, vindt u uw tekst direct in uw account. Download hem als bestand (bijv. .txt, .docx) of kopieer hem direct. Gebruik de tekst meteen voor notulen, notities, artikelen, ondertitels of analyses."
+      }
+    },
+    "summary": {
+      "title": "Dat is alles!",
+      "description": "Geen moeizaam uittypen, geen ingewikkelde omwegen. Slechts drie duidelijke stappen scheiden u van uw kant-en-klare transcriptie op ons platform. Zo eenvoudig kan efficiëntie zijn."
+    },
+    "cta": {
+      "title": "Klaar om tijd te besparen?",
+      "register": "Nu gratis beginnen",
+      "pricing": "Prijzen bekijken",
+      "help": "Veelgestelde vragen"
+    }
   }
 }
 </i18n> 

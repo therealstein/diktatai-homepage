@@ -1,11 +1,30 @@
 <template>
   <div class="bg-base-100 text-base-content">
     <!-- Hero Section -->
-    <div class="hero min-h-[40vh] relative" style="background: linear-gradient(135deg, #EF56A4 0%, #4A90E2 100%); background-size: cover; background-position: center;">
+    <div
+      class="hero min-h-[40vh] relative"
+      style="
+        background: linear-gradient(135deg, #ef56a4 0%, #4a90e2 100%);
+        background-size: cover;
+        background-position: center;
+      "
+    >
       <div class="hero-content text-center">
-        <div class="backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20">
-          <h1 class="font-display text-4xl font-bold text-white mb-2" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">{{ t('hero.title') }}</h1>
-          <p class="text-lg text-white" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">{{ t('hero.subtitle') }}</p>
+        <div
+          class="backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20"
+        >
+          <h1
+            class="font-display text-4xl font-bold text-white mb-2"
+            style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
+          >
+            {{ t("hero.title") }}
+          </h1>
+          <p
+            class="text-lg text-white"
+            style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
+          >
+            {{ t("hero.subtitle") }}
+          </p>
         </div>
       </div>
     </div>
@@ -16,97 +35,192 @@
         <!-- Introduction -->
         <div class="mb-12">
           <p class="text-lg">
-            {{ t('introduction.paragraph1') }}
+            {{ t("introduction.paragraph1") }}
           </p>
           <p class="text-lg">
-            {{ t('introduction.paragraph2') }}
+            {{ t("introduction.paragraph2") }}
           </p>
         </div>
 
         <!-- Our Story Section -->
-        <div class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300">
-          <h2 class="font-display text-2xl font-bold mb-6">{{ t('story.title') }}</h2>
+        <div
+          class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
+        >
+          <h2 class="font-display text-2xl font-bold mb-6">
+            {{ t("story.title") }}
+          </h2>
           <p class="mb-6">
-            {{ t('story.paragraph') }}
+            {{ t("story.paragraph") }}
           </p>
-          <h3 class="font-display text-xl font-bold mb-4">{{ t('story.challenge') }}</h3>
+          <h3 class="font-display text-xl font-bold mb-4">
+            {{ t("story.challenge") }}
+          </h3>
           <ul class="space-y-4">
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('story.points.point1') }}</span>
+              <span>{{ t("story.points.point1") }}</span>
             </li>
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('story.points.point2') }}</span>
+              <span>{{ t("story.points.point2") }}</span>
             </li>
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('story.points.point3') }}</span>
+              <span>{{ t("story.points.point3") }}</span>
             </li>
           </ul>
         </div>
 
         <!-- Our Vision Section -->
-        <div class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300">
-          <h2 class="font-display text-2xl font-bold mb-6">{{ t('vision.title') }}</h2>
+        <div
+          class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
+        >
+          <h2 class="font-display text-2xl font-bold mb-6">
+            {{ t("vision.title") }}
+          </h2>
           <p class="mb-6">
-            {{ t('vision.paragraph') }}
+            {{ t("vision.paragraph") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('vision.points.point1') }}</span>
+              <span>{{ t("vision.points.point1") }}</span>
             </li>
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('vision.points.point2') }}</span>
+              <span>{{ t("vision.points.point2") }}</span>
             </li>
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('vision.points.point3') }}</span>
+              <span>{{ t("vision.points.point3") }}</span>
             </li>
             <li class="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
-              <span>{{ t('vision.points.point4') }}</span>
+              <span>{{ t("vision.points.point4") }}</span>
             </li>
           </ul>
         </div>
 
         <!-- Today Section -->
         <div class="mb-12">
-          <h2 class="font-display text-2xl font-bold mb-6">{{ t('today.title') }}</h2>
+          <h2 class="font-display text-2xl font-bold mb-6">
+            {{ t("today.title") }}
+          </h2>
           <p class="text-lg mb-6">
-            {{ t('today.paragraph1') }}
+            {{ t("today.paragraph1") }}
           </p>
           <p class="text-lg">
-            {{ t('today.paragraph2') }}
+            {{ t("today.paragraph2") }}
           </p>
         </div>
 
         <!-- Call to Action -->
-        <div class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20">
-          <h3 class="font-display text-2xl font-bold mb-4 text-center">{{ t('cta.title') }}</h3>
+        <div
+          class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20"
+        >
+          <h3 class="font-display text-2xl font-bold mb-4 text-center">
+            {{ t("cta.title") }}
+          </h3>
           <p class="text-lg text-center mb-8">
-            {{ t('cta.paragraph') }}
+            {{ t("cta.paragraph") }}
           </p>
           <div class="text-center">
             <a :href="registerUrl">
-              <button class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide">
-                {{ t('cta.button') }}
+              <button
+                class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
+              >
+                {{ t("cta.button") }}
               </button>
             </a>
           </div>
@@ -118,20 +232,18 @@
 
 <script setup>
 const { t } = useI18n({
-  useScope: 'local'
-})
+  useScope: "local",
+});
 const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags with Canonical URL
-const { canonicalUrl } = useSeoCanonical('/general/about');
+const { canonicalUrl } = useSeoCanonical("/general/about");
 
 useHead({
-  title: t('meta.title'),
-  meta: [
-    { name: 'description', content: t('meta.description') }
-  ],
-  link: [{ rel: 'canonical', href: canonicalUrl.value }],
-})
+  title: t("meta.title"),
+  meta: [{ name: "description", content: t("meta.description") }],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
+});
 </script>
 
 <i18n lang="json">
@@ -210,8 +322,8 @@ useHead({
       }
     },
     "today": {
-      "title": "Diktat AI heute",
-      "paragraph1": "Hinter Diktat AI steht heute ein engagiertes Team, das kontinuierlich daran arbeitet, den Service weiter zu verbessern und an die Bedürfnisse unserer Nutzer anzupassen. Wir verstehen die Herausforderungen Ihres Arbeitsalltags, weil wir sie selbst kennen.",
+      "title": "DiktatAI heute",
+      "paragraph1": "Hinter DiktatAI steht heute ein engagiertes Team, das kontinuierlich daran arbeitet, den Service weiter zu verbessern und an die Bedürfnisse unserer Nutzer anzupassen. Wir verstehen die Herausforderungen Ihres Arbeitsalltags, weil wir sie selbst kennen.",
       "paragraph2": "Unsere Mission ist es, Ihnen wertvolle Zeit zurückzugeben und Ihre Produktivität zu steigern – einfach, sicher und effizient."
     },
     "cta": {
@@ -223,6 +335,50 @@ useHead({
       "title": "Über uns - Diktat AI",
       "description": "Erfahren Sie mehr über die Geschichte und Vision von Diktat AI. Wie aus der Frustration über zeitaufwändige Transkriptionen eine innovative Lösung entstand."
     }
+  },
+  "nl": {
+    "hero": {
+      "title": "Over DiktatAI",
+      "subtitle": "Van eigen frustratie naar een oplossing voor u"
+    },
+    "introduction": {
+      "paragraph1": "Herkent u dit ook? Urenlang, moeizaam audio-opnames uittypen? Vergaderingen, interviews, belangrijke notities – de waardevolle inhoud is er, maar de weg naar bruikbare tekst is lastig en kost oneindig veel tijd. Tijd die elders dringend nodig is.",
+      "paragraph2": "Precies deze frustratie was de vonk die leidde tot de oprichting van DiktatAI."
+    },
+    "story": {
+      "title": "Ons verhaal",
+      "paragraph": "Wij – de oprichters van DiktatAI – komen zelf uit werkvelden waar gesproken woorden een centrale rol spelen. Of het nu gaat om adviseurs in intensieve klantgesprekken, content creators bij de productie van podcasts of ondernemers die snel ideeën en vergaderresultaten moeten vastleggen – wij hebben de pijn van handmatige transcriptie aan den lijve ondervonden.",
+      "challenge": "Steeds weer stonden we voor dezelfde uitdaging:",
+      "points": {
+        "point1": "De angst om belangrijke details in lange opnames te missen of te vergeten.",
+        "point2": "De enorme tijdsinvestering die het uittypen kostte – tijd die we liever in onze kerncompetenties hadden gestoken.",
+        "point3": "De zoektocht naar een oplossing die niet alleen snel, maar ook betrouwbaar en vooral veilig is."
+      }
+    },
+    "vision": {
+      "title": "Onze visie",
+      "paragraph": "Gedreven door deze gedachte en onze passie voor efficiënte oplossingen en technologie, besloten we het probleem zelf aan te pakken. Ons doel was helder:",
+      "points": {
+        "point1": "Een transcriptie-oplossing ontwikkelen die we zelf graag zouden gebruiken.",
+        "point2": "Eenvoud en gebruiksvriendelijkheid centraal stellen.",
+        "point3": "Hoogste precisie garanderen door de inzet van de modernste AI-spraakherkenning.",
+        "point4": "Compromisloze veiligheid en gegevensbescherming vanaf het begin als fundament integreren."
+      }
+    },
+    "today": {
+      "title": "DiktatAI vandaag",
+      "paragraph1": "Achter DiktatAI staat vandaag een toegewijd team dat continu werkt aan het verder verbeteren van de service en het aanpassen aan de behoeften van onze gebruikers. We begrijpen de uitdagingen van uw werkdag, omdat we ze zelf kennen.",
+      "paragraph2": "Onze missie is om u waardevolle tijd terug te geven en uw productiviteit te verhogen – eenvoudig, veilig en efficiënt."
+    },
+    "cta": {
+      "title": "Start nu met DiktatAI",
+      "paragraph": "We zijn blij als DiktatAI ook u helpt om uw werkdag te verlichten.",
+      "button": "Gratis proberen"
+    },
+    "meta": {
+      "title": "Over ons - DiktatAI",
+      "description": "Leer meer over de geschiedenis en visie van DiktatAI. Hoe uit frustratie over tijdrovende transcripties een innovatieve oplossing ontstond."
+    }
   }
 }
 </i18n>
@@ -230,19 +386,19 @@ useHead({
 <style scoped>
 /* Override accent and secondary colors with pink */
 :deep(.text-accent) {
-  color: #EF56A4 !important;
+  color: #ef56a4 !important;
 }
 
 :deep(.text-secondary) {
-  color: #EF56A4 !important;
+  color: #ef56a4 !important;
 }
 
 :deep(.bg-accent) {
-  background-color: #EF56A4 !important;
+  background-color: #ef56a4 !important;
 }
 
 :deep(.bg-secondary) {
-  background-color: #EF56A4 !important;
+  background-color: #ef56a4 !important;
 }
 
 :deep(.from-accent\/10) {
@@ -265,4 +421,4 @@ useHead({
 .card:hover {
   transform: translateY(-5px);
 }
-</style> 
+</style>

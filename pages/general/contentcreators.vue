@@ -1,18 +1,35 @@
 <template>
   <div class="bg-base-100 text-base-content">
     <!-- Hero Section -->
-    <div class="hero min-h-[50vh] relative" style="background: linear-gradient(135deg, #EF56A4 0%, #4A90E2 100%); background-size: cover; background-position: center;">
+    <div
+      class="hero min-h-[50vh] relative"
+      style="
+        background: linear-gradient(135deg, #ef56a4 0%, #4a90e2 100%);
+        background-size: cover;
+        background-position: center;
+      "
+    >
       <div class="hero-content text-center">
-        <div class="backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20 max-w-3xl">
-          <h1 class="font-display text-4xl font-bold text-white mb-4" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">
-            {{ t('hero.title') }}
+        <div
+          class="backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20 max-w-3xl"
+        >
+          <h1
+            class="font-display text-4xl font-bold text-white mb-4"
+            style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
+          >
+            {{ t("hero.title") }}
           </h1>
-          <p class="text-xl text-white mb-8" style="text-shadow: 0 0 5px rgba(0,0,0,0.7);">
-            {{ t('hero.subtitle') }}
+          <p
+            class="text-xl text-white mb-8"
+            style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
+          >
+            {{ t("hero.subtitle") }}
           </p>
           <a :href="registerUrl">
-            <button class="font-display bg-white text-pink-500 text-xl font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition-all shadow-lg tracking-wide">
-              {{ t('hero.cta') }}
+            <button
+              class="font-display bg-white text-pink-500 text-xl font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition-all shadow-lg tracking-wide"
+            >
+              {{ t("hero.cta") }}
             </button>
           </a>
         </div>
@@ -25,55 +42,65 @@
         <!-- Creator Tools Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('creatorTools.title') }}
+            {{ t("creatorTools.title") }}
           </h2>
           <p class="text-lg mb-8">
-            {{ t('creatorTools.intro') }}
+            {{ t("creatorTools.intro") }}
           </p>
-          
+
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h3 class="font-display text-xl font-bold mb-3">
-                {{ t('creatorTools.podcasters.title') }}
+                {{ t("creatorTools.podcasters.title") }}
               </h3>
               <p>
-                {{ t('creatorTools.podcasters.description') }}
-              </p>
-            </div>
-            
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
-              <h3 class="font-display text-xl font-bold mb-3">
-                {{ t('creatorTools.youtubers.title') }}
-              </h3>
-              <p>
-                {{ t('creatorTools.youtubers.description') }}
-              </p>
-            </div>
-            
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
-              <h3 class="font-display text-xl font-bold mb-3">
-                {{ t('creatorTools.bloggers.title') }}
-              </h3>
-              <p>
-                {{ t('creatorTools.bloggers.description') }}
-              </p>
-            </div>
-            
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
-              <h3 class="font-display text-xl font-bold mb-3">
-                {{ t('creatorTools.socialMedia.title') }}
-              </h3>
-              <p>
-                {{ t('creatorTools.socialMedia.description') }}
+                {{ t("creatorTools.podcasters.description") }}
               </p>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h3 class="font-display text-xl font-bold mb-3">
-                {{ t('creatorTools.courseCreators.title') }}
+                {{ t("creatorTools.youtubers.title") }}
               </h3>
               <p>
-                {{ t('creatorTools.courseCreators.description') }}
+                {{ t("creatorTools.youtubers.description") }}
+              </p>
+            </div>
+
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
+              <h3 class="font-display text-xl font-bold mb-3">
+                {{ t("creatorTools.bloggers.title") }}
+              </h3>
+              <p>
+                {{ t("creatorTools.bloggers.description") }}
+              </p>
+            </div>
+
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
+              <h3 class="font-display text-xl font-bold mb-3">
+                {{ t("creatorTools.socialMedia.title") }}
+              </h3>
+              <p>
+                {{ t("creatorTools.socialMedia.description") }}
+              </p>
+            </div>
+
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
+              <h3 class="font-display text-xl font-bold mb-3">
+                {{ t("creatorTools.courseCreators.title") }}
+              </h3>
+              <p>
+                {{ t("creatorTools.courseCreators.description") }}
               </p>
             </div>
           </div>
@@ -82,58 +109,82 @@
         <!-- Process Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('process.title') }}
+            {{ t("process.title") }}
           </h2>
           <p class="text-lg mb-8 text-center">
-            {{ t('process.subtitle') }}
+            {{ t("process.subtitle") }}
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-center mb-4">
-                <div class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4">1</div>
+                <div
+                  class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4"
+                >
+                  1
+                </div>
                 <h3 class="font-display text-xl font-bold">
-                  {{ t('process.steps.upload.title') }}
+                  {{ t("process.steps.upload.title") }}
                 </h3>
               </div>
               <p>
-                {{ t('process.steps.upload.description') }}
+                {{ t("process.steps.upload.description") }}
               </p>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-center mb-4">
-                <div class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4">2</div>
+                <div
+                  class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4"
+                >
+                  2
+                </div>
                 <h3 class="font-display text-xl font-bold">
-                  {{ t('process.steps.transcription.title') }}
+                  {{ t("process.steps.transcription.title") }}
                 </h3>
               </div>
               <p>
-                {{ t('process.steps.transcription.description') }}
+                {{ t("process.steps.transcription.description") }}
               </p>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-center mb-4">
-                <div class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4">3</div>
+                <div
+                  class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4"
+                >
+                  3
+                </div>
                 <h3 class="font-display text-xl font-bold">
-                  {{ t('process.steps.security.title') }}
+                  {{ t("process.steps.security.title") }}
                 </h3>
               </div>
               <p>
-                {{ t('process.steps.security.description') }}
+                {{ t("process.steps.security.description") }}
               </p>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-center mb-4">
-                <div class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4">4</div>
+                <div
+                  class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold mr-4"
+                >
+                  4
+                </div>
                 <h3 class="font-display text-xl font-bold">
-                  {{ t('process.steps.ready.title') }}
+                  {{ t("process.steps.ready.title") }}
                 </h3>
               </div>
               <p>
-                {{ t('process.steps.ready.description') }}
+                {{ t("process.steps.ready.description") }}
               </p>
             </div>
           </div>
@@ -142,88 +193,153 @@
         <!-- Advantages Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('advantages.title') }}
+            {{ t("advantages.title") }}
           </h2>
           <p class="text-lg mb-8 text-center">
-            {{ t('advantages.subtitle') }}
+            {{ t("advantages.subtitle") }}
           </p>
 
           <div class="space-y-6">
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
                 <div>
                   <h3 class="font-display text-xl font-bold mb-2">
-                    {{ t('advantages.timeSaving.title') }}
+                    {{ t("advantages.timeSaving.title") }}
                   </h3>
                   <p>
-                    {{ t('advantages.timeSaving.description') }}
+                    {{ t("advantages.timeSaving.description") }}
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
                 <div>
                   <h3 class="font-display text-xl font-bold mb-2">
-                    {{ t('advantages.contentOutput.title') }}
+                    {{ t("advantages.contentOutput.title") }}
                   </h3>
                   <p>
-                    {{ t('advantages.contentOutput.description') }}
+                    {{ t("advantages.contentOutput.description") }}
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
                 <div>
                   <h3 class="font-display text-xl font-bold mb-2">
-                    {{ t('advantages.preciseTexts.title') }}
+                    {{ t("advantages.preciseTexts.title") }}
                   </h3>
                   <p>
-                    {{ t('advantages.preciseTexts.description') }}
+                    {{ t("advantages.preciseTexts.description") }}
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
                 <div>
                   <h3 class="font-display text-xl font-bold mb-2">
-                    {{ t('advantages.accessibility.title') }}
+                    {{ t("advantages.accessibility.title") }}
                   </h3>
                   <p>
-                    {{ t('advantages.accessibility.description') }}
+                    {{ t("advantages.accessibility.description") }}
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <div class="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-pink-500 mr-4 mt-1 flex-shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
                 <div>
                   <h3 class="font-display text-xl font-bold mb-2">
-                    {{ t('advantages.focus.title') }}
+                    {{ t("advantages.focus.title") }}
                   </h3>
                   <p>
-                    {{ t('advantages.focus.description') }}
+                    {{ t("advantages.focus.description") }}
                   </p>
                 </div>
               </div>
@@ -234,63 +350,76 @@
         <!-- Workflow Integration Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('workflow.title') }}
+            {{ t("workflow.title") }}
           </h2>
           <p class="text-lg mb-8 text-center">
-            {{ t('workflow.subtitle') }}
+            {{ t("workflow.subtitle") }}
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h3 class="font-display text-xl font-bold mb-4">
-                {{ t('workflow.email.title') }}
+                {{ t("workflow.email.title") }}
               </h3>
               <p class="mb-4">
-                {{ t('workflow.email.description') }}
+                {{ t("workflow.email.description") }}
               </p>
-              <NuxtLinkLocale to="how-it-works" class="text-pink-500 hover:text-pink-600 font-bold">
-                {{ t('workflow.email.link') }}
+              <NuxtLinkLocale
+                to="how-it-works"
+                class="text-pink-500 hover:text-pink-600 font-bold"
+              >
+                {{ t("workflow.email.link") }}
               </NuxtLinkLocale>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h3 class="font-display text-xl font-bold mb-4">
-                {{ t('workflow.api.title') }}
+                {{ t("workflow.api.title") }}
               </h3>
               <p class="mb-4">
-                {{ t('workflow.api.description') }}
+                {{ t("workflow.api.description") }}
               </p>
               <NuxtLinkLocale to="general-kontakt" class="btn btn-primary">
-                {{ t('workflow.api.link') }}
+                {{ t("workflow.api.link") }}
               </NuxtLinkLocale>
             </div>
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h4 class="font-display text-lg font-bold mb-2">
-                {{ t('workflow.features.flexibility.title') }}
+                {{ t("workflow.features.flexibility.title") }}
               </h4>
               <p>
-                {{ t('workflow.features.flexibility.description') }}
+                {{ t("workflow.features.flexibility.description") }}
               </p>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h4 class="font-display text-lg font-bold mb-2">
-                {{ t('workflow.features.efficiency.title') }}
+                {{ t("workflow.features.efficiency.title") }}
               </h4>
               <p>
-                {{ t('workflow.features.efficiency.description') }}
+                {{ t("workflow.features.efficiency.description") }}
               </p>
             </div>
 
-            <div class="card bg-base-200 p-6 rounded-2xl border border-base-300">
+            <div
+              class="card bg-base-200 p-6 rounded-2xl border border-base-300"
+            >
               <h4 class="font-display text-lg font-bold mb-2">
-                {{ t('workflow.features.seamlessness.title') }}
+                {{ t("workflow.features.seamlessness.title") }}
               </h4>
               <p>
-                {{ t('workflow.features.seamlessness.description') }}
+                {{ t("workflow.features.seamlessness.description") }}
               </p>
             </div>
           </div>
@@ -299,17 +428,17 @@
         <!-- FAQ Section -->
         <div class="mb-16">
           <h2 class="font-display text-3xl font-bold mb-8 text-center">
-            {{ t('faq.title') }}
+            {{ t("faq.title") }}
           </h2>
           <div class="space-y-6">
             <div class="collapse collapse-plus bg-base-200 rounded-2xl">
-              <input type="radio" name="faq-accordion" checked="checked" /> 
+              <input type="radio" name="faq-accordion" checked="checked" />
               <div class="collapse-title font-display text-xl font-bold">
-                {{ t('faq.questions.benefits.question') }}
+                {{ t("faq.questions.benefits.question") }}
               </div>
               <div class="collapse-content">
                 <p>
-                  {{ t('faq.questions.benefits.answer') }}
+                  {{ t("faq.questions.benefits.answer") }}
                 </p>
               </div>
             </div>
@@ -317,11 +446,11 @@
             <div class="collapse collapse-plus bg-base-200 rounded-2xl">
               <input type="radio" name="faq-accordion" />
               <div class="collapse-title font-display text-xl font-bold">
-                {{ t('faq.questions.suitability.question') }}
+                {{ t("faq.questions.suitability.question") }}
               </div>
               <div class="collapse-content">
                 <p>
-                  {{ t('faq.questions.suitability.answer') }}
+                  {{ t("faq.questions.suitability.answer") }}
                 </p>
               </div>
             </div>
@@ -329,11 +458,11 @@
             <div class="collapse collapse-plus bg-base-200 rounded-2xl">
               <input type="radio" name="faq-accordion" />
               <div class="collapse-title font-display text-xl font-bold">
-                {{ t('faq.questions.timeSaving.question') }}
+                {{ t("faq.questions.timeSaving.question") }}
               </div>
               <div class="collapse-content">
                 <p>
-                  {{ t('faq.questions.timeSaving.answer') }}
+                  {{ t("faq.questions.timeSaving.answer") }}
                 </p>
               </div>
             </div>
@@ -341,11 +470,11 @@
             <div class="collapse collapse-plus bg-base-200 rounded-2xl">
               <input type="radio" name="faq-accordion" />
               <div class="collapse-title font-display text-xl font-bold">
-                {{ t('faq.questions.security.question') }}
+                {{ t("faq.questions.security.question") }}
               </div>
               <div class="collapse-content">
                 <p>
-                  {{ t('faq.questions.security.answer') }}
+                  {{ t("faq.questions.security.answer") }}
                 </p>
               </div>
             </div>
@@ -353,11 +482,11 @@
             <div class="collapse collapse-plus bg-base-200 rounded-2xl">
               <input type="radio" name="faq-accordion" />
               <div class="collapse-title font-display text-xl font-bold">
-                {{ t('faq.questions.accuracy.question') }}
+                {{ t("faq.questions.accuracy.question") }}
               </div>
               <div class="collapse-content">
                 <p>
-                  {{ t('faq.questions.accuracy.answer') }}
+                  {{ t("faq.questions.accuracy.answer") }}
                 </p>
               </div>
             </div>
@@ -365,11 +494,11 @@
             <div class="collapse collapse-plus bg-base-200 rounded-2xl">
               <input type="radio" name="faq-accordion" />
               <div class="collapse-title font-display text-xl font-bold">
-                {{ t('faq.questions.videoSupport.question') }}
+                {{ t("faq.questions.videoSupport.question") }}
               </div>
               <div class="collapse-content">
                 <p>
-                  {{ t('faq.questions.videoSupport.answer') }}
+                  {{ t("faq.questions.videoSupport.answer") }}
                 </p>
               </div>
             </div>
@@ -377,11 +506,11 @@
             <div class="collapse collapse-plus bg-base-200 rounded-2xl">
               <input type="radio" name="faq-accordion" />
               <div class="collapse-title font-display text-xl font-bold">
-                {{ t('faq.questions.easeOfUse.question') }}
+                {{ t("faq.questions.easeOfUse.question") }}
               </div>
               <div class="collapse-content">
                 <p>
-                  {{ t('faq.questions.easeOfUse.answer') }}
+                  {{ t("faq.questions.easeOfUse.answer") }}
                 </p>
               </div>
             </div>
@@ -389,22 +518,24 @@
         </div>
 
         <!-- Final CTA Section -->
-        <div class="card bg-gradient-to-br from-pink-500/10 to-blue-500/10 shadow-xl p-8 rounded-3xl border border-pink-500/20">
+        <div
+          class="card bg-gradient-to-br from-pink-500/10 to-blue-500/10 shadow-xl p-8 rounded-3xl border border-pink-500/20"
+        >
           <h2 class="font-display text-3xl font-bold mb-4 text-center">
-            {{ t('finalCta.title') }}
+            {{ t("finalCta.title") }}
           </h2>
           <p class="text-lg text-center mb-8">
-            {{ t('finalCta.subtitle') }}
+            {{ t("finalCta.subtitle") }}
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a :href="registerUrl">
               <button class="btn btn-primary btn-lg">
-                {{ t('finalCta.buttons.start') }}
+                {{ t("finalCta.buttons.start") }}
               </button>
             </a>
             <NuxtLinkLocale to="pricing">
               <button class="btn btn-outline btn-lg">
-                {{ t('finalCta.buttons.pricing') }}
+                {{ t("finalCta.buttons.pricing") }}
               </button>
             </NuxtLinkLocale>
           </div>
@@ -417,23 +548,23 @@
 <script setup>
 // SEO Meta Tags
 const { t } = useI18n({
-  useScope: 'local'
-})
+  useScope: "local",
+});
 const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags with Canonical URL
-const { canonicalUrl } = useSeoCanonical('/general/contentcreators');
+const { canonicalUrl } = useSeoCanonical("/general/contentcreators");
 
 useHead({
-  title: t('hero.title'),
+  title: t("hero.title"),
   meta: [
     {
-      name: 'description',
-      content: t('hero.subtitle')
-    }
+      name: "description",
+      content: t("hero.subtitle"),
+    },
   ],
-  link: [{ rel: 'canonical', href: canonicalUrl.value }],
-})
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
+});
 
 // Enable local translations with inline messages
 </script>
@@ -441,19 +572,19 @@ useHead({
 <style scoped>
 /* Override accent and secondary colors with pink */
 :deep(.text-accent) {
-  color: #EF56A4 !important;
+  color: #ef56a4 !important;
 }
 
 :deep(.text-secondary) {
-  color: #EF56A4 !important;
+  color: #ef56a4 !important;
 }
 
 :deep(.bg-accent) {
-  background-color: #EF56A4 !important;
+  background-color: #ef56a4 !important;
 }
 
 :deep(.bg-secondary) {
-  background-color: #EF56A4 !important;
+  background-color: #ef56a4 !important;
 }
 
 .card {
@@ -759,6 +890,152 @@ useHead({
         "pricing": "View prices"
       }
     }
+  },
+  "nl": {
+    "hero": {
+      "title": "DiktatAI: Meer content, minder typen – Transcripties voor creators",
+      "subtitle": "Zet je video's, podcasts en audionotities moeiteloos om in tekst. Win tijd voor creativiteit, bereik en je community.",
+      "cta": "Versnel nu je content-workflow"
+    },
+    "creatorTools": {
+      "title": "DiktatAI: Je turbo voor contentproductie",
+      "intro": "Of het nu gaat om YouTube, podcast, social media of blog – ontdek hoe DiktatAI je creatieve proces revolutioneert:",
+      "podcasters": {
+        "title": "Podcasters",
+        "description": "Maak bliksemsnel shownotes, volledige transcripties voor SEO of citeer highlights voor social media."
+      },
+      "youtubers": {
+        "title": "YouTubers & videomakers",
+        "description": "Genereer automatisch ondertitels (SRT/VTT), zet videoscripts om in blogartikelen of analyseer je content eenvoudiger."
+      },
+      "bloggers": {
+        "title": "Bloggers & tekstschrijvers",
+        "description": "Zet onderzoeksinterviews, spraaknotities of spontane ideeën direct om in bewerkbare tekst."
+      },
+      "socialMedia": {
+        "title": "Social media managers",
+        "description": "Haal kernuitspraken uit video's of audio voor pakkende captions en posts."
+      },
+      "courseCreators": {
+        "title": "Online cursusmakers",
+        "description": "Transcribeer je lessen voor betere toegankelijkheid en als leermateriaal voor je deelnemers."
+      }
+    },
+    "process": {
+      "title": "Uploaden. Omzetten. Creatief zijn.",
+      "subtitle": "Ons simpele proces brengt je in minuten van audio naar afgewerkte tekst – zodat jij je kunt concentreren op creëren.",
+      "steps": {
+        "upload": {
+          "title": "Bestand uploaden",
+          "description": "Je video-/audiobestand met één klik starten."
+        },
+        "transcription": {
+          "title": "AI-transcriptie",
+          "description": "Onze slimme AI verzorgt de omzetting."
+        },
+        "security": {
+          "title": "Veilige verwerking",
+          "description": "Je gegevens zijn veilig (AVG-conform)."
+        },
+        "ready": {
+          "title": "Direct klaar voor gebruik",
+          "description": "Tekst kopiëren, downloaden & hergebruiken."
+        }
+      }
+    },
+    "advantages": {
+      "title": "Je creatieve voordeel met DiktatAI",
+      "subtitle": "Bespaar tijd op vervelende taken en investeer die in wat echt telt: je content en je community.",
+      "timeSaving": {
+        "title": "Enorme tijdsbesparing",
+        "description": "Gedaan met urenlang uittypen. Meer tijd voor ideeën bedenken, opnemen, monteren en interactie."
+      },
+      "contentOutput": {
+        "title": "Meer content output & repurposing",
+        "description": "Zet een video of podcast moeiteloos om in blogartikelen, social media snippets of nieuwsbrief-content. Maximaliseer je bereik."
+      },
+      "preciseTexts": {
+        "title": "Nauwkeurige teksten voor je projecten",
+        "description": "Krijg precieze transcripties als basis voor ondertitels, shownotes, artikelen en scripts. Minder nabewerking, snellere resultaten."
+      },
+      "accessibility": {
+        "title": "Betere toegankelijkheid & SEO",
+        "description": "Maak je content met ondertitels en transcripties voor iedereen toegankelijk en verbeter je ranking in zoekmachines."
+      },
+      "focus": {
+        "title": "Focus op creëren",
+        "description": "Concentreer je energie op creatief werk, storytelling en het opbouwen van je merk – in plaats van op monotoon transcriptiewerk."
+      }
+    },
+    "workflow": {
+      "title": "DiktatAI past zich aan je creatieve flow aan",
+      "subtitle": "We maken het je makkelijk om transcripties precies daar te gebruiken waar je ze nodig hebt.",
+      "email": {
+        "title": "Eenvoudig transcriberen via e-mail",
+        "description": "De snelste weg voor onderweg of tussendoor: stuur je audiobestand (spraaknotitie, interview-snippet) per e-mail en ontvang de tekst terug. Perfect voor spontane ideeën!",
+        "link": "Zo werkt het →"
+      },
+      "api": {
+        "title": "Integratie via API (voor gevorderden)",
+        "description": "Koppel DiktatAI direct aan je tools of automatiseringsworkflows (bijv. Zapier) om het proces nog naadlozer te maken.",
+        "link": "Individuele oplossing aanvragen"
+      },
+      "features": {
+        "flexibility": {
+          "title": "Flexibiliteit",
+          "description": "Gebruik transcriptie, ongeacht waar je bent of welke tools je verkiest."
+        },
+        "efficiency": {
+          "title": "Efficiëntie",
+          "description": "Verminder klikken en handmatige stappen om nog sneller te zijn."
+        },
+        "seamlessness": {
+          "title": "Naadloosheid",
+          "description": "Integreer transcripties direct in je contentcreatieproces."
+        }
+      }
+    },
+    "faq": {
+      "title": "Veelgestelde vragen over DiktatAI voor content creators",
+      "questions": {
+        "benefits": {
+          "question": "Wat levert DiktatAI mij als creator op?",
+          "answer": "DiktatAI neemt het vervelende uittypen van video's, podcasts of spraaknotities van je over. Het zet audio automatisch om in tekst die je kunt gebruiken voor ondertitels, shownotes, blogartikelen, social media en nog veel meer."
+        },
+        "suitability": {
+          "question": "Is DiktatAI geschikt voor mijn type content?",
+          "answer": "Ja! Of je nu video's maakt voor YouTube of TikTok, een podcast runt, blogt, online cursussen maakt of gewoon je ideeën via spraak vastlegt – DiktatAI helpt je tijd te besparen."
+        },
+        "timeSaving": {
+          "question": "Hoe bespaar ik concreet tijd?",
+          "answer": "Stel je voor dat je een interview van 30 minuten niet meer handmatig hoeft uit te typen (wat uren kan duren). DiktatAI doet dit in minuten. Deze tijd kun je gebruiken voor montage, design of community management."
+        },
+        "security": {
+          "question": "Zijn mijn ongepubliceerde content veilig?",
+          "answer": "Absoluut. We nemen privacy serieus (AVG-conform). Je geüploade bestanden en de transcripties worden vertrouwelijk behandeld en veilig op EU-servers verwerkt."
+        },
+        "accuracy": {
+          "question": "Hoe nauwkeurig zijn de transcripties voor ondertitels etc.?",
+          "answer": "De nauwkeurigheid is zeer hoog, vooral bij heldere audiokwaliteit. Je krijgt een uitstekende tekstbasis die je meestal direct kunt gebruiken of slechts minimaal hoeft aan te passen. Dat is veel sneller dan alles zelf te schrijven."
+        },
+        "videoSupport": {
+          "question": "Kan ik ook videobestanden uploaden?",
+          "answer": "Ja, we ondersteunen gangbare audio- en videobestandsformaten. Je kunt dus direct je video- of podcastafleveringen uploaden."
+        },
+        "easeOfUse": {
+          "question": "Is het ingewikkeld om te gebruiken? Ik ben geen techneut!",
+          "answer": "Nee, helemaal niet! DiktatAI is super eenvoudig: bestand uploaden, even wachten, tekst ontvangen. Geen technische kennis vereist. Je kunt meteen beginnen."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Klaar met transcriptie-stress!",
+      "subtitle": "DiktatAI is je slimme assistent die je helpt sneller en efficiënter te werken. Verhoog je output, bereik meer mensen en concentreer je weer volledig op je creatieve passie.",
+      "buttons": {
+        "start": "Gratis starten & uitproberen",
+        "pricing": "Prijzen bekijken"
+      }
+    }
   }
 }
-</i18n> 
+</i18n>

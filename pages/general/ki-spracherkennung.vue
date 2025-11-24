@@ -17,13 +17,13 @@
             class="font-display text-4xl font-bold text-white mb-2"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.title') }}
+            {{ t("hero.title") }}
           </h1>
           <p
             class="text-lg text-white"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.subtitle') }}
+            {{ t("hero.subtitle") }}
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@
         <!-- Introduction -->
         <div class="mb-12">
           <p class="text-lg">
-            {{ t('introduction.paragraph') }}
+            {{ t("introduction.paragraph") }}
           </p>
         </div>
 
@@ -44,10 +44,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('whatIsSection.title') }}
+            {{ t("whatIsSection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('whatIsSection.paragraph') }}
+            {{ t("whatIsSection.paragraph") }}
           </p>
           <div class="space-y-4">
             <div class="flex items-start">
@@ -67,9 +67,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('whatIsSection.models.acoustic.title') }}
+                  {{ t("whatIsSection.models.acoustic.title") }}
                 </h3>
-                <p>{{ t('whatIsSection.models.acoustic.description') }}</p>
+                <p>{{ t("whatIsSection.models.acoustic.description") }}</p>
               </div>
             </div>
             <div class="flex items-start">
@@ -89,9 +89,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('whatIsSection.models.language.title') }}
+                  {{ t("whatIsSection.models.language.title") }}
                 </h3>
-                <p>{{ t('whatIsSection.models.language.description') }}</p>
+                <p>{{ t("whatIsSection.models.language.description") }}</p>
               </div>
             </div>
             <div class="flex items-start">
@@ -111,9 +111,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('whatIsSection.models.machine.title') }}
+                  {{ t("whatIsSection.models.machine.title") }}
                 </h3>
-                <p>{{ t('whatIsSection.models.machine.description') }}</p>
+                <p>{{ t("whatIsSection.models.machine.description") }}</p>
               </div>
             </div>
           </div>
@@ -124,55 +124,55 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('howItWorksSection.title') }}
+            {{ t("howItWorksSection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('howItWorksSection.paragraph') }}
+            {{ t("howItWorksSection.paragraph") }}
           </p>
           <div class="space-y-6">
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
             >
               <h3 class="font-bold mb-2">
-                {{ t('howItWorksSection.steps.upload.title') }}
+                {{ t("howItWorksSection.steps.upload.title") }}
               </h3>
-              <p>{{ t('howItWorksSection.steps.upload.description') }}</p>
+              <p>{{ t("howItWorksSection.steps.upload.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
             >
               <h3 class="font-bold mb-2">
-                {{ t('howItWorksSection.steps.preprocessing.title') }}
+                {{ t("howItWorksSection.steps.preprocessing.title") }}
               </h3>
               <p>
-                {{ t('howItWorksSection.steps.preprocessing.description') }}
+                {{ t("howItWorksSection.steps.preprocessing.description") }}
               </p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
             >
               <h3 class="font-bold mb-2">
-                {{ t('howItWorksSection.steps.analysis.title') }}
+                {{ t("howItWorksSection.steps.analysis.title") }}
               </h3>
-              <p>{{ t('howItWorksSection.steps.analysis.description') }}</p>
+              <p>{{ t("howItWorksSection.steps.analysis.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
             >
               <h3 class="font-bold mb-2">
-                {{ t('howItWorksSection.steps.postprocessing.title') }}
+                {{ t("howItWorksSection.steps.postprocessing.title") }}
               </h3>
               <p>
-                {{ t('howItWorksSection.steps.postprocessing.description') }}
+                {{ t("howItWorksSection.steps.postprocessing.description") }}
               </p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
             >
               <h3 class="font-bold mb-2">
-                {{ t('howItWorksSection.steps.delivery.title') }}
+                {{ t("howItWorksSection.steps.delivery.title") }}
               </h3>
-              <p>{{ t('howItWorksSection.steps.delivery.description') }}</p>
+              <p>{{ t("howItWorksSection.steps.delivery.description") }}</p>
             </div>
           </div>
         </div>
@@ -182,7 +182,7 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('benefitsSection.title') }}
+            {{ t("benefitsSection.title") }}
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="flex items-start">
@@ -202,9 +202,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('benefitsSection.benefits.time.title') }}
+                  {{ t("benefitsSection.benefits.time.title") }}
                 </h3>
-                <p>{{ t('benefitsSection.benefits.time.description') }}</p>
+                <p>{{ t("benefitsSection.benefits.time.description") }}</p>
               </div>
             </div>
             <div class="flex items-start">
@@ -224,9 +224,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('benefitsSection.benefits.precision.title') }}
+                  {{ t("benefitsSection.benefits.precision.title") }}
                 </h3>
-                <p>{{ t('benefitsSection.benefits.precision.description') }}</p>
+                <p>{{ t("benefitsSection.benefits.precision.description") }}</p>
               </div>
             </div>
             <div class="flex items-start">
@@ -246,10 +246,10 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('benefitsSection.benefits.productivity.title') }}
+                  {{ t("benefitsSection.benefits.productivity.title") }}
                 </h3>
                 <p>
-                  {{ t('benefitsSection.benefits.productivity.description') }}
+                  {{ t("benefitsSection.benefits.productivity.description") }}
                 </p>
               </div>
             </div>
@@ -270,9 +270,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('benefitsSection.benefits.security.title') }}
+                  {{ t("benefitsSection.benefits.security.title") }}
                 </h3>
-                <p>{{ t('benefitsSection.benefits.security.description') }}</p>
+                <p>{{ t("benefitsSection.benefits.security.description") }}</p>
               </div>
             </div>
             <div class="flex items-start">
@@ -292,9 +292,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('benefitsSection.benefits.focus.title') }}
+                  {{ t("benefitsSection.benefits.focus.title") }}
                 </h3>
-                <p>{{ t('benefitsSection.benefits.focus.description') }}</p>
+                <p>{{ t("benefitsSection.benefits.focus.description") }}</p>
               </div>
             </div>
             <div class="flex items-start">
@@ -314,10 +314,10 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('benefitsSection.benefits.searchable.title') }}
+                  {{ t("benefitsSection.benefits.searchable.title") }}
                 </h3>
                 <p>
-                  {{ t('benefitsSection.benefits.searchable.description') }}
+                  {{ t("benefitsSection.benefits.searchable.description") }}
                 </p>
               </div>
             </div>
@@ -338,10 +338,10 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('benefitsSection.benefits.accessibility.title') }}
+                  {{ t("benefitsSection.benefits.accessibility.title") }}
                 </h3>
                 <p>
-                  {{ t('benefitsSection.benefits.accessibility.description') }}
+                  {{ t("benefitsSection.benefits.accessibility.description") }}
                 </p>
               </div>
             </div>
@@ -353,7 +353,7 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('useCasesSection.title') }}
+            {{ t("useCasesSection.title") }}
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div
@@ -375,10 +375,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('useCasesSection.cases.journalists.title') }}
+                  {{ t("useCasesSection.cases.journalists.title") }}
                 </h3>
               </div>
-              <p>{{ t('useCasesSection.cases.journalists.description') }}</p>
+              <p>{{ t("useCasesSection.cases.journalists.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
@@ -399,10 +399,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('useCasesSection.cases.lawyers.title') }}
+                  {{ t("useCasesSection.cases.lawyers.title") }}
                 </h3>
               </div>
-              <p>{{ t('useCasesSection.cases.lawyers.description') }}</p>
+              <p>{{ t("useCasesSection.cases.lawyers.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
@@ -423,10 +423,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('useCasesSection.cases.content.title') }}
+                  {{ t("useCasesSection.cases.content.title") }}
                 </h3>
               </div>
-              <p>{{ t('useCasesSection.cases.content.description') }}</p>
+              <p>{{ t("useCasesSection.cases.content.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
@@ -447,10 +447,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('useCasesSection.cases.students.title') }}
+                  {{ t("useCasesSection.cases.students.title") }}
                 </h3>
               </div>
-              <p>{{ t('useCasesSection.cases.students.description') }}</p>
+              <p>{{ t("useCasesSection.cases.students.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
@@ -471,10 +471,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('useCasesSection.cases.business.title') }}
+                  {{ t("useCasesSection.cases.business.title") }}
                 </h3>
               </div>
-              <p>{{ t('useCasesSection.cases.business.description') }}</p>
+              <p>{{ t("useCasesSection.cases.business.description") }}</p>
             </div>
             <div
               class="p-4 bg-base-100 rounded-xl shadow border border-base-300"
@@ -495,10 +495,10 @@
                   />
                 </svg>
                 <h3 class="font-bold">
-                  {{ t('useCasesSection.cases.consultants.title') }}
+                  {{ t("useCasesSection.cases.consultants.title") }}
                 </h3>
               </div>
-              <p>{{ t('useCasesSection.cases.consultants.description') }}</p>
+              <p>{{ t("useCasesSection.cases.consultants.description") }}</p>
             </div>
           </div>
         </div>
@@ -508,7 +508,7 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('whyDiktatSection.title') }}
+            {{ t("whyDiktatSection.title") }}
           </h2>
           <div class="space-y-4">
             <div class="flex items-start">
@@ -528,9 +528,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('whyDiktatSection.features.models.title') }}
+                  {{ t("whyDiktatSection.features.models.title") }}
                 </h3>
-                <p>{{ t('whyDiktatSection.features.models.description') }}</p>
+                <p>{{ t("whyDiktatSection.features.models.description") }}</p>
               </div>
             </div>
             <div class="flex items-start">
@@ -550,9 +550,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('whyDiktatSection.features.ease.title') }}
+                  {{ t("whyDiktatSection.features.ease.title") }}
                 </h3>
-                <p>{{ t('whyDiktatSection.features.ease.description') }}</p>
+                <p>{{ t("whyDiktatSection.features.ease.description") }}</p>
               </div>
             </div>
             <div class="flex items-start">
@@ -572,10 +572,10 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('whyDiktatSection.features.integration.title') }}
+                  {{ t("whyDiktatSection.features.integration.title") }}
                 </h3>
                 <p>
-                  {{ t('whyDiktatSection.features.integration.description') }}
+                  {{ t("whyDiktatSection.features.integration.description") }}
                 </p>
               </div>
             </div>
@@ -596,9 +596,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('whyDiktatSection.features.pricing.title') }}
+                  {{ t("whyDiktatSection.features.pricing.title") }}
                 </h3>
-                <p>{{ t('whyDiktatSection.features.pricing.description') }}</p>
+                <p>{{ t("whyDiktatSection.features.pricing.description") }}</p>
               </div>
             </div>
             <div class="flex items-start">
@@ -618,9 +618,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('whyDiktatSection.features.security.title') }}
+                  {{ t("whyDiktatSection.features.security.title") }}
                 </h3>
-                <p>{{ t('whyDiktatSection.features.security.description') }}</p>
+                <p>{{ t("whyDiktatSection.features.security.description") }}</p>
               </div>
             </div>
             <div class="flex items-start">
@@ -640,9 +640,9 @@
               </svg>
               <div>
                 <h3 class="font-bold mb-2">
-                  {{ t('whyDiktatSection.features.eu.title') }}
+                  {{ t("whyDiktatSection.features.eu.title") }}
                 </h3>
-                <p>{{ t('whyDiktatSection.features.eu.description') }}</p>
+                <p>{{ t("whyDiktatSection.features.eu.description") }}</p>
               </div>
             </div>
           </div>
@@ -653,10 +653,10 @@
           class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20"
         >
           <h3 class="font-display text-2xl font-bold mb-4 text-center">
-            {{ t('cta.title') }}
+            {{ t("cta.title") }}
           </h3>
           <p class="text-lg text-center mb-8">
-            {{ t('cta.paragraph') }}
+            {{ t("cta.paragraph") }}
           </p>
           <div class="text-center">
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -664,14 +664,14 @@
                 <button
                   class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
                 >
-                  {{ t('cta.button') }}
+                  {{ t("cta.button") }}
                 </button>
               </NuxtLinkLocale>
               <NuxtLinkLocale to="general-preise">
                 <button
                   class="font-display bg-white text-pink-500 text-xl font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition-all shadow-lg tracking-wide border-2 border-pink-500"
                 >
-                  {{ t('cta.button2') }}
+                  {{ t("cta.button2") }}
                 </button>
               </NuxtLinkLocale>
             </div>
@@ -684,41 +684,41 @@
 
 <script setup>
 const { t, locale } = useI18n({
-  useScope: 'local',
+  useScope: "local",
 });
 
-const baseUrl = 'https://diktat.ai';
+const baseUrl = "https://diktat.ai";
 const canonicalPath = computed(() =>
-  locale.value === 'en' ? '/en/ai-speech-recognition' : '/ki-spracherkennung'
+  locale.value === "en" ? "/en/ai-speech-recognition" : "/ki-spracherkennung",
 );
 const canonicalUrl = computed(() => `${baseUrl}${canonicalPath.value}`);
 
 // SEO Meta Tags (localized)
 useHead(() => ({
-  title: t('hero.title'),
+  title: t("hero.title"),
   meta: [
     {
-      name: 'description',
-      content: t('seo.description'),
+      name: "description",
+      content: t("seo.description"),
     },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: canonicalUrl.value },
-    { property: 'og:title', content: t('hero.title') },
-    { property: 'og:description', content: t('seo.description') },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: canonicalUrl.value },
+    { property: "og:title", content: t("hero.title") },
+    { property: "og:description", content: t("seo.description") },
     {
-      property: 'og:image',
-      content: 'https://diktat.ai/images/ki-spracherkennung-og.jpg',
+      property: "og:image",
+      content: "https://diktat.ai/images/ki-spracherkennung-og.jpg",
     },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:url', content: canonicalUrl.value },
-    { name: 'twitter:title', content: t('hero.title') },
-    { name: 'twitter:description', content: t('seo.description') },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:url", content: canonicalUrl.value },
+    { name: "twitter:title", content: t("hero.title") },
+    { name: "twitter:description", content: t("seo.description") },
     {
-      name: 'twitter:image',
-      content: 'https://diktat.ai/images/ki-spracherkennung-og.jpg',
+      name: "twitter:image",
+      content: "https://diktat.ai/images/ki-spracherkennung-og.jpg",
     },
   ],
-  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
 }));
 </script>
 
@@ -1028,6 +1028,159 @@ useHead(() => ({
       "paragraph": "No more tedious typing. Let Diktat AI's artificial intelligence work for you and effortlessly transform your audio recordings into precise text.",
       "button": "Start for free",
       "button2": "View prices"
+    }
+  },
+  "nl": {
+    "seo": {
+      "description": "AI-spraakherkenning eenvoudig uitgelegd: Zo zet DiktatAI spraak snel en nauwkeurig om in tekst – veilig en AVG-conform."
+    },
+    "hero": {
+      "title": "AI Spraakherkenning: De intelligente technologie achter DiktatAI",
+      "subtitle": "Ontdek de fascinerende wereld van Kunstmatige Intelligentie (AI) die het DiktatAI mogelijk maakt om gesproken woorden nauwkeurig en bliksemsnel om te zetten in geschreven tekst."
+    },
+    "introduction": {
+      "paragraph": "Begrijp hoe deze geavanceerde technologie uw werkdag kan revolutioneren door vervelend typewerk overbodig te maken en u waardevolle tijd teruggeeft."
+    },
+    "whatIsSection": {
+      "title": "Het brein achter de woorden: Een kijkje in AI-spraakherkenning",
+      "paragraph": "AI-spraakherkenning, vaak ook Automatische Spraakherkenning (ASR - Automatic Speech Recognition) genoemd, is een hoogontwikkeld gebied van Kunstmatige Intelligentie. In de kern gaat het erom software zo te trainen dat deze menselijke spraak kan begrijpen en omzetten in een machineleesbaar formaat – meestal tekst.",
+      "models": {
+        "acoustic": {
+          "title": "Akoestische modellen",
+          "description": "Deze modellen analyseren de ruwe audiodata (geluidsgolven) en splitsen deze op in kleinste klankeenheden (fonemen)."
+        },
+        "language": {
+          "title": "Taalmodellen",
+          "description": "Deze modellen begrijpen de context, grammatica en waarschijnlijkheid van woordvolgordes in een bepaalde taal. Ze helpen de AI om onderscheid te maken tussen gelijkluidende woorden (bijv. \"meer\" vs. \"meer\")."
+        },
+        "machine": {
+          "title": "Machine Learning & Neurale netwerken",
+          "description": "Moderne AI-spraakherkenningssystemen, zoals het hart van DiktatAI, gebruiken complexe algoritmen van machinaal leren, vooral diepe neurale netwerken (Deep Learning). Deze netwerken worden getraind met enorme hoeveelheden spraakdata om patronen te herkennen en hun nauwkeurigheid continu te verbeteren."
+        }
+      }
+    },
+    "howItWorksSection": {
+      "title": "Van uw stem naar de voltooide tekst: Het proces bij DiktatAI",
+      "paragraph": "Bij DiktatAI hebben we dit complexe proces maximaal voor u vereenvoudigd. Onze AI-gestuurde spraakherkenning werkt op de achtergrond om u snelle en betrouwbare transcripties te leveren:",
+      "steps": {
+        "upload": {
+          "title": "Audio-upload",
+          "description": "U uploadt uw audiobestand (bijv. meeting-opname, interview, dictaat) of stuurt het naar ons per e-mail."
+        },
+        "preprocessing": {
+          "title": "Voorbewerking",
+          "description": "Onze systemen bereiden het audiobestand optimaal voor op analyse (bijv. ruisonderdrukking, formaatconversie)."
+        },
+        "analysis": {
+          "title": "AI-analyse & transcriptie",
+          "description": "Het akoestische model splitst uw spraak op in fonemen. Het taalmodel analyseert deze fonemen in context, herkent woorden, zinsstructuren en zelfs sprekerwisselingen (indien ondersteund)."
+        },
+        "postprocessing": {
+          "title": "Nabewerking & opmaak",
+          "description": "De ruwe tekst wordt automatisch opgemaakt (bijv. alinea's, leestekens – afhankelijk van instelling en audiokwaliteit) en voor u voorbereid."
+        },
+        "delivery": {
+          "title": "Levering",
+          "description": "U ontvangt de voltooide, bewerkbare tekst – veilig, snel en AVG-conform."
+        }
+      }
+    },
+    "benefitsSection": {
+      "title": "Uw meerwaarde: Waarom AI-spraakherkenning met DiktatAI onverslaanbaar is",
+      "benefits": {
+        "time": {
+          "title": "Enorme tijdsbesparing",
+          "description": "De AI transcribeert in een fractie van de tijd die u nodig zou hebben voor handmatig typen. Uren worden minuten."
+        },
+        "precision": {
+          "title": "Uitstekende precisie",
+          "description": "Onze speciaal getrainde modellen leveren zeer nauwkeurige transcripties die een solide basis vormen voor uw verdere werk."
+        },
+        "productivity": {
+          "title": "Verhoogde productiviteit",
+          "description": "Concentreer u op inhoudelijk werk, analyse of creatieve processen in plaats van typen. Doe meer in kortere tijd."
+        },
+        "security": {
+          "title": "Hoogste dataveiligheid",
+          "description": "We combineren de kracht van AI met de strengste privacyrichtlijnen. Uw data is bij ons veilig en wordt conform de AVG verwerkt."
+        },
+        "focus": {
+          "title": "Focus op het wezenlijke",
+          "description": "Verminder monotone routinetaken en win mentale capaciteit voor uw kerncompetenties."
+        },
+        "searchable": {
+          "title": "Doorzoekbaarheid & archivering",
+          "description": "Zet waardevolle audiokennis om in gemakkelijk doorzoekbare en archiveerbare tekstdocumenten."
+        },
+        "accessibility": {
+          "title": "Toegankelijkheid",
+          "description": "Maak tekstversies van audio-inhoud en maak deze toegankelijk voor een breder publiek (bijv. ondertitels)."
+        }
+      }
+    },
+    "useCasesSection": {
+      "title": "Zo profiteert u brancheover­schrijdend van AI-spraakherkenning",
+      "cases": {
+        "journalists": {
+          "title": "Journalisten & redacteuren",
+          "description": "Interviews en persconferenties worden door AI-transcriptie bliksemsnel bruikbare tekst."
+        },
+        "lawyers": {
+          "title": "Juristen & advocaten",
+          "description": "Dictaten en cliëntgesprekken veilig en nauwkeurig via AI in schriftelijke vorm brengen."
+        },
+        "content": {
+          "title": "Content creators",
+          "description": "Podcast-transcripties of video-ondertitels moeiteloos met AI-ondersteuning maken."
+        },
+        "students": {
+          "title": "Studenten & academici",
+          "description": "Colleges en onderzoeksinterviews efficiënt door AI laten transcriberen."
+        },
+        "business": {
+          "title": "Zakenmensen & leidinggevenden",
+          "description": "Vergadernotulen en ideeën via AI-dictaat snel vastleggen."
+        },
+        "consultants": {
+          "title": "Adviseurs & coaches",
+          "description": "Cliëntgesprekken dankzij AI-transcriptie optimaal uitwerken."
+        }
+      }
+    },
+    "whyDiktatSection": {
+      "title": "DiktatAI: Uw eerste keuze voor intelligente spraakherkenning",
+      "features": {
+        "models": {
+          "title": "Gespecialiseerde AI-modellen",
+          "description": "Geoptimaliseerd voor hoge nauwkeurigheid en Nederlandstalige inhoud."
+        },
+        "ease": {
+          "title": "Eenvoudigste bediening",
+          "description": "Geen technische drempels, intuïtief proces."
+        },
+        "integration": {
+          "title": "Flexibele integratie",
+          "description": "Van e-mail upload tot software-koppelingen (toekomstig)."
+        },
+        "pricing": {
+          "title": "Eerlijke en transparante prijzen",
+          "description": "Heldere kostenstructuur voor planbare uitgaven."
+        },
+        "security": {
+          "title": "Verplichting tot privacy & veiligheid",
+          "description": "AVG-conform en met focus op vertrouwelijkheid."
+        },
+        "eu": {
+          "title": "Made in Germany / EU-focus",
+          "description": "Een Europese aanbieder die u kunt vertrouwen."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ervaar de toekomst van tekstverwerking – aangedreven door AI!",
+      "paragraph": "Sluss met moeizaam typen. Laat de Kunstmatige Intelligentie van DiktatAI voor u werken en zet uw spraakopnamen moeiteloos om in nauwkeurige tekst.",
+      "button": "Gratis starten",
+      "button2": "Prijzen bekijken"
     }
   }
 }

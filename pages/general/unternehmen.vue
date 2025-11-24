@@ -17,13 +17,13 @@
             class="font-display text-4xl font-bold text-white mb-2"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.title') }}
+            {{ t("hero.title") }}
           </h1>
           <p
             class="text-lg text-white"
             style="text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)"
           >
-            {{ t('hero.subtitle') }}
+            {{ t("hero.subtitle") }}
           </p>
         </div>
       </div>
@@ -35,17 +35,17 @@
         <!-- Introduction -->
         <div class="mb-12">
           <p class="text-lg">
-            {{ t('introduction.paragraph') }}
+            {{ t("introduction.paragraph") }}
           </p>
         </div>
 
         <!-- Anwendungsfälle Section -->
         <div class="mb-8">
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('useCasesSection.title') }}
+            {{ t("useCasesSection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('useCasesSection.paragraph') }}
+            {{ t("useCasesSection.paragraph") }}
           </p>
 
           <!-- Meetings -->
@@ -71,19 +71,19 @@
               </div>
               <div>
                 <h3 class="font-display text-xl font-bold mb-2">
-                  {{ t('useCasesSection.meetings.title') }}
+                  {{ t("useCasesSection.meetings.title") }}
                 </h3>
                 <p class="mb-3">
                   <strong
-                    >{{ t('useCasesSection.meetings.what_title') }}:</strong
+                    >{{ t("useCasesSection.meetings.what_title") }}:</strong
                   >
-                  {{ t('useCasesSection.meetings.what') }}
+                  {{ t("useCasesSection.meetings.what") }}
                 </p>
                 <p>
                   <strong
-                    >{{ t('useCasesSection.meetings.how_title') }}:</strong
+                    >{{ t("useCasesSection.meetings.how_title") }}:</strong
                   >
-                  {{ t('useCasesSection.meetings.how') }}
+                  {{ t("useCasesSection.meetings.how") }}
                 </p>
               </div>
             </div>
@@ -112,21 +112,21 @@
               </div>
               <div>
                 <h3 class="font-display text-xl font-bold mb-2">
-                  {{ t('useCasesSection.conversations.title') }}
+                  {{ t("useCasesSection.conversations.title") }}
                 </h3>
                 <p class="mb-3">
                   <strong
                     >{{
-                      t('useCasesSection.conversations.what_title')
+                      t("useCasesSection.conversations.what_title")
                     }}:</strong
                   >
-                  {{ t('useCasesSection.conversations.what') }}
+                  {{ t("useCasesSection.conversations.what") }}
                 </p>
                 <p>
                   <strong
-                    >{{ t('useCasesSection.conversations.how_title') }}:</strong
+                    >{{ t("useCasesSection.conversations.how_title") }}:</strong
                   >
-                  {{ t('useCasesSection.conversations.how') }}
+                  {{ t("useCasesSection.conversations.how") }}
                 </p>
               </div>
             </div>
@@ -155,15 +155,15 @@
               </div>
               <div>
                 <h3 class="font-display text-xl font-bold mb-2">
-                  {{ t('useCasesSection.notes.title') }}
+                  {{ t("useCasesSection.notes.title") }}
                 </h3>
                 <p class="mb-3">
-                  <strong>{{ t('useCasesSection.notes.what_title') }}:</strong>
-                  {{ t('useCasesSection.notes.what') }}
+                  <strong>{{ t("useCasesSection.notes.what_title") }}:</strong>
+                  {{ t("useCasesSection.notes.what") }}
                 </p>
                 <p>
-                  <strong>{{ t('useCasesSection.notes.how_title') }}:</strong>
-                  {{ t('useCasesSection.notes.how') }}
+                  <strong>{{ t("useCasesSection.notes.how_title") }}:</strong>
+                  {{ t("useCasesSection.notes.how") }}
                 </p>
               </div>
             </div>
@@ -192,19 +192,19 @@
               </div>
               <div>
                 <h3 class="font-display text-xl font-bold mb-2">
-                  {{ t('useCasesSection.documents.title') }}
+                  {{ t("useCasesSection.documents.title") }}
                 </h3>
                 <p class="mb-3">
                   <strong
-                    >{{ t('useCasesSection.documents.what_title') }}:</strong
+                    >{{ t("useCasesSection.documents.what_title") }}:</strong
                   >
-                  {{ t('useCasesSection.documents.what') }}
+                  {{ t("useCasesSection.documents.what") }}
                 </p>
                 <p>
                   <strong
-                    >{{ t('useCasesSection.documents.how_title') }}:</strong
+                    >{{ t("useCasesSection.documents.how_title") }}:</strong
                   >
-                  {{ t('useCasesSection.documents.how') }}
+                  {{ t("useCasesSection.documents.how") }}
                 </p>
               </div>
             </div>
@@ -233,17 +233,17 @@
               </div>
               <div>
                 <h3 class="font-display text-xl font-bold mb-2">
-                  {{ t('useCasesSection.content.title') }}
+                  {{ t("useCasesSection.content.title") }}
                 </h3>
                 <p class="mb-3">
                   <strong
-                    >{{ t('useCasesSection.content.what_title') }}:</strong
+                    >{{ t("useCasesSection.content.what_title") }}:</strong
                   >
-                  {{ t('useCasesSection.content.what') }}
+                  {{ t("useCasesSection.content.what") }}
                 </p>
                 <p>
-                  <strong>{{ t('useCasesSection.content.how_title') }}:</strong>
-                  {{ t('useCasesSection.content.how') }}
+                  <strong>{{ t("useCasesSection.content.how_title") }}:</strong>
+                  {{ t("useCasesSection.content.how") }}
                 </p>
               </div>
             </div>
@@ -276,19 +276,19 @@
               </div>
               <div>
                 <h3 class="font-display text-xl font-bold mb-2">
-                  {{ t('useCasesSection.training.title') }}
+                  {{ t("useCasesSection.training.title") }}
                 </h3>
                 <p class="mb-3">
                   <strong
-                    >{{ t('useCasesSection.training.what_title') }}:</strong
+                    >{{ t("useCasesSection.training.what_title") }}:</strong
                   >
-                  {{ t('useCasesSection.training.what') }}
+                  {{ t("useCasesSection.training.what") }}
                 </p>
                 <p>
                   <strong
-                    >{{ t('useCasesSection.training.how_title') }}:</strong
+                    >{{ t("useCasesSection.training.how_title") }}:</strong
                   >
-                  {{ t('useCasesSection.training.how') }}
+                  {{ t("useCasesSection.training.how") }}
                 </p>
               </div>
             </div>
@@ -300,10 +300,10 @@
           class="card bg-base-200 shadow-xl mb-12 p-8 rounded-3xl border border-base-300"
         >
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('benefitsSection.title') }}
+            {{ t("benefitsSection.title") }}
           </h2>
           <p class="mb-6">
-            {{ t('benefitsSection.paragraph') }}
+            {{ t("benefitsSection.paragraph") }}
           </p>
           <ul class="space-y-4">
             <li class="flex items-start">
@@ -321,7 +321,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefitsSection.points.point1') }}</span>
+              <span>{{ t("benefitsSection.points.point1") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -338,7 +338,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefitsSection.points.point2') }}</span>
+              <span>{{ t("benefitsSection.points.point2") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -355,7 +355,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefitsSection.points.point3') }}</span>
+              <span>{{ t("benefitsSection.points.point3") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -372,7 +372,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefitsSection.points.point4') }}</span>
+              <span>{{ t("benefitsSection.points.point4") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -389,7 +389,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefitsSection.points.point5') }}</span>
+              <span>{{ t("benefitsSection.points.point5") }}</span>
             </li>
             <li class="flex items-start">
               <svg
@@ -406,7 +406,7 @@
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span>{{ t('benefitsSection.points.point6') }}</span>
+              <span>{{ t("benefitsSection.points.point6") }}</span>
             </li>
           </ul>
         </div>
@@ -414,10 +414,10 @@
         <!-- Integration Section -->
         <div class="mb-12">
           <h2 class="font-display text-2xl font-bold mb-6">
-            {{ t('integrationSection.title') }}
+            {{ t("integrationSection.title") }}
           </h2>
           <p class="text-lg">
-            {{ t('integrationSection.paragraph') }}
+            {{ t("integrationSection.paragraph") }}
           </p>
         </div>
 
@@ -426,17 +426,17 @@
           class="card bg-gradient-to-br from-accent/10 to-secondary/10 shadow-xl p-8 rounded-3xl border border-accent/20"
         >
           <h3 class="font-display text-2xl font-bold mb-4 text-center">
-            {{ t('cta.title') }}
+            {{ t("cta.title") }}
           </h3>
           <p class="text-lg text-center mb-8">
-            {{ t('cta.paragraph') }}
+            {{ t("cta.paragraph") }}
           </p>
           <div class="text-center">
             <NuxtLinkLocale to="general-kontakt">
               <button
                 class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
               >
-                {{ t('cta.button') }}
+                {{ t("cta.button") }}
               </button>
             </NuxtLinkLocale>
           </div>
@@ -448,52 +448,52 @@
 
 <script setup>
 const { t } = useI18n({
-  useScope: 'local',
-})
-const { registerUrl } = useAppUrl();;
+  useScope: "local",
+});
+const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags
 useHead({
-  title: t('meta.title'),
+  title: t("meta.title"),
   meta: [
     {
-      name: 'description',
-      content: t('meta.description')
+      name: "description",
+      content: t("meta.description"),
     },
 
     // Open Graph / Facebook
-    { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://diktat.ai/de/unternehmen' },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://diktat.ai/de/unternehmen" },
     {
-      property: 'og:title',
-      content: t('meta.title')
+      property: "og:title",
+      content: t("meta.title"),
     },
     {
-      property: 'og:description',
-      content: t('meta.description')
+      property: "og:description",
+      content: t("meta.description"),
     },
     {
-      property: 'og:image',
-      content: 'https://diktat.ai/images/unternehmen-og.jpg',
+      property: "og:image",
+      content: "https://diktat.ai/images/unternehmen-og.jpg",
     },
     // Twitter
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:url', content: 'https://diktat.ai/de/unternehmen' },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:url", content: "https://diktat.ai/de/unternehmen" },
     {
-      name: 'twitter:title',
-      content: 'Diktat AI im Unternehmen: Effizienz steigern im Arbeitsalltag',
+      name: "twitter:title",
+      content: "Diktat AI im Unternehmen: Effizienz steigern im Arbeitsalltag",
     },
     {
-      name: 'twitter:description',
+      name: "twitter:description",
       content:
-        'Praktische Anwendungsfälle für Diktat AI in Ihrem Unternehmen - Zeit sparen und Produktivität steigern!',
+        "Praktische Anwendungsfälle für Diktat AI in Ihrem Unternehmen - Zeit sparen und Produktivität steigern!",
     },
     {
-      name: 'twitter:image',
-      content: 'https://diktat.ai/images/unternehmen-og.jpg',
+      name: "twitter:image",
+      content: "https://diktat.ai/images/unternehmen-og.jpg",
     },
     // Canonical URL
-    { rel: 'canonical', href: 'https://diktat.ai/de/unternehmen' },
+    { rel: "canonical", href: "https://diktat.ai/de/unternehmen" },
   ],
 });
 </script>
@@ -658,6 +658,86 @@ useHead({
       "title": "Ready to Revolutionize Efficiency in Your Company?",
       "paragraph": "Experience for yourself how Diktat AI simplifies time-consuming documentation tasks in your company. Optimize your processes and give your employees more time for what matters.",
       "button": "Contact us now & get advice"
+    }
+  },
+  "nl": {
+    "meta": {
+      "title": "DiktatAI in het bedrijf: Efficiëntie verhogen in het dagelijks werk",
+      "description": "Ontdek praktische toepassingen voor DiktatAI in uw bedrijf. Van vergadernotulen tot het opstellen van e-mails – bespaar tijd en verhoog de productiviteit."
+    },
+    "hero": {
+      "title": "Efficiënter werken: De praktische inzet van DiktatAI in de bedrijfsalltag",
+      "subtitle": "In elk bedrijf wordt dagelijks gesproken: vergaderingen, telefoongesprekken, spontane ideeën, instructies. Maar hoe wordt deze overvloed aan waardevolle informatie efficiënt vastgelegd, gedocumenteerd en bruikbaar gemaakt? DiktatAI is uw intelligente partner die gesproken woorden naadloos omzet in nauwkeurige tekst."
+    },
+    "introduction": {
+      "paragraph": "DiktatAI is uw intelligente partner die gesproken woorden naadloos omzet in nauwkeurige tekst en zo waardevolle tijd en middelen in uw dagelijkse bedrijfsprocessen vrijmaakt. Ontdek hoe u DiktatAI concreet kunt inzetten om processen te stroomlijnen en de productiviteit te verhogen."
+    },
+    "useCasesSection": {
+      "title": "Van het gesproken woord naar waardevol bezit: Toepassingen voor DiktatAI",
+      "paragraph": "Herkent u dit? Urenlang uittypen van vergadernotulen? Belangrijke details uit telefoongesprekken gaan verloren? Spontane ideeën verdampen omdat er geen tijd was om ze te noteren? Het handmatig documenteren van gesproken inhoud is een echte tijdvreter en bevat foutenbronnen. Hier komt DiktatAI van pas – veelzijdig inzetbaar om uw dagelijks werk te verlichten:",
+      "meetings": {
+        "title": "Vergaderefficiëntie verhogen",
+        "what_title": "Wat",
+        "what": "Interne teamvergaderingen, klantafspraken, project-updates, directievergaderingen.",
+        "how_title": "Hoe DiktatAI helpt",
+        "how": "Neem de vergadering op (met toestemming!) en upload het audiobestand. DiktatAI maakt razendsnel doorzoekbare notulen. Leg beslissingen, taken (actiepunten) en belangrijke discussiepunten nauwkeurig vast zonder handmatig typewerk."
+      },
+      "conversations": {
+        "title": "Belangrijke gesprekken & telefoongesprekken vastleggen",
+        "what_title": "Wat",
+        "what": "Belangrijke klantgesprekken, supportgesprekken, onderhandelingen, expertinterviews (intern/extern).",
+        "how_title": "Hoe DiktatAI helpt",
+        "how": "Neem het gesprek op (let op wettelijke kaders!). Laat het transcriberen om belangrijke details, afspraken of klantfeedback exact te documenteren. Maak samenvattingen voor uw CRM, interne memo's of voor kwaliteitsborging."
+      },
+      "notes": {
+        "title": "Ideeën & notities direct veiligstellen",
+        "what_title": "Wat",
+        "what": "Spontane invallen onderweg, geniale ingevingen tijdens het werk, korte instructies, persoonlijke to-do's.",
+        "how_title": "Hoe DiktatAI helpt",
+        "how": "Gebruik de dicteerfunctie van uw smartphone of een dictafoon. Stuur de opname naar DiktatAI (bijvoorbeeld per e-mail). Zo zorgt u ervoor dat geen waardevol idee verloren gaat en zet u deze direct om in bewerkbare tekst voor notities, takenlijsten of concepten."
+      },
+      "documents": {
+        "title": "Documenten sneller opstellen",
+        "what_title": "Wat",
+        "what": "Rapporten, e-mails, offertes, dossiernotities, standaardprocedures (SOP's), brieven.",
+        "how_title": "Hoe DiktatAI helpt",
+        "how": "Dicteer de inhoud in plaats van moeizaam te typen. Vooral bij langere teksten of wanneer u onderweg bent, bespaart u enorm veel tijd. DiktatAI levert u de tekstbasis die u alleen nog hoeft af te ronden."
+      },
+      "content": {
+        "title": "Contentproductie versnellen",
+        "what_title": "Wat",
+        "what": "Interviews voor blogartikelen, podcastopnames, video-inhoud, interne trainingsvideo's.",
+        "how_title": "Hoe DiktatAI helpt",
+        "how": "Maak automatisch transcripties van uw audio- en video-inhoud. Gebruik deze als basis voor geschreven artikelen, voor het maken van ondertitels (toegankelijkheid!), voor inhoudsanalyse of als show notes voor podcasts."
+      },
+      "training": {
+        "title": "Kennisoverdracht & training optimaliseren",
+        "what_title": "Wat",
+        "what": "Opgenomen workshops, interne trainingen, presentaties, kennisoverdracht van experts.",
+        "how_title": "Hoe DiktatAI helpt",
+        "how": "Maak opgenomen kennis door transcriptie gemakkelijk doorzoekbaar en toegankelijk. Stel trainingsmaterialen of handouts efficiënter op en geef medewerkers de mogelijkheid om inhoud in hun eigen tempo na te lezen."
+      }
+    },
+    "benefitsSection": {
+      "title": "Uw duidelijke meerwaarde: Efficiëntie, nauwkeurigheid en focus",
+      "paragraph": "De consequente inzet van DiktatAI in de bedrijfsalltag leidt tot meetbare verbeteringen:",
+      "points": {
+        "point1": "Enorme tijdsbesparing: Verminder de administratieve last voor documentatie aanzienlijk en win uren terug voor strategische taken.",
+        "point2": "Verhoogde productiviteit: Uw teams kunnen zich richten op hun kerncompetenties doordat vervelend typewerk wegvalt.",
+        "point3": "Hogere nauwkeurigheid & consistentie: Minimaliseer overdrachtsfouten en zorg voor betrouwbare documentatie van belangrijke informatie.",
+        "point4": "Verbeterd kennisbeheer: Maak gesproken kennis in het bedrijf gemakkelijk vindbaar, deelbaar en langdurig bruikbaar.",
+        "point5": "Naadloze integratie: DiktatAI past dankzij eenvoudige bediening (upload, e-mail) probleemloos in uw bestaande werkprocessen.",
+        "point6": "Veiligheid & compliance: Vertrouw op de hoogste dataveiligheid en AVG-conforme verwerking van uw gevoelige bedrijfsgegevens."
+      }
+    },
+    "integrationSection": {
+      "title": "Integreer DiktatAI moeiteloos in uw workflow",
+      "paragraph": "De start is bijzonder eenvoudig. Of u nu audiobestanden direct op ons platform uploadt of de praktische e-mailfunctie gebruikt – u ontvangt uw transcripties snel en ongecompliceerd. Geen complexe software-installatie, geen lange trainingen. Begin vandaag nog met het efficiënter gebruiken van gesproken informatie."
+    },
+    "cta": {
+      "title": "Klaar om de efficiëntie in uw bedrijf te revolutioneren?",
+      "paragraph": "Ervaar zelf hoe DiktatAI tijdrovende documentatietaken in uw bedrijf vereenvoudigt. Optimaliseer uw processen en geef uw medewerkers meer tijd voor wat echt belangrijk is.",
+      "button": "Neem nu contact op & laat u adviseren"
     }
   }
 }

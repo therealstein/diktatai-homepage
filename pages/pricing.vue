@@ -975,6 +975,94 @@ import EuStoragePromo from '~/components/EuStoragePromo.vue';
       "disclaimer": "*Fair use policy may apply. All prices are exclusive of VAT. By registering, you agree to our",
       "terms": "Terms and Conditions"
     }
+  },
+  "nl": {
+    "meta": {
+      "title": "Prijzen - Transcriptie Software - Diktat AI",
+      "description": "Kies het juiste Diktat AI abonnement voor uw behoeften. Van Gratis tot Pro versie - wij hebben de perfecte oplossing voor u."
+    },
+    "hero": {
+      "title": "Prijzen die bij uw workflow passen",
+      "subtitle": "Vind het perfecte plan om met Diktat AI waardevolle tijd te winnen en uw productiviteit te verhogen. Start vandaag nog – geheel vrijblijvend!",
+      "badge": "AI-ondersteunde transcriptie",
+      "stats": {
+        "accuracy": "95%",
+        "accuracyLabel": "Nauwkeurigheid",
+        "users": "1.000+",
+        "usersLabel": "Gebruikers",
+        "languages": "2",
+        "languagesLabel": "Talen"
+      },
+      "cta": {
+        "primary": "Gratis starten",
+        "secondary": "Hoe het werkt"
+      }
+    },
+    "common": {
+      "month": "maand"
+    },
+    "freePlan": {
+      "title": "Gratis proberen",
+      "subtitle": "Ideaal om Diktat AI te leren kennen en direct tijd te besparen",
+      "features": {
+        "audioLimit": "Tot 60 minuten audio per maand. Dat is tot 30 A4-pagina's tekst.",
+        "reliableTranscription": "Betrouwbare transcriptie",
+        "easyHandling": "Eenvoudige bediening",
+        "basicSupport": "Basis-support per e-mail"
+      },
+      "cta": "Nu gratis testen",
+      "noCreditCard": "Geen creditcard vereist"
+    },
+    "proPlan": {
+      "earlyBird": "PIONEER AANBIEDING",
+      "title": "Pro Plan",
+      "subtitle": "Voor professionele gebruikers en iedereen die regelmatig en zonder limieten wil transcriberen",
+      "savings": "U bespaart 44%",
+      "trial": "7 dagen gratis testen",
+      "features": {
+        "unlimited": "Onbeperkte transcriptieminuten*",
+        "maxAccuracy": "Maximale nauwkeurigheid door beste AI",
+        "priorityProcessing": "Prioritaire verwerking",
+        "premiumSupport": "Premium support (e-mail)",
+        "apiAccess": "API-toegang voor integratie"
+      },
+      "cta": "Pro Plan kiezen"
+    },
+    "businessPlan": {
+      "title": "Business Suite",
+      "subtitle": "Op maat gemaakte oplossing voor de hoogste eisen aan controle, beveiliging & integratie",
+      "price": "Prijs op aanvraag",
+      "features": {
+        "allProFeatures": "Alle Pro Plan voordelen plus:",
+        "deployment": "On-premise of Private Cloud implementatie",
+        "identityManagement": "Integratie in uw identiteitsmanagement (SSO, bijv. Microsoft Azure AD)",
+        "extendedApi": "Uitgebreide API voor diepe systeemintegratie",
+        "compliance": "Individuele aanpassing aan compliance- & beveiligingseisen",
+        "support": "Toegewijde support & account management",
+        "aiCustomization": "Optioneel: Ondersteuning bij AI-modelaanpassing op bedrijfsgegevens"
+      },
+      "cta": "Contact opnemen",
+      "learnMore": "Meer informatie"
+    },
+    "features": {
+      "title": "Altijd inbegrepen: Uw fundament voor efficiënt werken",
+      "upload": {
+        "title": "Eenvoudige upload & intuïtieve bediening",
+        "description": "Start direct zonder technische drempels"
+      },
+      "security": {
+        "title": "Hoogste gegevensbeveiliging",
+        "description": "GDPR-conform met versleuteling"
+      },
+      "processing": {
+        "title": "Betrouwbare verwerking",
+        "description": "Stabiele technologie voor uw opnames"
+      }
+    },
+    "footer": {
+      "disclaimer": "*Fair-use-beleid kan van toepassing zijn. Alle prijzen zijn excl. btw. Met uw aanmelding gaat u akkoord met onze",
+      "terms": "Algemene Voorwaarden"
+    }
   }
 }
 </i18n>

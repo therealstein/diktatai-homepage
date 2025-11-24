@@ -1,15 +1,163 @@
 {
   "welcome": "Welkom",
+  "dsgvo": {
+    "title": "GDPR-conforme gegevensopslag",
+    "description": "Uw gegevens worden volgens de hoogste veiligheidsnormen versleuteld en GDPR-conform opgeslagen. Wij garanderen maximale gegevensbescherming voor uw spraakopnames.",
+    "moreAboutPrivacy": "Meer over gegevensbescherming"
+  },
+  "euStorage": {
+    "title": "Opslag en gegevensverwerking in de EU",
+    "description": "Al uw gegevens worden uitsluitend op servers binnen de Europese Unie verwerkt en opgeslagen. We zetten in op lokale infrastructuur voor maximale gegevensbeveiliging.",
+    "moreAboutSecurity": "Meer over beveiliging"
+  },
   "components": {
     "logo": {
-      "name": "DictateAI"
+      "name": "DiktatAI"
     },
     "cta": {
-      "title": "Stop met typen: Dictate AI verzorgt de transcriptie.",
-      "description": "Zet gesproken woorden moeiteloos om in nauwkeurige tekst. Dictate AI neemt het typen voor zijn rekening zodat u zich kunt concentreren op wat ertoe doet – of het nu gaat om vergadernotities, interviews of spontane ideeën. Bespaar waardevolle tijd en verhoog uw productiviteit.",
-      "startFree": "Gratis beginnen",
-      "viewPricing": "Bekijk prijzen"
+      "title": "Klaar met typen: Diktat AI verzorgt de transcriptie.",
+      "description": "Zet gesproken woorden moeiteloos om in nauwkeurige tekst. Diktat AI neemt het typwerk van u over, zodat u zich kunt concentreren op het wezenlijke – of het nu gaat om meetingnotities, interviews of spontane ideeën. Bespaar waardevolle tijd en verhoog uw productiviteit.",
+      "startFree": "Gratis starten",
+      "viewPricing": "Prijzen bekijken"
     }
+  },
+  "userGroups": {
+    "title": "Beroepsgroepen waarvoor Diktat AI onmisbaar is",
+    "description": "Ontdek hoe verschillende beroepsgroepen Diktat AI gebruiken om hun dagelijkse werk efficiënter te maken",
+    "journalists": {
+      "title": "Journalisten & Redacteuren",
+      "description": "Zet interviews, persconferenties en onderzoeksopnames razendsnel om in bewerkbare tekst."
+    },
+    "contentCreators": {
+      "title": "Content Creators",
+      "description": "Creëer moeiteloos transcripties voor show notes, ondertitels, blogartikelen of voor inhoudsanalyse."
+    },
+    "lawyers": {
+      "title": "Juristen & Advocaten",
+      "description": "Leg dictaten, cliëntgesprekken of aantekeningen veilig en GDPR-conform vast als tekst."
+    },
+    "students": {
+      "title": "Studenten & Academici",
+      "description": "Transcribeer colleges, seminars en interviews voor afstudeerprojecten of onderzoeksprojecten."
+    },
+    "businessLeaders": {
+      "title": "Zakenmensen & Leidinggevenden",
+      "description": "Leg meeting-resultaten, spontane ideeën of gedicteerde notities nauwkeurig vast."
+    },
+    "consultants": {
+      "title": "Adviseurs & Coaches",
+      "description": "Documenteer klantgesprekken en sessies efficiënt voor optimale naverwerking."
+    }
+  },
+  "businessSolutions": {
+    "title": "Oplossingen voor bedrijven en organisaties",
+    "description": "Ontdek hoe Diktat AI speciaal is afgestemd op de eisen van verschillende organisaties en branches",
+    "aiAct": {
+      "title": "EU AI-Wet (AI Act) & Diktat AI",
+      "description": "De nieuwe EU AI-Wet komt eraan. Lees wat de AI Act betekent voor AI-toepassingen zoals Diktat AI, welke eisen gelden en hoe we ons voorbereiden op een verantwoorde en conforme toekomst."
+    },
+    "sme": {
+      "title": "AI-potentieel in het MKB benutten",
+      "description": "Ontdek hoe Diktat AI specifiek kleine en middelgrote ondernemingen (MKB) helpt om processen te optimaliseren, waardevolle tijd te besparen en de productiviteit te verhogen zonder grote IT-investeringen."
+    },
+    "government": {
+      "title": "Veilig gebruik in overheidsinstanties",
+      "description": "Gegevensbescherming, veiligheid en betrouwbaarheid zijn cruciaal in de publieke sector. Lees hoe Diktat AI voldoet aan de bijzondere eisen van overheidsinstanties en overheden en efficiënte workflows mogelijk maakt."
+    },
+    "regulated": {
+      "title": "Compliance in gereguleerde branches",
+      "description": "Voor branches zoals financiën, recht of gezondheidszorg gelden strenge voorschriften. Lees hoe Diktat AI vertrouwelijkheid waarborgt en compliance-eisen bij transcriptie ondersteunt."
+    },
+    "business": {
+      "title": "Diktat AI voor bedrijven",
+      "description": "Lees meer over de veelzijdige toepassingsmogelijkheden van Diktat AI in bedrijven van elke omvang – van meeting-documentatie tot content-creatie. Schaalbare oplossingen voor uw succes."
+    },
+    "suite": {
+      "title": "De Diktat AI Business Suite",
+      "description": "Ontdek onze premium-oplossingen voor teams en power-users. Profiteer van uitgebreide functies, team-management, prioriteitsondersteuning en maatwerkopties voor de hoogste eisen."
+    }
+  },
+  "hero": {
+    "title": "Transcriberen met Diktat AI",
+    "description": "Diktat AI biedt snelle en nauwkeurige transcripties voor meetings, interviews en meer. Ideaal voor professionals en teams die tijd willen besparen en zich op het wezenlijke willen concentreren. Uw gegevens zijn veilig en worden GDPR-conform verwerkt.",
+    "startNow": "Nu starten",
+    "subDescription": "Bespaar tot 80% van uw tijd bij het transcriberen. Start nu gratis – geen creditcard vereist.",
+    "socialProof": "Al meer dan 1.000 gebruikers besparen dagelijks tijd"
+  },
+  "faq": {
+    "title": "Veelgestelde vragen over Diktat AI",
+    "description": "Hier vindt u antwoorden op de belangrijkste vragen over Diktat AI, uw intelligente assistent voor de omzetting van spraak naar tekst.",
+    "item1": {
+      "title": "Wat doet Diktat AI precies?",
+      "description": "Diktat AI is uw slimme helper die gesproken woorden automatisch omzet in geschreven tekst. Upload eenvoudig uw audio-opname (bijvoorbeeld van meetings, interviews, colleges of spraaknotities) en onze kunstmatige intelligentie doet de rest – snel en betrouwbaar. Zo krijgt u in een handomdraai een schriftelijk protocol of transcript, zonder zelf te hoeven typen."
+    },
+    "item2": {
+      "title": "Voor wie is Diktat AI geschikt?",
+      "description": "Diktat AI is perfect voor iedereen die regelmatig audio-opnames in tekst moet omzetten en daarbij waardevolle tijd wil besparen. Dit omvat:",
+      "professionals": "Drukbezette professionals: Notuleer meetings en telefoongesprekken moeiteloos.",
+      "teams": "Efficiënte teams: Deel belangrijke gespreksinhoud snel en eenvoudig schriftelijk.",
+      "students": "Studenten: Zet colleges en studienotities om in doorzoekbare teksten.",
+      "journalists": "Journalisten & Podcasters: Transcribeer interviews en audio-inhoud bliksemsnel.",
+      "creators": "Content Creators: Maak ondertitels of blogartikelen uit uw video- en audio-inhoud.",
+      "noteTakers": "Iedereen die notities maakt: Leg spontane ideeën en gedachten eenvoudig via spraak vast."
+    },
+    "item3": {
+      "title": "Hoe helpt Diktat AI mij tijd te besparen?",
+      "description": "Het handmatig uittypen van audio-opnames is vervelend en kost vaak uren van uw kostbare tijd. Diktat AI doet deze taak in een fractie van de tijd. In plaats van u bezig te houden met typen, kunt u zich concentreren op belangrijkere taken, uw inhoud sneller voorbereiden of uw resultaten vlugger analyseren. Dat betekent: meer productiviteit voor u en minder vervelend routinewerk."
+    },
+    "item4": {
+      "title": "Zijn mijn gegevens veilig bij Diktat AI?",
+      "description": "Absoluut. De bescherming van uw gegevens heeft voor ons de hoogste prioriteit. We weten hoe belangrijk vertrouwelijkheid is. Daarom verwerken we alle informatie strikt volgens de richtlijnen van de Europese Algemene Verordening Gegevensbescherming (GDPR). Uw audio-opnames en de daaruit gemaakte teksten zijn bij ons veilig en beschermd – daar kunt u op vertrouwen."
+    },
+    "item5": {
+      "title": "Hoe nauwkeurig zijn de transcripties?",
+      "description": "Onze kunstmatige intelligentie is getraind om spraak zeer nauwkeurig te herkennen en om te zetten in tekst. De nauwkeurigheid is indrukwekkend hoog, vooral bij duidelijk verstaanbare opnames met goede geluidskwaliteit. U krijgt een solide tekstbasis die u in de meeste gevallen direct kunt hergebruiken of indien nodig slechts minimaal hoeft aan te passen."
+    },
+    "item6": {
+      "title": "Welk type audio-opnames kan ik uploaden?",
+      "description": "U kunt verschillende soorten audio-opnames uploaden. Of het nu gaat om opnames van vergaderingen, gevoerde interviews, opgenomen telefoongesprekken (voor zover wettelijk toegestaan!), colleges uit de collegezaal, seminaropnames, podcast-afleveringen of gewoon spontaan opgenomen spraaknotities met de telefoon – Diktat AI kan ze verwerken. We ondersteunen de meest gangbare audioformaten."
+    },
+    "item7": {
+      "title": "Is de bediening van Diktat AI ingewikkeld?",
+      "description": "Nee, integendeel! We hebben Diktat AI bewust eenvoudig en intuïtief ontworpen. U heeft geen technische voorkennis of ingewikkelde inwerkperiodes nodig. Het proces is uiterst simpel:",
+      "step1": "Audio-opname uploaden.",
+      "step2": "Kort wachten terwijl onze AI werkt.",
+      "step3": "Voltooide tekst downloaden of kopiëren.",
+      "conclusion": "We willen dat u direct kunt beginnen en van de voordelen kunt profiteren!"
+    },
+    "stillHaveQuestions": "Heeft u nog vragen?",
+    "reachOutText": "Als u nog vragen heeft of ondersteuning nodig heeft, helpen we u graag bij alle zaken rondom Diktat AI.",
+    "moreQuestions": "Heeft u nog meer vragen?"
+  },
+  "howItWorks": {
+    "title": "Eenvoudig. Snel. Efficiënt.",
+    "description": "Bespaar waardevolle tijd met ons ongecompliceerde dicteerproces. In slechts enkele stappen zetten we uw spraakopnames om in perfect geformatteerde teksten.",
+    "upload": "Opname uploaden",
+    "uploadDescription": "Met één klik starten",
+    "transcription": "AI-Transcriptie",
+    "transcriptionDescription": "Nauwkeurige spraakherkenning",
+    "secureProcessing": "Veilige verwerking",
+    "secureProcessingDescription": "GDPR-conform & versleuteld",
+    "readyToUse": "Direct inzetbaar",
+    "readyToUseDescription": "Geformatteerde tekst om te downloaden"
+  },
+  "integrations": {
+    "title": "Diktat AI past zich aan uw workflow aan",
+    "description": "We maken het u gemakkelijk om transcripties precies daar te ontvangen waar u ze nodig heeft. Ontdek onze flexibele mogelijkheden om Diktat AI naadloos in uw dagelijkse werk te integreren.",
+    "available": "Beschikbaar",
+    "emailTitle": "Eenvoudig per e-mail transcriberen",
+    "emailDescription": "De snelste weg naar het voltooide transcript – helemaal zonder login. Stuur ons uw audiobestand direct als bijlage per e-mail. Diktat AI neemt de omzetting naar tekst over en levert u het resultaat comfortabel terug.",
+    "howItWorks": "Zo werkt het:",
+    "softwareTitle": "Automatische koppeling met uw software",
+    "softwareDescription": "Naadloze integratie voor maximale efficiëntie. Uw transcripties landen automatisch precies daar waar u ze verder verwerkt – of het nu in uw CRM-systeem, uw projectmanagementsoftware of een ander belangrijk hulpmiddel is.",
+    "requestSolution": "Individuele oplossing aanvragen",
+    "whyValuable": "Waarom integraties waardevol zijn:",
+    "flexibility": "Flexibiliteit",
+    "flexibilityDescription": "Kies hoe u Diktat AI wilt gebruiken - via onze webinterface, e-mail of API.",
+    "timeSaving": "Tijdsbesparing",
+    "timeSavingDescription": "Automatiseer uw workflow door directe integratie van Diktat AI in uw bestaande tools.",
+    "seamlessProcesses": "Naadloze processen",
+    "seamlessProcessesDescription": "Behoud uw huidige workflow en voeg krachtige transcriptiefuncties toe."
   },
   "auth": {
     "login": {
@@ -56,7 +204,38 @@
     "copyright": "© 2025 Dictate AI. Alle rechten voorbehouden.",
     "tagline": "Uw spraakopnames nauwkeurig omgezet in tekst."
   },
+  "navbar": {
+    "howitworks": "AI Transcriptie",
+    "pricing": "Prijzen",
+    "login": "Inloggen"
+  },
   "app": {
+    "benefitsSection": {
+      "title": "Uw duidelijke voordeel met Diktat AI",
+      "description": "Diktat AI brengt meetbare meerwaarde in uw werkdag – door slimme automatisering en geoptimaliseerde processen bij de omzetting van spraak naar tekst.",
+      "benefits": {
+        "timeSaving": {
+          "title": "Enorme tijdsbesparing",
+          "description": "Neem afscheid van het moeizame uittypen. Win uren terug voor uw belangrijke taken, projecten en kerncompetenties."
+        },
+        "productivity": {
+          "title": "Verhoogde productiviteit",
+          "description": "Doe meer in minder tijd. Zet gesproken inhoud bliksemsnel om in tekst en versnel uw werkprocessen merkbaar – van meetingnotulen tot content-creatie."
+        },
+        "precision": {
+          "title": "Nauwkeurige & Bruikbare resultaten",
+          "description": "Ontvang exacte teksttranscripties van uw audio-opnames, die u direct kunt hergebruiken, doorzoeken, bewerken of archiveren."
+        },
+        "security": {
+          "title": "Hoogste gegevensbeveiliging & Conformiteit",
+          "description": "Vertrouw op de strengste vertrouwelijkheid en GDPR-conforme verwerking. Uw gevoelige informatie en opnames zijn bij ons te allen tijde veilig en beschermd."
+        },
+        "focus": {
+          "title": "Focus op het wezenlijke",
+          "description": "Reduceer vervelende routinetaken tot een minimum. Concentreer uw energie en aandacht op strategische beslissingen, creatief werk of de analyse van inhoud in plaats van op het typen."
+        }
+      }
+    },
     "help": {
       "title": "Hulp & Contact",
       "subtitle": "We zijn er om u te helpen",
@@ -137,6 +316,33 @@
           "imageFormat": "Ongeldig afbeeldingsformaat. Gebruik PNG, JPG of WEBP."
         }
       }
+    },
+    "footer": {
+      "title": "Diktat AI",
+      "help": "Hulp",
+      "description": "Dictaten snel en eenvoudig in brieven verwandelen.",
+      "professions": "Beroepsgroepen",
+      "consultants": "Adviseurs & Coaches",
+      "contentCreators": "Content Creators",
+      "lawyers": "Juristen & Advocaten",
+      "journalists": "Journalisten & Redacteuren",
+      "students": "Studenten & Academici",
+      "businessLeaders": "Zakenmensen & Leidinggevenden",
+      "legal": "Juridisch",
+      "terms": "Voorwaarden",
+      "privacy": "Gegevensbescherming",
+      "aiSecurity": "AI - Gegevensbeveiliging",
+      "imprint": "Colofon",
+      "company": "Bedrijf",
+      "pricing": "Prijzen",
+      "about": "Over ons",
+      "contact": "Contact",
+      "compliance": "Compliance & Ondersteuning",
+      "gdpr": "GDPR",
+      "aiDataProcessing": "AI Gegevensverwerking",
+      "standWithUkraine": "Stand with Ukraine",
+      "copyright": "© {year} DiktatAI",
+      "language": "Taal"
     }
   }
 }
