@@ -128,6 +128,7 @@
             <div class="flex items-center gap-2">
               <img v-if="locale === 'de'" src="/DE.svg" alt="German Flag" class="w-4 h-4" />
               <img v-else-if="locale === 'en'" src="/GB.svg" alt="British Flag" class="w-4 h-4" />
+              <img v-else-if="locale === 'nl'" src="/NL.svg" alt="Dutch Flag" class="w-4 h-4" />
               <span class="text-sm text-gray-500">{{ getCurrentLocaleName }}</span>
             </div>
             <a
@@ -139,6 +140,7 @@
             >
               <img v-if="l.code === 'de'" src="/DE.svg" alt="German Flag" class="w-4 h-4" />
               <img v-else-if="l.code === 'en'" src="/GB.svg" alt="British Flag" class="w-4 h-4" />
+              <img v-else-if="l.code === 'nl'" src="/NL.svg" alt="Dutch Flag" class="w-4 h-4" />
               {{ l.name }}
             </a>
           </div>
