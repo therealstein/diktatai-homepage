@@ -36,13 +36,17 @@
           </div>
         </div>
         <div v-if="cta" class="mt-8">
-          <NuxtLinkLocale :to="cta.to">
+          <component
+            :is="isAuthLink(cta.to) ? 'a' : NuxtLinkLocale"
+            :href="isAuthLink(cta.to) ? getAuthUrl(cta.to) : undefined"
+            :to="isAuthLink(cta.to) ? undefined : cta.to"
+          >
             <button
               class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
             >
               {{ cta.text }}
             </button>
-          </NuxtLinkLocale>
+          </component>
         </div>
       </div>
     </div>
@@ -50,6 +54,9 @@
 </template>
 
 <script setup lang="ts">
+const NuxtLinkLocale = resolveComponent('NuxtLinkLocale');
+const { getAppUrl } = useAppUrl();
+
 interface Cta {
   to: string;
   text: string;
@@ -71,4 +78,11 @@ withDefaults(defineProps<Props>(), {
   imageRight: false,
   imageCover: false
 });
+
+const isAuthLink = (to: string): boolean => to.startsWith('auth-');
+
+const getAuthUrl = (to: string): string => {
+  const path = '/' + to.replace('-', '/');
+  return getAppUrl(path);
+};
 </script> 

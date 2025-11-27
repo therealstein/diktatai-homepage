@@ -93,20 +93,30 @@
 
         <!-- CTA Buttons -->
         <div v-if="cta || secondaryCta" class="flex flex-col sm:flex-row justify-center gap-4">
-          <NuxtLinkLocale v-if="cta" :to="cta.to">
+          <component
+            v-if="cta"
+            :is="isAuthLink(cta.to) ? 'a' : NuxtLinkLocale"
+            :href="isAuthLink(cta.to) ? getAuthUrl(cta.to) : undefined"
+            :to="isAuthLink(cta.to) ? undefined : cta.to"
+          >
             <button
               class="font-display bg-pink-500 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide w-full sm:w-auto"
             >
               {{ cta.text }}
             </button>
-          </NuxtLinkLocale>
-          <NuxtLinkLocale v-if="secondaryCta" :to="secondaryCta.to">
+          </component>
+          <component
+            v-if="secondaryCta"
+            :is="isAuthLink(secondaryCta.to) ? 'a' : NuxtLinkLocale"
+            :href="isAuthLink(secondaryCta.to) ? getAuthUrl(secondaryCta.to) : undefined"
+            :to="isAuthLink(secondaryCta.to) ? undefined : secondaryCta.to"
+          >
             <button
               class="font-display bg-white/10 text-white text-xl font-bold py-3 px-8 rounded-full hover:bg-white/20 transition-all shadow-lg tracking-wide border-2 border-white/70 w-full sm:w-auto"
             >
               {{ secondaryCta.text }}
             </button>
-          </NuxtLinkLocale>
+          </component>
         </div>
 
         <!-- Additional Info -->
@@ -119,6 +129,9 @@
 </template>
 
 <script setup lang="ts">
+const NuxtLinkLocale = resolveComponent('NuxtLinkLocale');
+const { getAppUrl } = useAppUrl();
+
 interface Cta {
   to: string;
   text: string;
@@ -149,6 +162,13 @@ const props = withDefaults(defineProps<Props>(), {
   variant: 'glass',
   size: 'default'
 });
+
+const isAuthLink = (to: string): boolean => to.startsWith('auth-');
+
+const getAuthUrl = (to: string): string => {
+  const path = '/' + to.replace('-', '/');
+  return getAppUrl(path);
+};
 
 const backgroundStyle = computed(() => {
   if (!props.background) return {};
