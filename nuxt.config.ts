@@ -222,8 +222,8 @@ export default defineNuxtConfig({
     },
     routeRules: {
       "/how-it-works": { redirect: "/ki-transkription-wie-es-funktioniert" },
-      "/en/__sitemap__/en-US.xml": { redirect: "/__sitemap__/en-US.xml" },
-      "/nl/__sitemap__/nl-NL.xml": { redirect: "/__sitemap__/nl-NL.xml" },
+      "/en/__sitemap__/en-US.xml": { redirect: { to: "/__sitemap__/en-US.xml", statusCode: 301 } },
+      "/nl/__sitemap__/nl-NL.xml": { redirect: { to: "/__sitemap__/nl-NL.xml", statusCode: 301 } },
 
       // Imported redirects for legacy URLs and incorrect locale slugs
       ...redirects,
