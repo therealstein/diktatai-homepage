@@ -2,5 +2,10 @@ User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /app/
+Disallow: /auth/
+Disallow: /en/auth/
+Disallow: /nl/auth/
+Disallow: /opt/
+Disallow: /general/
 
 Sitemap: https://diktat.ai/sitemap.xml
