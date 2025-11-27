@@ -260,13 +260,9 @@ const { t, locale } = useI18n({
   useScope: "local",
 });
 
-const baseUrl = "https://diktat.ai";
-const canonicalPath = computed(() =>
-  locale.value === "en" ? "/en/eu-ai-law" : "/eu-ki-gesetz",
-);
-const canonicalUrl = computed(() => `${baseUrl}${canonicalPath.value}`);
+// SEO Meta Tags with Canonical URL
+const { canonicalUrl } = useSeoCanonical();
 
-// SEO Meta Tags (localized)
 useHead(() => ({
   title: t("hero.title"),
   meta: [

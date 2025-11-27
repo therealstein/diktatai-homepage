@@ -173,7 +173,7 @@ const { t } = useI18n({
 const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags with Canonical URL
-const { canonicalUrl } = useSeoCanonical("/general/help");
+const { canonicalUrl } = useSeoCanonical();
 
 useHead({
   title: t("seo.title"),
@@ -183,7 +183,7 @@ useHead({
       content: t("seo.description"),
     },
   ],
-  link: [{ rel: "canonical", href: canonicalUrl.value }],
+  link: [{ rel: "canonical", href: canonicalUrl }],
 });
 </script>
 

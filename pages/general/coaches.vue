@@ -332,7 +332,7 @@ const { t } = useI18n({
 const { registerUrl } = useAppUrl();
 
 // SEO Meta Tags with Canonical URL
-const { canonicalUrl } = useSeoCanonical('/general/coaches');
+const { canonicalUrl } = useSeoCanonical();
 
 useHead({
   title: t('meta.title'),
@@ -342,7 +342,7 @@ useHead({
       content: t('meta.description')
     }
   ],
-  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+  link: [{ rel: 'canonical', href: canonicalUrl }],
 })
 
 

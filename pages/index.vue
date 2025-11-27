@@ -27,12 +27,12 @@ const { t } = useI18n({
 });
 
 // SEO Meta Tags with Canonical URL
-const { canonicalUrl } = useSeoCanonical('/');
+const { canonicalUrl } = useSeoCanonical();
 
 useHead({
   title: t('title'),
   meta: [{ name: 'description', content: t('description') }],
-  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+  link: [{ rel: 'canonical', href: canonicalUrl }],
 });
 </script>
 

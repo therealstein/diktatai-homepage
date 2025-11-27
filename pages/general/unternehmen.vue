@@ -452,18 +452,19 @@ const { t } = useI18n({
 });
 const { registerUrl } = useAppUrl();
 
-// SEO Meta Tags
-useHead({
+// SEO Meta Tags with Canonical URL
+const { canonicalUrl } = useSeoCanonical();
+
+useHead(() => ({
   title: t("meta.title"),
   meta: [
     {
       name: "description",
       content: t("meta.description"),
     },
-
     // Open Graph / Facebook
     { property: "og:type", content: "website" },
-    { property: "og:url", content: "https://diktat.ai/de/unternehmen" },
+    { property: "og:url", content: canonicalUrl.value },
     {
       property: "og:title",
       content: t("meta.title"),
@@ -478,24 +479,22 @@ useHead({
     },
     // Twitter
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:url", content: "https://diktat.ai/de/unternehmen" },
+    { name: "twitter:url", content: canonicalUrl.value },
     {
       name: "twitter:title",
-      content: "Diktat AI im Unternehmen: Effizienz steigern im Arbeitsalltag",
+      content: t("meta.title"),
     },
     {
       name: "twitter:description",
-      content:
-        "Praktische Anwendungsfälle für Diktat AI in Ihrem Unternehmen - Zeit sparen und Produktivität steigern!",
+      content: t("meta.description"),
     },
     {
       name: "twitter:image",
       content: "https://diktat.ai/images/unternehmen-og.jpg",
     },
-    // Canonical URL
-    { rel: "canonical", href: "https://diktat.ai/de/unternehmen" },
   ],
-});
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
+}));
 </script>
 
 <i18n lang="json">

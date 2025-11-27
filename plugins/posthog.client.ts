@@ -34,6 +34,12 @@ export default defineNuxtPlugin((nuxtApp) => {
     ui_host: 'eu.posthog.com',
     person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
     capture_pageview: false, // we add manual pageview capturing below
+    // Disable extra features to reduce bundle size and network requests
+    disable_surveys: true,
+    disable_session_recording: true,
+    autocapture: false,
+    capture_dead_clicks: false,
+    capture_performance: false,
     loaded: (posthog) => {
       if (import.meta.env.MODE === 'development') posthog.debug();
     },

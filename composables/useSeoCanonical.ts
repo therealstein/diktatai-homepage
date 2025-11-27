@@ -1,26 +1,22 @@
 /**
  * Composable for generating SEO canonical URLs
- * Ensures consistent canonical URL generation across all pages
+ * Uses i18n route localization for correct URLs across all locales
  * Always uses diktat.ai as the base domain
  */
-export const useSeoCanonical = (path: string) => {
-  const { locale } = useI18n();
+export const useSeoCanonical = () => {
+  const route = useRoute();
+  const localePath = useLocalePath();
   const baseUrl = 'https://diktat.ai';
 
-  const canonicalPath = computed(() => {
-    // For default locale (de), don't add locale prefix
-    if (locale.value === 'de') {
-      return path.startsWith('/') ? path : `/${path}`;
-    }
-    // For other locales (en), add locale prefix
-    return `/en${path.startsWith('/') ? path : `/${path}`}`;
+  const canonicalUrl = computed(() => {
+    // Get the localized path for current route using i18n
+    // This handles all locales (de, en, nl, es, fr, sv, etc.) and translated slugs
+    const path = localePath(route.path);
+    return `${baseUrl}${path}`;
   });
-
-  const canonicalUrl = computed(() => `${baseUrl}${canonicalPath.value}`);
 
   return {
     canonicalUrl,
-    canonicalPath,
     baseUrl,
   };
 };
