@@ -8,7 +8,7 @@
       </div>
       <!-- Mobile menu button -->
       <div class="navbar-end lg:hidden">
-        <button @click="isMenuOpen = !isMenuOpen" class="btn btn-ghost">
+        <button @click="isMenuOpen = !isMenuOpen" class="btn btn-ghost" aria-label="Menu">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6"
@@ -56,7 +56,7 @@
     ></div>
     <div class="fixed right-0 top-0 w-64 h-full bg-base-100 shadow-xl p-4">
       <div class="flex justify-end mb-4">
-        <button @click="isMenuOpen = false" class="btn btn-ghost">
+        <button @click="isMenuOpen = false" class="btn btn-ghost" aria-label="Close menu">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6"

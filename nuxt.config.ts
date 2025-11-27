@@ -26,6 +26,28 @@ export default defineNuxtConfig({
           href: "/favicon-16x16.png",
         },
         { rel: "manifest", href: "/site.webmanifest" },
+        // Preload LCP hero background image
+        {
+          rel: "preload",
+          href: "/herobg.webp",
+          as: "image",
+          fetchpriority: "high",
+        },
+        // Preload critical fonts
+        {
+          rel: "preload",
+          href: "/fonts/Inter-Regular.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
+        {
+          rel: "preload",
+          href: "/fonts/PlusJakartaSans-SemiBold.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
         {
           rel: "stylesheet",
           href: "/fonts/fonts.css",
@@ -240,6 +262,8 @@ export default defineNuxtConfig({
         headers: {
           "X-Frame-Options": "SAMEORIGIN",
           "Content-Security-Policy": "frame-ancestors 'self';",
+          "Cross-Origin-Opener-Policy": "same-origin",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         },
       },
     },

@@ -99,9 +99,12 @@
       <div class="flex justify-center items-center">
         <!-- Placeholder for an image or illustration -->
         <img
-          src="/diktatai-transkribieren.jpg"
+          src="/diktatai-transkribieren.webp"
           :alt="t('title')"
           class="rounded-3xl shadow-xl"
+          width="700"
+          height="700"
+          loading="lazy"
         />
       </div>
     </div>

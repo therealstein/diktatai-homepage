@@ -175,22 +175,10 @@ const { registerUrl } = useAppUrl();
 </script>
 
 <style scoped>
-/* Gradient text animation */
-@keyframes gradient-shift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
+/* Remove non-composited gradient animation for better performance */
 .animated-gradient {
-  background-size: 200% 200%;
-  animation: gradient-shift 4s ease infinite;
+  /* Static gradient for optimal performance */
+  background-size: 100% 100%;
 }
 
 /* Enhanced hover effects */
