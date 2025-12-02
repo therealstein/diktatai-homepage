@@ -68,7 +68,7 @@ locale: en
 <p>Activating and using the dictation feature is incredibly simple:</p>
 
 <ol class="wp-block-list">
-<li><strong>Open Google Docs:</strong> Open your Google Chrome browser and go to <a href="docs.google.com">docs.google.com</a>.</li>
+<li><strong>Open Google Docs:</strong> Open your Google Chrome browser and go to <a href="https://docs.google.com">docs.google.com</a>.</li>
 
 
 
@@ -115,7 +115,7 @@ locale: en
 <li><strong>End Dictation:</strong> Click on the microphone icon again to pause or end voice input.</li>
 </ol>
 
-<li><strong>Open Google Docs:</strong> Open your Google Chrome browser and go to <a href="docs.google.com">docs.google.com</a>.</li>
+<li><strong>Open Google Docs:</strong> Open your Google Chrome browser and go to <a href="https://docs.google.com">docs.google.com</a>.</li>
 
 <li><strong>Create or Open a Document:</strong> Create a new document or open an existing one where you want to dictate text.</li>
 

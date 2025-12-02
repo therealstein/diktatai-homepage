@@ -8,4 +8,6 @@ Disallow: /nl/auth/
 Disallow: /opt/
 Disallow: /general/
 
-Sitemap: https://diktat.ai/sitemap.xml
+Sitemap: https://diktat.ai/__sitemap__/de-DE.xml
+Sitemap: https://diktat.ai/__sitemap__/en-US.xml
+Sitemap: https://diktat.ai/__sitemap__/nl-NL.xml
