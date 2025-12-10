@@ -79,6 +79,11 @@ const { t } = useI18n()
     "title": "GDPR-conforme gegevensopslag",
     "description": "Uw gegevens worden volgens de hoogste veiligheidsnormen versleuteld en GDPR-conform opgeslagen. Wij garanderen maximale gegevensbescherming voor uw spraakopnames.",
     "moreAboutPrivacy": "Meer over gegevensbescherming"
+  },
+  "es": {
+    "title": "Almacenamiento de datos conforme al RGPD",
+    "description": "Sus datos se cifran según los más altos estándares de seguridad y se almacenan de conformidad con el RGPD. Garantizamos la máxima protección de datos para sus grabaciones de voz.",
+    "moreAboutPrivacy": "Más sobre privacidad"
   }
 }
 </i18n>

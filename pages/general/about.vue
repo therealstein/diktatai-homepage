@@ -379,6 +379,50 @@ useHead({
       "title": "Over ons - DiktatAI",
       "description": "Leer meer over de geschiedenis en visie van DiktatAI. Hoe uit frustratie over tijdrovende transcripties een innovatieve oplossing ontstond."
     }
+  },
+  "es": {
+    "hero": {
+      "title": "Sobre Diktat AI",
+      "subtitle": "De la frustración personal a la solución para usted"
+    },
+    "introduction": {
+      "paragraph1": "¿Conoce esto también? ¿Horas de tedioso tecleo de grabaciones de audio? Reuniones, entrevistas, notas importantes – el contenido valioso está ahí, pero el camino al texto utilizable es difícil y cuesta infinito tiempo. Tiempo que se necesita urgentemente en otro lugar.",
+      "paragraph2": "Exactamente esta frustración fue la chispa que llevó a la fundación de Diktat AI."
+    },
+    "story": {
+      "title": "Nuestra historia",
+      "paragraph": "Nosotros – los fundadores de Diktat AI – venimos de campos profesionales donde las palabras habladas juegan un papel central. Ya sea como consultores en conversaciones intensivas con clientes, como creadores de contenido en la producción de podcasts o como empresarios que necesitan capturar rápidamente ideas y resultados de reuniones – hemos experimentado el dolor de la transcripción manual en carne propia.",
+      "challenge": "Una y otra vez nos enfrentábamos al mismo desafío:",
+      "points": {
+        "point1": "El miedo a pasar por alto o olvidar detalles importantes en grabaciones largas.",
+        "point2": "La enorme inversión de tiempo que costaba escribir – tiempo que hubiéramos preferido invertir en nuestras competencias principales.",
+        "point3": "La búsqueda de una solución que no solo sea rápida, sino también confiable y sobre todo segura."
+      }
+    },
+    "vision": {
+      "title": "Nuestra visión",
+      "paragraph": "Impulsados por este pensamiento y nuestra pasión por soluciones eficientes y tecnología, decidimos abordar el problema nosotros mismos. Nuestro objetivo era claro:",
+      "points": {
+        "point1": "Desarrollar una solución de transcripción que nosotros mismos usaríamos con gusto.",
+        "point2": "Poner la simplicidad y la facilidad de uso en el centro.",
+        "point3": "Garantizar la máxima precisión mediante el uso del reconocimiento de voz por IA más avanzado.",
+        "point4": "Integrar seguridad y protección de datos sin compromisos como pilares fundamentales desde el principio."
+      }
+    },
+    "today": {
+      "title": "Diktat AI hoy",
+      "paragraph1": "Detrás de Diktat AI hay hoy un equipo dedicado que trabaja continuamente para mejorar el servicio y adaptarlo a las necesidades de nuestros usuarios. Entendemos los desafíos de su día a día laboral porque los conocemos nosotros mismos.",
+      "paragraph2": "Nuestra misión es devolverle tiempo valioso y aumentar su productividad – simple, seguro y eficiente."
+    },
+    "cta": {
+      "title": "Comience ahora con Diktat AI",
+      "paragraph": "Nos alegra si Diktat AI también le ayuda a facilitar su día a día laboral.",
+      "button": "Probar gratis"
+    },
+    "meta": {
+      "title": "Sobre nosotros - Diktat AI",
+      "description": "Conozca más sobre la historia y visión de Diktat AI. Cómo de la frustración con las transcripciones que consumen tiempo surgió una solución innovadora."
+    }
   }
 }
 </i18n>

@@ -447,6 +447,83 @@ useHead({
       "title": "Hulp & Support - DiktatAI - Snelle & nauwkeurige transcriptie",
       "description": "Hulp en support voor DiktatAI. Vind handleidingen, contactmogelijkheden en antwoorden op veelgestelde vragen over onze transcriptieservice."
     }
+  },
+  "es": {
+    "hero": {
+      "title": "Ayuda y soporte",
+      "subtitle": "¡Bienvenido al centro de ayuda de Diktat AI!"
+    },
+    "introduction": {
+      "text": "Queremos asegurarnos de que aproveche al máximo nuestro servicio y pueda completar sus tareas de transcripción sin esfuerzo. En esta página encontrará información sobre cómo obtener soporte si tiene preguntas o necesita ayuda."
+    },
+    "support": {
+      "title": "Solicitar soporte directo – ¡Estamos aquí para ayudarle!",
+      "description": "¿Tiene una pregunta específica sobre Diktat AI, necesita ayuda con una función o ha ocurrido un problema? Nuestro equipo de soporte estará encantado de ayudarle.",
+      "contactForm": {
+        "title": "Formulario de contacto",
+        "description": "La mejor manera de comunicarnos sus inquietudes en detalle. Utilice nuestro formulario de contacto para enviarnos su solicitud de manera estructurada.",
+        "button": "Ir al formulario de contacto"
+      },
+      "email": {
+        "title": "Soporte por correo electrónico",
+        "description": "También puede escribirnos directamente. Describa su consulta o problema con la mayor precisión posible."
+      },
+      "helpTips": {
+        "title": "Para ayudarle rápidamente:",
+        "points": [
+          "Una descripción clara del problema o su pregunta",
+          "¿Qué pasos ha realizado ya?",
+          "¿Qué sistema operativo y navegador está utilizando?",
+          "¿Se mostró un mensaje de error? (Si es así, ¿qué dice exactamente?)",
+          "Su dirección de correo electrónico asociada con su cuenta de Diktat AI"
+        ]
+      }
+    },
+    "guides": {
+      "title": "Primeros pasos y guías",
+      "description": "¿Le gustaría aprender más sobre el uso de funciones específicas? Aquí encontrará guías útiles y consejos:",
+      "gettingStarted": {
+        "title": "Primeros pasos",
+        "description": "Cómo cargar exitosamente su primer archivo de audio y obtener una transcripción:",
+        "steps": [
+          "Inicie sesión en su cuenta de Diktat AI",
+          "Haga clic en 'Nueva transcripción'",
+          "Seleccione su archivo de audio o arrástrelo al área de carga",
+          "Espere hasta que se complete la transcripción",
+          "Descargue su transcripción o cópiela directamente"
+        ]
+      },
+      "emailTranscription": {
+        "title": "Transcripción por correo electrónico",
+        "description": "Usar la transcripción por correo electrónico – Una explicación paso a paso:",
+        "steps": [
+          "Escriba un correo electrónico a transcribe en diktat.ai",
+          "Adjunte su archivo de audio",
+          "Especifique en el asunto si necesita una transcripción o subtítulos",
+          "En pocos minutos recibirá su transcripción por correo electrónico"
+        ]
+      },
+      "tips": {
+        "title": "Consejos y trucos",
+        "description": "Cómo lograr resultados de transcripción más precisos a través de una buena calidad de audio:",
+        "points": [
+          "Use un buen micrófono para las grabaciones",
+          "Reduzca el ruido de fondo",
+          "Hable con claridad y a velocidad normal",
+          "Mantenga un volumen constante",
+          "Evite demasiados cambios de hablante en poco tiempo"
+        ]
+      }
+    },
+    "responseTime": {
+      "title": "Nuestros tiempos de respuesta",
+      "description": "Sabemos que necesita ayuda rápida. Nuestro equipo se esfuerza por responder a todas las solicitudes de soporte de manera oportuna. Por lo general, puede esperar una primera respuesta de nosotros dentro de 24-48 horas en días laborables.",
+      "conclusion": "Estamos comprometidos a brindarle una experiencia fluida y eficiente con Diktat AI. ¡No dude en contactarnos directamente si tiene preguntas o necesita soporte!"
+    },
+    "seo": {
+      "title": "Ayuda y soporte - Diktat AI - Transcripción rápida y precisa",
+      "description": "Ayuda y soporte para Diktat AI. Encuentre guías, opciones de contacto y respuestas a preguntas frecuentes sobre nuestro servicio de transcripción."
+    }
   }
 }
 </i18n>

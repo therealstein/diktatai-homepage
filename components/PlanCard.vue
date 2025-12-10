@@ -190,6 +190,12 @@ defineEmits<{
     "loading": "Wordt geladen...",
     "selected": "Geselecteerd",
     "selectPlan": "Kies een plan"
+  },
+  "es": {
+    "sevenDaysFree": "7 días gratis",
+    "loading": "Cargando...",
+    "selected": "Seleccionado",
+    "selectPlan": "Seleccionar plan"
   }
 }
 </i18n>

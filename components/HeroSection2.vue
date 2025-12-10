@@ -243,6 +243,13 @@ const { registerUrl } = useAppUrl();
     "startNow": "Nu starten",
     "subDescription": "Bespaar tot 80% van uw tijd bij het transcriberen. Start nu gratis – geen creditcard vereist.",
     "socialProof": "Al meer dan 1.000 gebruikers besparen dagelijks tijd"
+  },
+  "es": {
+    "title": "Transcribir con Diktat AI",
+    "description": "Diktat AI ofrece transcripciones rápidas y precisas para reuniones, entrevistas y más. Ideal para profesionales y equipos que desean ahorrar tiempo y centrarse en lo esencial. Sus datos están seguros y se procesan conforme al RGPD.",
+    "startNow": "Comenzar ahora",
+    "subDescription": "Ahorre hasta el 80% de su tiempo en transcripción. Comience gratis ahora – sin tarjeta de crédito.",
+    "socialProof": "Ya más de 1.000 usuarios ahorran tiempo diariamente"
   }
 }
 </i18n>

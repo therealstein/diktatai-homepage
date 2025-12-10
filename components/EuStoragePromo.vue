@@ -79,6 +79,11 @@ const { t } = useI18n()
     "title": "Opslag en gegevensverwerking in de EU",
     "description": "Al uw gegevens worden uitsluitend op servers binnen de Europese Unie verwerkt en opgeslagen. We zetten in op lokale infrastructuur voor maximale gegevensbeveiliging.",
     "moreAboutSecurity": "Meer over beveiliging"
+  },
+  "es": {
+    "title": "Almacenamiento y procesamiento de datos en la UE",
+    "description": "Todos sus datos se procesan y almacenan exclusivamente en servidores dentro de la Unión Europea. Confiamos en la infraestructura local para la máxima seguridad de datos.",
+    "moreAboutSecurity": "Más sobre seguridad"
   }
 }
 </i18n>

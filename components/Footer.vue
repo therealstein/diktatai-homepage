@@ -129,6 +129,7 @@
               <img v-if="locale === 'de'" src="/DE.svg" alt="German Flag" class="w-4 h-4" />
               <img v-else-if="locale === 'en'" src="/GB.svg" alt="British Flag" class="w-4 h-4" />
               <img v-else-if="locale === 'nl'" src="/NL.svg" alt="Dutch Flag" class="w-4 h-4" />
+              <img v-else-if="locale === 'es'" src="/ES.svg" alt="Spanish Flag" class="w-4 h-4" />
               <span class="text-sm text-gray-500">{{ getCurrentLocaleName }}</span>
             </div>
             <a
@@ -141,6 +142,7 @@
               <img v-if="l.code === 'de'" src="/DE.svg" alt="German Flag" class="w-4 h-4" />
               <img v-else-if="l.code === 'en'" src="/GB.svg" alt="British Flag" class="w-4 h-4" />
               <img v-else-if="l.code === 'nl'" src="/NL.svg" alt="Dutch Flag" class="w-4 h-4" />
+              <img v-else-if="l.code === 'es'" src="/ES.svg" alt="Spanish Flag" class="w-4 h-4" />
               {{ l.name }}
             </a>
           </div>
@@ -245,6 +247,33 @@ const getCurrentLocaleName = computed(() => {
     "standWithUkraine": "Stand with Ukraine",
     "copyright": "© {year} DiktatAI",
     "language": "Taal"
+  },
+  "es": {
+    "title": "Diktat AI",
+    "help": "Ayuda",
+    "description": "Convierte dictados en cartas de forma rápida y sencilla.",
+    "professions": "Profesiones",
+    "consultants": "Consultores y coaches",
+    "contentCreators": "Creadores de contenido",
+    "lawyers": "Abogados y juristas",
+    "journalists": "Periodistas y editores",
+    "students": "Estudiantes y académicos",
+    "businessLeaders": "Líderes empresariales y ejecutivos",
+    "legal": "Legal",
+    "terms": "Términos",
+    "privacy": "Privacidad",
+    "aiSecurity": "IA - Seguridad de datos",
+    "imprint": "Aviso legal",
+    "company": "Empresa",
+    "pricing": "Precios",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "compliance": "Cumplimiento y soporte",
+    "gdpr": "RGPD",
+    "aiDataProcessing": "Procesamiento de datos con IA",
+    "standWithUkraine": "Stand with Ukraine",
+    "copyright": "© {year} DiktatAI",
+    "language": "Idioma"
   }
 }
 </i18n>

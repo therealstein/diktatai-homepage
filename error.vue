@@ -163,6 +163,19 @@ function handleError() {
       "tryAgain": "Opnieuw proberen",
       "needHelp": "Hulp nodig? Neem contact met ons op via"
     }
+  },
+  "es": {
+    "error": {
+      "pageNotFound": "Página no encontrada",
+      "pageNotFoundMessage": "Lo sentimos, la página que busca no existe o ha sido movida.",
+      "somethingWentWrong": "Algo salió mal",
+      "somethingWentWrongMessage": "No pudimos encontrar la página que busca. Puede haber sido movida o no existe.",
+      "backHome": "Volver al inicio",
+      "backToApp": "Volver a la aplicación",
+      "getSupport": "Obtener soporte",
+      "tryAgain": "Intentar de nuevo",
+      "needHelp": "¿Necesita ayuda? Contáctenos en"
+    }
   }
 }
 </i18n>

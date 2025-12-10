@@ -1063,6 +1063,94 @@ import EuStoragePromo from '~/components/EuStoragePromo.vue';
       "disclaimer": "*Fair-use-beleid kan van toepassing zijn. Alle prijzen zijn excl. btw. Met uw aanmelding gaat u akkoord met onze",
       "terms": "Algemene Voorwaarden"
     }
+  },
+  "es": {
+    "meta": {
+      "title": "Precios - Software de Transcripción - Diktat AI",
+      "description": "Elija el plan de Diktat AI adecuado para sus necesidades. Desde la versión gratuita hasta la Pro - tenemos la solución perfecta para usted."
+    },
+    "hero": {
+      "title": "Precios que se adaptan a su flujo de trabajo",
+      "subtitle": "Encuentre el plan perfecto para ahorrar tiempo valioso con Diktat AI y aumentar su productividad. ¡Comience hoy – sin compromiso!",
+      "badge": "Transcripción impulsada por IA",
+      "stats": {
+        "accuracy": "95%",
+        "accuracyLabel": "Precisión",
+        "users": "1.000+",
+        "usersLabel": "Usuarios",
+        "languages": "2",
+        "languagesLabel": "Idiomas"
+      },
+      "cta": {
+        "primary": "Comenzar gratis",
+        "secondary": "Cómo funciona"
+      }
+    },
+    "common": {
+      "month": "mes"
+    },
+    "freePlan": {
+      "title": "Prueba gratuita",
+      "subtitle": "Ideal para conocer Diktat AI y empezar a ahorrar tiempo de inmediato",
+      "features": {
+        "audioLimit": "Hasta 60 minutos de audio al mes. Eso es hasta 30 páginas A4 de texto.",
+        "reliableTranscription": "Transcripción fiable",
+        "easyHandling": "Manejo fácil",
+        "basicSupport": "Soporte básico por correo electrónico"
+      },
+      "cta": "Probar gratis ahora",
+      "noCreditCard": "Sin tarjeta de crédito"
+    },
+    "proPlan": {
+      "earlyBird": "OFERTA PIONERO",
+      "title": "Plan Pro",
+      "subtitle": "Para usuarios profesionales y cualquiera que quiera transcribir regularmente sin límites",
+      "savings": "Ahorra 44%",
+      "trial": "7 días de prueba gratis",
+      "features": {
+        "unlimited": "Minutos de transcripción ilimitados*",
+        "maxAccuracy": "Máxima precisión con la mejor IA",
+        "priorityProcessing": "Procesamiento prioritario",
+        "premiumSupport": "Soporte premium (correo electrónico)",
+        "apiAccess": "Acceso API para integración"
+      },
+      "cta": "Elegir Plan Pro"
+    },
+    "businessPlan": {
+      "title": "Suite Empresarial",
+      "subtitle": "Solución personalizada para los más altos requisitos de control, seguridad e integración",
+      "price": "Precio bajo solicitud",
+      "features": {
+        "allProFeatures": "Todos los beneficios del Plan Pro más:",
+        "deployment": "Implementación On-Premise o Nube Privada",
+        "identityManagement": "Integración con su gestión de identidad (SSO, por ejemplo Azure AD, Okta)",
+        "extendedApi": "API extendida para integración profunda del sistema",
+        "compliance": "Adaptación personalizada a requisitos de cumplimiento y seguridad",
+        "support": "Soporte dedicado y gestión de cuenta",
+        "aiCustomization": "Opcional: Personalización del modelo de IA con datos de la empresa"
+      },
+      "cta": "Contáctenos",
+      "learnMore": "Más información"
+    },
+    "features": {
+      "title": "Siempre incluido: Su base para trabajar eficientemente",
+      "upload": {
+        "title": "Carga fácil y manejo intuitivo",
+        "description": "Comience inmediatamente, sin obstáculos técnicos"
+      },
+      "security": {
+        "title": "Máxima seguridad de datos",
+        "description": "Conforme con RGPD con cifrado"
+      },
+      "processing": {
+        "title": "Procesamiento fiable",
+        "description": "Tecnología estable para sus grabaciones"
+      }
+    },
+    "footer": {
+      "disclaimer": "*Puede aplicarse política de uso justo. Todos los precios no incluyen IVA. Al registrarse, acepta nuestros",
+      "terms": "Términos y Condiciones"
+    }
   }
 }
 </i18n>

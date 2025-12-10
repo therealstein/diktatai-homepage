@@ -738,6 +738,86 @@ useHead(() => ({
       "paragraph": "Ervaar zelf hoe DiktatAI tijdrovende documentatietaken in uw bedrijf vereenvoudigt. Optimaliseer uw processen en geef uw medewerkers meer tijd voor wat echt belangrijk is.",
       "button": "Neem nu contact op & laat u adviseren"
     }
+  },
+  "es": {
+    "meta": {
+      "title": "Diktat AI en la empresa: Aumentar la eficiencia en el trabajo diario",
+      "description": "Descubra casos de uso prácticos para Diktat AI en su empresa. Desde actas de reuniones hasta la creación de correos electrónicos: ahorre tiempo y aumente la productividad."
+    },
+    "hero": {
+      "title": "Trabajar más eficientemente: El uso práctico de Diktat AI en el día a día empresarial",
+      "subtitle": "En cada empresa se habla a diario: reuniones, llamadas telefónicas, ideas espontáneas, instrucciones. Pero, ¿cómo se captura, documenta y hace utilizable eficientemente esta riqueza de información valiosa? Diktat AI es su socio inteligente que convierte sin problemas las palabras habladas en texto preciso."
+    },
+    "introduction": {
+      "paragraph": "Diktat AI es su socio inteligente que convierte sin problemas las palabras habladas en texto preciso, liberando tiempo y recursos valiosos en sus operaciones comerciales diarias. Descubra cómo puede usar Diktat AI específicamente para agilizar procesos y aumentar la productividad."
+    },
+    "useCasesSection": {
+      "title": "De la palabra hablada a un activo valioso: Casos de uso para Diktat AI",
+      "paragraph": "¿Le suena familiar? ¿Horas transcribiendo actas de reuniones? ¿Se pierden detalles importantes de las llamadas telefónicas? ¿Las ideas espontáneas se desvanecen porque no hubo tiempo para anotarlas? La documentación manual de contenido hablado es un verdadero ladrón de tiempo y fuente de errores. Aquí es donde entra Diktat AI – versátil y listo para facilitar su día a día:",
+      "meetings": {
+        "title": "Aumentar la eficiencia de las reuniones",
+        "what_title": "Qué",
+        "what": "Reuniones internas de equipo, citas con clientes, actualizaciones de proyectos, reuniones de directivos.",
+        "how_title": "Cómo ayuda Diktat AI",
+        "how": "Grabe la reunión (¡con consentimiento!) y suba el archivo de audio. Diktat AI crea rápidamente un protocolo con búsqueda. Capture decisiones, elementos de acción y puntos de discusión importantes con precisión y sin esfuerzo manual de escritura."
+      },
+      "conversations": {
+        "title": "Capturar conversaciones importantes y llamadas telefónicas",
+        "what_title": "Qué",
+        "what": "Llamadas importantes de clientes, conversaciones de soporte, negociaciones, entrevistas con expertos (internas/externas).",
+        "how_title": "Cómo ayuda Diktat AI",
+        "how": "Grabe la conversación (¡observando los requisitos legales!). Hágala transcribir para documentar con precisión detalles importantes, acuerdos o comentarios de clientes. Cree resúmenes para su CRM, memorandos internos o para garantía de calidad."
+      },
+      "notes": {
+        "title": "Asegurar ideas y notas inmediatamente",
+        "what_title": "Qué",
+        "what": "Ideas espontáneas en movimiento, destellos de inspiración durante el trabajo, instrucciones breves, tareas personales.",
+        "how_title": "Cómo ayuda Diktat AI",
+        "how": "Use la función de dictado de su smartphone o un dispositivo de dictado. Envíe la grabación a Diktat AI (por ejemplo, por correo electrónico). Esto asegura que ninguna idea valiosa se pierda y la convierte directamente en texto editable para notas, listas de tareas o borradores."
+      },
+      "documents": {
+        "title": "Crear documentos más rápido",
+        "what_title": "Qué",
+        "what": "Informes, correos electrónicos, ofertas, memorandos, procedimientos operativos estándar (SOPs), cartas.",
+        "how_title": "Cómo ayuda Diktat AI",
+        "how": "Dicte el contenido en lugar de escribirlo laboriosamente. Especialmente para textos largos o cuando está en movimiento, ahorra una enorme cantidad de tiempo. Diktat AI le proporciona la base de texto que solo necesita finalizar."
+      },
+      "content": {
+        "title": "Acelerar la producción de contenido",
+        "what_title": "Qué",
+        "what": "Entrevistas para artículos de blog, grabaciones de podcasts, contenido de video, videos de formación interna.",
+        "how_title": "Cómo ayuda Diktat AI",
+        "how": "Cree automáticamente transcripciones de su contenido de audio y video. Úselas como base para artículos escritos, para crear subtítulos (¡accesibilidad!), para análisis de contenido o como notas del programa para podcasts."
+      },
+      "training": {
+        "title": "Optimizar la transferencia de conocimiento y la formación",
+        "what_title": "Qué",
+        "what": "Talleres grabados, formación interna, presentaciones, transferencia de conocimiento de expertos.",
+        "how_title": "Cómo ayuda Diktat AI",
+        "how": "Haga que el conocimiento grabado sea fácilmente buscable y accesible a través de la transcripción. Cree materiales de formación o folletos de manera más eficiente y permita que los empleados lean el contenido a su propio ritmo."
+      }
+    },
+    "benefitsSection": {
+      "title": "Su valor añadido claro: Eficiencia, precisión y enfoque",
+      "paragraph": "El uso consistente de Diktat AI en el día a día empresarial lleva a mejoras medibles:",
+      "points": {
+        "point1": "Ahorro masivo de tiempo: Reduzca significativamente el esfuerzo administrativo para la documentación y recupere horas para tareas estratégicas.",
+        "point2": "Mayor productividad: Sus equipos pueden centrarse en sus competencias principales ya que se elimina el tedioso trabajo de escritura.",
+        "point3": "Mayor precisión y consistencia: Minimice los errores de transferencia y asegure una documentación fiable de información importante.",
+        "point4": "Gestión del conocimiento mejorada: Haga que el conocimiento hablado en la empresa sea fácilmente localizable, compartible y utilizable a largo plazo.",
+        "point5": "Integración perfecta: Diktat AI se adapta fácilmente a sus flujos de trabajo existentes gracias a su operación simple (carga, correo electrónico).",
+        "point6": "Seguridad y cumplimiento: Confíe en la máxima seguridad de datos y procesamiento conforme al RGPD de sus datos empresariales sensibles."
+      }
+    },
+    "integrationSection": {
+      "title": "Integre Diktat AI sin esfuerzo en su flujo de trabajo",
+      "paragraph": "Comenzar es increíblemente simple. Ya sea que cargue archivos de audio directamente en nuestra plataforma o use la práctica función de correo electrónico, recibe sus transcripciones de forma rápida y sencilla. Sin instalación de software compleja, sin formación prolongada. Comience hoy a usar la información hablada de manera más eficiente."
+    },
+    "cta": {
+      "title": "¿Listo para revolucionar la eficiencia en su empresa?",
+      "paragraph": "Experimente usted mismo cómo Diktat AI simplifica las tareas de documentación que consumen tiempo en su empresa. Optimice sus procesos y dé a sus empleados más tiempo para lo que importa.",
+      "button": "Contactar ahora y recibir asesoramiento"
+    }
   }
 }
 </i18n>

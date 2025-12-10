@@ -197,6 +197,34 @@ const { t } = useI18n()
       "title": "De Diktat AI Business Suite",
       "description": "Ontdek onze premium-oplossingen voor teams en power-users. Profiteer van uitgebreide functies, team-management, prioriteitsondersteuning en maatwerkopties voor de hoogste eisen."
     }
+  },
+  "es": {
+    "title": "Soluciones para empresas y organizaciones",
+    "description": "Descubra cómo Diktat AI está adaptado para satisfacer las necesidades específicas de diversas organizaciones e industrias",
+    "aiAct": {
+      "title": "Ley de IA de la UE (AI Act) y Diktat AI",
+      "description": "La nueva Ley de IA de la UE está llegando. Conozca qué significa el AI Act para aplicaciones de IA como Diktat AI, qué requisitos se aplican y cómo nos preparamos para un futuro responsable y conforme."
+    },
+    "sme": {
+      "title": "Aprovechar el potencial de la IA para PYMES",
+      "description": "Descubra cómo Diktat AI ayuda específicamente a las pequeñas y medianas empresas (PYMES) a optimizar procesos, ahorrar tiempo valioso y aumentar la productividad sin grandes inversiones en TI."
+    },
+    "government": {
+      "title": "Uso seguro en agencias gubernamentales",
+      "description": "La protección de datos, la seguridad y la fiabilidad son cruciales en el sector público. Lea cómo Diktat AI cumple con los requisitos especiales de las agencias gubernamentales y permite flujos de trabajo eficientes."
+    },
+    "regulated": {
+      "title": "Cumplimiento en industrias reguladas",
+      "description": "Se aplican regulaciones estrictas a industrias como finanzas, derecho o salud. Conozca cómo Diktat AI garantiza la confidencialidad y apoya los requisitos de cumplimiento en la transcripción."
+    },
+    "business": {
+      "title": "Diktat AI para empresas",
+      "description": "Conozca más sobre las diversas aplicaciones de Diktat AI en empresas de todos los tamaños – desde documentación de reuniones hasta creación de contenido. Soluciones escalables para su éxito."
+    },
+    "suite": {
+      "title": "La Suite Empresarial de Diktat AI",
+      "description": "Descubra nuestras soluciones premium para equipos y usuarios avanzados. Benefíciese de funciones avanzadas, gestión de equipos, soporte prioritario y opciones personalizadas para las más altas exigencias."
+    }
   }
 }
 </i18n> 

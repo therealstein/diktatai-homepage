@@ -395,6 +395,51 @@ useHead({
     "stillHaveQuestions": "Heeft u nog vragen?",
     "reachOutText": "Als u nog vragen heeft of ondersteuning nodig heeft, helpen we u graag bij alle zaken rondom Diktat AI.",
     "moreQuestions": "Heeft u nog meer vragen?"
+  },
+  "es": {
+    "title": "Preguntas frecuentes sobre Diktat AI",
+    "description": "Aquí encontrará respuestas a las preguntas más importantes sobre Diktat AI, su asistente inteligente para convertir voz en texto.",
+    "item1": {
+      "title": "¿Qué hace exactamente Diktat AI?",
+      "description": "Diktat AI es su asistente inteligente que convierte automáticamente palabras habladas en texto escrito. Simplemente suba su grabación de audio (por ejemplo, de reuniones, entrevistas, clases o notas de voz) y nuestra inteligencia artificial hace el resto – rápida y fiablemente. Así obtiene un protocolo escrito o transcripción en un instante, sin tener que escribir usted mismo."
+    },
+    "item2": {
+      "title": "¿Para quién es adecuado Diktat AI?",
+      "description": "Diktat AI es perfecto para cualquier persona que necesite convertir regularmente grabaciones de audio en texto y quiera ahorrar tiempo valioso. Esto incluye:",
+      "professionals": "Profesionales ocupados: Documente reuniones y llamadas telefónicas sin esfuerzo.",
+      "teams": "Equipos eficientes: Comparta contenido de conversaciones importantes de forma rápida y sencilla por escrito.",
+      "students": "Estudiantes: Convierta clases y notas de estudio en textos buscables.",
+      "journalists": "Periodistas y podcasters: Transcriba entrevistas y contenido de audio rápidamente.",
+      "creators": "Creadores de contenido: Cree subtítulos o artículos de blog a partir de su contenido de video y audio.",
+      "noteTakers": "Cualquiera que tome notas: Capture ideas y pensamientos espontáneos fácilmente por voz."
+    },
+    "item3": {
+      "title": "¿Cómo me ayuda Diktat AI a ahorrar tiempo?",
+      "description": "Escribir manualmente grabaciones de audio es tedioso y a menudo cuesta horas de su valioso tiempo. Diktat AI completa esta tarea en una fracción del tiempo. En lugar de atascarse escribiendo, puede concentrarse en tareas más importantes, preparar su contenido más rápido o analizar sus resultados más ágilmente. Esto significa: más productividad para usted y menos trabajo rutinario tedioso."
+    },
+    "item4": {
+      "title": "¿Están seguros mis datos con Diktat AI?",
+      "description": "Absolutamente. Proteger sus datos es nuestra máxima prioridad. Sabemos lo importante que es la confidencialidad. Por eso procesamos toda la información estrictamente de acuerdo con los requisitos del Reglamento General de Protección de Datos europeo (RGPD). Sus grabaciones de audio y los textos creados a partir de ellas están seguros y protegidos con nosotros – puede contar con ello."
+    },
+    "item5": {
+      "title": "¿Qué tan precisas son las transcripciones?",
+      "description": "Nuestra inteligencia artificial está entrenada para reconocer el habla con gran precisión y convertirla en texto. La precisión es impresionantemente alta, especialmente con grabaciones claramente comprensibles de buena calidad de sonido. Obtiene una base de texto sólida que generalmente puede usar directamente o solo necesita revisar mínimamente si es necesario."
+    },
+    "item6": {
+      "title": "¿Qué tipo de grabaciones de audio puedo subir?",
+      "description": "Puede subir una variedad de grabaciones de audio. Ya sean grabaciones de reuniones, entrevistas realizadas, llamadas telefónicas grabadas (¡si es legalmente permitido!), clases de la universidad, grabaciones de seminarios, episodios de podcast o simplemente notas de voz grabadas espontáneamente con su teléfono – Diktat AI puede procesarlas. Admitimos los formatos de audio más comunes."
+    },
+    "item7": {
+      "title": "¿Es complicado usar Diktat AI?",
+      "description": "No, ¡todo lo contrario! Hemos diseñado Diktat AI deliberadamente para que sea simple e intuitivo. No necesita ningún conocimiento técnico ni tiempos de capacitación complicados. El proceso es muy simple:",
+      "step1": "Subir grabación de audio.",
+      "step2": "Esperar un momento mientras nuestra IA trabaja.",
+      "step3": "Descargar o copiar el texto terminado.",
+      "conclusion": "¡Queremos que comience de inmediato y se beneficie de las ventajas!"
+    },
+    "stillHaveQuestions": "¿Todavía tiene preguntas?",
+    "reachOutText": "Si tiene más preguntas o necesita asistencia adicional, estaremos encantados de ayudarle con cualquier cosa relacionada con Diktat AI.",
+    "moreQuestions": "¿Más preguntas?"
   }
 }
 </i18n>

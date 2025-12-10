@@ -199,6 +199,34 @@ const { t } = useI18n()
       "title": "Adviseurs & Coaches",
       "description": "Documenteer klantgesprekken en sessies efficiënt voor optimale naverwerking."
     }
+  },
+  "es": {
+    "title": "Profesiones para las que Diktat AI es indispensable",
+    "description": "Descubra cómo diferentes profesiones utilizan Diktat AI para hacer su trabajo diario más eficiente",
+    "journalists": {
+      "title": "Periodistas y editores",
+      "description": "Convierta rápidamente entrevistas, conferencias de prensa y grabaciones de investigación en texto editable."
+    },
+    "contentCreators": {
+      "title": "Creadores de contenido",
+      "description": "Cree sin esfuerzo transcripciones para notas de programa, subtítulos, artículos de blog o análisis de contenido."
+    },
+    "lawyers": {
+      "title": "Abogados y juristas",
+      "description": "Capture dictados, conversaciones con clientes o transcripciones de forma segura y conforme al RGPD como texto."
+    },
+    "students": {
+      "title": "Estudiantes y académicos",
+      "description": "Transcriba clases, seminarios y entrevistas para tesis o proyectos de investigación."
+    },
+    "businessLeaders": {
+      "title": "Líderes empresariales y ejecutivos",
+      "description": "Registre con precisión resultados de reuniones, ideas espontáneas o notas dictadas."
+    },
+    "consultants": {
+      "title": "Consultores y coaches",
+      "description": "Documente eficientemente conversaciones con clientes y sesiones para un seguimiento óptimo."
+    }
   }
 }
 </i18n> 

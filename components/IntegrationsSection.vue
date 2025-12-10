@@ -166,6 +166,24 @@ const { t } = useI18n()
     "timeSavingDescription": "Automatiseer uw workflow door directe integratie van Diktat AI in uw bestaande tools.",
     "seamlessProcesses": "Naadloze processen",
     "seamlessProcessesDescription": "Behoud uw huidige workflow en voeg krachtige transcriptiefuncties toe."
+  },
+  "es": {
+    "title": "Integraciones fluidas",
+    "description": "Diktat AI se integra perfectamente con sus herramientas y flujos de trabajo favoritos",
+    "available": "Disponible",
+    "emailTitle": "Integración por correo electrónico",
+    "emailDescription": "Reenvíe grabaciones de audio directamente a su dirección de correo de Diktat AI para transcripción instantánea.",
+    "howItWorks": "Cómo funciona:",
+    "softwareTitle": "Integración de software",
+    "softwareDescription": "Conecte Diktat AI con su stack de software existente a través de nuestra API o webhooks.",
+    "requestSolution": "Solicitar una solución personalizada",
+    "whyValuable": "Por qué las integraciones son valiosas:",
+    "flexibility": "Flexibilidad",
+    "flexibilityDescription": "Elija cómo desea usar Diktat AI - a través de nuestra interfaz web, correo electrónico o API.",
+    "timeSaving": "Ahorro de tiempo",
+    "timeSavingDescription": "Automatice su flujo de trabajo integrando Diktat AI directamente en sus herramientas existentes.",
+    "seamlessProcesses": "Procesos fluidos",
+    "seamlessProcessesDescription": "Mantenga su flujo de trabajo actual mientras agrega potentes capacidades de transcripción."
   }
 }
 </i18n> 

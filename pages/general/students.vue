@@ -636,6 +636,77 @@ useHead({
         "text": "Verminder moeizame routinetaken. Investeer je energie in het begrijpen van complexe onderwerpen en het verkrijgen van nieuwe wetenschappelijke inzichten."
       }
     }
+  },
+  "es": {
+    "meta": {
+      "title": "Diktat AI para estudiantes y académicos - Transcribir clases y entrevistas",
+      "description": "Transcribe clases, seminarios y entrevistas de investigación sin esfuerzo con Diktat AI. Ahorra tiempo para exámenes, tesis y publicaciones."
+    },
+    "hero": {
+      "title": "Estudia e investiga más inteligentemente – Transcripciones en lugar de escribir",
+      "subtitle": "Transforma clases, seminarios y entrevistas en texto buscable sin esfuerzo. Gana tiempo valioso para exámenes, tesis y publicaciones.",
+      "cta": "Comenzar gratis ahora y ahorrar tiempo"
+    },
+    "intro": {
+      "title": "Diktat AI: Tu ayudante esencial en la universidad",
+      "subtitle": "Descubre cómo estudiantes y académicos usan Diktat AI para optimizar los procesos de aprendizaje e investigación:"
+    },
+    "students": {
+      "title": "Estudiantes",
+      "item1": "Transcribe clases y seminarios para revisar y buscar contenido más fácilmente.",
+      "item2": "Convierte rápidamente entrevistas para trabajos y tesis (Grado, Máster, Doctorado) en texto.",
+      "item3": "Crea notas de grupos de estudio o rondas de discusión sin esfuerzo."
+    },
+    "academics": {
+      "title": "Académicos e investigadores",
+      "item1": "Transcribe entrevistas de investigación y datos cualitativos para un análisis eficiente.",
+      "item2": "Convierte presentaciones, contribuciones a conferencias o notas dictadas en texto.",
+      "item3": "Archiva contenido hablado como documentos de texto buscables para referencia futura."
+    },
+    "process": {
+      "title": "Simple. Rápido. Efectivo.",
+      "subtitle": "Nuestro proceso sencillo te ahorra horas valiosas que puedes invertir mejor en estudiar o investigar.",
+      "step1": {
+        "title": "1. Subir grabación",
+        "text": "Inicia con una clase, entrevista, nota, etc. con un clic."
+      },
+      "step2": {
+        "title": "2. Transcripción con IA",
+        "text": "Conversión precisa mediante reconocimiento de voz inteligente."
+      },
+      "step3": {
+        "title": "3. Procesamiento seguro",
+        "text": "Tus datos están seguros y cumplen con RGPD (servidores UE)."
+      },
+      "step4": {
+        "title": "4. Listo para usar",
+        "text": "Descarga, copia y pega el texto en tus documentos."
+      }
+    },
+    "advantages": {
+      "title": "Tu clara ventaja en estudios e investigación con Diktat AI",
+      "subtitle": "Usa el poder de la automatización para concentrarte en lo que importa: adquirir conocimiento y obtener perspectivas.",
+      "timeSaving": {
+        "title": "Ahorro de tiempo masivo",
+        "text": "Olvídate de horas escribiendo grabaciones. Gana tiempo valioso para aprender, analizar, escribir y experimentar."
+      },
+      "learning": {
+        "title": "Aprende y comprende más efectivamente",
+        "text": "Busca en las notas de clase por palabras clave específicas. Encuentra pasajes importantes instantáneamente sin escuchar horas de audio."
+      },
+      "research": {
+        "title": "Investigación acelerada",
+        "text": "Procesa datos cualitativos (entrevistas, grupos focales) mucho más rápido. Concéntrate en el análisis en lugar de la transcripción."
+      },
+      "precision": {
+        "title": "Base precisa para tu trabajo",
+        "text": "Recibe transcripciones de texto precisas como base confiable para citas, análisis, trabajos académicos y publicaciones."
+      },
+      "focus": {
+        "title": "Enfoque en contenido y perspectivas",
+        "text": "Reduce tareas rutinarias tediosas. Invierte tu energía en comprender temas complejos y obtener nuevas perspectivas científicas."
+      }
+    }
   }
 }
 </i18n>

@@ -657,6 +657,74 @@ useHead(() => ({
       "paragraph": "Bespreek met ons uw specifieke vereisten voor integratie, veiligheid en controle. Laten we samen ontdekken hoe de DiktatAI Business Suite de efficiëntie in uw onderneming naar een hoger niveau kan tillen.",
       "button": "Contact opnemen & Business Suite bespreken"
     }
+  },
+  "es": {
+    "seo": {
+      "description": "Business Suite de Diktat AI: On-Premise, SSO, API y formación – máxima seguridad y control."
+    },
+    "hero": {
+      "title": "Diktat AI Business Suite: Control total, integración perfecta.",
+      "subtitle": "Para empresas que necesitan más que una solución estándar: Diktat AI Business Suite ofrece capacidades avanzadas para una integración profunda en su infraestructura de TI y entorno de software existentes. Obtenga el máximo control sobre sus datos, cumpla con los requisitos de cumplimiento más estrictos y adapte el rendimiento de transcripción exactamente a sus necesidades."
+    },
+    "part1": {
+      "title": "Parte 1: Integración personalizada en su infraestructura y políticas",
+      "intro": "La Business Suite le devuelve el control y permite una integración perfecta en sus sistemas centrales y arquitecturas de seguridad.",
+      "features": {
+        "onpremise": {
+          "title": "Sus datos, su infraestructura: Opción On-Premise o nube privada",
+          "description": "Mantenga la soberanía total de sus datos. Con la Business Suite, le ofrecemos la opción de operar Diktat AI en sus propios servidores (On-Premise) o en su entorno de nube privada dedicado. Así garantiza que todos los procesos de datos se realicen dentro de su infraestructura controlada y según sus políticas internas."
+        },
+        "auth": {
+          "title": "Autenticación perfecta: Integración con su gestión de identidades",
+          "description": "Simplifique el acceso y aumente la seguridad. Conectamos Diktat AI con sus sistemas de autenticación existentes. Ya sea Microsoft Azure AD, Okta, Ping Identity u otras soluciones basadas en SAML 2.0, sus empleados utilizan sus credenciales corporativas habituales. Esto reduce el esfuerzo administrativo y garantiza que solo los usuarios autorizados tengan acceso."
+        },
+        "datastorage": {
+          "title": "Almacenamiento completo de datos en su ubicación",
+          "description": "Máximo control y cumplimiento. Decida usted mismo dónde se almacenan sus datos sensibles de audio y texto. Con una solución On-Premise, todos los datos permanecen físicamente dentro de su entorno definido, facilitando el cumplimiento de los requisitos de conformidad más estrictos (por ejemplo, en infraestructuras críticas o el sector financiero)."
+        },
+        "compliance": {
+          "title": "Implementación de sus políticas de datos más estrictas",
+          "description": "Cumplimiento según sus especificaciones. Trabajamos estrechamente con usted para garantizar que la operación de Diktat AI cumpla con sus requisitos específicos de cumplimiento, seguridad y protección de datos. Desde la minimización de datos hasta requisitos de auditoría específicos, configuramos la solución en consecuencia."
+        },
+        "training": {
+          "title": "Precisión personalizada: Entrenamiento con sus datos corporativos (Opcional)",
+          "description": "La máxima precisión para su terminología especializada. Para industrias con terminología muy específica o entornos acústicos particulares, ofrecemos opcionalmente la posibilidad de entrenar adicionalmente los modelos de IA con sus datos corporativos anonimizados. Esto puede optimizar aún más la precisión de reconocimiento para sus casos de uso específicos."
+        }
+      }
+    },
+    "part2": {
+      "title": "Parte 2: Integración en sus sistemas y flujos de trabajo existentes",
+      "intro": "La Business Suite está diseñada para integrarse perfectamente en sus flujos de trabajo diarios y el software que utiliza.",
+      "api": {
+        "title": "Flexible y potente: Interfaces API para sus sistemas",
+        "description": "Automatice sus procesos. Utilice nuestras completas interfaces API (Interfaz de Programación de Aplicaciones) para integrar la potente función de transcripción de Diktat AI directamente en sus aplicaciones existentes. Ya sea sistema CRM, gestión documental (DMS), software ERP, soluciones sectoriales o desarrollos propios personalizados, transfiera datos de audio directamente y reciba transcripciones automáticamente. Optimice flujos de trabajo, evite pasos manuales y aumente la eficiencia de sus procesos principales."
+      }
+    },
+    "benefits": {
+      "title": "Su central de transcripción personalizada",
+      "points": {
+        "point1": "Control máximo: Decida sobre infraestructura, almacenamiento de datos y acceso.",
+        "point2": "Máxima seguridad y cumplimiento: Cumpla con los requisitos internos y externos más estrictos (RGPD, estándares del sector).",
+        "point3": "Integración perfecta: Integre profundamente Diktat AI en su entorno de TI (SSO, On-Premise) y software (API).",
+        "point4": "Personalización opcional: Optimice la precisión mediante entrenamiento con datos corporativos específicos.",
+        "point5": "Mayor eficiencia: Automatice flujos de trabajo mediante conexión directa del sistema a través de API."
+      }
+    },
+    "forWhom": {
+      "title": "La solución para requisitos exigentes",
+      "intro": "Diktat AI Business Suite es especialmente adecuada para:",
+      "points": {
+        "point1": "Empresas en sectores altamente regulados (salud, finanzas, legal, infraestructuras críticas).",
+        "point2": "Organizaciones con requisitos específicos de seguridad de TI y cumplimiento.",
+        "point3": "Empresas grandes y equipos con necesidad de gestión y control centralizados.",
+        "point4": "Compañías que desean integrar la transcripción con IA de forma profunda y automatizada en sus procesos principales."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para una solución de transcripción personalizada?",
+      "paragraph": "Discuta con nosotros sus requisitos específicos de integración, seguridad y control. Descubramos juntos cómo Diktat AI Business Suite puede llevar la eficiencia de su empresa al siguiente nivel.",
+      "button": "Contactar y hablar sobre Business Suite"
+    }
   }
 }
 </i18n>

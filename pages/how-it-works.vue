@@ -361,6 +361,43 @@ useHead({
       "pricing": "Prijzen bekijken",
       "help": "Veelgestelde vragen"
     }
+  },
+  "es": {
+    "seo": {
+      "title": "Cómo funciona - Diktat AI",
+      "description": "Descubra lo fácil que es el reconocimiento de voz con Diktat AI. Transforme sus grabaciones de audio en texto en solo 3 pasos."
+    },
+    "hero": {
+      "title": "Obtenga su transcripción terminada en 3 sencillos pasos",
+      "description": "Con Diktat AI, transforme sus grabaciones de audio en texto de forma rápida y sin esfuerzo a través de nuestra plataforma segura. Ahorre tiempo valioso."
+    },
+    "process": {
+      "title": "Cómo funciona Diktat AI"
+    },
+    "steps": {
+      "step1": {
+        "title": "Paso 1: Subir grabación",
+        "description": "Suba su archivo de audio (por ejemplo, MP3, WAV, M4A de reuniones, entrevistas, dictados) con un solo clic directamente a través de nuestra plataforma web segura."
+      },
+      "step2": {
+        "title": "Paso 2: La IA hace el trabajo",
+        "description": "¡Relájese! Nuestra inteligencia artificial avanzada analiza su grabación de forma segura y conforme al RGPD. Las palabras habladas se reconocen con precisión y se convierten en texto escrito. Este proceso generalmente toma solo una fracción de la duración del audio."
+      },
+      "step3": {
+        "title": "Paso 3: Recibir y usar la transcripción",
+        "description": "Una vez que la transcripción esté completa, encontrará su texto directamente en su cuenta. Descárguelo como archivo (por ejemplo, .txt, .docx) o cópielo directamente. Use el texto inmediatamente para protocolos, notas, artículos, subtítulos o análisis."
+      }
+    },
+    "summary": {
+      "title": "¡Eso es todo!",
+      "description": "Sin escritura tediosa, sin desvíos complicados. Solo tres pasos claros lo separan de su transcripción terminada en nuestra plataforma. Así de simple puede ser la eficiencia."
+    },
+    "cta": {
+      "title": "¿Listo para ahorrar tiempo?",
+      "register": "Comenzar gratis ahora",
+      "pricing": "Ver precios",
+      "help": "Preguntas frecuentes"
+    }
   }
 }
 </i18n> 

@@ -1036,6 +1036,152 @@ useHead({
         "pricing": "Prijzen bekijken"
       }
     }
+  },
+  "es": {
+    "hero": {
+      "title": "Diktat AI: Más contenido, menos escritura – Transcripciones para creadores",
+      "subtitle": "Transforma tus videos, podcasts y notas de audio en texto sin esfuerzo. Gana tiempo para la creatividad, el alcance y tu comunidad.",
+      "cta": "Acelera tu flujo de trabajo de contenido ahora"
+    },
+    "creatorTools": {
+      "title": "Diktat AI: Tu turbo para la producción de contenido",
+      "intro": "Ya sea YouTube, podcast, redes sociales o blog – descubre cómo Diktat AI revoluciona tu proceso creativo:",
+      "podcasters": {
+        "title": "Podcasters",
+        "description": "Crea notas del programa, transcripciones completas para SEO o cita destacados para redes sociales en un instante."
+      },
+      "youtubers": {
+        "title": "YouTubers y creadores de video",
+        "description": "Genera subtítulos (SRT/VTT) automáticamente, convierte guiones de video en artículos de blog o analiza tu contenido más fácilmente."
+      },
+      "bloggers": {
+        "title": "Bloggers y redactores",
+        "description": "Convierte entrevistas de investigación, notas de voz o ideas espontáneas en texto editable inmediatamente."
+      },
+      "socialMedia": {
+        "title": "Gestores de redes sociales",
+        "description": "Extrae mensajes clave de videos o audio para subtítulos y publicaciones atractivas."
+      },
+      "courseCreators": {
+        "title": "Creadores de cursos online",
+        "description": "Transcribe tus lecciones para mejor accesibilidad y como material de aprendizaje para tus participantes."
+      }
+    },
+    "process": {
+      "title": "Subir. Convertir. Crear.",
+      "subtitle": "Nuestro proceso simple te lleva del audio al texto terminado en minutos – para que puedas concentrarte en crear.",
+      "steps": {
+        "upload": {
+          "title": "Subir archivo",
+          "description": "Inicia tu archivo de video/audio con un clic."
+        },
+        "transcription": {
+          "title": "Transcripción con IA",
+          "description": "Nuestra IA inteligente maneja la conversión."
+        },
+        "security": {
+          "title": "Procesamiento seguro",
+          "description": "Tus datos están seguros (cumple con RGPD)."
+        },
+        "ready": {
+          "title": "Listo para usar",
+          "description": "Copia, descarga y reutiliza el texto."
+        }
+      }
+    },
+    "advantages": {
+      "title": "Tu ventaja creativa con Diktat AI",
+      "subtitle": "Ahorra tiempo en tareas tediosas e inviértelo en lo que realmente importa: tu contenido y tu comunidad.",
+      "timeSaving": {
+        "title": "Ahorro de tiempo masivo",
+        "description": "No más horas de escritura. Más tiempo para lluvia de ideas, grabación, edición e interacción."
+      },
+      "contentOutput": {
+        "title": "Mayor producción de contenido y reutilización",
+        "description": "Convierte sin esfuerzo un video o podcast en artículos de blog, fragmentos para redes sociales o contenido de newsletter. Maximiza tu alcance."
+      },
+      "preciseTexts": {
+        "title": "Textos precisos para tus proyectos",
+        "description": "Obtén transcripciones precisas como base para subtítulos, notas del programa, artículos y guiones. Menos postproducción, resultados más rápidos."
+      },
+      "accessibility": {
+        "title": "Mejor accesibilidad y SEO",
+        "description": "Haz tu contenido accesible para todos con subtítulos y transcripciones y mejora tu posicionamiento en buscadores."
+      },
+      "focus": {
+        "title": "Enfócate en crear",
+        "description": "Concentra tu energía en el trabajo creativo, la narración y la construcción de tu marca – en lugar de en el trabajo monótono de transcripción."
+      }
+    },
+    "workflow": {
+      "title": "Diktat AI se adapta a tu flujo creativo",
+      "subtitle": "Te facilitamos usar transcripciones exactamente donde las necesitas.",
+      "email": {
+        "title": "Transcribe por correo electrónico",
+        "description": "La forma más rápida en movimiento o entre tareas: envía tu archivo de audio (nota de voz, fragmento de entrevista) por correo y recibe el texto de vuelta. ¡Perfecto para ideas espontáneas!",
+        "link": "Mira cómo funciona →"
+      },
+      "api": {
+        "title": "Integración vía API (para usuarios avanzados)",
+        "description": "Integra Diktat AI directamente en tus herramientas o flujos de automatización (ej. Zapier) para hacer el proceso aún más fluido.",
+        "link": "Solicitar solución personalizada"
+      },
+      "features": {
+        "flexibility": {
+          "title": "Flexibilidad",
+          "description": "Usa la transcripción estés donde estés o con las herramientas que prefieras."
+        },
+        "efficiency": {
+          "title": "Eficiencia",
+          "description": "Reduce clics y pasos manuales para ser aún más rápido."
+        },
+        "seamlessness": {
+          "title": "Fluidez",
+          "description": "Integra transcripciones directamente en tu proceso de creación de contenido."
+        }
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre Diktat AI para creadores de contenido",
+      "questions": {
+        "benefits": {
+          "question": "¿Qué hace Diktat AI por mí como creador?",
+          "answer": "Diktat AI te quita la tediosa tarea de escribir videos, podcasts o notas de voz. Convierte automáticamente el audio en texto que puedes usar para subtítulos, notas del programa, artículos de blog, redes sociales y mucho más."
+        },
+        "suitability": {
+          "question": "¿Es Diktat AI adecuado para mi tipo de contenido?",
+          "answer": "¡Sí! Ya sea que hagas videos para YouTube o TikTok, tengas un podcast, bloguees, crees cursos online o simplemente grabes tus ideas por voz – Diktat AI te ayuda a ahorrar tiempo."
+        },
+        "timeSaving": {
+          "question": "¿Cómo ahorro tiempo con esto?",
+          "answer": "Imagina no tener que escribir manualmente una entrevista de 30 minutos (lo cual puede tomar horas). Diktat AI lo hace en minutos. Puedes usar ese tiempo para edición, diseño o gestión de comunidad."
+        },
+        "security": {
+          "question": "¿Están seguros mis contenidos no publicados?",
+          "answer": "Absolutamente. Nos tomamos la protección de datos en serio (cumplimos con RGPD). Tus archivos subidos y transcripciones se tratan de forma confidencial y se procesan de forma segura en servidores de la UE."
+        },
+        "accuracy": {
+          "question": "¿Qué tan precisas son las transcripciones para subtítulos, etc.?",
+          "answer": "La precisión es muy alta, especialmente con buena calidad de audio. Obtienes una excelente base de texto que generalmente puedes usar directamente o solo necesitas ajustes mínimos. Esto es mucho más rápido que escribir todo tú mismo."
+        },
+        "videoSupport": {
+          "question": "¿Puedo subir también archivos de video?",
+          "answer": "Sí, soportamos formatos comunes de audio y video. Así que puedes subir directamente tus episodios de video o podcast."
+        },
+        "easeOfUse": {
+          "question": "¿Es complicado de usar? ¡No soy experto en tecnología!",
+          "answer": "¡No, para nada! Diktat AI es super simple: sube el archivo, espera un momento, obtén el texto. No se requieren conocimientos técnicos. Puedes empezar de inmediato."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "¡Adiós al estrés de la transcripción!",
+      "subtitle": "Diktat AI es tu asistente inteligente que te ayuda a trabajar más rápido y eficientemente. Aumenta tu producción, llega a más personas y concéntrate de nuevo completamente en tu pasión creativa.",
+      "buttons": {
+        "start": "Empieza gratis y pruébalo",
+        "pricing": "Ver precios"
+      }
+    }
   }
 }
 </i18n>

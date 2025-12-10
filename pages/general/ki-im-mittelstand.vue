@@ -707,6 +707,87 @@ useHead(() => ({
       "button": "Contact opnemen",
       "button2": "Nu Business Suite ontdekken"
     }
+  },
+  "es": {
+    "seo": {
+      "description": "IA en las PYMES de forma práctica: Valor inmediato, conforme al RGPD – sin grandes presupuestos."
+    },
+    "hero": {
+      "title": "IA en las PYMES: ¡No es música del futuro, sino su herramienta para hoy!",
+      "subtitle": "Las pequeñas y medianas empresas son el corazón de la economía – pragmáticas, innovadoras y cercanas al cliente. Pero la inteligencia artificial (IA) a menudo parece dominio de las grandes corporaciones. ¡Nada más lejos de la realidad! La IA ya no es un concepto abstracto, sino que ofrece soluciones prácticas y accesibles."
+    },
+    "introduction": {
+      "paragraph1": "La IA para PYMES ya no es un lujo, sino una necesidad práctica que ayuda a las medianas empresas a ser más eficientes, competitivas y preparadas para el futuro.",
+      "paragraph2": "Olvide la ciencia ficción: Se trata de herramientas inteligentes que automatizan tareas rutinarias (¡como la tediosa transcripción de dictados!), optimizan procesos y le devuelven un tiempo valioso – tiempo para su negocio principal, sus clientes y decisiones estratégicas. ¡El primer paso es más fácil de lo que piensa!"
+    },
+    "practicalSection": {
+      "title": "Soluciones de IA prácticas para PYMES",
+      "paragraph": "La inteligencia artificial no tiene que ser compleja. Al contrario: las soluciones fáciles de implementar que crean valor añadido inmediato son especialmente adecuadas para las medianas empresas:",
+      "points": {
+        "point1": "Automatización de tareas administrativas como transcripción de reuniones, conversaciones con clientes o dictados internos",
+        "point2": "Procesamiento más rápido de información mediante análisis y categorización inteligente de textos",
+        "point3": "Ahorro de tiempo en tareas rutinarias – sus empleados pueden centrarse en actividades de valor añadido"
+      }
+    },
+    "competitiveSection": {
+      "title": "La IA como motor de mayor competitividad",
+      "paragraph": "En un mundo que cambia rápidamente, quedarse quieto no es una opción, ni siquiera para las fuertes PYMES. La inteligencia artificial no es una tendencia a perseguir, sino una palanca poderosa:",
+      "points": {
+        "point1": "Menos tiempo para obstáculos administrativos, más espacio para la innovación",
+        "point2": "Comunicación con el cliente optimizada mediante tiempos de respuesta más rápidos y mejor documentación",
+        "point3": "Crear espacio libre en su equipo para que pueda centrarse en lo que hace única a su empresa"
+      }
+    },
+    "demystifySection": {
+      "title": "IA en las PYMES: ¡No tema a la caja negra!",
+      "paragraph": "Inteligencia artificial – ¿suena complicado, caro y solo para gigantes tecnológicos? Esta imagen persiste, pero ya no corresponde a la realidad:",
+      "points": {
+        "point1": "No se trata de remodelar completamente su empresa, sino de usar tecnologías inteligentes específicamente donde aportan el mayor valor añadido",
+        "point2": "Muchas soluciones de IA hoy en día son fáciles de usar, conformes al RGPD y no requieren conocimientos técnicos profundos",
+        "point3": "La entrada puede ser gradual – comience con una aplicación específica como la transcripción automatizada y amplíe su uso de IA según sea necesario"
+      }
+    },
+    "examplesSection": {
+      "title": "Aplicaciones concretas de IA para PYMES",
+      "paragraph": "Vea aquí algunos ejemplos de cómo la IA ya se utiliza hoy en las medianas empresas:",
+      "examples": {
+        "example1": {
+          "title": "Actas automatizadas",
+          "description": "Haga que sus reuniones se transcriban automáticamente y se conviertan en actas estructuradas – incluyendo reconocimiento automático de tareas y plazos."
+        },
+        "example2": {
+          "title": "Comunicación mejorada con el cliente",
+          "description": "Las conversaciones con clientes pueden documentarse automáticamente para que la información valiosa no se pierda y su equipo pueda concentrarse completamente en la conversación."
+        },
+        "example3": {
+          "title": "Decisiones basadas en datos",
+          "description": "Las herramientas de IA pueden analizar sus datos empresariales y ayudarle a identificar tendencias y tomar decisiones estratégicas informadas."
+        },
+        "example4": {
+          "title": "Generación inteligente de texto",
+          "description": "Cree primeros borradores para ofertas, informes o textos de marketing más rápido con soporte de IA, que su equipo solo necesita adaptar."
+        }
+      }
+    },
+    "diktaiAISection": {
+      "title": "Diktat AI: Su primer paso práctico en el mundo de la IA",
+      "paragraph1": "Con Diktat AI, puede comenzar a usar IA inmediatamente sin conocimientos previos. Nuestra solución convierte el habla – ya sea de reuniones, conversaciones con clientes o sus propias notas – en texto preciso.",
+      "paragraph2": "Este es un ejemplo perfecto del uso significativo de la IA en las PYMES: Una tarea claramente definida se automatiza eficientemente, ahorra tiempo y mejora simultáneamente la calidad de los resultados.",
+      "highlight": {
+        "title": "Sus beneficios concretos con Diktat AI:",
+        "description": "Hasta un 80% de ahorro de tiempo en documentación, procesamiento conforme al RGPD de todos los datos, fácil integración en sus flujos de trabajo existentes e inmediatamente utilizable sin conocimientos técnicos."
+      }
+    },
+    "conclusion": {
+      "title": "IA en las PYMES: El momento adecuado es ahora",
+      "paragraph": "La inteligencia artificial ya no es un concepto futurista, sino una herramienta práctica que puede ayudar a su empresa a trabajar de manera más eficiente y competitiva hoy. Comenzar no tiene que ser complejo ni costoso – con el socio adecuado y soluciones específicas como Diktat AI, puede beneficiarse inmediatamente de las ventajas de la IA."
+    },
+    "cta": {
+      "title": "¿Listo para su primer paso en el mundo de la IA?",
+      "paragraph": "Descubra lo fácil que puede ser comenzar a usar IA. Pruebe Diktat AI y experimente usted mismo cómo la inteligencia artificial puede facilitar su trabajo diario.",
+      "button": "Contactar",
+      "button2": "Descubrir Business Suite ahora"
+    }
   }
 }
 </i18n>

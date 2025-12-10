@@ -415,6 +415,48 @@ useHead(() => ({
       "paragraph": "Heeft u nog vragen over hoe DiktatAI u kan helpen efficiënt en conform te werken? Wilt u bespreken hoe DiktatAI naadloos en veilig in uw processen kan worden geïntegreerd? Ons team staat graag voor u klaar.",
       "button": "Nu contact opnemen & veilig van start gaan"
     }
+  },
+  "es": {
+    "seo": {
+      "description": "Ley de IA de la UE explicada de forma sencilla: Por qué Diktat AI es una opción segura y conforme para transcripciones."
+    },
+    "hero": {
+      "title": "Ley de IA de la UE: Por qué Diktat AI es su opción segura y conforme para transcripciones",
+      "subtitle": "La nueva Ley de IA de la UE establece un marco importante para el uso de la inteligencia artificial. Para empresas y usuarios profesionales, esto plantea preguntas: ¿Cómo me aseguro de que las herramientas de IA que uso sean conformes? ¿Cómo protejo mis datos? Diktat AI ofrece claridad y seguridad. Descubra por qué nuestro servicio de transcripción no solo es eficiente, sino también una opción responsable en línea con las nuevas regulaciones."
+    },
+    "introduction": {
+      "paragraph": "La Ley de IA de la UE sigue un enfoque basado en el riesgo. Prohíbe ciertas aplicaciones de IA \"inaceptables\" (como la puntuación social) e impone altas exigencias a los \"sistemas de alto riesgo\" en áreas sensibles (por ejemplo, recursos humanos, infraestructuras críticas)."
+    },
+    "context": {
+      "title": "Diseñado para la eficiencia, construido con responsabilidad: Diktat AI y la Ley de IA",
+      "paragraph": "Aquí es donde Diktat AI destaca para usted:",
+      "points": {
+        "point1": "Enfoque en bajo riesgo: Diktat AI se especializa en convertir el habla en texto. No toma decisiones autónomas con consecuencias de largo alcance para las personas y, por lo tanto, claramente no entra en las categorías de sistemas de IA prohibidos o de alto riesgo según la Ley de IA. Está utilizando una herramienta para aumentar su productividad, no IA para evaluaciones o decisiones críticas.",
+        "point2": "Transparencia y claridad: Con Diktat AI, es evidente que está utilizando IA para apoyar su trabajo. Esto se alinea con el principio de transparencia de la Ley de IA para sistemas con riesgo limitado.",
+        "point3": "Protección de datos como fundamento (RGPD y Ley de IA): Mucho antes de que se aprobara la Ley de IA, teníamos claro: La protección de sus datos es nuestra máxima prioridad. Nuestro estricto cumplimiento del RGPD – con procesamiento seguro, cifrado y directrices claras – se alinea perfectamente con los altos requisitos de protección de datos y seguridad que también enfatiza la Ley de IA.",
+        "point4": "Sin prácticas prohibidas: Diktat AI no utiliza técnicas subliminales, no realiza categorización biométrica de características sensibles y no crea reconocimiento de emociones en el lugar de trabajo. Nos centramos exclusivamente en la transcripción precisa y útil."
+      }
+    },
+    "benefits": {
+      "title": "Gane eficiencia, mantenga la tranquilidad",
+      "paragraph": "La introducción de la Ley de IA no significa que deba renunciar a los beneficios de las herramientas inteligentes. Al contrario: Con Diktat AI, elige un socio que se toma en serio el cumplimiento. Esto le permite seguir centrándose en lo que importa:",
+      "points": {
+        "point1": "Ahorro masivo de tiempo: Convierta horas de trabajo de escritura en minutos – de forma segura y conforme.",
+        "point2": "Mayor productividad: Acelere sus flujos de trabajo, desde actas de reuniones hasta creación de contenido, sin preocupaciones regulatorias.",
+        "point3": "Resultados precisos y utilizables: Obtenga transcripciones precisas con las que puede trabajar con confianza.",
+        "point4": "Máxima seguridad de datos: Confíe en nuestros procesos probados conformes al RGPD que se alinean con la Ley de IA.",
+        "point5": "Céntrese en sus competencias principales: Déjenos la transcripción – nosotros nos encargamos de la tecnología y el cumplimiento de las normas."
+      }
+    },
+    "trust": {
+      "title": "Su socio de confianza en la era de la IA",
+      "paragraph": "El mundo de la IA y sus regulaciones están en constante evolución. Como proveedor de Diktat AI, es nuestra responsabilidad seguir estos desarrollos y asegurar que nuestro servicio no solo sea potente, sino también responsable y conforme con los requisitos legales como la Ley de IA de la UE. Gestionamos la complejidad tecnológica y regulatoria en segundo plano para que usted pueda trabajar de forma simple y segura."
+    },
+    "cta": {
+      "title": "¿Listo para una transcripción sin preocupaciones conforme a la Ley de IA de la UE?",
+      "paragraph": "¿Tiene más preguntas sobre cómo Diktat AI puede ayudarle a trabajar de manera eficiente y conforme? ¿Le gustaría discutir cómo Diktat AI puede integrarse de forma perfecta y segura en sus procesos? Nuestro equipo estará encantado de ayudarle.",
+      "button": "Contactar ahora y comenzar de forma segura"
+    }
   }
 }
 </i18n>

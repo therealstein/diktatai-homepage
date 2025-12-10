@@ -83,6 +83,18 @@ const { t } = useI18n()
     "secureProcessingDescription": "GDPR-conform & versleuteld",
     "readyToUse": "Direct inzetbaar",
     "readyToUseDescription": "Geformatteerde tekst om te downloaden"
+  },
+  "es": {
+    "title": "Así funciona Diktat AI",
+    "description": "Nuestro proceso es simple, rápido y seguro. Así es como funciona:",
+    "upload": "1. Subir grabación",
+    "uploadDescription": "Simplemente arrastre y suelte su archivo de audio o selecciónelo desde su dispositivo. Admitimos todos los formatos de audio comunes.",
+    "transcription": "2. Transcripción IA",
+    "transcriptionDescription": "Nuestra IA avanzada procesa su grabación con alta precisión, convirtiendo el habla en texto en minutos.",
+    "secureProcessing": "3. Procesamiento seguro",
+    "secureProcessingDescription": "Sus datos se procesan de forma segura en servidores de la UE, totalmente conforme con el RGPD.",
+    "readyToUse": "4. Listo para usar",
+    "readyToUseDescription": "Descargue su transcripción o cópiela directamente al portapapeles. Su texto está listo para uso inmediato."
   }
 }
 </i18n>

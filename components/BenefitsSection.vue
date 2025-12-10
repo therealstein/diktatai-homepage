@@ -198,6 +198,32 @@ const { t } = useI18n()
         "description": "Reduceer vervelende routinetaken tot een minimum. Concentreer uw energie en aandacht op strategische beslissingen, creatief werk of de analyse van inhoud in plaats van op het typen."
       }
     }
+  },
+  "es": {
+    "title": "Su ventaja clara con Diktat AI",
+    "description": "Diktat AI aporta valor medible a su jornada laboral – mediante automatización inteligente y procesos optimizados en la conversión de voz a texto.",
+    "benefits": {
+      "timeSaving": {
+        "title": "Ahorro masivo de tiempo",
+        "description": "Despídase de la tediosa tarea de escribir. Recupere horas para sus tareas importantes, proyectos y competencias principales."
+      },
+      "productivity": {
+        "title": "Mayor productividad",
+        "description": "Haga más en menos tiempo. Convierta contenido hablado en texto en un instante y acelere notablemente sus flujos de trabajo – desde actas de reuniones hasta creación de contenido."
+      },
+      "precision": {
+        "title": "Resultados precisos y utilizables",
+        "description": "Obtenga transcripciones de texto exactas de sus grabaciones de audio que puede reutilizar, buscar, editar o archivar inmediatamente."
+      },
+      "security": {
+        "title": "Máxima seguridad de datos y conformidad",
+        "description": "Confíe en la más estricta confidencialidad y procesamiento conforme al RGPD. Su información sensible y grabaciones están siempre seguras y protegidas con nosotros."
+      },
+      "focus": {
+        "title": "Enfóquese en lo esencial",
+        "description": "Reduzca las tareas rutinarias molestas al mínimo. Concentre su energía y atención en decisiones estratégicas, trabajo creativo o análisis de contenido en lugar de escribir."
+      }
+    }
   }
 }
 </i18n>
