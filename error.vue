@@ -176,6 +176,32 @@ function handleError() {
       "tryAgain": "Intentar de nuevo",
       "needHelp": "¿Necesita ayuda? Contáctenos en"
     }
+  },
+  "fr": {
+    "error": {
+      "pageNotFound": "Page non trouvée",
+      "pageNotFoundMessage": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée.",
+      "somethingWentWrong": "Une erreur s'est produite",
+      "somethingWentWrongMessage": "Nous n'avons pas pu trouver la page que vous recherchez. Elle a peut-être été déplacée ou n'existe pas.",
+      "backHome": "Retour à l'accueil",
+      "backToApp": "Retour à l'application",
+      "getSupport": "Obtenir de l'aide",
+      "tryAgain": "Réessayer",
+      "needHelp": "Besoin d'aide ? Contactez-nous à"
+    }
+  },
+  "sv": {
+    "error": {
+      "pageNotFound": "Sidan hittades inte",
+      "pageNotFoundMessage": "Tyvärr, sidan du letar efter finns inte eller har flyttats.",
+      "somethingWentWrong": "Något gick fel",
+      "somethingWentWrongMessage": "Vi kunde inte hitta sidan du letar efter. Den kan ha flyttats eller finns inte.",
+      "backHome": "Tillbaka till startsidan",
+      "backToApp": "Tillbaka till appen",
+      "getSupport": "Få support",
+      "tryAgain": "Försök igen",
+      "needHelp": "Behöver du hjälp? Kontakta oss på"
+    }
   }
 }
 </i18n>

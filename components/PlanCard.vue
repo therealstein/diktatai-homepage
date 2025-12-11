@@ -196,6 +196,18 @@ defineEmits<{
     "loading": "Cargando...",
     "selected": "Seleccionado",
     "selectPlan": "Seleccionar plan"
+  },
+  "fr": {
+    "sevenDaysFree": "7 jours gratuits",
+    "loading": "Chargement...",
+    "selected": "Sélectionné",
+    "selectPlan": "Choisir le plan"
+  },
+  "sv": {
+    "sevenDaysFree": "7 dagar gratis",
+    "loading": "Laddar...",
+    "selected": "Vald",
+    "selectPlan": "Välj plan"
   }
 }
 </i18n>

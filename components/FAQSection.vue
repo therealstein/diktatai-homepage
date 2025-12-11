@@ -440,6 +440,96 @@ useHead({
     "stillHaveQuestions": "¿Todavía tiene preguntas?",
     "reachOutText": "Si tiene más preguntas o necesita asistencia adicional, estaremos encantados de ayudarle con cualquier cosa relacionada con Diktat AI.",
     "moreQuestions": "¿Más preguntas?"
+  },
+  "fr": {
+    "title": "Questions fréquentes sur Diktat AI",
+    "description": "Trouvez ici les réponses aux questions les plus importantes sur Diktat AI, votre assistant intelligent pour convertir la parole en texte.",
+    "item1": {
+      "title": "Que fait exactement Diktat AI ?",
+      "description": "Diktat AI est votre assistant intelligent qui convertit automatiquement les mots parlés en texte écrit. Téléchargez simplement votre enregistrement audio (par ex. de réunions, interviews, cours ou notes vocales) et notre intelligence artificielle fait le reste – rapidement et de manière fiable. Vous obtenez ainsi un protocole écrit ou une transcription en un instant, sans avoir à taper vous-même."
+    },
+    "item2": {
+      "title": "À qui s'adresse Diktat AI ?",
+      "description": "Diktat AI est parfait pour tous ceux qui doivent régulièrement convertir des enregistrements audio en texte et souhaitent gagner un temps précieux. Cela inclut :",
+      "professionals": "Professionnels occupés : Documentez réunions et appels téléphoniques sans effort.",
+      "teams": "Équipes efficaces : Partagez rapidement et facilement le contenu de conversations importantes par écrit.",
+      "students": "Étudiants : Convertissez cours et notes d'études en textes consultables.",
+      "journalists": "Journalistes et podcasters : Transcrivez rapidement interviews et contenus audio.",
+      "creators": "Créateurs de contenu : Créez sous-titres ou articles de blog à partir de vos contenus vidéo et audio.",
+      "noteTakers": "Tous ceux qui prennent des notes : Capturez facilement idées et pensées spontanées par la voix."
+    },
+    "item3": {
+      "title": "Comment Diktat AI m'aide-t-il à gagner du temps ?",
+      "description": "Taper manuellement des enregistrements audio est fastidieux et prend souvent des heures de votre temps précieux. Diktat AI accomplit cette tâche en une fraction du temps. Au lieu de vous enliser dans la frappe, vous pouvez vous concentrer sur des tâches plus importantes, préparer votre contenu plus rapidement ou analyser vos résultats plus vite. Cela signifie : plus de productivité pour vous et moins de travail routinier ennuyeux."
+    },
+    "item4": {
+      "title": "Mes données sont-elles en sécurité avec Diktat AI ?",
+      "description": "Absolument. La protection de vos données est notre priorité absolue. Nous savons combien la confidentialité est importante. C'est pourquoi nous traitons toutes les informations strictement selon les exigences du Règlement Général sur la Protection des Données européen (RGPD). Vos enregistrements audio et les textes créés sont en sécurité chez nous – vous pouvez compter dessus."
+    },
+    "item5": {
+      "title": "Quelle est la précision des transcriptions ?",
+      "description": "Notre intelligence artificielle est entraînée pour reconnaître la parole avec grande précision et la convertir en texte. La précision est remarquablement élevée, surtout avec des enregistrements clairement compréhensibles de bonne qualité sonore. Vous obtenez une base textuelle solide que vous pouvez généralement utiliser directement ou ne nécessitant qu'une révision minimale si nécessaire."
+    },
+    "item6": {
+      "title": "Quel type d'enregistrements audio puis-je télécharger ?",
+      "description": "Vous pouvez télécharger une variété d'enregistrements audio. Qu'il s'agisse d'enregistrements de réunions, d'interviews menées, d'appels téléphoniques enregistrés (si légalement autorisé !), de cours universitaires, d'enregistrements de séminaires, d'épisodes de podcast ou simplement de notes vocales enregistrées spontanément – Diktat AI peut les traiter. Nous supportons les formats audio les plus courants."
+    },
+    "item7": {
+      "title": "L'utilisation de Diktat AI est-elle compliquée ?",
+      "description": "Non, bien au contraire ! Nous avons délibérément conçu Diktat AI pour être simple et intuitif. Vous n'avez besoin d'aucune connaissance technique ni de temps d'apprentissage compliqués. Le processus est très simple :",
+      "step1": "Télécharger l'enregistrement audio.",
+      "step2": "Attendre un moment pendant que notre IA travaille.",
+      "step3": "Télécharger ou copier le texte terminé.",
+      "conclusion": "Nous voulons que vous commenciez immédiatement et profitiez des avantages !"
+    },
+    "stillHaveQuestions": "Vous avez encore des questions ?",
+    "reachOutText": "Si vous avez d'autres questions ou besoin d'assistance supplémentaire, nous serons ravis de vous aider pour tout ce qui concerne Diktat AI.",
+    "moreQuestions": "D'autres questions ?"
+  },
+  "sv": {
+    "title": "Vanliga frågor om Diktat AI",
+    "description": "Här hittar du svar på de viktigaste frågorna om Diktat AI, din intelligenta assistent för att omvandla tal till text.",
+    "item1": {
+      "title": "Vad gör Diktat AI exakt?",
+      "description": "Diktat AI är din smarta hjälpare som automatiskt omvandlar talade ord till skriven text. Ladda helt enkelt upp din ljudinspelning (t.ex. från möten, intervjuer, föreläsningar eller röstanteckningar) och vår artificiella intelligens gör resten – snabbt och pålitligt. Så får du ett skriftligt protokoll eller transkription på nolltid, utan att behöva skriva själv."
+    },
+    "item2": {
+      "title": "Vem passar Diktat AI för?",
+      "description": "Diktat AI är perfekt för alla som regelbundet behöver omvandla ljudinspelningar till text och vill spara värdefull tid. Detta inkluderar:",
+      "professionals": "Upptagna yrkesverksamma: Dokumentera möten och telefonsamtal utan ansträngning.",
+      "teams": "Effektiva team: Dela viktigt samtalsinnehåll snabbt och enkelt skriftligt.",
+      "students": "Studenter: Omvandla föreläsningar och studieanteckningar till sökbara texter.",
+      "journalists": "Journalister och podcastare: Transkribera intervjuer och ljudinnehåll snabbt.",
+      "creators": "Innehållsskapare: Skapa undertexter eller bloggartiklar från ditt video- och ljudinnehåll.",
+      "noteTakers": "Alla som tar anteckningar: Fånga spontana idéer och tankar enkelt med rösten."
+    },
+    "item3": {
+      "title": "Hur hjälper Diktat AI mig att spara tid?",
+      "description": "Att manuellt skriva av ljudinspelningar är tråkigt och tar ofta timmar av din dyrbara tid. Diktat AI utför denna uppgift på en bråkdel av tiden. Istället för att fastna i skrivandet kan du fokusera på viktigare uppgifter, förbereda ditt innehåll snabbare eller analysera dina resultat snabbare. Det betyder: mer produktivitet för dig och mindre tråkigt rutinarbete."
+    },
+    "item4": {
+      "title": "Är mina data säkra med Diktat AI?",
+      "description": "Absolut. Att skydda dina data är vår högsta prioritet. Vi vet hur viktig sekretess är. Därför behandlar vi all information strikt enligt kraven i den europeiska dataskyddsförordningen (GDPR). Dina ljudinspelningar och texterna som skapas från dem är säkra och skyddade hos oss – det kan du lita på."
+    },
+    "item5": {
+      "title": "Hur exakta är transkriptionerna?",
+      "description": "Vår artificiella intelligens är tränad för att känna igen tal med hög precision och omvandla det till text. Noggrannheten är imponerande hög, särskilt med tydligt förståeliga inspelningar av god ljudkvalitet. Du får en solid textbas som du vanligtvis kan använda direkt eller bara behöver revidera minimalt vid behov."
+    },
+    "item6": {
+      "title": "Vilken typ av ljudinspelningar kan jag ladda upp?",
+      "description": "Du kan ladda upp en mängd olika ljudinspelningar. Oavsett om det är inspelningar från möten, genomförda intervjuer, inspelade telefonsamtal (om det är lagligt tillåtet!), föreläsningar från universitet, seminarinspelningar, poddavsnitt eller helt enkelt spontant inspelade röstanteckningar med telefonen – Diktat AI kan bearbeta dem. Vi stöder de vanligaste ljudformaten."
+    },
+    "item7": {
+      "title": "Är det komplicerat att använda Diktat AI?",
+      "description": "Nej, tvärtom! Vi har medvetet utformat Diktat AI för att vara enkelt och intuitivt. Du behöver ingen teknisk kunskap eller komplicerade inlärningsperioder. Processen är mycket enkel:",
+      "step1": "Ladda upp ljudinspelning.",
+      "step2": "Vänta en kort stund medan vår AI arbetar.",
+      "step3": "Ladda ner eller kopiera den färdiga texten.",
+      "conclusion": "Vi vill att du ska komma igång direkt och dra nytta av fördelarna!"
+    },
+    "stillHaveQuestions": "Har du fortfarande frågor?",
+    "reachOutText": "Om du har fler frågor eller behöver ytterligare hjälp hjälper vi dig gärna med allt som rör Diktat AI.",
+    "moreQuestions": "Fler frågor?"
   }
 }
 </i18n>

@@ -1151,6 +1151,182 @@ import EuStoragePromo from '~/components/EuStoragePromo.vue';
       "disclaimer": "*Puede aplicarse política de uso justo. Todos los precios no incluyen IVA. Al registrarse, acepta nuestros",
       "terms": "Términos y Condiciones"
     }
+  },
+  "fr": {
+    "meta": {
+      "title": "Tarifs - Logiciel de Transcription - Diktat AI",
+      "description": "Choisissez le forfait Diktat AI adapté à vos besoins. De la version gratuite à Pro - nous avons la solution parfaite pour vous."
+    },
+    "hero": {
+      "title": "Des tarifs adaptés à votre flux de travail",
+      "subtitle": "Trouvez le forfait parfait pour gagner un temps précieux avec Diktat AI et augmenter votre productivité. Commencez aujourd'hui – sans engagement !",
+      "badge": "Transcription alimentée par l'IA",
+      "stats": {
+        "accuracy": "95%",
+        "accuracyLabel": "Précision",
+        "users": "1 000+",
+        "usersLabel": "Utilisateurs",
+        "languages": "2",
+        "languagesLabel": "Langues"
+      },
+      "cta": {
+        "primary": "Commencer gratuitement",
+        "secondary": "Comment ça marche"
+      }
+    },
+    "common": {
+      "month": "mois"
+    },
+    "freePlan": {
+      "title": "Essai gratuit",
+      "subtitle": "Idéal pour découvrir Diktat AI et commencer à gagner du temps immédiatement",
+      "features": {
+        "audioLimit": "Jusqu'à 60 minutes d'audio par mois. C'est jusqu'à 30 pages A4 de texte.",
+        "reliableTranscription": "Transcription fiable",
+        "easyHandling": "Utilisation facile",
+        "basicSupport": "Support de base par e-mail"
+      },
+      "cta": "Essayer gratuitement",
+      "noCreditCard": "Sans carte bancaire"
+    },
+    "proPlan": {
+      "earlyBird": "OFFRE PIONNIER",
+      "title": "Forfait Pro",
+      "subtitle": "Pour les professionnels et tous ceux qui veulent transcrire régulièrement sans limites",
+      "savings": "Économisez 44%",
+      "trial": "7 jours d'essai gratuit",
+      "features": {
+        "unlimited": "Minutes de transcription illimitées*",
+        "maxAccuracy": "Précision maximale avec la meilleure IA",
+        "priorityProcessing": "Traitement prioritaire",
+        "premiumSupport": "Support premium (e-mail)",
+        "apiAccess": "Accès API pour l'intégration"
+      },
+      "cta": "Choisir le forfait Pro"
+    },
+    "businessPlan": {
+      "title": "Suite Business",
+      "subtitle": "Solution sur mesure pour les exigences les plus élevées en matière de contrôle, sécurité et intégration",
+      "price": "Prix sur demande",
+      "features": {
+        "allProFeatures": "Tous les avantages du forfait Pro plus :",
+        "deployment": "Déploiement On-Premise ou Cloud Privé",
+        "identityManagement": "Intégration avec votre gestion des identités (SSO, ex. Azure AD, Okta)",
+        "extendedApi": "API étendue pour une intégration système approfondie",
+        "compliance": "Adaptation personnalisée aux exigences de conformité et sécurité",
+        "support": "Support dédié et gestion de compte",
+        "aiCustomization": "Optionnel : Personnalisation du modèle IA sur les données de l'entreprise"
+      },
+      "cta": "Nous contacter",
+      "learnMore": "En savoir plus"
+    },
+    "features": {
+      "title": "Toujours inclus : Votre base pour un travail efficace",
+      "upload": {
+        "title": "Téléchargement facile et utilisation intuitive",
+        "description": "Démarrez immédiatement, sans obstacles techniques"
+      },
+      "security": {
+        "title": "Sécurité des données maximale",
+        "description": "Conforme au RGPD avec chiffrement"
+      },
+      "processing": {
+        "title": "Traitement fiable",
+        "description": "Technologie stable pour vos enregistrements"
+      }
+    },
+    "footer": {
+      "disclaimer": "*Une politique d'utilisation équitable peut s'appliquer. Tous les prix s'entendent hors TVA. En vous inscrivant, vous acceptez nos",
+      "terms": "Conditions Générales"
+    }
+  },
+  "sv": {
+    "meta": {
+      "title": "Priser - Transkriptionsprogram - Diktat AI",
+      "description": "Välj rätt Diktat AI-plan för dina behov. Från gratisversion till Pro - vi har den perfekta lösningen för dig."
+    },
+    "hero": {
+      "title": "Priser som passar ditt arbetsflöde",
+      "subtitle": "Hitta den perfekta planen för att spara värdefull tid med Diktat AI och öka din produktivitet. Börja idag – utan förpliktelser!",
+      "badge": "AI-driven transkription",
+      "stats": {
+        "accuracy": "95%",
+        "accuracyLabel": "Noggrannhet",
+        "users": "1 000+",
+        "usersLabel": "Användare",
+        "languages": "2",
+        "languagesLabel": "Språk"
+      },
+      "cta": {
+        "primary": "Börja gratis",
+        "secondary": "Hur det fungerar"
+      }
+    },
+    "common": {
+      "month": "månad"
+    },
+    "freePlan": {
+      "title": "Prova gratis",
+      "subtitle": "Perfekt för att lära känna Diktat AI och börja spara tid direkt",
+      "features": {
+        "audioLimit": "Upp till 60 minuters ljud per månad. Det är upp till 30 A4-sidor text.",
+        "reliableTranscription": "Pålitlig transkription",
+        "easyHandling": "Enkel hantering",
+        "basicSupport": "Grundläggande e-postsupport"
+      },
+      "cta": "Prova gratis nu",
+      "noCreditCard": "Inget kreditkort krävs"
+    },
+    "proPlan": {
+      "earlyBird": "PIONJÄRERBJUDANDE",
+      "title": "Pro-plan",
+      "subtitle": "För professionella användare och alla som vill transkribera regelbundet utan begränsningar",
+      "savings": "Du sparar 44%",
+      "trial": "7 dagars gratis provperiod",
+      "features": {
+        "unlimited": "Obegränsade transkriptionsminuter*",
+        "maxAccuracy": "Maximal noggrannhet med bästa AI",
+        "priorityProcessing": "Prioriterad bearbetning",
+        "premiumSupport": "Premiumsupport (e-post)",
+        "apiAccess": "API-åtkomst för integration"
+      },
+      "cta": "Välj Pro-plan"
+    },
+    "businessPlan": {
+      "title": "Business Suite",
+      "subtitle": "Skräddarsydd lösning för högsta krav på kontroll, säkerhet och integration",
+      "price": "Pris på förfrågan",
+      "features": {
+        "allProFeatures": "Alla Pro-planens fördelar plus:",
+        "deployment": "On-Premise eller Privat Moln-distribution",
+        "identityManagement": "Integration med din identitetshantering (SSO, t.ex. Azure AD, Okta)",
+        "extendedApi": "Utökat API för djup systemintegration",
+        "compliance": "Anpassad anpassning till efterlevnads- och säkerhetskrav",
+        "support": "Dedikerad support och kontohantering",
+        "aiCustomization": "Valfritt: AI-modellanpassning på företagsdata"
+      },
+      "cta": "Kontakta oss",
+      "learnMore": "Läs mer"
+    },
+    "features": {
+      "title": "Alltid inkluderat: Din grund för effektivt arbete",
+      "upload": {
+        "title": "Enkel uppladdning och intuitiv hantering",
+        "description": "Kom igång direkt, utan tekniska hinder"
+      },
+      "security": {
+        "title": "Högsta datasäkerhet",
+        "description": "GDPR-kompatibel med kryptering"
+      },
+      "processing": {
+        "title": "Pålitlig bearbetning",
+        "description": "Stabil teknik för dina inspelningar"
+      }
+    },
+    "footer": {
+      "disclaimer": "*Policy för rimlig användning kan gälla. Alla priser är exklusive moms. Genom att registrera dig godkänner du våra",
+      "terms": "Allmänna Villkor"
+    }
   }
 }
 </i18n>

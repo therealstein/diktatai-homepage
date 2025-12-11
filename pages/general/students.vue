@@ -707,6 +707,148 @@ useHead({
         "text": "Reduce tareas rutinarias tediosas. Invierte tu energía en comprender temas complejos y obtener nuevas perspectivas científicas."
       }
     }
+  },
+  "fr": {
+    "meta": {
+      "title": "Diktat AI pour étudiants et universitaires - Transcrire cours et entretiens",
+      "description": "Transcrivez cours, séminaires et entretiens de recherche sans effort avec Diktat AI. Gagnez du temps pour les examens, thèses et publications."
+    },
+    "hero": {
+      "title": "Étudiez et recherchez plus intelligemment – Transcriptions au lieu de taper",
+      "subtitle": "Transformez sans effort les cours, séminaires et entretiens en texte consultable. Gagnez un temps précieux pour les examens, thèses et publications.",
+      "cta": "Commencer gratuitement maintenant et gagner du temps"
+    },
+    "intro": {
+      "title": "Diktat AI : Votre aide essentielle à l'université",
+      "subtitle": "Découvrez comment les étudiants et universitaires utilisent Diktat AI pour optimiser les processus d'apprentissage et de recherche :"
+    },
+    "students": {
+      "title": "Étudiants",
+      "item1": "Transcrivez cours et séminaires pour réviser et rechercher le contenu plus facilement.",
+      "item2": "Convertissez rapidement les entretiens pour les travaux et thèses (Licence, Master, Doctorat) en texte.",
+      "item3": "Créez sans effort des notes de groupes d'étude ou de tables rondes de discussion."
+    },
+    "academics": {
+      "title": "Universitaires et chercheurs",
+      "item1": "Transcrivez les entretiens de recherche et données qualitatives pour une analyse efficace.",
+      "item2": "Convertissez présentations, contributions à des conférences ou notes dictées en texte.",
+      "item3": "Archivez le contenu parlé sous forme de documents texte consultables pour référence ultérieure."
+    },
+    "process": {
+      "title": "Simple. Rapide. Efficace.",
+      "subtitle": "Notre processus simple vous fait gagner de précieuses heures que vous pouvez mieux investir dans l'apprentissage ou la recherche.",
+      "step1": {
+        "title": "1. Télécharger l'enregistrement",
+        "text": "Commencez avec un cours, entretien, note, etc. en un clic."
+      },
+      "step2": {
+        "title": "2. Transcription IA",
+        "text": "Conversion précise grâce à la reconnaissance vocale intelligente."
+      },
+      "step3": {
+        "title": "3. Traitement sécurisé",
+        "text": "Vos données sont sécurisées et conformes au RGPD (serveurs UE)."
+      },
+      "step4": {
+        "title": "4. Prêt à l'emploi",
+        "text": "Téléchargez, copiez, collez le texte dans vos documents."
+      }
+    },
+    "advantages": {
+      "title": "Votre avantage clair dans les études et la recherche avec Diktat AI",
+      "subtitle": "Utilisez la puissance de l'automatisation pour vous concentrer sur ce qui compte : acquérir des connaissances et obtenir des perspectives.",
+      "timeSaving": {
+        "title": "Gain de temps massif",
+        "text": "Fini les heures de transcription d'enregistrements. Gagnez un temps précieux pour l'apprentissage, l'analyse, la rédaction et les expériences."
+      },
+      "learning": {
+        "title": "Apprendre et comprendre plus efficacement",
+        "text": "Recherchez dans les notes de cours des mots-clés spécifiques. Trouvez instantanément les passages importants sans écouter des heures d'audio."
+      },
+      "research": {
+        "title": "Recherche accélérée",
+        "text": "Traitez les données qualitatives (entretiens, groupes de discussion) beaucoup plus rapidement. Concentrez-vous sur l'analyse plutôt que sur la transcription."
+      },
+      "precision": {
+        "title": "Base précise pour votre travail",
+        "text": "Recevez des transcriptions textuelles précises comme base fiable pour les citations, analyses, travaux académiques et publications."
+      },
+      "focus": {
+        "title": "Concentrez-vous sur le contenu et les perspectives",
+        "text": "Réduisez les tâches routinières fastidieuses. Investissez votre énergie dans la compréhension de sujets complexes et l'acquisition de nouvelles perspectives scientifiques."
+      }
+    }
+  },
+  "sv": {
+    "meta": {
+      "title": "Diktat AI för studenter och akademiker - Transkribera föreläsningar och intervjuer",
+      "description": "Transkribera föreläsningar, seminarier och forskningsintervjuer utan ansträngning med Diktat AI. Spara tid för prov, uppsatser och publikationer."
+    },
+    "hero": {
+      "title": "Studera och forska smartare – Transkriptioner istället för skrivande",
+      "subtitle": "Förvandla föreläsningar, seminarier och intervjuer till sökbar text utan ansträngning. Vinn värdefull tid för prov, uppsatser och publikationer.",
+      "cta": "Börja gratis nu och spara tid"
+    },
+    "intro": {
+      "title": "Diktat AI: Din ovärderliga hjälpare på universitetet",
+      "subtitle": "Upptäck hur studenter och akademiker använder Diktat AI för att optimera inlärnings- och forskningsprocesser:"
+    },
+    "students": {
+      "title": "Studenter",
+      "item1": "Transkribera föreläsningar och seminarier för att lättare granska och söka i innehåll.",
+      "item2": "Konvertera snabbt intervjuer för uppsatser och avhandlingar (kandidat, master, doktor) till text.",
+      "item3": "Skapa enkelt anteckningar från studiegrupper eller diskussionsrundor."
+    },
+    "academics": {
+      "title": "Akademiker och forskare",
+      "item1": "Transkribera forskningsintervjuer och kvalitativa data för effektiv analys.",
+      "item2": "Konvertera presentationer, konferensbidrag eller dikterade anteckningar till text.",
+      "item3": "Arkivera talat innehåll som sökbara textdokument för framtida referens."
+    },
+    "process": {
+      "title": "Enkelt. Snabbt. Effektivt.",
+      "subtitle": "Vår okomplicerade process sparar dig värdefulla timmar som du bättre kan investera i att studera eller forska.",
+      "step1": {
+        "title": "1. Ladda upp inspelning",
+        "text": "Börja med en föreläsning, intervju, anteckning etc. med ett klick."
+      },
+      "step2": {
+        "title": "2. AI-transkription",
+        "text": "Exakt konvertering genom intelligent taligenkänning."
+      },
+      "step3": {
+        "title": "3. Säker behandling",
+        "text": "Dina data är säkra och GDPR-kompatibla (EU-servrar)."
+      },
+      "step4": {
+        "title": "4. Redo att använda",
+        "text": "Ladda ner, kopiera, klistra in text i dina dokument."
+      }
+    },
+    "advantages": {
+      "title": "Din tydliga fördel i studier och forskning med Diktat AI",
+      "subtitle": "Använd kraften i automatisering för att fokusera på det som verkligen spelar roll: att förvärva kunskap och få insikter.",
+      "timeSaving": {
+        "title": "Massiv tidsbesparing",
+        "text": "Slut med timmar av att skriva av inspelningar. Vinn värdefull tid för inlärning, analys, skrivande och experiment."
+      },
+      "learning": {
+        "title": "Lär dig och förstå mer effektivt",
+        "text": "Sök i föreläsningsanteckningar efter specifika nyckelord. Hitta viktiga avsnitt omedelbart utan att lyssna på timmar av ljud."
+      },
+      "research": {
+        "title": "Accelererad forskning",
+        "text": "Bearbeta kvalitativa data (intervjuer, fokusgrupper) mycket snabbare. Fokusera på analys snarare än transkription."
+      },
+      "precision": {
+        "title": "Exakt grund för ditt arbete",
+        "text": "Ta emot exakta texttranskriptioner som en pålitlig grund för citat, analyser, akademiska arbeten och publikationer."
+      },
+      "focus": {
+        "title": "Fokus på innehåll och insikter",
+        "text": "Minska tråkiga rutinuppgifter. Investera din energi i att förstå komplexa ämnen och få nya vetenskapliga insikter."
+      }
+    }
   }
 }
 </i18n>

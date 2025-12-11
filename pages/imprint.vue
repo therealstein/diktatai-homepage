@@ -42,6 +42,14 @@ const content = {
   es: {
     title: "📄 Aviso Legal",
     content: "\n<p></p>\n\n<p><strong>Diktat.AI es un producto de ARTDROP OÜ</strong><br><em>Diktat.AI – desarrollado con 💜 e IA</em></p>\n\n<p>Männimäe/1, pueblo de Pudisoo<br>Municipio de Kuusalu, condado de Harju<br>74626 Estonia</p>\n\n<p>Representante autorizado: Steffen Stein<br><br>📬 ¿Quieres ponerte en contacto? Usa nuestro <a href=\"https://diktat.ai/es/contacto\" data-type=\"link\" data-id=\"https://diktat.ai/kontakt\">formulario de contacto</a> – nos gusta mantener las cosas ordenadas.</p>\n\n<p>🧾 Registrado en el Registro Mercantil de Estonia (e-Äriregister)<br>Número de registro: 17092348<br><br>📊 NIF-IVA: Actualmente no registrado a efectos del IVA según la legislación estonia (régimen de microempresa)</p>\n\n<h3 class=\"wp-block-heading\">💡 Algunas notas legales</h3>\n\n<p>No participamos en procedimientos de resolución de disputas de consumidores – principalmente porque preferimos resolver las cosas juntos que rellenar formularios.<br>Así que si algo te preocupa: habla con nosotros. Somos personas amables y siempre estamos dispuestos a encontrar una buena solución.</p>\n\n<p>📪 <strong>No aceptamos publicidad no solicitada. En serio.</strong><br>Nos encantan los correos electrónicos – pero no los de tipo comercial en frío.<br>Nada de ofertas masivas, ni plantillas de contacto, ni mensajes de \"solo quería contactar\".<br>Si se sale de control, podemos responder – quizás con un gesto de fastidio, quizás con medidas legales. 💜</p>\n\n<p>Este aviso legal también se aplica a cualquier otra plataforma donde estemos activos o podamos estarlo en el futuro, incluyendo redes sociales.</p>\n\n<p><strong>Última actualización: Julio 2025</strong><br>Si algo cambia, actualizaremos esta página. Prometido.</p>\n"
+  },
+  fr: {
+    title: "📄 Mentions Légales",
+    content: "\n<p></p>\n\n<p><strong>Diktat.AI est un produit d'ARTDROP OÜ</strong><br><em>Diktat.AI – développé avec 💜 et l'IA</em></p>\n\n<p>Männimäe/1, village de Pudisoo<br>Municipalité de Kuusalu, comté de Harju<br>74626 Estonie</p>\n\n<p>Représentant autorisé : Steffen Stein<br><br>📬 Vous souhaitez nous contacter ? Utilisez notre <a href=\"https://diktat.ai/fr/contact\" data-type=\"link\" data-id=\"https://diktat.ai/kontakt\">formulaire de contact</a> – nous aimons les choses bien organisées.</p>\n\n<p>🧾 Enregistré au registre du commerce estonien (e-Äriregister)<br>Numéro d'enregistrement : 17092348<br><br>📊 N° TVA : Actuellement non enregistré à la TVA en vertu de la législation estonienne (régime de micro-entreprise)</p>\n\n<h3 class=\"wp-block-heading\">💡 Quelques notes juridiques</h3>\n\n<p>Nous ne participons pas aux procédures de résolution des litiges de consommation – principalement parce que nous préférons résoudre les choses ensemble plutôt que de remplir des formulaires.<br>Donc, si quelque chose vous préoccupe : parlez-nous. Nous sommes des personnes amicales et toujours prêtes à trouver une bonne solution.</p>\n\n<p>📪 <strong>Pas de publicité non sollicitée. Vraiment.</strong><br>Nous aimons les e-mails – mais pas ceux de type démarchage commercial.<br>Pas d'offres en masse, pas de modèles de contact, pas de messages « je voulais juste vous contacter ».<br>Si cela devient incontrôlable, nous pourrions réagir – peut-être avec un regard désabusé, peut-être avec des mesures légales. 💜</p>\n\n<p>Ces mentions légales s'appliquent également à toute autre plateforme où nous sommes actifs ou pourrions l'être à l'avenir, y compris les réseaux sociaux.</p>\n\n<p><strong>Dernière mise à jour : Juillet 2025</strong><br>Si quelque chose change, nous mettrons cette page à jour. Promis.</p>\n"
+  },
+  sv: {
+    title: "📄 Impressum",
+    content: "\n<p></p>\n\n<p><strong>Diktat.AI är en produkt från ARTDROP OÜ</strong><br><em>Diktat.AI – utvecklad med 💜 och AI</em></p>\n\n<p>Männimäe/1, Pudisoo by<br>Kuusalu kommun, Harju län<br>74626 Estland</p>\n\n<p>Auktoriserad representant: Steffen Stein<br><br>📬 Vill du komma i kontakt? Använd vårt <a href=\"https://diktat.ai/sv/kontakt\" data-type=\"link\" data-id=\"https://diktat.ai/kontakt\">kontaktformulär</a> – vi gillar att hålla saker organiserade.</p>\n\n<p>🧾 Registrerat i estniska handelsregistret (e-Äriregister)<br>Registreringsnummer: 17092348<br><br>📊 Moms-ID: För närvarande inte momsregistrerat enligt estnisk lag (mikroföretagsordning)</p>\n\n<h3 class=\"wp-block-heading\">💡 Några juridiska anteckningar</h3>\n\n<p>Vi deltar inte i konsumenttvistlösningsförfaranden – huvudsakligen för att vi mycket hellre löser saker tillsammans än fyller i formulär.<br>Så om något oroar dig: prata med oss. Vi är vänliga människor och alltid redo att hitta en bra lösning.</p>\n\n<p>📪 <strong>Ingen oönskad marknadsföring. På allvar.</strong><br>Vi älskar e-post – men inte den kalla uppringningstypen.<br>Inga massutskick, inga kontaktmallar, inga \"jag ville bara höra av mig\"-meddelanden.<br>Om det kommer ur hand kan vi svara – kanske med en ögonrullning, kanske med juridiska åtgärder. 💜</p>\n\n<p>Detta impressum gäller även för alla andra plattformar där vi är aktiva eller kan bli aktiva i framtiden, inklusive sociala medier.</p>\n\n<p><strong>Senast uppdaterad: Juli 2025</strong><br>Om något ändras kommer vi att uppdatera denna sida. Löfte.</p>\n"
   }
 };
 
@@ -52,19 +60,41 @@ const pageContent = computed(() => {
 
 // SEO Meta Tags
 useHead({
-  title: computed(() =>
-    locale.value === 'de'
-      ? 'Impressum - Diktat AI'
-      : 'Impressum - Diktat AI'
-  ),
+  title: computed(() => {
+    switch (locale.value) {
+      case 'de':
+        return 'Impressum - Diktat AI';
+      case 'en':
+        return 'Imprint - Diktat AI';
+      case 'es':
+        return 'Aviso Legal - Diktat AI';
+      case 'fr':
+        return 'Mentions Légales - Diktat AI';
+      case 'sv':
+        return 'Impressum - Diktat AI';
+      default:
+        return 'Impressum - Diktat AI';
+    }
+  }),
   meta: [
     {
       name: 'description',
-      content: computed(() =>
-        locale.value === 'de'
-          ? 'Rechtliche Informationen für den Diktat AI Transkriptionsdienst.'
-          : 'Legal information for Diktat AI transcription service.'
-      ),
+      content: computed(() => {
+        switch (locale.value) {
+          case 'de':
+            return 'Rechtliche Informationen für den Diktat AI Transkriptionsdienst.';
+          case 'en':
+            return 'Legal information for Diktat AI transcription service.';
+          case 'es':
+            return 'Información legal para el servicio de transcripción Diktat AI.';
+          case 'fr':
+            return 'Informations légales pour le service de transcription Diktat AI.';
+          case 'sv':
+            return 'Juridisk information för Diktat AI transkriptionstjänst.';
+          default:
+            return 'Rechtliche Informationen für den Diktat AI Transkriptionsdienst.';
+        }
+      }),
     },
     { name: 'robots', content: 'noindex, nofollow' },
   ],

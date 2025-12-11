@@ -384,6 +384,88 @@ useHead({
       "title": "Seguridad - Diktat AI",
       "description": "Conozca más sobre nuestras medidas de seguridad y cómo protegemos sus datos. Diktat AI procesa todos los datos exclusivamente en la UE según los estándares del RGPD."
     }
+  },
+  "fr": {
+    "hero": {
+      "title": "Sécurité chez Diktat AI",
+      "subtitle": "Vos données sont en sécurité avec nous"
+    },
+    "main": {
+      "title": "Confiance et sécurité : Comment Diktat AI protège vos données",
+      "intro": "Nous le savons : Le contenu de vos enregistrements audio est souvent confidentiel. Qu'il s'agisse de conversations d'affaires sensibles, d'interviews personnelles ou de notes de cours importantes – la protection de vos données est notre priorité absolue chez Diktat AI. C'est pourquoi nous nous sommes assurés dès le départ que vos informations sont en sécurité et protégées chez nous, afin que vous puissiez utiliser notre service sans souci et vous concentrer entièrement sur votre contenu."
+    },
+    "eu": {
+      "title": "Protection des données cohérente : Traitement uniquement dans l'UE",
+      "intro": "Un pilier central de notre stratégie de sécurité est l'emplacement de notre technologie :",
+      "points": [
+        "Toutes vos données restent en Europe : Vos fichiers audio téléchargés ainsi que les textes créés à partir de ceux-ci sont traités et stockés exclusivement sur des serveurs au sein de l'Union européenne.",
+        "Pas de détours par des pays tiers : Nous utilisons délibérément des emplacements de serveurs au sein de l'UE. Cela signifie pour vous : Vos données sont soumises aux strictes lois européennes sur la protection des données – connues comme certaines des normes les plus élevées au monde.",
+        "Contrôle maximal, risque minimal : En conservant vos données localement dans l'UE, nous garantissons non seulement le respect des exigences légales, mais nous minimisons également les risques qui peuvent être associés aux transferts internationaux de données."
+      ]
+    },
+    "gdpr": {
+      "title": "Strictement selon les directives du RGPD",
+      "intro": "Bien sûr, nous travaillons en conformité avec le Règlement général sur la protection des données (RGPD). Cela signifie pour vous :",
+      "points": [
+        "Vos droits sont au centre : Nous respectons votre droit à l'information, à la rectification et à la suppression de vos données.",
+        "Transparence : Nous déclarons ouvertement comment vos données sont traitées.",
+        "Limitation de finalité : Vos données ne sont utilisées que dans le but de transcription et ne sont pas utilisées ou vendues à d'autres fins."
+      ]
+    },
+    "trust": {
+      "title": "Votre confiance est notre plus grand atout",
+      "content": "Nous comprenons que vous nous confiez des informations sensibles. Nous prenons cette confiance très au sérieux. C'est pourquoi nous investissons continuellement dans la sécurité de notre plateforme et de nos processus. Nous nous appuyons sur des technologies éprouvées et des politiques internes strictes pour garantir l'intégrité et la confidentialité de vos données à tout moment."
+    },
+    "cta": {
+      "title": "Utilisez Diktat AI en toute confiance",
+      "content": "Comptez sur Diktat AI non seulement pour une reconnaissance de texte rapide et précise, mais aussi pour une sécurité sans compromis selon les normes européennes. Votre vie privée et la protection de vos données font partie intégrante de notre promesse envers vous.",
+      "button": "Commencer gratuitement maintenant"
+    },
+    "meta": {
+      "title": "Sécurité - Diktat AI",
+      "description": "En savoir plus sur nos mesures de sécurité et comment nous protégeons vos données. Diktat AI traite toutes les données exclusivement dans l'UE selon les normes RGPD."
+    }
+  },
+  "sv": {
+    "hero": {
+      "title": "Säkerhet hos Diktat AI",
+      "subtitle": "Dina data är säkra hos oss"
+    },
+    "main": {
+      "title": "Förtroende och säkerhet: Hur Diktat AI skyddar dina data",
+      "intro": "Vi vet: Innehållet i dina ljudinspelningar är ofta konfidentiellt. Oavsett om det är känsliga affärssamtal, personliga intervjuer eller viktiga föreläsningsanteckningar – skyddet av dina data är vår absoluta prioritet hos Diktat AI. Därför har vi från början sett till att din information är säker och skyddad hos oss, så att du kan använda vår tjänst utan oro och fokusera helt på ditt innehåll."
+    },
+    "eu": {
+      "title": "Konsekvent dataskydd: Bearbetning endast i EU",
+      "intro": "En central byggsten i vår säkerhetsstrategi är placeringen av vår teknologi:",
+      "points": [
+        "All din data stannar i Europa: Både dina uppladdade ljudfiler och de texter som skapas från dem bearbetas och lagras uteslutande på servrar inom Europeiska unionen.",
+        "Inga omvägar via tredje länder: Vi använder medvetet serverplatser inom EU. Detta betyder för dig: Dina data omfattas av de strikta europeiska dataskyddslagarna – kända som några av de högsta standarderna i världen.",
+        "Maximal kontroll, minimal risk: Genom att hålla dina data lokalt i EU säkerställer vi inte bara efterlevnad av lagkrav, utan minimerar också de risker som kan vara förknippade med internationella dataöverföringar."
+      ]
+    },
+    "gdpr": {
+      "title": "Strikt enligt GDPR-riktlinjer",
+      "intro": "Naturligtvis arbetar vi i enlighet med den allmänna dataskyddsförordningen (GDPR). Detta betyder för dig:",
+      "points": [
+        "Dina rättigheter står i centrum: Vi respekterar din rätt till information, rättelse och radering av dina data.",
+        "Transparens: Vi redogör öppet för hur dina data behandlas.",
+        "Ändamålsbegränsning: Dina data används endast för transkriptionsändamål och används eller säljs inte för andra ändamål."
+      ]
+    },
+    "trust": {
+      "title": "Ditt förtroende är vår största tillgång",
+      "content": "Vi förstår att du anförtror oss känslig information. Vi tar detta förtroende på största allvar. Därför investerar vi kontinuerligt i säkerheten för vår plattform och våra processer. Vi förlitar oss på beprövad teknologi och strikta interna policyer för att säkerställa integriteten och konfidentialiteten för dina data vid alla tillfällen."
+    },
+    "cta": {
+      "title": "Använd Diktat AI med förtroende",
+      "content": "Lita på Diktat AI inte bara för snabb och exakt textigenkänning, utan också för kompromisslös säkerhet enligt europeiska standarder. Din integritet och skyddet av dina data är en integrerad del av vårt löfte till dig.",
+      "button": "Börja gratis nu"
+    },
+    "meta": {
+      "title": "Säkerhet - Diktat AI",
+      "description": "Läs mer om våra säkerhetsåtgärder och hur vi skyddar dina data. Diktat AI behandlar all data uteslutande i EU enligt GDPR-standarder."
+    }
   }
 }
 </i18n>

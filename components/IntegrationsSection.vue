@@ -184,6 +184,42 @@ const { t } = useI18n()
     "timeSavingDescription": "Automatice su flujo de trabajo integrando Diktat AI directamente en sus herramientas existentes.",
     "seamlessProcesses": "Procesos fluidos",
     "seamlessProcessesDescription": "Mantenga su flujo de trabajo actual mientras agrega potentes capacidades de transcripción."
+  },
+  "fr": {
+    "title": "Intégrations transparentes",
+    "description": "Diktat AI s'intègre parfaitement à vos outils et flux de travail préférés",
+    "available": "Disponible",
+    "emailTitle": "Intégration par e-mail",
+    "emailDescription": "Transférez les enregistrements audio directement à votre adresse e-mail Diktat AI pour une transcription instantanée.",
+    "howItWorks": "Comment ça marche :",
+    "softwareTitle": "Intégration logicielle",
+    "softwareDescription": "Connectez Diktat AI à votre infrastructure logicielle existante via notre API ou webhooks.",
+    "requestSolution": "Demander une solution personnalisée",
+    "whyValuable": "Pourquoi les intégrations sont précieuses :",
+    "flexibility": "Flexibilité",
+    "flexibilityDescription": "Choisissez comment vous souhaitez utiliser Diktat AI - via notre interface web, e-mail ou API.",
+    "timeSaving": "Gain de temps",
+    "timeSavingDescription": "Automatisez votre flux de travail en intégrant Diktat AI directement dans vos outils existants.",
+    "seamlessProcesses": "Processus fluides",
+    "seamlessProcessesDescription": "Conservez votre flux de travail actuel tout en ajoutant de puissantes fonctionnalités de transcription."
+  },
+  "sv": {
+    "title": "Sömlösa integrationer",
+    "description": "Diktat AI integreras med dina favoritverktyg och arbetsflöden",
+    "available": "Tillgänglig",
+    "emailTitle": "E-postintegration",
+    "emailDescription": "Vidarebefordra ljudinspelningar direkt till din Diktat AI e-postadress för omedelbar transkribering.",
+    "howItWorks": "Så här fungerar det:",
+    "softwareTitle": "Programvaruintegration",
+    "softwareDescription": "Anslut Diktat AI med din befintliga programvarustack via vårt API eller webhooks.",
+    "requestSolution": "Begär en anpassad lösning",
+    "whyValuable": "Varför integrationer är värdefulla:",
+    "flexibility": "Flexibilitet",
+    "flexibilityDescription": "Välj hur du vill använda Diktat AI - via vårt webbgränssnitt, e-post eller API.",
+    "timeSaving": "Tidsbesparing",
+    "timeSavingDescription": "Automatisera ditt arbetsflöde genom att integrera Diktat AI direkt i dina befintliga verktyg.",
+    "seamlessProcesses": "Sömlösa processer",
+    "seamlessProcessesDescription": "Behåll ditt nuvarande arbetsflöde medan du lägger till kraftfulla transkriberingsfunktioner."
   }
 }
 </i18n> 

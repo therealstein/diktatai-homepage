@@ -250,6 +250,20 @@ const { registerUrl } = useAppUrl();
     "startNow": "Comenzar ahora",
     "subDescription": "Ahorre hasta el 80% de su tiempo en transcripción. Comience gratis ahora – sin tarjeta de crédito.",
     "socialProof": "Ya más de 1.000 usuarios ahorran tiempo diariamente"
+  },
+  "fr": {
+    "title": "Transcrire avec Diktat AI",
+    "description": "Diktat AI propose des transcriptions rapides et précises pour les réunions, interviews et plus encore. Idéal pour les professionnels et équipes qui souhaitent gagner du temps et se concentrer sur l'essentiel. Vos données sont sécurisées et traitées conformément au RGPD.",
+    "startNow": "Commencer maintenant",
+    "subDescription": "Économisez jusqu'à 80% de votre temps de transcription. Commencez gratuitement – sans carte bancaire.",
+    "socialProof": "Déjà plus de 1 000 utilisateurs gagnent du temps chaque jour"
+  },
+  "sv": {
+    "title": "Transkribera med Diktat AI",
+    "description": "Diktat AI erbjuder snabba och exakta transkriptioner för möten, intervjuer och mer. Perfekt för professionella och team som vill spara tid och fokusera på det väsentliga. Din data är säker och behandlas GDPR-kompatibelt.",
+    "startNow": "Börja nu",
+    "subDescription": "Spara upp till 80% av din transkriptionstid. Börja gratis nu – inget kreditkort krävs.",
+    "socialProof": "Redan över 1 000 användare sparar tid dagligen"
   }
 }
 </i18n>

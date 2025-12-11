@@ -398,6 +398,80 @@ useHead({
       "pricing": "Ver precios",
       "help": "Preguntas frecuentes"
     }
+  },
+  "fr": {
+    "seo": {
+      "title": "Comment ça marche - Diktat AI",
+      "description": "Découvrez à quel point la reconnaissance vocale est facile avec Diktat AI. Transformez vos enregistrements audio en texte en seulement 3 étapes."
+    },
+    "hero": {
+      "title": "Obtenez votre transcription en 3 étapes simples",
+      "description": "Avec Diktat AI, transformez vos enregistrements audio en texte rapidement et sans effort via notre plateforme sécurisée. Gagnez un temps précieux."
+    },
+    "process": {
+      "title": "Comment fonctionne Diktat AI"
+    },
+    "steps": {
+      "step1": {
+        "title": "Étape 1 : Télécharger l'enregistrement",
+        "description": "Téléchargez votre fichier audio (par ex. MP3, WAV, M4A de réunions, interviews, dictées) en un seul clic directement via notre plateforme web sécurisée."
+      },
+      "step2": {
+        "title": "Étape 2 : L'IA fait le travail",
+        "description": "Détendez-vous ! Notre intelligence artificielle avancée analyse votre enregistrement de manière sécurisée et conforme au RGPD. Les mots prononcés sont reconnus avec précision et convertis en texte écrit. Ce processus ne prend généralement qu'une fraction de la durée de l'audio."
+      },
+      "step3": {
+        "title": "Étape 3 : Recevoir et utiliser la transcription",
+        "description": "Une fois la transcription terminée, vous trouverez votre texte directement dans votre compte. Téléchargez-le en tant que fichier (par ex. .txt, .docx) ou copiez-le directement. Utilisez le texte immédiatement pour des protocoles, notes, articles, sous-titres ou analyses."
+      }
+    },
+    "summary": {
+      "title": "C'est tout !",
+      "description": "Pas de frappe fastidieuse, pas de détours compliqués. Seulement trois étapes claires vous séparent de votre transcription terminée sur notre plateforme. L'efficacité peut être aussi simple."
+    },
+    "cta": {
+      "title": "Prêt à gagner du temps ?",
+      "register": "Commencer gratuitement",
+      "pricing": "Voir les tarifs",
+      "help": "Questions fréquentes"
+    }
+  },
+  "sv": {
+    "seo": {
+      "title": "Hur det fungerar - Diktat AI",
+      "description": "Upptäck hur enkel röstigenkänning är med Diktat AI. Omvandla dina ljudinspelningar till text i bara 3 steg."
+    },
+    "hero": {
+      "title": "Få din färdiga transkription i 3 enkla steg",
+      "description": "Med Diktat AI omvandlar du dina ljudinspelningar snabbt och enkelt till text via vår säkra plattform. Spara värdefull tid."
+    },
+    "process": {
+      "title": "Så fungerar Diktat AI"
+    },
+    "steps": {
+      "step1": {
+        "title": "Steg 1: Ladda upp inspelning",
+        "description": "Ladda upp din ljudfil (t.ex. MP3, WAV, M4A från möten, intervjuer, diktat) med bara ett klick direkt via vår säkra webbplattform."
+      },
+      "step2": {
+        "title": "Steg 2: AI gör jobbet",
+        "description": "Luta dig tillbaka! Vår avancerade artificiella intelligens analyserar din inspelning säkert och GDPR-kompatibelt. De talade orden känns igen exakt och omvandlas till skriven text. Denna process tar vanligtvis bara en bråkdel av ljudlängden."
+      },
+      "step3": {
+        "title": "Steg 3: Ta emot och använd transkription",
+        "description": "När transkriptionen är klar hittar du din text direkt i ditt konto. Ladda ner den som fil (t.ex. .txt, .docx) eller kopiera den direkt. Använd texten omedelbart för protokoll, anteckningar, artiklar, undertexter eller analyser."
+      }
+    },
+    "summary": {
+      "title": "Det var allt!",
+      "description": "Ingen tråkig skrivning, inga komplicerade omvägar. Bara tre tydliga steg skiljer dig från din färdiga transkription på vår plattform. Så enkel kan effektivitet vara."
+    },
+    "cta": {
+      "title": "Redo att spara tid?",
+      "register": "Börja gratis nu",
+      "pricing": "Se priser",
+      "help": "Vanliga frågor"
+    }
   }
 }
 </i18n> 

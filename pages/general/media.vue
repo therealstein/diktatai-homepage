@@ -962,7 +962,243 @@ useHead({
       "start": "Comenzar gratis y probar",
       "pricing": "Ver precios"
     }
-}
+},
+"fr": {
+    "hero": {
+      "title": "Diktat AI : Transcription ultra-rapide pour journalistes et rédacteurs",
+      "subtitle": "Transformez interviews, conférences de presse et enregistrements de recherche en texte précis et citable en quelques minutes. Concentrez-vous sur l'histoire, pas sur la frappe – et respectez chaque deadline.",
+      "cta": "Démarrer la transcription maintenant"
+    },
+    "journalistTools": {
+      "title": "Votre outil indispensable dans la salle de rédaction",
+      "intro": "Que ce soit pour la presse écrite, en ligne, la radio ou la télévision – découvrez comment les journalistes et rédacteurs utilisent Diktat AI pour travailler plus vite et plus efficacement :",
+      "interviews": {
+        "title": "Interviews et déclarations",
+        "description": "Convertissez rapidement les enregistrements de conversations en texte – pour des citations précises et des brouillons d'articles rapides."
+      },
+      "pressConferences": {
+        "title": "Conférences de presse et événements",
+        "description": "Capturez toutes les déclarations et détails importants sous forme de texte consultable, même sous pression temporelle."
+      },
+      "research": {
+        "title": "Recherche et entretiens de fond",
+        "description": "Rendez les notes audio et enregistrements d'appels facilement utilisables et consultables."
+      },
+      "podcast": {
+        "title": "Podcast et contenu vidéo",
+        "description": "Créez sans effort des transcriptions pour les notes d'émission, sous-titres ou pour réutilisation en articles."
+      }
+    },
+    "process": {
+      "title": "Simple. Rapide. Fiable.",
+      "intro": "Notre processus simple vous livre des transcriptions quand vous en avez besoin – sans détours.",
+      "upload": {
+        "title": "Télécharger l'enregistrement",
+        "description": "Lancez interview, enregistrement de conférence de presse etc. en un clic."
+      },
+      "transcription": {
+        "title": "Transcription IA",
+        "description": "Conversion précise par reconnaissance vocale intelligente."
+      },
+      "security": {
+        "title": "Traitement sécurisé",
+        "description": "Strictement conforme au RGPD et chiffré sur serveurs EU."
+      },
+      "ready": {
+        "title": "Prêt à l'emploi",
+        "description": "Texte formaté pour téléchargement, copier-coller."
+      }
+    },
+    "advantages": {
+      "title": "Votre avantage clair en recherche et production",
+      "intro": "Diktat AI résout l'un des plus grands pertes de temps du journalisme – pour que vous puissiez vous concentrer sur ce qui compte.",
+      "timeSaving": {
+        "title": "Gain de temps massif",
+        "description": "Fini les heures de frappe. Gagnez un temps précieux pour la recherche, l'écriture et le respect de vos deadlines."
+      },
+      "fasterPublication": {
+        "title": "Publication plus rapide",
+        "description": "Passez plus rapidement de l'enregistrement à l'article fini. Traitez plus de matériel en moins de temps et augmentez votre production."
+      },
+      "preciseResults": {
+        "title": "Résultats précis et citables",
+        "description": "Obtenez des transcriptions textuelles précises comme base fiable pour vos articles, reportages et citations. Facilement consultables et modifiables."
+      },
+      "dataSecurity": {
+        "title": "Sécurité des données et protection des sources maximales",
+        "description": "Protégez vos interviews confidentielles et sources. Nous garantissons un traitement conforme au RGPD exclusivement dans l'UE."
+      }
+    },
+    "workflow": {
+      "title": "Diktat AI s'adapte à votre flux de travail éditorial",
+      "intro": "Nous savons que ça doit être rapide. Utilisez Diktat AI de manière flexible, comme cela convient le mieux à votre façon de travailler.",
+      "email": {
+        "title": "Transcrire par e-mail",
+        "description": "Le moyen le plus rapide vers le texte : envoyez votre fichier audio directement en pièce jointe par e-mail. Diktat AI renvoie la transcription immédiatement. Idéal en déplacement ou pour une aide rapide.",
+        "link": "Voir comment ça marche →"
+      },
+      "api": {
+        "title": "Intégration transparente (via API)",
+        "description": "Intégrez Diktat AI directement dans vos systèmes éditoriaux ou outils. Automatisez le processus de transcription pour une efficacité maximale.",
+        "link": "Demander une solution personnalisée"
+      },
+      "speed": {
+        "title": "Rapidité",
+        "description": "Obtenez des transcriptions souvent plus rapidement que vous ne pourriez taper vous-même."
+      },
+      "flexibility": {
+        "title": "Flexibilité",
+        "description": "Utilisez Diktat AI depuis votre bureau ou mobile par e-mail."
+      },
+      "efficiency": {
+        "title": "Efficacité",
+        "description": "Réduisez les étapes manuelles et accélérez tout le processus de production."
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes sur Diktat AI pour journalistes",
+      "whatIs": {
+        "question": "Que fait exactement Diktat AI pour les journalistes ?",
+        "answer": "Diktat AI convertit vos enregistrements audio – interviews, conférences de presse, enregistrements téléphoniques (avec consentement !), conversations de recherche – automatiquement en texte écrit. Vous téléchargez le fichier, notre IA livre la transcription."
+      },
+      "suitable": {
+        "question": "Diktat AI convient-il à ma salle de rédaction ?",
+        "answer": "Oui, Diktat AI est parfait pour les journalistes individuels, les freelances, les équipes de rédaction et les maisons de médias entières qui doivent régulièrement transcrire du contenu audio et souhaitent gagner un temps précieux."
+      },
+      "accuracy": {
+        "question": "Quelle est la précision des transcriptions pour les citations ?",
+        "answer": "Notre IA offre une grande précision, surtout avec une bonne qualité audio. Vous obtenez une très bonne base de texte que vous pouvez rapidement vérifier et utiliser pour des citations exactes. Cela fait gagner énormément de temps par rapport à une frappe complète."
+      },
+      "security": {
+        "question": "Mes sources et interviews sont-elles en sécurité avec Diktat AI ?",
+        "answer": "Absolument. La protection de vos données et sources a la plus haute priorité. Nous travaillons strictement en conformité avec le RGPD et traitons toutes les données sur des serveurs sécurisés exclusivement dans l'UE."
+      }
+    },
+    "finalCta": {
+      "title": "Fini les marathons de frappe après l'interview",
+      "description": "Diktat AI est votre partenaire rapide et fiable pour la transcription en journalisme. Récupérez des heures, accélérez vos reportages et concentrez-vous sur ce que vous faites de mieux : raconter de grandes histoires.",
+      "start": "Commencer l'essai gratuit",
+      "pricing": "Voir les tarifs"
+    }
+  },
+  "sv": {
+    "hero": {
+      "title": "Diktat AI: Blixtsnabb transkribering för journalister och redaktörer",
+      "subtitle": "Förvandla intervjuer, presskonferenser och forskningsinspelningar på några minuter till precis, citerbar text. Fokusera på storyn, inte på skrivandet – och håll varje deadline.",
+      "cta": "Starta transkribering nu"
+    },
+    "journalistTools": {
+      "title": "Ert oumbärliga verktyg i redaktionen",
+      "intro": "Oavsett om det är för print, online, radio eller TV – upptäck hur journalister och redaktörer använder Diktat AI för att arbeta snabbare och mer effektivt:",
+      "interviews": {
+        "title": "Intervjuer och uttalanden",
+        "description": "Omvandla samtalsinspelningar blixtsnabbt till text – för precisa citat och snabba artikelutkast."
+      },
+      "pressConferences": {
+        "title": "Presskonferenser och evenemang",
+        "description": "Fånga alla viktiga uttalanden och detaljer som sökbar text, även under tidspress."
+      },
+      "research": {
+        "title": "Forskning och bakgrundssamtal",
+        "description": "Gör ljudanteckningar och telefonsamtalsinspelningar enkelt användbara och sökbara."
+      },
+      "podcast": {
+        "title": "Podcast och videoinnehåll",
+        "description": "Skapa enkelt transkriptioner för programnoteringar, undertexter eller för återanvändning som artiklar."
+      }
+    },
+    "process": {
+      "title": "Enkelt. Snabbt. Pålitligt.",
+      "intro": "Vår okomplicerade process levererar transkriptioner när du behöver dem – utan omvägar.",
+      "upload": {
+        "title": "Ladda upp inspelning",
+        "description": "Starta intervju, presskonferensinspelning etc. med ett klick."
+      },
+      "transcription": {
+        "title": "AI-transkribering",
+        "description": "Precis konvertering genom intelligent röstigenkänning."
+      },
+      "security": {
+        "title": "Säker behandling",
+        "description": "Strikt GDPR-kompatibel och krypterad på EU-servrar."
+      },
+      "ready": {
+        "title": "Omedelbart klar",
+        "description": "Formaterad text för nedladdning, kopiera och klistra in."
+      }
+    },
+    "advantages": {
+      "title": "Er tydliga fördel i forskning och produktion",
+      "intro": "Diktat AI löser en av de största tidstjuvarna inom journalistiken – så att du kan fokusera på det som räknas.",
+      "timeSaving": {
+        "title": "Massiv tidsvinst",
+        "description": "Timslång skrivning är ett minne blott. Vinn värdefull tid för forskning, skrivande och att hålla dina deadlines."
+      },
+      "fasterPublication": {
+        "title": "Snabbare publicering",
+        "description": "Gå snabbare från inspelning till färdig artikel. Bearbeta mer material på kortare tid och öka din produktion."
+      },
+      "preciseResults": {
+        "title": "Precisa och citerbara resultat",
+        "description": "Få exakta texttranskriptioner som pålitlig grund för dina artiklar, reportage och citat. Lätt sökbara och redigerbara."
+      },
+      "dataSecurity": {
+        "title": "Högsta datasäkerhet och källskydd",
+        "description": "Skydda dina konfidentiella intervjuer och källor. Vi garanterar GDPR-kompatibel behandling uteslutande inom EU."
+      }
+    },
+    "workflow": {
+      "title": "Diktat AI anpassar sig till ert redaktionella arbetsflöde",
+      "intro": "Vi vet att det måste gå snabbt. Använd Diktat AI flexibelt, på det sätt som bäst passar ert arbetssätt.",
+      "email": {
+        "title": "Transkribera via e-post",
+        "description": "Snabbaste vägen till text: skicka din ljudfil direkt som e-postbilaga. Diktat AI levererar transkriptionen omedelbart. Idealiskt när du är på språng eller för snabb hjälp.",
+        "link": "Se hur det fungerar →"
+      },
+      "api": {
+        "title": "Sömlös integration (via API)",
+        "description": "Integrera Diktat AI direkt i era redaktionssystem eller verktyg. Automatisera transkriptionsprocessen för maximal effektivitet.",
+        "link": "Begär skräddarsydd lösning"
+      },
+      "speed": {
+        "title": "Hastighet",
+        "description": "Få transkriptioner ofta snabbare än du själv skulle kunna skriva."
+      },
+      "flexibility": {
+        "title": "Flexibilitet",
+        "description": "Använd Diktat AI från skrivbordet eller mobilt via e-post."
+      },
+      "efficiency": {
+        "title": "Effektivitet",
+        "description": "Minska manuella steg och påskynda hela produktionsprocessen."
+      }
+    },
+    "faq": {
+      "title": "Vanliga frågor om Diktat AI för journalister",
+      "whatIs": {
+        "question": "Vad gör Diktat AI exakt för journalister?",
+        "answer": "Diktat AI konverterar dina ljudinspelningar – intervjuer, presskonferenser, telefoninspelningar (med samtycke!), forskningssamtal – automatiskt till skriven text. Du laddar upp filen, vår AI levererar transkriptionen."
+      },
+      "suitable": {
+        "question": "Är Diktat AI lämplig för min redaktion?",
+        "answer": "Ja, Diktat AI är perfekt för enskilda journalister, frilansare, redaktionsteam och hela mediehus som regelbundet behöver transkribera ljudinnehåll och vill spara värdefull tid."
+      },
+      "accuracy": {
+        "question": "Hur noggranna är transkriptionerna för citat?",
+        "answer": "Vår AI erbjuder hög noggrannhet, särskilt med tydlig ljudkvalitet. Du får en mycket bra textbas som du snabbt kan granska och använda för exakta citat. Detta sparar enormt mycket tid jämfört med fullständig avskrivning."
+      },
+      "security": {
+        "question": "Är mina källor och intervjuer säkra med Diktat AI?",
+        "answer": "Absolut. Skyddet av dina data och källor har högsta prioritet. Vi arbetar strikt GDPR-kompatibelt och behandlar all data på säkra servrar uteslutande inom EU."
+      }
+    },
+    "finalCta": {
+      "title": "Slut på skrivmaraton efter intervjun",
+      "description": "Diktat AI är din snabba och pålitliga partner för transkribering inom journalistiken. Vinn tillbaka timmar, påskynda din rapportering och fokusera på det du gör bäst: berätta fantastiska historier.",
+      "start": "Börja gratis provperiod",
+      "pricing": "Se priser"
+    }
+  }
 }
 </i18n>
 

@@ -61,6 +61,15 @@ const { t } = useI18n()
   },
   "nl": {
     "name": "DiktatAI"
+  },
+  "es": {
+    "name": "DiktatAI"
+  },
+  "fr": {
+    "name": "DiktatAI"
+  },
+  "sv": {
+    "name": "DiktatAI"
   }
 }
 </i18n>

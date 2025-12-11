@@ -457,6 +457,90 @@ useHead(() => ({
       "paragraph": "¿Tiene más preguntas sobre cómo Diktat AI puede ayudarle a trabajar de manera eficiente y conforme? ¿Le gustaría discutir cómo Diktat AI puede integrarse de forma perfecta y segura en sus procesos? Nuestro equipo estará encantado de ayudarle.",
       "button": "Contactar ahora y comenzar de forma segura"
     }
+  },
+  "fr": {
+    "seo": {
+      "description": "AI Act de l'UE expliqué simplement : Pourquoi Diktat AI est un choix sûr et conforme pour les transcriptions."
+    },
+    "hero": {
+      "title": "AI Act de l'UE : Pourquoi Diktat AI est votre choix sûr et conforme pour les transcriptions",
+      "subtitle": "Le nouvel AI Act de l'UE établit un cadre important pour l'utilisation de l'intelligence artificielle. Pour les entreprises et les utilisateurs professionnels, cela soulève des questions : Comment m'assurer que les outils d'IA que j'utilise sont conformes ? Comment protéger mes données ? Diktat AI offre clarté et sécurité. Découvrez pourquoi notre service de transcription n'est pas seulement efficace mais aussi un choix responsable conforme aux nouvelles réglementations."
+    },
+    "introduction": {
+      "paragraph": "L'AI Act de l'UE suit une approche basée sur le risque. Il interdit certaines applications d'IA \"inacceptables\" (comme le scoring social) et impose des exigences élevées aux \"systèmes à haut risque\" dans les domaines sensibles (par exemple, ressources humaines, infrastructures critiques)."
+    },
+    "context": {
+      "title": "Conçu pour l'efficacité, construit avec responsabilité : Diktat AI et l'AI Act",
+      "paragraph": "Voici où Diktat AI marque des points pour vous :",
+      "points": {
+        "point1": "Focus sur le faible risque : Diktat AI se spécialise dans la conversion de la parole en texte. Il ne prend pas de décisions autonomes avec des conséquences importantes pour les individus et ne relève donc clairement pas des catégories de systèmes d'IA interdits ou à haut risque selon l'AI Act. Vous utilisez un outil pour augmenter votre productivité, pas une IA pour des évaluations ou décisions critiques.",
+        "point2": "Transparence et clarté : Avec Diktat AI, il est évident que vous utilisez l'IA pour soutenir votre travail. Cela s'aligne avec le principe de transparence de l'AI Act pour les systèmes à risque limité.",
+        "point3": "Protection des données comme fondement (RGPD et AI Act) : Bien avant l'adoption de l'AI Act, il était clair pour nous : la protection de vos données est notre priorité absolue. Notre stricte conformité au RGPD – avec un traitement sécurisé, le cryptage et des directives claires – s'aligne parfaitement avec les exigences élevées de protection des données et de sécurité que l'AI Act souligne également.",
+        "point4": "Aucune pratique interdite : Diktat AI n'utilise pas de techniques subliminales, n'effectue pas de catégorisation biométrique de caractéristiques sensibles et ne crée pas de reconnaissance des émotions sur le lieu de travail. Nous nous concentrons exclusivement sur une transcription précise et utile."
+      }
+    },
+    "benefits": {
+      "title": "Gagner en efficacité, maintenir la tranquillité d'esprit",
+      "paragraph": "L'introduction de l'AI Act ne signifie pas que vous devez renoncer aux avantages des outils intelligents. Au contraire : Avec Diktat AI, vous choisissez un partenaire qui prend la conformité au sérieux. Cela vous permet de continuer à vous concentrer sur l'essentiel :",
+      "points": {
+        "point1": "Gain de temps massif : Transformez des heures de frappe en minutes – en toute sécurité et conformité.",
+        "point2": "Productivité accrue : Accélérez vos flux de travail, des comptes-rendus de réunion à la création de contenu, sans préoccupations réglementaires.",
+        "point3": "Résultats précis et utilisables : Obtenez des transcriptions précises sur lesquelles vous pouvez travailler en toute confiance.",
+        "point4": "Sécurité des données maximale : Comptez sur nos processus éprouvés conformes au RGPD qui s'alignent avec l'AI Act.",
+        "point5": "Focus sur vos compétences clés : Laissez-nous la transcription – nous nous occupons de la technologie et du respect des règles."
+      }
+    },
+    "trust": {
+      "title": "Votre partenaire de confiance à l'ère de l'IA",
+      "paragraph": "Le monde de l'IA et ses réglementations évoluent constamment. En tant que fournisseur de Diktat AI, il est de notre responsabilité de suivre ces développements et de garantir que notre service n'est pas seulement puissant mais aussi responsable et conforme aux exigences légales telles que l'AI Act de l'UE. Nous gérons la complexité technologique et réglementaire en arrière-plan afin que vous puissiez travailler simplement et en toute sécurité."
+    },
+    "cta": {
+      "title": "Prêt pour une transcription sans souci conforme à l'AI Act de l'UE ?",
+      "paragraph": "Avez-vous d'autres questions sur la façon dont Diktat AI peut vous aider à travailler efficacement et en conformité ? Souhaitez-vous discuter de la manière dont Diktat AI peut être intégré de manière transparente et sécurisée dans vos processus ? Notre équipe est à votre disposition.",
+      "button": "Contactez-nous maintenant et démarrez en toute sécurité"
+    }
+  },
+  "sv": {
+    "seo": {
+      "description": "EU:s AI-lag förklarad enkelt: Varför Diktat AI är ett säkert, kompatibelt val för transkriptioner."
+    },
+    "hero": {
+      "title": "EU:s AI-lag: Varför Diktat AI är ditt säkra och kompatibla val för transkriptioner",
+      "subtitle": "Den nya EU:s AI-lag sätter en viktig ram för användningen av artificiell intelligens. För företag och professionella användare väcker detta frågor: Hur säkerställer jag att de AI-verktyg jag använder är kompatibla? Hur skyddar jag mina data? Diktat AI erbjuder klarhet och säkerhet. Lär dig varför vår transkriptionstjänst inte bara är effektiv utan också ett ansvarsfullt val i linje med de nya reglerna."
+    },
+    "introduction": {
+      "paragraph": "EU:s AI-lag följer en riskbaserad strategi. Den förbjuder vissa \"oacceptabla\" AI-tillämpningar (som social poängsättning) och ställer höga krav på \"högrisk-system\" inom känsliga områden (t.ex. personalresurser, kritisk infrastruktur)."
+    },
+    "context": {
+      "title": "Designad för effektivitet, byggd med ansvar: Diktat AI och AI-lagen",
+      "paragraph": "Här är där Diktat AI ger dig poäng:",
+      "points": {
+        "point1": "Fokus på låg risk: Diktat AI specialiserar sig på att konvertera talat språk till text. Den fattar inte autonoma beslut med långtgående konsekvenser för individer och faller därför tydligt inte under kategorierna förbjudna eller högrisk AI-system enligt AI-lagen. Du använder ett verktyg för att öka din produktivitet, inte AI för kritiska utvärderingar eller beslut.",
+        "point2": "Transparens och klarhet: Med Diktat AI är det uppenbart att du använder AI för att stödja ditt arbete. Detta överensstämmer med AI-lagens transparensprincip för system med begränsad risk.",
+        "point3": "Dataskydd som grund (GDPR och AI-lagen): Långt innan AI-lagen antogs var det klart för oss: Skyddet av dina data är vår högsta prioritet. Vår strikta efterlevnad av GDPR – med säker behandling, kryptering och tydliga riktlinjer – överensstämmer sömlöst med de höga dataskydds- och säkerhetskraven som AI-lagen också betonar.",
+        "point4": "Inga förbjudna metoder: Diktat AI använder inte subliminala tekniker, utför inte biometrisk kategorisering av känsliga egenskaper och skapar inte känslor igenkänning på arbetsplatsen. Vi fokuserar uteslutande på exakt och användbar transkribering."
+      }
+    },
+    "benefits": {
+      "title": "Vinn effektivitet, behåll sinnesro",
+      "paragraph": "Införandet av AI-lagen betyder inte att du måste avstå från fördelarna med intelligenta verktyg. Tvärtom: Med Diktat AI väljer du en partner som tar efterlevnad på allvar. Detta gör att du kan fortsätta fokusera på det som spelar roll:",
+      "points": {
+        "point1": "Massiv tidsbesparing: Förvandla timmar av skrivarbete till minuter – säkert och kompatibelt.",
+        "point2": "Ökad produktivitet: Påskynda dina arbetsflöden, från mötesprotokoll till innehållsskapande, utan regulatoriska bekymmer.",
+        "point3": "Exakta och användbara resultat: Få korrekta transkriptioner som du kan arbeta med med förtroende.",
+        "point4": "Högsta datasäkerhet: Förlita dig på våra beprövade GDPR-kompatibla processer som överensstämmer med AI-lagen.",
+        "point5": "Fokusera på dina kärnkompetenser: Lämna transkriberingen till oss – vi tar hand om tekniken och efterlevnaden av reglerna."
+      }
+    },
+    "trust": {
+      "title": "Din pålitliga partner i AI-eran",
+      "paragraph": "AI-världen och dess regleringar utvecklas ständigt. Som leverantör av Diktat AI är det vårt ansvar att följa dessa utvecklingar och säkerställa att vår tjänst inte bara är kraftfull utan också ansvarsfull och i linje med lagkrav som EU:s AI-lag. Vi hanterar den teknologiska och regulatoriska komplexiteten i bakgrunden så att du kan arbeta enkelt och säkert."
+    },
+    "cta": {
+      "title": "Redo för problemfri transkribering i linje med EU:s AI-lag?",
+      "paragraph": "Har du fler frågor om hur Diktat AI kan hjälpa dig att arbeta effektivt och kompatibelt? Vill du diskutera hur Diktat AI kan integreras sömlöst och säkert i dina processer? Vårt team finns här för att hjälpa dig.",
+      "button": "Kontakta oss nu och starta säkert"
+    }
   }
 }
 </i18n>

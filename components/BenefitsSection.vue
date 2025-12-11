@@ -224,6 +224,58 @@ const { t } = useI18n()
         "description": "Reduzca las tareas rutinarias molestas al mínimo. Concentre su energía y atención en decisiones estratégicas, trabajo creativo o análisis de contenido en lugar de escribir."
       }
     }
+  },
+  "fr": {
+    "title": "Votre avantage clair avec Diktat AI",
+    "description": "Diktat AI apporte une valeur ajoutée mesurable à votre quotidien professionnel – grâce à une automatisation intelligente et des processus optimisés de conversion de la parole en texte.",
+    "benefits": {
+      "timeSaving": {
+        "title": "Gain de temps massif",
+        "description": "Dites adieu à la frappe fastidieuse. Récupérez des heures pour vos tâches importantes, projets et compétences clés."
+      },
+      "productivity": {
+        "title": "Productivité accrue",
+        "description": "Faites plus en moins de temps. Convertissez le contenu parlé en texte en un éclair et accélérez sensiblement vos flux de travail – des comptes-rendus de réunions à la création de contenu."
+      },
+      "precision": {
+        "title": "Résultats précis et exploitables",
+        "description": "Obtenez des transcriptions textuelles exactes de vos enregistrements audio que vous pouvez immédiatement réutiliser, rechercher, modifier ou archiver."
+      },
+      "security": {
+        "title": "Sécurité et conformité maximales",
+        "description": "Comptez sur la plus stricte confidentialité et un traitement conforme au RGPD. Vos informations sensibles et enregistrements sont toujours sécurisés et protégés chez nous."
+      },
+      "focus": {
+        "title": "Concentrez-vous sur l'essentiel",
+        "description": "Réduisez les tâches routinières ennuyeuses au minimum. Concentrez votre énergie et attention sur les décisions stratégiques, le travail créatif ou l'analyse de contenu plutôt que sur la frappe."
+      }
+    }
+  },
+  "sv": {
+    "title": "Din tydliga fördel med Diktat AI",
+    "description": "Diktat AI tillför mätbart värde till din arbetsvardag – genom smart automatisering och optimerade processer vid omvandling av tal till text.",
+    "benefits": {
+      "timeSaving": {
+        "title": "Massiv tidsbesparing",
+        "description": "Säg adjö till tråkigt skrivande. Vinn tillbaka timmar för dina viktiga uppgifter, projekt och kärnkompetenser."
+      },
+      "productivity": {
+        "title": "Ökad produktivitet",
+        "description": "Gör mer på kortare tid. Omvandla talat innehåll till text blixtsnabbt och påskynda dina arbetsflöden märkbart – från mötesprotokoll till innehållsskapande."
+      },
+      "precision": {
+        "title": "Exakta och användbara resultat",
+        "description": "Få korrekta texttranskriptioner av dina ljudinspelningar som du omedelbart kan återanvända, söka i, redigera eller arkivera."
+      },
+      "security": {
+        "title": "Högsta datasäkerhet och efterlevnad",
+        "description": "Lita på strängaste sekretess och GDPR-kompatibel behandling. Din känsliga information och inspelningar är alltid säkra och skyddade hos oss."
+      },
+      "focus": {
+        "title": "Fokusera på det väsentliga",
+        "description": "Minska irriterande rutinuppgifter till ett minimum. Koncentrera din energi och uppmärksamhet på strategiska beslut, kreativt arbete eller innehållsanalys istället för att skriva."
+      }
+    }
   }
 }
 </i18n>

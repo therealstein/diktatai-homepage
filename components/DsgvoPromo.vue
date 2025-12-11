@@ -84,6 +84,16 @@ const { t } = useI18n()
     "title": "Almacenamiento de datos conforme al RGPD",
     "description": "Sus datos se cifran según los más altos estándares de seguridad y se almacenan de conformidad con el RGPD. Garantizamos la máxima protección de datos para sus grabaciones de voz.",
     "moreAboutPrivacy": "Más sobre privacidad"
+  },
+  "fr": {
+    "title": "Stockage des données conforme au RGPD",
+    "description": "Vos données sont chiffrées selon les normes de sécurité les plus élevées et stockées en conformité avec le RGPD. Nous garantissons une protection maximale des données pour vos enregistrements vocaux.",
+    "moreAboutPrivacy": "En savoir plus sur la confidentialité"
+  },
+  "sv": {
+    "title": "GDPR-kompatibel datalagring",
+    "description": "Dina data krypteras enligt de högsta säkerhetsstandarderna och lagras i enlighet med GDPR. Vi garanterar maximalt dataskydd för dina röstinspelningar.",
+    "moreAboutPrivacy": "Mer om integritet"
   }
 }
 </i18n>

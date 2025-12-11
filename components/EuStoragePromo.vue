@@ -84,6 +84,16 @@ const { t } = useI18n()
     "title": "Almacenamiento y procesamiento de datos en la UE",
     "description": "Todos sus datos se procesan y almacenan exclusivamente en servidores dentro de la Unión Europea. Confiamos en la infraestructura local para la máxima seguridad de datos.",
     "moreAboutSecurity": "Más sobre seguridad"
+  },
+  "fr": {
+    "title": "Stockage et traitement des données dans l'UE",
+    "description": "Toutes vos données sont traitées et stockées exclusivement sur des serveurs situés dans l'Union européenne. Nous misons sur une infrastructure locale pour une sécurité maximale des données.",
+    "moreAboutSecurity": "En savoir plus sur la sécurité"
+  },
+  "sv": {
+    "title": "Datalagring och databehandling i EU",
+    "description": "All din data bearbetas och lagras uteslutande på servrar inom Europeiska unionen. Vi förlitar oss på lokal infrastruktur för maximal datasäkerhet.",
+    "moreAboutSecurity": "Mer om säkerhet"
   }
 }
 </i18n>

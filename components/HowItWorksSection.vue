@@ -95,6 +95,30 @@ const { t } = useI18n()
     "secureProcessingDescription": "Sus datos se procesan de forma segura en servidores de la UE, totalmente conforme con el RGPD.",
     "readyToUse": "4. Listo para usar",
     "readyToUseDescription": "Descargue su transcripción o cópiela directamente al portapapeles. Su texto está listo para uso inmediato."
+  },
+  "fr": {
+    "title": "Comment fonctionne Diktat AI",
+    "description": "Notre processus est simple, rapide et sécurisé. Voici comment ça marche :",
+    "upload": "1. Télécharger l'enregistrement",
+    "uploadDescription": "Faites glisser-déposer votre fichier audio ou sélectionnez-le depuis votre appareil. Nous supportons tous les formats audio courants.",
+    "transcription": "2. Transcription IA",
+    "transcriptionDescription": "Notre IA avancée traite votre enregistrement avec une grande précision, convertissant la parole en texte en quelques minutes.",
+    "secureProcessing": "3. Traitement sécurisé",
+    "secureProcessingDescription": "Vos données sont traitées en toute sécurité sur des serveurs européens, en totale conformité avec le RGPD.",
+    "readyToUse": "4. Prêt à utiliser",
+    "readyToUseDescription": "Téléchargez votre transcription ou copiez-la directement dans le presse-papiers. Votre texte est prêt à l'emploi."
+  },
+  "sv": {
+    "title": "Så fungerar Diktat AI",
+    "description": "Vår process är enkel, snabb och säker. Så här fungerar det:",
+    "upload": "1. Ladda upp inspelning",
+    "uploadDescription": "Dra och släpp din ljudfil eller välj den från din enhet. Vi stöder alla vanliga ljudformat.",
+    "transcription": "2. AI-transkription",
+    "transcriptionDescription": "Vår avancerade AI bearbetar din inspelning med hög precision och omvandlar tal till text på några minuter.",
+    "secureProcessing": "3. Säker bearbetning",
+    "secureProcessingDescription": "Dina data bearbetas säkert på EU-servrar, helt i enlighet med GDPR.",
+    "readyToUse": "4. Redo att använda",
+    "readyToUseDescription": "Ladda ner din transkription eller kopiera den direkt till urklipp. Din text är redo för omedelbar användning."
   }
 }
 </i18n>

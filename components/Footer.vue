@@ -130,6 +130,8 @@
               <img v-else-if="locale === 'en'" src="/GB.svg" alt="British Flag" class="w-4 h-4" />
               <img v-else-if="locale === 'nl'" src="/NL.svg" alt="Dutch Flag" class="w-4 h-4" />
               <img v-else-if="locale === 'es'" src="/ES.svg" alt="Spanish Flag" class="w-4 h-4" />
+              <img v-else-if="locale === 'fr'" src="/FR.svg" alt="French Flag" class="w-4 h-4" />
+              <img v-else-if="locale === 'sv'" src="/SE.svg" alt="Swedish Flag" class="w-4 h-4" />
               <span class="text-sm text-gray-500">{{ getCurrentLocaleName }}</span>
             </div>
             <a
@@ -143,6 +145,8 @@
               <img v-else-if="l.code === 'en'" src="/GB.svg" alt="British Flag" class="w-4 h-4" />
               <img v-else-if="l.code === 'nl'" src="/NL.svg" alt="Dutch Flag" class="w-4 h-4" />
               <img v-else-if="l.code === 'es'" src="/ES.svg" alt="Spanish Flag" class="w-4 h-4" />
+              <img v-else-if="l.code === 'fr'" src="/FR.svg" alt="French Flag" class="w-4 h-4" />
+              <img v-else-if="l.code === 'sv'" src="/SE.svg" alt="Swedish Flag" class="w-4 h-4" />
               {{ l.name }}
             </a>
           </div>
@@ -274,6 +278,60 @@ const getCurrentLocaleName = computed(() => {
     "standWithUkraine": "Stand with Ukraine",
     "copyright": "© {year} DiktatAI",
     "language": "Idioma"
+  },
+  "fr": {
+    "title": "Diktat AI",
+    "help": "Aide",
+    "description": "Transformez rapidement et facilement vos dictées en lettres.",
+    "professions": "Professions",
+    "consultants": "Consultants et coachs",
+    "contentCreators": "Créateurs de contenu",
+    "lawyers": "Avocats et juristes",
+    "journalists": "Journalistes et rédacteurs",
+    "students": "Étudiants et universitaires",
+    "businessLeaders": "Dirigeants et cadres",
+    "legal": "Mentions légales",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "aiSecurity": "IA - Sécurité des données",
+    "imprint": "Mentions légales",
+    "company": "Entreprise",
+    "pricing": "Tarifs",
+    "about": "À propos",
+    "contact": "Contact",
+    "compliance": "Conformité et support",
+    "gdpr": "RGPD",
+    "aiDataProcessing": "Traitement des données par IA",
+    "standWithUkraine": "Stand with Ukraine",
+    "copyright": "© {year} DiktatAI",
+    "language": "Langue"
+  },
+  "sv": {
+    "title": "Diktat AI",
+    "help": "Hjälp",
+    "description": "Omvandla diktat till brev snabbt och enkelt.",
+    "professions": "Yrkesgrupper",
+    "consultants": "Konsulter och coacher",
+    "contentCreators": "Innehållsskapare",
+    "lawyers": "Jurister och advokater",
+    "journalists": "Journalister och redaktörer",
+    "students": "Studenter och akademiker",
+    "businessLeaders": "Företagsledare och chefer",
+    "legal": "Juridiskt",
+    "terms": "Villkor",
+    "privacy": "Integritet",
+    "aiSecurity": "AI - Datasäkerhet",
+    "imprint": "Impressum",
+    "company": "Företag",
+    "pricing": "Priser",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "compliance": "Efterlevnad och support",
+    "gdpr": "GDPR",
+    "aiDataProcessing": "AI-databehandling",
+    "standWithUkraine": "Stand with Ukraine",
+    "copyright": "© {year} DiktatAI",
+    "language": "Språk"
   }
 }
 </i18n>

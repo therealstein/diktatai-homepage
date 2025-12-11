@@ -837,6 +837,172 @@ useHead(() => ({
       "paragraph": "Descubra cómo Diktat AI puede ayudarle a ahorrar tiempo valioso y aumentar la eficiencia. Contáctenos para una consulta sin compromiso o conozca más sobre nuestras soluciones para el sector público.",
       "button": "Contactar ahora"
     }
+  },
+  "fr": {
+    "seo": {
+      "description": "Comment Diktat AI accélère la documentation dans le secteur public – efficace, sécurisé, conforme au RGPD."
+    },
+    "hero": {
+      "title": "Plus de temps pour les citoyens : Comment Diktat AI révolutionne la documentation dans les administrations publiques",
+      "subtitle": "Le secteur public fait face à des défis uniques : Les exigences croissantes de transparence et de documentation rencontrent des ressources limitées et une pression constante pour travailler plus efficacement. Diktat AI est votre solution intelligente pour des transcriptions rapides, précises et sécurisées dans les environnements gouvernementaux."
+    },
+    "introduction": {
+      "paragraph": "La création de procès-verbaux de réunions, la transcription de dictées pour les décisions et les rapports, ou la documentation des consultations citoyennes consomme un temps de travail précieux qui est urgemment nécessaire ailleurs. La transcription manuelle d'enregistrements audio n'est pas seulement chronophage, mais aussi sujette aux erreurs. C'est là qu'intervient Diktat AI – votre solution intelligente pour des processus administratifs efficaces."
+    },
+    "timeSection": {
+      "title": "Gain de temps massif pour les tâches principales",
+      "paragraph": "Imaginez combien de temps vos employés consacrent quotidiennement à transcrire des dictées ou à créer des procès-verbaux de réunions. Diktat AI réduit drastiquement cet effort :",
+      "points": {
+        "point1": "Création rapide de procès-verbaux : Convertissez les enregistrements de réunions du conseil municipal, de réunions de comités, de discussions internes ou d'audiences en texte en quelques minutes. Le temps gagné peut être directement consacré au suivi du contenu ou à d'autres tâches importantes.",
+        "point2": "Correspondance efficace : Dictez des décisions, des notes de service, des rapports ou des e-mails et laissez Diktat AI gérer la conversion en texte écrit. Idéal pour les gestionnaires, les employés et les professionnels du droit dans l'administration.",
+        "point3": "Soulagement pour le personnel de saisie : Automatisez une grande partie du travail de transcription et permettez à votre personnel de saisie de se concentrer sur des tâches administratives plus complexes."
+      }
+    },
+    "precisionSection": {
+      "title": "Précision et traçabilité dans la documentation",
+      "paragraph": "Une documentation précise est essentielle, surtout dans le secteur public. Diktat AI fournit une base textuelle hautement précise :",
+      "points": {
+        "point1": "Minimisation des erreurs de transmission : Notre IA est formée pour reconnaître la parole avec précision, réduisant les erreurs qui peuvent se produire avec la saisie manuelle.",
+        "point2": "Capacité de recherche améliorée : Les textes transcrits sont consultables numériquement. Trouvez des informations spécifiques dans les procès-verbaux ou les dictées en quelques secondes, sans avoir à écouter de longs enregistrements audio.",
+        "point3": "Qualité constante : L'IA fournit des résultats constamment bons, indépendamment de la forme quotidienne ou de la fatigue qui peuvent jouer un rôle dans la transcription manuelle."
+      }
+    },
+    "securitySection": {
+      "title": "Sécurité des données maximale et conformité RGPD",
+      "paragraph": "Le traitement de données sensibles de citoyens et d'administration nécessite les normes de sécurité les plus élevées. Diktat AI est conscient de cette responsabilité :",
+      "points": {
+        "point1": "Conformité stricte au RGPD : Nous traitons vos données strictement selon les dispositions du Règlement Général sur la Protection des Données européen. La confidentialité et la sécurité sont les principales priorités.",
+        "point2": "Traitement sécurisé : Vos enregistrements audio et les textes résultants sont cryptés et traités exclusivement sur des serveurs sécurisés au sein de l'UE.",
+        "point3": "Aucun compromis sur la confidentialité : Vous conservez le contrôle total sur vos données. Diktat AI est un outil qui vous sert sans utiliser vos données à d'autres fins."
+      }
+    },
+    "integrationSection": {
+      "title": "Intégration facile dans les flux de travail existants",
+      "paragraph": "L'introduction de nouveaux outils ne devrait pas être un obstacle. Diktat AI est délibérément simple :",
+      "points": {
+        "point1": "Opération intuitive : Téléchargez simplement des fichiers audio via notre plateforme ou utilisez la fonction e-mail pratique. Aucune installation de logiciel compliquée ou formation longue nécessaire.",
+        "point2": "Utilisation flexible : Que ce soit des fichiers enregistrés sur un ordinateur de travail ou un appareil de dictée mobile – Diktat AI s'adapte à vos besoins.",
+        "point3": "Résultats rapides : Recevez vos transcriptions rapidement et intégrez-les directement dans vos systèmes habituels de traitement de texte ou de gestion documentaire."
+      }
+    },
+    "examplesSection": {
+      "title": "Exemples d'application concrets dans les administrations publiques",
+      "paragraph": "Diktat AI peut être utilisé de manière bénéfique dans de nombreux domaines de l'administration publique :",
+      "examples": {
+        "example1": {
+          "title": "Comités et réunions",
+          "description": "Créez rapidement et précisément des procès-verbaux de conseils municipaux, de conseils généraux, de comités ou de réunions d'équipes internes."
+        },
+        "example2": {
+          "title": "Départements juridiques",
+          "description": "Convertissez efficacement les dictées de mémoires, de notes de service et d'expertises en texte."
+        },
+        "example3": {
+          "title": "Services sociaux et de la jeunesse",
+          "description": "Documentation de consultations ou de visites à domicile en conformité avec les exigences de protection des données."
+        },
+        "example4": {
+          "title": "Services d'urbanisme et de planification",
+          "description": "Rendez rapidement disponibles les transcriptions de rendez-vous sur site, d'audiences ou de réunions de planification."
+        },
+        "example5": {
+          "title": "Administration interne",
+          "description": "Création de circulaires, de rapports ou de matériel de formation à partir de modèles dictés sans travail de frappe prolongé."
+        }
+      }
+    },
+    "conclusion": {
+      "title": "Le pas vers une administration moderne",
+      "paragraph": "Diktat AI est plus qu'un simple service de transcription. C'est un outil pour moderniser vos processus administratifs. En automatisant les tâches routinières comme la frappe, vous créez de l'espace pour vos employés, augmentez la qualité de votre documentation et garantissez en même temps la sécurité maximale des données selon le RGPD. Faites le pas vers une administration plus efficace et moderne."
+    },
+    "cta": {
+      "title": "Prêt pour des processus de documentation optimisés ?",
+      "paragraph": "Découvrez comment Diktat AI peut vous aider à économiser un temps précieux et à augmenter l'efficacité. Contactez-nous pour une consultation sans engagement ou apprenez-en plus sur nos solutions pour le secteur public.",
+      "button": "Contactez-nous maintenant"
+    }
+  },
+  "sv": {
+    "seo": {
+      "description": "Hur Diktat AI snabbar upp dokumentation i den offentliga sektorn – effektivt, säkert, GDPR-kompatibelt."
+    },
+    "hero": {
+      "title": "Mer tid för medborgare: Hur Diktat AI revolutionerar dokumentation i offentliga myndigheter",
+      "subtitle": "Den offentliga sektorn står inför unika utmaningar: Ökande krav på transparens och dokumentation möter begränsade resurser och konstant press att arbeta mer effektivt. Diktat AI är din intelligenta lösning för snabba, precisa och säkra transkriptioner i myndighetsmiljöer."
+    },
+    "introduction": {
+      "paragraph": "Att skapa protokoll för möten, transkribera diktat för beslut och rapporter, eller dokumentera medborgarsamråd tar värdefull arbetstid som verkligen behövs någon annanstans. Manuell transkribering av ljudinspelningar är inte bara tidskrävande utan också felbenägen. Det är här Diktat AI kommer in – din smarta lösning för effektiva administrativa processer."
+    },
+    "timeSection": {
+      "title": "Massiv tidsbesparing för kärnuppgifter",
+      "paragraph": "Föreställ dig hur mycket tid din personal dagligen lägger på att transkribera diktat eller skapa mötesprotokoll. Diktat AI minskar drastiskt denna ansträngning:",
+      "points": {
+        "point1": "Snabb protokollskapande: Konvertera inspelningar från kommunfullmäktigemöten, kommittémöten, interna diskussioner eller utfrågningar till text på några minuter. Den sparade tiden kan direkt användas till innehållsuppföljning eller andra viktiga uppgifter.",
+        "point2": "Effektiv korrespondens: Diktera beslut, PM, rapporter eller e-postmeddelanden och låt Diktat AI hantera konverteringen till skriven text. Idealiskt för chefer, tjänstemän och jurister i förvaltningen.",
+        "point3": "Avlastning för skrivpersonal: Automatisera en stor del av transkriptionsarbetet och låt din skrivpersonal fokusera på mer komplexa administrativa uppgifter."
+      }
+    },
+    "precisionSection": {
+      "title": "Precision och spårbarhet i dokumentation",
+      "paragraph": "Noggrann dokumentation är väsentlig, särskilt i den offentliga sektorn. Diktat AI tillhandahåller en mycket precis textgrund:",
+      "points": {
+        "point1": "Minimering av överföringsfel: Vår AI är tränad för att känna igen tal exakt, vilket minskar fel som kan uppstå vid manuell skrivning.",
+        "point2": "Förbättrad sökbarhet: Transkriberade texter är digitalt sökbara. Hitta specifik information i protokoll eller diktat på några sekunder, utan att behöva lyssna igenom långa ljudinspelningar.",
+        "point3": "Konsekvent kvalitet: AI:n levererar konsekvent goda resultat, oberoende av dagsform eller trötthet som kan spela roll vid manuell transkribering."
+      }
+    },
+    "securitySection": {
+      "title": "Högsta datasäkerhet och GDPR-efterlevnad",
+      "paragraph": "Hantering av känsliga medborgare- och förvaltningsdata kräver högsta säkerhetsstandarder. Diktat AI är medveten om detta ansvar:",
+      "points": {
+        "point1": "Strikt GDPR-efterlevnad: Vi behandlar dina data strikt enligt bestämmelserna i den europeiska allmänna dataskyddsförordningen. Konfidentialitet och säkerhet är högsta prioritet.",
+        "point2": "Säker behandling: Dina ljudinspelningar och de resulterande texterna krypteras och behandlas uteslutande på säkra servrar inom EU.",
+        "point3": "Inga kompromisser om konfidentialitet: Du behåller full kontroll över dina data. Diktat AI är ett verktyg som tjänar dig utan att använda dina data för andra ändamål."
+      }
+    },
+    "integrationSection": {
+      "title": "Enkel integration i befintliga arbetsflöden",
+      "paragraph": "Att introducera nya verktyg ska inte vara ett hinder. Diktat AI är medvetet enkelt:",
+      "points": {
+        "point1": "Intuitiv användning: Ladda enkelt upp ljudfiler via vår plattform eller använd den praktiska e-postfunktionen. Ingen komplicerad programvaruinstallation eller långvarig utbildning nödvändig.",
+        "point2": "Flexibel användning: Oavsett om det är filer inspelade på en arbetsdator eller mobil dikteringsenhet – Diktat AI anpassar sig till dina behov.",
+        "point3": "Snabba resultat: Ta emot dina transkriptioner snabbt och integrera dem direkt i dina vanliga ordbehandlings- eller dokumenthanteringssystem."
+      }
+    },
+    "examplesSection": {
+      "title": "Konkreta tillämpningsexempel i offentliga myndigheter",
+      "paragraph": "Diktat AI kan användas fördelaktigt inom många områden av offentlig förvaltning:",
+      "examples": {
+        "example1": {
+          "title": "Kommittéer och möten",
+          "description": "Skapa snabbt och noggrant protokoll från stadsfullmäktigemöten, landstingsmöten, kommittémöten eller interna teammöten."
+        },
+        "example2": {
+          "title": "Juridiska avdelningar",
+          "description": "Konvertera effektivt diktat för inlagor, PM och expertutlåtanden till text."
+        },
+        "example3": {
+          "title": "Social- och ungdomskontor",
+          "description": "Dokumentation av konsultationer eller hembesök i enlighet med dataskyddskrav."
+        },
+        "example4": {
+          "title": "Bygg- och planeringskontor",
+          "description": "Gör snabbt tillgängliga transkriptioner av platsbesök, utfrågningar eller planeringsmöten."
+        },
+        "example5": {
+          "title": "Intern förvaltning",
+          "description": "Skapande av cirkulär, rapporter eller utbildningsmaterial från dikterade mallar utan långvarigt skrivarbete."
+        }
+      }
+    },
+    "conclusion": {
+      "title": "Steget mot modern förvaltning",
+      "paragraph": "Diktat AI är mer än bara en transkriberingstjänst. Det är ett verktyg för att modernisera dina administrativa processer. Genom att automatisera rutinuppgifter som skrivning skapar du utrymme för dina anställda, ökar kvaliteten på din dokumentation och säkerställer samtidigt högsta datasäkerhet enligt GDPR. Ta steget mot en mer effektiv och modern förvaltning."
+    },
+    "cta": {
+      "title": "Redo för optimerade dokumentationsprocesser?",
+      "paragraph": "Upptäck hur Diktat AI kan hjälpa dig att spara värdefull tid och öka effektiviteten. Kontakta oss för en icke-bindande konsultation eller lär dig mer om våra lösningar för den offentliga sektorn.",
+      "button": "Kontakta oss nu"
+    }
   }
 }
 </i18n>
