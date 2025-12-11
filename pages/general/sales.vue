@@ -364,9 +364,13 @@ const { t } = useI18n({
   useScope: "local",
 });
 const { registerUrl } = useAppUrl();
+
+// SEO Meta Tags with Canonical URL
+const { canonicalUrl } = useSeoCanonical();
 useHead({
   title: t("seoTitle"),
   meta: [{ name: "description", content: t("seoDescription") }],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
 });
 </script>
 

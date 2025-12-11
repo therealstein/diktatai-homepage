@@ -47,6 +47,8 @@ const question = computed(() => {
   });
 });
 
+// SEO Meta Tags with Canonical URL
+const { canonicalUrl } = useSeoCanonical();
 useHead(() => ({
   title: question.value?.title || 'Question Not Found',
   meta: [
@@ -62,6 +64,7 @@ useHead(() => ({
           { name: 'googlebot', content: 'noindex, nofollow' },
         ]),
   ],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
 }));
 </script>
 <style>

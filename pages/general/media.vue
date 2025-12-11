@@ -477,7 +477,8 @@ const { t } = useI18n({
 });
 const { registerUrl } = useAppUrl();
 
-// SEO Meta Tags
+// SEO Meta Tags with Canonical URL
+const { canonicalUrl } = useSeoCanonical();
 useHead({
   title: t("hero.title"),
   meta: [
@@ -486,6 +487,7 @@ useHead({
       content: t("hero.subtitle"),
     },
   ],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
 });
 </script>
 
