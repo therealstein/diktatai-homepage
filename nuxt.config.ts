@@ -335,6 +335,10 @@ export default defineNuxtConfig({
         "/nl/auth/register",
         "/es/auth/login",
         "/es/auth/register",
+        "/fr/auth/login",
+        "/fr/auth/register",
+        "/sv/auth/login",
+        "/sv/auth/register",
       ],
     },
     routeRules: {
