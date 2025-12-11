@@ -3,12 +3,14 @@ const route = useRoute();
 const { t } = useI18n();
 const head = useLocaleHead();
 
-// Google Tag Manager
+// Google Tag Manager - deferred to reduce main thread blocking
 useHead({
   script: [
     {
       async: true,
+      defer: true,
       src: 'https://www.googletagmanager.com/gtag/js?id=AW-16950089138',
+      fetchpriority: 'low',
     },
     {
       innerHTML: `
