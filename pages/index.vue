@@ -53,6 +53,18 @@ useHead({
   "nl": {
     "title": "AI-aangedreven Transcriptie Software - Diktat AI",
     "description": "Spraak naar tekst – snel, nauwkeurig en privacy-first. Eenvoudig te gebruiken en gemaakt voor professionals. 💜"
+  },
+  "es": {
+    "title": "Software de Transcripción con IA - Diktat AI",
+    "description": "Voz a texto – rápido, preciso y privacidad primero. Fácil de usar y hecho para profesionales. 💜"
+  },
+  "fr": {
+    "title": "Logiciel de Transcription IA - Diktat AI",
+    "description": "Voix en texte – rapide, précis et confidentialité d'abord. Facile à utiliser et conçu pour les professionnels. 💜"
+  },
+  "sv": {
+    "title": "AI-driven Transkriptionsprogramvara - Diktat AI",
+    "description": "Tal till text – snabbt, exakt och integritet först. Enkel att använda och skapad för professionella. 💜"
   }
 }
 </i18n>

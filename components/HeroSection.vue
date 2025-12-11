@@ -143,6 +143,27 @@ const { registerUrl } = useAppUrl()
     "startNow": "Nu starten",
     "subDescription": "Bespaar tot 80% van uw tijd bij het transcriberen. Start nu gratis – geen creditcard vereist.",
     "socialProof": "Al meer dan 1.000 gebruikers besparen dagelijks tijd"
+  },
+  "es": {
+    "title": "Escribir automáticamente con Diktat AI",
+    "description": "Diktat AI ofrece transcripciones rápidas y precisas para reuniones, entrevistas y más. Ideal para profesionales y equipos que desean ahorrar tiempo y centrarse en lo esencial. Sus datos están seguros y cumplen con el RGPD.",
+    "startNow": "Comenzar ahora",
+    "subDescription": "Ahorre hasta el 80% de su tiempo en transcripción. Comience gratis ahora – sin tarjeta de crédito.",
+    "socialProof": "Ya más de 1.000 usuarios ahorran tiempo diariamente"
+  },
+  "fr": {
+    "title": "Écriture automatique avec Diktat AI",
+    "description": "Diktat AI offre des transcriptions rapides et précises pour les réunions, entretiens et plus encore. Idéal pour les professionnels et équipes qui souhaitent gagner du temps et se concentrer sur l'essentiel. Vos données sont sécurisées et conformes au RGPD.",
+    "startNow": "Commencer maintenant",
+    "subDescription": "Économisez jusqu'à 80% de votre temps de transcription. Commencez gratuitement maintenant – sans carte de crédit.",
+    "socialProof": "Déjà plus de 1 000 utilisateurs économisent du temps quotidiennement"
+  },
+  "sv": {
+    "title": "Skriv automatiskt med Diktat AI",
+    "description": "Diktat AI erbjuder snabba och exakta transkriptioner för möten, intervjuer och mer. Perfekt för yrkesverksamma och team som vill spara tid och fokusera på det väsentliga. Dina data är säkra och GDPR-kompatibla.",
+    "startNow": "Börja nu",
+    "subDescription": "Spara upp till 80% av din tid vid transkribering. Börja gratis nu – inget kreditkort krävs.",
+    "socialProof": "Redan över 1 000 användare sparar tid dagligen"
   }
 }
 </i18n> 

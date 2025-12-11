@@ -49,6 +49,24 @@ const { registerUrl } = useAppUrl()
     "description": "Zet gesproken woorden moeiteloos om in nauwkeurige tekst. Diktat AI neemt het typwerk van u over, zodat u zich kunt concentreren op het wezenlijke – of het nu gaat om meetingnotities, interviews of spontane ideeën. Bespaar waardevolle tijd en verhoog uw productiviteit.",
     "startFree": "Gratis starten",
     "viewPricing": "Prijzen bekijken"
+  },
+  "es": {
+    "title": "Deje de escribir: Diktat AI se encarga de la transcripción.",
+    "description": "Transforme palabras habladas en texto preciso sin esfuerzo. Diktat AI se encarga de escribir para que pueda concentrarse en lo importante – ya sean notas de reuniones, entrevistas o ideas espontáneas. Ahorre tiempo valioso y aumente su productividad.",
+    "startFree": "Comenzar gratis",
+    "viewPricing": "Ver precios"
+  },
+  "fr": {
+    "title": "Arrêtez de taper : Diktat AI s'occupe de la transcription.",
+    "description": "Transformez sans effort les mots parlés en texte précis. Diktat AI se charge de la frappe pour que vous puissiez vous concentrer sur l'essentiel – que ce soit des notes de réunion, des interviews ou des idées spontanées. Gagnez un temps précieux et boostez votre productivité.",
+    "startFree": "Commencer gratuitement",
+    "viewPricing": "Voir les tarifs"
+  },
+  "sv": {
+    "title": "Sluta skriva: Diktat AI tar hand om transkriptionen.",
+    "description": "Omvandla enkelt talade ord till exakt text. Diktat AI tar hand om skrivandet så att du kan fokusera på det viktiga – oavsett om det är mötesanteckningar, intervjuer eller spontana idéer. Spara värdefull tid och öka din produktivitet.",
+    "startFree": "Börja gratis",
+    "viewPricing": "Se priser"
   }
 }
 </i18n> 

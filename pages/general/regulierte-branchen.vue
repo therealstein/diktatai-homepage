@@ -706,6 +706,207 @@ useHead(() => ({
       "paragraph": "Lees meer over hoe de Diktat AI Business Suite uw bedrijf in de gezondheidszorg, juridische sector of financiële sector kan ondersteunen om efficiënter en tegelijkertijd veilig en conform te werken. Vraag nu meer informatie aan of maak een afspraak voor een persoonlijk adviesgesprek.",
       "button": "Naar de Diktat AI Business Suite"
     }
+  },
+  "es": {
+    "seo": {
+      "description": "Transcripción segura para sectores regulados: Conforme al RGPD, confidencial, auditable."
+    },
+    "hero": {
+      "title": "Máxima seguridad y cumplimiento: Diktat AI para sectores regulados",
+      "subtitle": "En el sector sanitario, jurídico y financiero, el manejo de datos sensibles es el día a día, y el cumplimiento de las normativas más estrictas es primordial. La necesidad de mayor eficiencia nunca debe ir en detrimento de la seguridad y el cumplimiento."
+    },
+    "introduction": {
+      "paragraph": "Diktat AI comprende este desafío y ofrece una solución de transcripción específicamente diseñada para mantener la confidencialidad y cumplir con los requisitos regulatorios como el RGPD. Descubra cómo puede dictar de forma segura y eficiente incluso en entornos altamente sensibles."
+    },
+    "requirementsSection": {
+      "title": "La confidencialidad como moneda: Por qué las soluciones estándar a menudo no son suficientes",
+      "paragraph": "Las empresas en sectores regulados operan en un campo de tensión:",
+      "points": {
+        "point1_title": "Extrema sensibilidad de datos",
+        "point1": "Historiales de pacientes, secretos de clientes, datos financieros: esta información requiere el más alto nivel de protección contra el acceso no autorizado.",
+        "point2_title": "Requisitos de cumplimiento estrictos",
+        "point2": "RGPD, directrices específicas del sector (por ejemplo, obligaciones de confidencialidad) establecen límites claros para el procesamiento de datos. Las infracciones tienen graves consecuencias legales y financieras.",
+        "point3_title": "Necesidad de documentación precisa",
+        "point3": "Protocolos, informes periciales o informes sin errores son esenciales. Las imprecisiones pueden tener consecuencias fatales.",
+        "point4_title": "Verificabilidad y auditabilidad",
+        "point4": "Los procesos a menudo necesitan ser rastreables y documentados para demostrar el cumplimiento."
+      },
+      "conclusion": "El uso de herramientas de IA, especialmente para procesar datos de voz sensibles, requiere soluciones que no solo cumplan estos requisitos sino que los hayan interiorizado como principios fundamentales."
+    },
+    "securitySection": {
+      "title": "Su puente seguro hacia la eficiencia: Cómo Diktat AI cumple sus requisitos",
+      "paragraph": "Diktat AI se desarrolló con un claro enfoque en la seguridad y protección de datos para satisfacer las necesidades específicas de los sectores regulados:",
+      "points": {
+        "point1_title": "Cumplimiento inquebrantable del RGPD",
+        "point1": "Nuestros procesos están diseñados desde cero según los estrictos requisitos del Reglamento General de Protección de Datos. Sus datos se procesan de forma segura y exclusivamente para su propósito previsto.",
+        "point2_title": "Cifrado de extremo a extremo",
+        "point2": "Tanto durante la transmisión como en el almacenamiento, sus grabaciones de audio y transcripciones están protegidas por métodos de cifrado robustos.",
+        "point3_title": "Infraestructura segura",
+        "point3": "Confiamos en infraestructuras de servidores seguros ubicados dentro de la UE para maximizar la protección de sus datos.",
+        "point4_title": "Sin compromisos en confidencialidad",
+        "point4": "Sus datos le pertenecen. No los utilizamos para otros fines y garantizamos el más alto nivel de confidencialidad durante el procesamiento.",
+        "point5_title": "Precisión para contenido crítico",
+        "point5": "Nuestra IA está entrenada para alta precisión para proporcionar transcripciones fiables para su documentación importante, incluso con terminología especializada.",
+        "point6_title": "Enfoque en bajo riesgo (según la Ley de IA de la UE)",
+        "point6": "Diktat AI sirve para convertir voz en texto y no entra en las aplicaciones de alto riesgo de la Ley de IA de la UE, lo que simplifica aún más el cumplimiento."
+      }
+    },
+    "businessSuiteSection": {
+      "title": "Control y funciones mejoradas para su empresa",
+      "paragraph": "Para empresas en sectores regulados que requieren funciones mejoradas, control adicional o requisitos de integración específicos, hemos desarrollado la Diktat AI Business Suite. Esta le ofrece:",
+      "features": {
+        "feature1": "Gestión de derechos de usuario y acceso",
+        "feature1_desc": "Controle con precisión quién en su empresa tiene acceso a qué transcripciones y qué acciones pueden realizar.",
+        "feature2": "Funciones de seguridad avanzadas",
+        "feature2_desc": "Desde recursos de procesamiento dedicados hasta medidas de seguridad adicionales, ofrecemos soluciones personalizadas para sus requisitos específicos de cumplimiento.",
+        "feature3": "Soporte prioritario",
+        "feature3_desc": "Disfrute de un trato preferencial y tiempos de respuesta rápidos para todas las solicitudes críticas del negocio a través de nuestro soporte empresarial especializado.",
+        "feature4": "Integración perfecta",
+        "feature4_desc": "Conecte Diktat AI con sus aplicaciones especializadas existentes, sistemas de gestión documental u otras plataformas internas a través de interfaces API flexibles.",
+        "feature5": "Registros de auditoría e informes mejorados",
+        "feature5_desc": "Mantenga un seguimiento de todas las actividades con rastros de auditoría detallados y funciones de informes completas que respaldan su documentación de cumplimiento."
+      },
+      "conclusion": "La Business Suite es la solución ideal para integrar de forma perfecta y segura la eficiencia de Diktat AI en los flujos de trabajo complejos y marcos de cumplimiento estrictos de su empresa."
+    },
+    "cta": {
+      "title": "Descubra la solución de transcripción segura para su sector",
+      "paragraph": "Obtenga más información sobre cómo la Diktat AI Business Suite puede ayudar a su empresa en el sector sanitario, jurídico o financiero a trabajar de manera más eficiente manteniendo la seguridad y el cumplimiento. Solicite más información ahora o programe una consulta personal.",
+      "button": "Ir a Diktat AI Business Suite"
+    }
+  },
+  "fr": {
+    "seo": {
+      "description": "Transcription sécurisée pour les secteurs réglementés : Conforme au RGPD, confidentiel, auditable."
+    },
+    "hero": {
+      "title": "Sécurité et conformité maximales : Diktat AI pour les secteurs réglementés",
+      "subtitle": "Dans le secteur de la santé, les services juridiques et le secteur financier, le traitement de données sensibles est routine – et la conformité aux réglementations les plus strictes est primordiale. Le besoin d'efficacité accrue ne doit jamais se faire au détriment de la sécurité et de la conformité."
+    },
+    "introduction": {
+      "paragraph": "Diktat AI comprend ce défi et propose une solution de transcription spécifiquement conçue pour maintenir la confidentialité et répondre aux exigences réglementaires telles que le RGPD. Découvrez comment vous pouvez dicter en toute sécurité et efficacement même dans des environnements très sensibles."
+    },
+    "requirementsSection": {
+      "title": "La confidentialité comme monnaie : Pourquoi les solutions standard ne suffisent souvent pas",
+      "paragraph": "Les entreprises des secteurs réglementés opèrent dans un champ de tension :",
+      "points": {
+        "point1_title": "Sensibilité extrême des données",
+        "point1": "Dossiers de patients, confidentialité des clients, données financières – ces informations nécessitent le plus haut niveau de protection contre l'accès non autorisé.",
+        "point2_title": "Exigences strictes de conformité",
+        "point2": "Le RGPD, les directives spécifiques au secteur (par exemple, obligations de confidentialité) fixent des limites claires pour le traitement des données. Les violations ont de graves conséquences juridiques et financières.",
+        "point3_title": "Besoin de documentation précise",
+        "point3": "Des protocoles, des avis d'experts ou des rapports sans erreur sont essentiels. Les inexactitudes peuvent avoir des conséquences fatales.",
+        "point4_title": "Vérifiabilité et auditabilité",
+        "point4": "Les processus doivent souvent être traçables et documentés pour démontrer la conformité."
+      },
+      "conclusion": "L'utilisation d'outils d'IA, en particulier pour le traitement de données vocales sensibles, nécessite donc des solutions qui non seulement répondent à ces exigences mais les ont internalisées comme principes fondamentaux."
+    },
+    "securitySection": {
+      "title": "Votre pont sécurisé vers l'efficacité : Comment Diktat AI répond à vos exigences",
+      "paragraph": "Diktat AI a été développé avec un accent clair sur la sécurité et la protection des données pour répondre aux besoins spécifiques des secteurs réglementés :",
+      "points": {
+        "point1_title": "Conformité RGPD sans compromis",
+        "point1": "Nos processus sont conçus dès le départ selon les exigences strictes du Règlement Général sur la Protection des Données. Vos données sont traitées en toute sécurité et exclusivement à des fins prévues.",
+        "point2_title": "Cryptage de bout en bout",
+        "point2": "Pendant la transmission et le stockage, vos enregistrements audio et transcriptions sont protégés par des méthodes de cryptage robustes.",
+        "point3_title": "Infrastructure sécurisée",
+        "point3": "Nous nous appuyons sur des infrastructures de serveurs sécurisés situées au sein de l'UE pour maximiser la protection de vos données.",
+        "point4_title": "Aucun compromis sur la confidentialité",
+        "point4": "Vos données vous appartiennent. Nous ne les utilisons pas à d'autres fins et garantissons le plus haut niveau de confidentialité pendant le traitement.",
+        "point5_title": "Précision pour le contenu critique",
+        "point5": "Notre IA est formée pour une haute précision afin de fournir des transcriptions fiables pour votre documentation importante, même avec une terminologie spécialisée.",
+        "point6_title": "Focus sur le faible risque (selon l'AI Act de l'UE)",
+        "point6": "Diktat AI sert à convertir la parole en texte et ne relève pas des applications à haut risque de l'AI Act de l'UE, ce qui simplifie davantage la conformité."
+      }
+    },
+    "businessSuiteSection": {
+      "title": "Contrôle et fonctionnalités améliorés pour votre entreprise",
+      "paragraph": "Pour les entreprises des secteurs réglementés qui nécessitent des fonctionnalités améliorées, un contrôle supplémentaire ou des exigences d'intégration spécifiques, nous avons développé la Diktat AI Business Suite. Celle-ci vous offre :",
+      "features": {
+        "feature1": "Gestion des droits et accès utilisateurs",
+        "feature1_desc": "Contrôlez avec précision qui dans votre entreprise a accès à quelles transcriptions et quelles actions peuvent être effectuées.",
+        "feature2": "Fonctionnalités de sécurité avancées",
+        "feature2_desc": "Des ressources de traitement dédiées aux mesures de sécurité supplémentaires – nous proposons des solutions sur mesure pour vos exigences de conformité spécifiques.",
+        "feature3": "Support prioritaire",
+        "feature3_desc": "Bénéficiez d'un traitement préférentiel et de temps de réponse rapides pour toutes les demandes critiques via notre support entreprise spécialisé.",
+        "feature4": "Intégration transparente",
+        "feature4_desc": "Connectez Diktat AI avec vos applications spécialisées existantes, systèmes de gestion documentaire ou autres plateformes internes via des interfaces API flexibles.",
+        "feature5": "Journaux d'audit et rapports améliorés",
+        "feature5_desc": "Gardez une trace de toutes les activités avec des pistes d'audit détaillées et des fonctions de rapport complètes qui soutiennent votre documentation de conformité."
+      },
+      "conclusion": "La Business Suite est la solution idéale pour intégrer de manière transparente et sécurisée l'efficacité de Diktat AI dans les flux de travail complexes et les cadres de conformité stricts de votre entreprise."
+    },
+    "cta": {
+      "title": "Découvrez la solution de transcription sécurisée pour votre secteur",
+      "paragraph": "Découvrez comment la Diktat AI Business Suite peut aider votre entreprise dans le secteur de la santé, des services juridiques ou financiers à travailler plus efficacement tout en maintenant la sécurité et la conformité. Demandez plus d'informations maintenant ou planifiez une consultation personnelle.",
+      "button": "Accéder à la Diktat AI Business Suite"
+    }
+  },
+  "sv": {
+    "seo": {
+      "description": "Säker transkribering för reglerade sektorer: GDPR-kompatibel, konfidentiell, reviderbar."
+    },
+    "hero": {
+      "title": "Maximal säkerhet och efterlevnad: Diktat AI för reglerade sektorer",
+      "subtitle": "Inom vård, juridiska tjänster och finanssektorn är hantering av känsliga data rutin – och efterlevnad av de strängaste reglerna är avgörande. Behovet av ökad effektivitet får aldrig gå på bekostnad av säkerhet och efterlevnad."
+    },
+    "introduction": {
+      "paragraph": "Diktat AI förstår denna utmaning och erbjuder en transkriberingslösning specifikt utformad för att upprätthålla konfidentialitet och uppfylla regulatoriska krav som GDPR. Lär dig hur du kan diktera säkert och effektivt även i mycket känsliga miljöer."
+    },
+    "requirementsSection": {
+      "title": "Konfidentialitet som valuta: Varför standardlösningar ofta inte räcker",
+      "paragraph": "Företag i reglerade sektorer verkar i ett spänningsfält:",
+      "points": {
+        "point1_title": "Extrem datakänslighet",
+        "point1": "Patientjournaler, klienthemligheter, finansiella data – denna information kräver högsta nivå av skydd mot obehörig åtkomst.",
+        "point2_title": "Strikt efterlevnad av krav",
+        "point2": "GDPR, branschspecifika riktlinjer (t.ex. sekretessåtaganden) sätter tydliga gränser för databehandling. Överträdelser har allvarliga juridiska och ekonomiska konsekvenser.",
+        "point3_title": "Behov av exakt dokumentation",
+        "point3": "Felfria protokoll, expertutlåtanden eller rapporter är väsentliga. Felaktigheter kan ha ödesdigra konsekvenser.",
+        "point4_title": "Verifierbarhet och reviderbarhet",
+        "point4": "Processer måste ofta vara spårbara och dokumenterade för att visa efterlevnad."
+      },
+      "conclusion": "Användningen av AI-verktyg, särskilt för bearbetning av känsliga röstdata, kräver därför lösningar som inte bara uppfyller dessa krav utan har internaliserat dem som kärnprinciper."
+    },
+    "securitySection": {
+      "title": "Din säkra bro till effektivitet: Hur Diktat AI uppfyller dina krav",
+      "paragraph": "Diktat AI utvecklades med ett tydligt fokus på säkerhet och dataskydd för att möta de specifika behoven hos reglerade sektorer:",
+      "points": {
+        "point1_title": "Okomprometterbar GDPR-efterlevnad",
+        "point1": "Våra processer är utformade från grunden enligt de strikta kraven i den allmänna dataskyddsförordningen. Dina data behandlas säkert och uteslutande för sitt avsedda syfte.",
+        "point2_title": "Kryptering från ände till ände",
+        "point2": "Under både överföring och lagring är dina ljudinspelningar och transkriptioner skyddade av robusta krypteringsmetoder.",
+        "point3_title": "Säker infrastruktur",
+        "point3": "Vi förlitar oss på säkra serverinfrastrukturer som finns inom EU för att maximera skyddet av dina data.",
+        "point4_title": "Inga kompromisser om konfidentialitet",
+        "point4": "Dina data tillhör dig. Vi använder dem inte för andra ändamål och garanterar högsta nivå av konfidentialitet under behandlingen.",
+        "point5_title": "Precision för kritiskt innehåll",
+        "point5": "Vår AI är tränad för hög noggrannhet för att tillhandahålla tillförlitliga transkriptioner för din viktiga dokumentation, även med specialiserad terminologi.",
+        "point6_title": "Fokus på låg risk (enligt EU:s AI-lag)",
+        "point6": "Diktat AI tjänar till att konvertera tal till text och faller inte under högriskapplikationerna i EU:s AI-lag, vilket ytterligare förenklar efterlevnaden."
+      }
+    },
+    "businessSuiteSection": {
+      "title": "Förbättrad kontroll och funktioner för ditt företag",
+      "paragraph": "För företag i reglerade sektorer som kräver förbättrade funktioner, ytterligare kontroll eller specifika integrationskrav har vi utvecklat Diktat AI Business Suite. Detta erbjuder dig:",
+      "features": {
+        "feature1": "Hantering av användarrättigheter och åtkomst",
+        "feature1_desc": "Kontrollera exakt vem i ditt företag som har åtkomst till vilka transkriptioner och vilka åtgärder som kan utföras.",
+        "feature2": "Avancerade säkerhetsfunktioner",
+        "feature2_desc": "Från dedikerade bearbetningsresurser till ytterligare säkerhetsåtgärder – vi erbjuder skräddarsydda lösningar för dina specifika efterlevnadskrav.",
+        "feature3": "Prioriterad support",
+        "feature3_desc": "Njut av förmånsbehandling och snabba svarstider för alla verksamhetskritiska förfrågningar genom vår specialiserade företagssupport.",
+        "feature4": "Sömlös integration",
+        "feature4_desc": "Anslut Diktat AI med dina befintliga specialapplikationer, dokumenthanteringssystem eller andra interna plattformar genom flexibla API-gränssnitt.",
+        "feature5": "Förbättrade revisionsloggar och rapportering",
+        "feature5_desc": "Håll koll på alla aktiviteter med detaljerade revisionsspår och omfattande rapportfunktioner som stödjer din efterlevnadsdokumentation."
+      },
+      "conclusion": "Business Suite är den idealiska lösningen för att sömlöst och säkert integrera Diktat AI:s effektivitet i de komplexa arbetsflödena och strikta efterlevnadsramarna för ditt företag."
+    },
+    "cta": {
+      "title": "Upptäck den säkra transkriberingslösningen för din sektor",
+      "paragraph": "Lär dig mer om hur Diktat AI Business Suite kan stödja ditt företag inom vård, juridiska tjänster eller finanssektorn att arbeta mer effektivt samtidigt som säkerhet och efterlevnad upprätthålls. Begär mer information nu eller boka en personlig konsultation.",
+      "button": "Gå till Diktat AI Business Suite"
+    }
   }
 }
 </i18n>

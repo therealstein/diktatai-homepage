@@ -60,6 +60,15 @@ const formatDate = (date: string) => {
   },
   "nl": {
     "title": "Recente berichten"
+  },
+  "es": {
+    "title": "Publicaciones recientes"
+  },
+  "fr": {
+    "title": "Articles récents"
+  },
+  "sv": {
+    "title": "Senaste inläggen"
   }
 }
 </i18n> 

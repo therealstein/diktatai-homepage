@@ -1178,6 +1178,465 @@ useHead(() => ({
       "button": "Gratis starten",
       "button2": "Prijzen bekijken"
     }
+  },
+  "es": {
+    "seo": {
+      "description": "Reconocimiento de voz con IA explicado: Cómo Diktat AI convierte el habla en texto preciso – rápido, seguro y conforme al RGPD."
+    },
+    "hero": {
+      "title": "Reconocimiento de voz con IA: La tecnología inteligente detrás de Diktat AI",
+      "subtitle": "Descubra el fascinante mundo de la Inteligencia Artificial (IA) que permite a Diktat AI transformar palabras habladas en texto escrito preciso en un abrir y cerrar de ojos."
+    },
+    "introduction": {
+      "paragraph": "Comprenda cómo esta tecnología avanzada puede revolucionar su trabajo diario eliminando el tedioso tecleo y devolviéndole un tiempo valioso."
+    },
+    "whatIsSection": {
+      "title": "El cerebro detrás de las palabras: Una visión del reconocimiento de voz con IA",
+      "paragraph": "El reconocimiento de voz con IA, también llamado Reconocimiento Automático del Habla (ASR - Automatic Speech Recognition), es un campo altamente desarrollado de la inteligencia artificial. En esencia, se trata de entrenar software para comprender el lenguaje humano y convertirlo en un formato legible por máquina, generalmente texto.",
+      "models": {
+        "acoustic": {
+          "title": "Modelos acústicos",
+          "description": "Estos modelos analizan los datos de audio en bruto (ondas sonoras) y los descomponen en las unidades fonéticas más pequeñas (fonemas)."
+        },
+        "language": {
+          "title": "Modelos de lenguaje",
+          "description": "Estos modelos entienden el contexto, la gramática y la probabilidad de secuencias de palabras en un idioma particular. Ayudan a la IA a distinguir entre palabras que suenan similar (por ejemplo, \"casa\" vs. \"caza\")."
+        },
+        "machine": {
+          "title": "Aprendizaje automático y redes neuronales",
+          "description": "Los sistemas modernos de reconocimiento de voz con IA, como el núcleo de Diktat AI, utilizan algoritmos complejos de aprendizaje automático, particularmente redes neuronales profundas (Deep Learning). Estas redes se entrenan con enormes cantidades de datos de voz para reconocer patrones y mejorar continuamente su precisión."
+        }
+      }
+    },
+    "howItWorksSection": {
+      "title": "De su voz al texto terminado: El proceso en Diktat AI",
+      "paragraph": "En Diktat AI, hemos simplificado al máximo este complejo proceso para usted. Nuestro reconocimiento de voz impulsado por IA trabaja en segundo plano para proporcionarle transcripciones rápidas y fiables:",
+      "steps": {
+        "upload": {
+          "title": "Carga de audio",
+          "description": "Sube su archivo de audio (por ejemplo, grabación de reunión, entrevista, dictado) o nos lo envía por correo electrónico."
+        },
+        "preprocessing": {
+          "title": "Preprocesamiento",
+          "description": "Nuestros sistemas preparan de forma óptima el archivo de audio para el análisis (por ejemplo, reducción de ruido, conversión de formato)."
+        },
+        "analysis": {
+          "title": "Análisis de IA y transcripción",
+          "description": "El modelo acústico descompone su habla en fonemas. El modelo de lenguaje analiza estos fonemas en contexto, reconoce palabras, estructuras de oraciones e incluso cambios de hablante (si se admite)."
+        },
+        "postprocessing": {
+          "title": "Postprocesamiento y formato",
+          "description": "El texto en bruto se formatea automáticamente (por ejemplo, párrafos, puntuación, dependiendo de la configuración y la calidad del audio) y se prepara para usted."
+        },
+        "delivery": {
+          "title": "Entrega",
+          "description": "Recibe el texto terminado y editable – seguro, rápido y conforme al RGPD."
+        }
+      }
+    },
+    "benefitsSection": {
+      "title": "Su valor añadido: Por qué el reconocimiento de voz con IA de Diktat AI es imbatible",
+      "benefits": {
+        "time": {
+          "title": "Enorme ahorro de tiempo",
+          "description": "La IA transcribe en una fracción del tiempo que necesitaría para escribir manualmente. Las horas se convierten en minutos."
+        },
+        "precision": {
+          "title": "Precisión sobresaliente",
+          "description": "Nuestros modelos especialmente entrenados proporcionan transcripciones altamente precisas que forman una base sólida para su trabajo posterior."
+        },
+        "productivity": {
+          "title": "Mayor productividad",
+          "description": "Concéntrese en el trabajo de contenido, análisis o procesos creativos en lugar de escribir. Haga más en menos tiempo."
+        },
+        "security": {
+          "title": "Máxima seguridad de datos",
+          "description": "Combinamos el poder de la IA con las directrices de protección de datos más estrictas. Sus datos están seguros con nosotros y se procesan de acuerdo con el RGPD."
+        },
+        "focus": {
+          "title": "Enfoque en lo esencial",
+          "description": "Reduzca las tareas rutinarias monótonas y gane capacidad mental para sus competencias principales."
+        },
+        "searchable": {
+          "title": "Capacidad de búsqueda y archivo",
+          "description": "Transforme el valioso conocimiento en audio en documentos de texto fácilmente buscables y archivables."
+        },
+        "accessibility": {
+          "title": "Accesibilidad",
+          "description": "Cree versiones de texto de contenido de audio y hágalas accesibles a una audiencia más amplia (por ejemplo, subtítulos)."
+        }
+      }
+    },
+    "useCasesSection": {
+      "title": "Cómo puede beneficiarse del reconocimiento de voz con IA en todas las industrias",
+      "cases": {
+        "journalists": {
+          "title": "Periodistas y editores",
+          "description": "Las entrevistas y ruedas de prensa se convierten rápidamente en texto utilizable a través de la transcripción con IA."
+        },
+        "lawyers": {
+          "title": "Abogados y juristas",
+          "description": "Convierta dictados y conversaciones con clientes de forma segura y precisa a formato escrito usando IA."
+        },
+        "content": {
+          "title": "Creadores de contenido",
+          "description": "Cree fácilmente transcripciones de podcasts o subtítulos de videos con soporte de IA."
+        },
+        "students": {
+          "title": "Estudiantes y académicos",
+          "description": "Transcriba eficientemente conferencias y entrevistas de investigación usando IA."
+        },
+        "business": {
+          "title": "Empresarios y ejecutivos",
+          "description": "Capture rápidamente actas de reuniones e ideas a través del dictado con IA."
+        },
+        "consultants": {
+          "title": "Consultores y coaches",
+          "description": "Procese de manera óptima las conversaciones con clientes gracias a la transcripción con IA."
+        }
+      }
+    },
+    "whyDiktatSection": {
+      "title": "Diktat AI: Su primera opción para reconocimiento de voz inteligente",
+      "features": {
+        "models": {
+          "title": "Modelos de IA especializados",
+          "description": "Optimizados para alta precisión y contenido en múltiples idiomas."
+        },
+        "ease": {
+          "title": "Operación más simple",
+          "description": "Sin barreras técnicas, proceso intuitivo."
+        },
+        "integration": {
+          "title": "Integración flexible",
+          "description": "Desde carga por correo electrónico hasta conexiones de software (futuro)."
+        },
+        "pricing": {
+          "title": "Precios justos y transparentes",
+          "description": "Estructura de costes clara para gastos predecibles."
+        },
+        "security": {
+          "title": "Compromiso con la protección de datos y seguridad",
+          "description": "Conforme al RGPD con enfoque en la confidencialidad."
+        },
+        "eu": {
+          "title": "Made in Germany / Enfoque en la UE",
+          "description": "Un proveedor europeo en el que puede confiar."
+        }
+      }
+    },
+    "cta": {
+      "title": "¡Experimente el futuro del procesamiento de texto – impulsado por IA!",
+      "paragraph": "Deje de escribir tediosamente. Deje que la Inteligencia Artificial de Diktat AI trabaje para usted y transforme sus grabaciones de voz en texto preciso sin esfuerzo.",
+      "button": "Empezar gratis",
+      "button2": "Ver precios"
+    }
+  },
+  "fr": {
+    "seo": {
+      "description": "Reconnaissance vocale IA expliquée : Comment Diktat AI transforme la parole en texte précis – rapide, sécurisé et conforme au RGPD."
+    },
+    "hero": {
+      "title": "Reconnaissance vocale IA : La technologie intelligente derrière Diktat AI",
+      "subtitle": "Découvrez le monde fascinant de l'intelligence artificielle (IA) qui permet à Diktat AI de transformer des mots parlés en texte écrit précis en un clin d'œil."
+    },
+    "introduction": {
+      "paragraph": "Comprenez comment cette technologie avancée peut révolutionner votre travail quotidien en éliminant la saisie fastidieuse et en vous rendant un temps précieux."
+    },
+    "whatIsSection": {
+      "title": "Le cerveau derrière les mots : Un aperçu de la reconnaissance vocale IA",
+      "paragraph": "La reconnaissance vocale IA, souvent appelée Reconnaissance Automatique de la Parole (ASR - Automatic Speech Recognition), est un domaine hautement développé de l'intelligence artificielle. Au cœur, il s'agit de former un logiciel à comprendre le langage humain et à le convertir en un format lisible par machine – généralement du texte.",
+      "models": {
+        "acoustic": {
+          "title": "Modèles acoustiques",
+          "description": "Ces modèles analysent les données audio brutes (ondes sonores) et les décomposent en plus petites unités phonétiques (phonèmes)."
+        },
+        "language": {
+          "title": "Modèles linguistiques",
+          "description": "Ces modèles comprennent le contexte, la grammaire et la probabilité des séquences de mots dans une langue particulière. Ils aident l'IA à distinguer entre des mots qui sonnent similaires (par exemple, \"mer\" vs. \"maire\")."
+        },
+        "machine": {
+          "title": "Apprentissage automatique et réseaux neuronaux",
+          "description": "Les systèmes modernes de reconnaissance vocale IA, comme le cœur de Diktat AI, utilisent des algorithmes complexes d'apprentissage automatique, en particulier les réseaux neuronaux profonds (Deep Learning). Ces réseaux sont entraînés avec d'énormes quantités de données vocales pour reconnaître les modèles et améliorer continuellement leur précision."
+        }
+      }
+    },
+    "howItWorksSection": {
+      "title": "De votre voix au texte final : Le processus chez Diktat AI",
+      "paragraph": "Chez Diktat AI, nous avons maximalement simplifié ce processus complexe pour vous. Notre reconnaissance vocale alimentée par l'IA fonctionne en arrière-plan pour vous fournir des transcriptions rapides et fiables :",
+      "steps": {
+        "upload": {
+          "title": "Téléchargement audio",
+          "description": "Vous téléchargez votre fichier audio (par exemple, enregistrement de réunion, interview, dictée) ou nous l'envoyez par e-mail."
+        },
+        "preprocessing": {
+          "title": "Prétraitement",
+          "description": "Nos systèmes préparent de manière optimale le fichier audio pour l'analyse (par exemple, réduction du bruit, conversion de format)."
+        },
+        "analysis": {
+          "title": "Analyse IA et transcription",
+          "description": "Le modèle acoustique décompose votre parole en phonèmes. Le modèle linguistique analyse ces phonèmes dans leur contexte, reconnaît les mots, les structures de phrases et même les changements de locuteur (si pris en charge)."
+        },
+        "postprocessing": {
+          "title": "Post-traitement et mise en forme",
+          "description": "Le texte brut est automatiquement formaté (par exemple, paragraphes, ponctuation – selon les paramètres et la qualité audio) et préparé pour vous."
+        },
+        "delivery": {
+          "title": "Livraison",
+          "description": "Vous recevez le texte fini et modifiable – sécurisé, rapide et conforme au RGPD."
+        }
+      }
+    },
+    "benefitsSection": {
+      "title": "Votre valeur ajoutée : Pourquoi la reconnaissance vocale IA de Diktat AI est imbattable",
+      "benefits": {
+        "time": {
+          "title": "Gain de temps énorme",
+          "description": "L'IA transcrit en une fraction du temps nécessaire pour la saisie manuelle. Les heures deviennent des minutes."
+        },
+        "precision": {
+          "title": "Précision exceptionnelle",
+          "description": "Nos modèles spécialement entraînés fournissent des transcriptions très précises qui forment une base solide pour votre travail ultérieur."
+        },
+        "productivity": {
+          "title": "Productivité accrue",
+          "description": "Concentrez-vous sur le travail de contenu, l'analyse ou les processus créatifs au lieu de taper. Faites plus en moins de temps."
+        },
+        "security": {
+          "title": "Sécurité des données maximale",
+          "description": "Nous combinons la puissance de l'IA avec les directives de protection des données les plus strictes. Vos données sont en sécurité avec nous et traitées conformément au RGPD."
+        },
+        "focus": {
+          "title": "Focus sur l'essentiel",
+          "description": "Réduisez les tâches routinières monotones et gagnez en capacité mentale pour vos compétences principales."
+        },
+        "searchable": {
+          "title": "Recherche et archivage",
+          "description": "Transformez les connaissances audio précieuses en documents texte facilement consultables et archivables."
+        },
+        "accessibility": {
+          "title": "Accessibilité",
+          "description": "Créez des versions textuelles de contenu audio et rendez-les accessibles à un public plus large (par exemple, sous-titres)."
+        }
+      }
+    },
+    "useCasesSection": {
+      "title": "Comment vous pouvez bénéficier de la reconnaissance vocale IA dans toutes les industries",
+      "cases": {
+        "journalists": {
+          "title": "Journalistes et rédacteurs",
+          "description": "Les interviews et conférences de presse sont rapidement converties en texte utilisable grâce à la transcription IA."
+        },
+        "lawyers": {
+          "title": "Avocats et juristes",
+          "description": "Convertissez en toute sécurité et avec précision les dictées et conversations avec les clients en format écrit à l'aide de l'IA."
+        },
+        "content": {
+          "title": "Créateurs de contenu",
+          "description": "Créez facilement des transcriptions de podcasts ou des sous-titres vidéo avec le support de l'IA."
+        },
+        "students": {
+          "title": "Étudiants et universitaires",
+          "description": "Transcrivez efficacement des cours et des interviews de recherche à l'aide de l'IA."
+        },
+        "business": {
+          "title": "Entrepreneurs et cadres",
+          "description": "Capturez rapidement les comptes rendus de réunions et les idées via la dictée IA."
+        },
+        "consultants": {
+          "title": "Consultants et coaches",
+          "description": "Traitez de manière optimale les conversations avec les clients grâce à la transcription IA."
+        }
+      }
+    },
+    "whyDiktatSection": {
+      "title": "Diktat AI : Votre premier choix pour la reconnaissance vocale intelligente",
+      "features": {
+        "models": {
+          "title": "Modèles IA spécialisés",
+          "description": "Optimisés pour une haute précision et un contenu multilingue."
+        },
+        "ease": {
+          "title": "Utilisation la plus simple",
+          "description": "Aucun obstacle technique, processus intuitif."
+        },
+        "integration": {
+          "title": "Intégration flexible",
+          "description": "Du téléchargement par e-mail aux connexions logicielles (futur)."
+        },
+        "pricing": {
+          "title": "Prix justes et transparents",
+          "description": "Structure de coûts claire pour des dépenses prévisibles."
+        },
+        "security": {
+          "title": "Engagement envers la protection des données et la sécurité",
+          "description": "Conforme au RGPD avec accent sur la confidentialité."
+        },
+        "eu": {
+          "title": "Made in Germany / Focus UE",
+          "description": "Un fournisseur européen en qui vous pouvez avoir confiance."
+        }
+      }
+    },
+    "cta": {
+      "title": "Découvrez l'avenir du traitement de texte – propulsé par l'IA !",
+      "paragraph": "Fini la saisie fastidieuse. Laissez l'intelligence artificielle de Diktat AI travailler pour vous et transformez sans effort vos enregistrements vocaux en texte précis.",
+      "button": "Commencer gratuitement",
+      "button2": "Voir les tarifs"
+    }
+  },
+  "sv": {
+    "seo": {
+      "description": "AI-röstigenkänning förklarad: Hur Diktat AI förvandlar tal till exakt text – snabbt, säkert och GDPR-kompatibelt."
+    },
+    "hero": {
+      "title": "AI-röstigenkänning: Den intelligenta teknologin bakom Diktat AI",
+      "subtitle": "Upptäck den fascinerande världen av artificiell intelligens (AI) som gör det möjligt för Diktat AI att förvandla talade ord till exakt skriven text på ett ögonblick."
+    },
+    "introduction": {
+      "paragraph": "Förstå hur denna avancerade teknologi kan revolutionera ditt dagliga arbete genom att eliminera tråkig textinmatning och ge dig värdefull tid tillbaka."
+    },
+    "whatIsSection": {
+      "title": "Hjärnan bakom orden: En inblick i AI-röstigenkänning",
+      "paragraph": "AI-röstigenkänning, ofta kallad Automatisk Taligenkänning (ASR - Automatic Speech Recognition), är ett högutvecklat område inom artificiell intelligens. I grunden handlar det om att träna programvara att förstå mänskligt språk och konvertera det till ett maskinläsbart format – vanligtvis text.",
+      "models": {
+        "acoustic": {
+          "title": "Akustiska modeller",
+          "description": "Dessa modeller analyserar råa ljuddata (ljudvågor) och delar upp dem i minsta fonetiska enheter (fonem)."
+        },
+        "language": {
+          "title": "Språkmodeller",
+          "description": "Dessa modeller förstår kontext, grammatik och sannolikheten för ordsekvenser i ett visst språk. De hjälper AI att skilja mellan liknande klingande ord (till exempel \"sjö\" vs. \"sjuk\")."
+        },
+        "machine": {
+          "title": "Maskininlärning och neurala nätverk",
+          "description": "Moderna AI-röstigenkänningssystem, som kärnan i Diktat AI, använder komplexa maskininlärningsalgoritmer, särskilt djupa neurala nätverk (Deep Learning). Dessa nätverk tränas med enorma mängder taldata för att känna igen mönster och kontinuerligt förbättra sin noggrannhet."
+        }
+      }
+    },
+    "howItWorksSection": {
+      "title": "Från din röst till färdig text: Processen hos Diktat AI",
+      "paragraph": "Hos Diktat AI har vi maximalt förenklat denna komplexa process för dig. Vår AI-drivna röstigenkänning fungerar i bakgrunden för att ge dig snabba och pålitliga transkriptioner:",
+      "steps": {
+        "upload": {
+          "title": "Ljuduppladdning",
+          "description": "Du laddar upp din ljudfil (t.ex. mötesinspelning, intervju, diktering) eller skickar den till oss via e-post."
+        },
+        "preprocessing": {
+          "title": "Förbehandling",
+          "description": "Våra system förbereder ljudfilen optimalt för analys (t.ex. brusreducering, formatkonvertering)."
+        },
+        "analysis": {
+          "title": "AI-analys och transkription",
+          "description": "Den akustiska modellen delar upp ditt tal i fonem. Språkmodellen analyserar dessa fonem i sitt sammanhang, känner igen ord, meningsstrukturer och till och med talarbyten (om det stöds)."
+        },
+        "postprocessing": {
+          "title": "Efterbehandling och formatering",
+          "description": "Råtexten formateras automatiskt (t.ex. stycken, skiljetecken – beroende på inställningar och ljudkvalitet) och förbereds för dig."
+        },
+        "delivery": {
+          "title": "Leverans",
+          "description": "Du får den färdiga, redigerbara texten – säker, snabb och GDPR-kompatibel."
+        }
+      }
+    },
+    "benefitsSection": {
+      "title": "Ditt mervärde: Varför AI-röstigenkänning med Diktat AI är oslagbar",
+      "benefits": {
+        "time": {
+          "title": "Enorm tidsbesparing",
+          "description": "AI:n transkriberar på en bråkdel av den tid du skulle behöva för manuell inmatning. Timmar blir minuter."
+        },
+        "precision": {
+          "title": "Enastående precision",
+          "description": "Våra specialtränade modeller levererar högprecisa transkript som bildar en solid grund för ditt fortsatta arbete."
+        },
+        "productivity": {
+          "title": "Ökad produktivitet",
+          "description": "Fokusera på innehållsarbete, analys eller kreativa processer istället för att skriva. Få mer gjort på kortare tid."
+        },
+        "security": {
+          "title": "Maximal datasäkerhet",
+          "description": "Vi kombinerar AI:s kraft med de strängaste riktlinjerna för dataskydd. Dina data är säkra hos oss och behandlas i enlighet med GDPR."
+        },
+        "focus": {
+          "title": "Fokus på det väsentliga",
+          "description": "Minska monotona rutinuppgifter och vinn mental kapacitet för dina kärnkompetenser."
+        },
+        "searchable": {
+          "title": "Sökbarhet och arkivering",
+          "description": "Förvandla värdefull ljudkunskap till lättsökta och arkivbara textdokument."
+        },
+        "accessibility": {
+          "title": "Tillgänglighet",
+          "description": "Skapa textversioner av ljudinnehåll och gör dem tillgängliga för en bredare publik (t.ex. undertexter)."
+        }
+      }
+    },
+    "useCasesSection": {
+      "title": "Hur du kan dra nytta av AI-röstigenkänning i alla branscher",
+      "cases": {
+        "journalists": {
+          "title": "Journalister och redaktörer",
+          "description": "Intervjuer och presskonferenser omvandlas snabbt till användbar text genom AI-transkription."
+        },
+        "lawyers": {
+          "title": "Jurister och advokater",
+          "description": "Konvertera säkert och exakt dikteringar och klientsamtal till skriftlig form med hjälp av AI."
+        },
+        "content": {
+          "title": "Innehållsskapare",
+          "description": "Skapa enkelt podcasttranskript eller videoundtexter med AI-stöd."
+        },
+        "students": {
+          "title": "Studenter och akademiker",
+          "description": "Transkribera effektivt föreläsningar och forskningsintervjuer med hjälp av AI."
+        },
+        "business": {
+          "title": "Företagare och chefer",
+          "description": "Fånga snabbt mötesprotokoll och idéer via AI-diktering."
+        },
+        "consultants": {
+          "title": "Konsulter och coacher",
+          "description": "Behandla optimalt klientsamtal tack vare AI-transkription."
+        }
+      }
+    },
+    "whyDiktatSection": {
+      "title": "Diktat AI: Ditt förstahandsval för intelligent röstigenkänning",
+      "features": {
+        "models": {
+          "title": "Specialiserade AI-modeller",
+          "description": "Optimerade för hög precision och flerspråkigt innehåll."
+        },
+        "ease": {
+          "title": "Enklast användning",
+          "description": "Inga tekniska hinder, intuitiv process."
+        },
+        "integration": {
+          "title": "Flexibel integration",
+          "description": "Från e-postuppladdning till programvaruanslutningar (framtid)."
+        },
+        "pricing": {
+          "title": "Rättvisa och transparenta priser",
+          "description": "Tydlig kostnadsstruktur för förutsägbara utgifter."
+        },
+        "security": {
+          "title": "Åtagande för dataskydd och säkerhet",
+          "description": "GDPR-kompatibel med fokus på konfidentialitet."
+        },
+        "eu": {
+          "title": "Made in Germany / EU-fokus",
+          "description": "En europeisk leverantör du kan lita på."
+        }
+      }
+    },
+    "cta": {
+      "title": "Upplev framtiden för textbehandling – driven av AI!",
+      "paragraph": "Sluta med tråkig inmatning. Låt Diktat AI:s artificiella intelligens arbeta för dig och förvandla utan ansträngning dina röstinspelningar till exakt text.",
+      "button": "Börja gratis",
+      "button2": "Se priser"
+    }
   }
 }
 </i18n>

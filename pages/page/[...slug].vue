@@ -107,6 +107,27 @@ const { data: page } = await useAsyncData(`page-${path}`, async () => {
       "notFound": "Pagina niet gevonden",
       "notFoundDescription": "De gezochte pagina kon helaas niet worden gevonden."
     }
+  },
+  "es": {
+    "page": {
+      "backToPages": "← Volver a las páginas",
+      "notFound": "Página no encontrada",
+      "notFoundDescription": "La página solicitada no pudo ser encontrada."
+    }
+  },
+  "fr": {
+    "page": {
+      "backToPages": "← Retour aux pages",
+      "notFound": "Page non trouvée",
+      "notFoundDescription": "La page demandée n'a pas pu être trouvée."
+    }
+  },
+  "sv": {
+    "page": {
+      "backToPages": "← Tillbaka till sidorna",
+      "notFound": "Sidan hittades inte",
+      "notFoundDescription": "Den begärda sidan kunde inte hittas."
+    }
   }
 }
 </i18n>

@@ -600,6 +600,198 @@ const handleSubmit = async () => {
       "description": "We streven ernaar elke aanvraag tijdig en zorgvuldig te behandelen. U kunt doorgaans binnen 24-48 uur op werkdagen een eerste reactie van ons verwachten.",
       "privacy": "Privacy is belangrijk voor ons: Uw gegevens worden uiteraard vertrouwelijk behandeld en uitsluitend gebruikt voor de behandeling van uw aanvraag conform onze {link} en de AVG-richtlijnen."
     }
+  },
+  "es": {
+    "seo": {
+      "title": "Contacto - Diktat AI",
+      "description": "Contáctenos para preguntas, soporte o comentarios sobre Diktat AI. Estamos aquí para ayudarle y respondemos dentro de 24-48 horas."
+    },
+    "hero": {
+      "title": "Contáctenos",
+      "subtitle": "¿Tiene preguntas, sugerencias o necesita soporte? ¡Estamos aquí para ayudarle!"
+    },
+    "introduction": "Esperamos tener noticias suyas. Ya sea que desee obtener más información sobre Diktat AI, necesite ayuda para usarlo o simplemente quiera compartir sus comentarios, no dude en contactarnos.",
+    "form": {
+      "title": "Formulario de contacto",
+      "name": "Nombre",
+      "namePlaceholder": "Su nombre",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "Su correo electrónico",
+      "subject": "Asunto",
+      "subjects": {
+        "general": "Pregunta general",
+        "support": "Soporte técnico",
+        "pricing": "Información de precios",
+        "businessSuite": "Business Suite",
+        "feedback": "Comentarios",
+        "partnership": "Solicitud de asociación",
+        "widerruf": "Cancelación de contrato",
+        "other": "Otro"
+      },
+      "message": "Mensaje",
+      "messagePlaceholder": "Su mensaje para nosotros...",
+      "company": "Empresa/Organización",
+      "companyPlaceholder": "Su empresa/organización",
+      "phone": "Número de teléfono (para consultas)",
+      "phonePlaceholder": "Su número de teléfono",
+      "privacyPrefix": "He leído la",
+      "privacyLink": "política de privacidad",
+      "privacyUrl": "/privacy",
+      "privacySuffix": "y acepto el procesamiento de mis datos para responder a mi consulta.",
+      "website": "Sitio web",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando..."
+    },
+    "alternatives": {
+      "title": "Métodos de contacto alternativos",
+      "email": {
+        "title": "Correo electrónico directo",
+        "description": "También puede enviarnos un correo electrónico directamente. Perfecto para consultas específicas o cuando necesita incluir archivos adjuntos."
+      },
+      "videocall": {
+        "title": "Demo en vivo y consulta por videollamada",
+        "description": "¿Prefiere la interacción personal? Programe una cita por video para una demostración en vivo de Diktat AI, una consulta individual o para discutir sus requisitos en detalle.",
+        "link": "Programar cita ahora"
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "description": "Quizás encuentre una respuesta a su pregunta en nuestras FAQ.",
+        "link": "Ir a las FAQ"
+      }
+    },
+    "response": {
+      "title": "¿Qué sucede después de contactarnos?",
+      "description": "Nos esforzamos por procesar cada consulta de manera rápida y cuidadosa. Por lo general, puede esperar una primera respuesta de nosotros dentro de 24-48 horas en días laborables.",
+      "privacy": "La privacidad es importante para nosotros: Sus datos serán tratados de forma confidencial y se utilizarán exclusivamente para procesar su consulta de acuerdo con nuestra {link} y las directrices del RGPD."
+    }
+  },
+  "fr": {
+    "seo": {
+      "title": "Contact - Diktat AI",
+      "description": "Contactez-nous pour des questions, du support ou des commentaires sur Diktat AI. Nous sommes là pour vous aider et répondons dans les 24-48 heures."
+    },
+    "hero": {
+      "title": "Contactez-nous",
+      "subtitle": "Vous avez des questions, des suggestions ou besoin de support ? Nous sommes là pour vous !"
+    },
+    "introduction": "Nous sommes impatients de vous entendre. Que vous souhaitiez en savoir plus sur Diktat AI, que vous ayez besoin d'aide pour l'utiliser ou que vous souhaitiez simplement partager vos commentaires - n'hésitez pas à nous contacter.",
+    "form": {
+      "title": "Formulaire de contact",
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "Adresse e-mail",
+      "emailPlaceholder": "Votre adresse e-mail",
+      "subject": "Sujet",
+      "subjects": {
+        "general": "Question générale",
+        "support": "Support technique",
+        "pricing": "Informations sur les prix",
+        "businessSuite": "Business Suite",
+        "feedback": "Commentaires",
+        "partnership": "Demande de partenariat",
+        "widerruf": "Résiliation de contrat",
+        "other": "Autre"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Votre message pour nous...",
+      "company": "Entreprise/Organisation",
+      "companyPlaceholder": "Votre entreprise/organisation",
+      "phone": "Numéro de téléphone (pour questions)",
+      "phonePlaceholder": "Votre numéro de téléphone",
+      "privacyPrefix": "J'ai lu la",
+      "privacyLink": "politique de confidentialité",
+      "privacyUrl": "/privacy",
+      "privacySuffix": "et j'accepte le traitement de mes données pour répondre à ma demande.",
+      "website": "Site web",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours..."
+    },
+    "alternatives": {
+      "title": "Méthodes de contact alternatives",
+      "email": {
+        "title": "E-mail direct",
+        "description": "Vous pouvez également nous envoyer un e-mail directement. Parfait pour les demandes spécifiques ou lorsque vous devez inclure des pièces jointes."
+      },
+      "videocall": {
+        "title": "Démo en direct et consultation par appel vidéo",
+        "description": "Vous préférez l'interaction personnelle ? Planifiez un rendez-vous vidéo pour une démonstration en direct de Diktat AI, une consultation individuelle ou pour discuter de vos besoins en détail.",
+        "link": "Prendre rendez-vous maintenant"
+      },
+      "faq": {
+        "title": "Questions fréquemment posées",
+        "description": "Vous pourriez trouver une réponse à votre question dans notre FAQ.",
+        "link": "Accéder à la FAQ"
+      }
+    },
+    "response": {
+      "title": "Que se passe-t-il après votre contact ?",
+      "description": "Nous nous efforçons de traiter chaque demande rapidement et soigneusement. Vous pouvez généralement vous attendre à une première réponse de notre part dans les 24 à 48 heures les jours ouvrables.",
+      "privacy": "La confidentialité est importante pour nous : Vos données seront traitées de manière confidentielle et utilisées exclusivement pour traiter votre demande conformément à notre {link} et aux directives RGPD."
+    }
+  },
+  "sv": {
+    "seo": {
+      "title": "Kontakt - Diktat AI",
+      "description": "Kontakta oss för frågor, support eller feedback om Diktat AI. Vi finns här för att hjälpa och svarar inom 24-48 timmar."
+    },
+    "hero": {
+      "title": "Kontakta oss",
+      "subtitle": "Har du frågor, förslag eller behöver support? Vi finns här för dig!"
+    },
+    "introduction": "Vi ser fram emot att höra från dig. Oavsett om du vill lära dig mer om Diktat AI, behöver hjälp med att använda det eller helt enkelt vill dela din feedback - tveka inte att kontakta oss.",
+    "form": {
+      "title": "Kontaktformulär",
+      "name": "Namn",
+      "namePlaceholder": "Ditt namn",
+      "email": "E-postadress",
+      "emailPlaceholder": "Din e-postadress",
+      "subject": "Ämne",
+      "subjects": {
+        "general": "Allmän fråga",
+        "support": "Teknisk support",
+        "pricing": "Prisinformation",
+        "businessSuite": "Business Suite",
+        "feedback": "Feedback",
+        "partnership": "Partnerskapsförfrågan",
+        "widerruf": "Avtalsuppsägning",
+        "other": "Annat"
+      },
+      "message": "Meddelande",
+      "messagePlaceholder": "Ditt meddelande till oss...",
+      "company": "Företag/Organisation",
+      "companyPlaceholder": "Ditt företag/din organisation",
+      "phone": "Telefonnummer (för frågor)",
+      "phonePlaceholder": "Ditt telefonnummer",
+      "privacyPrefix": "Jag har läst",
+      "privacyLink": "integritetspolicyn",
+      "privacyUrl": "/privacy",
+      "privacySuffix": "och godkänner behandlingen av mina uppgifter för att svara på min förfrågan.",
+      "website": "Webbplats",
+      "submit": "Skicka meddelande",
+      "sending": "Skickar..."
+    },
+    "alternatives": {
+      "title": "Alternativa kontaktmetoder",
+      "email": {
+        "title": "Direkt e-post",
+        "description": "Du kan också skicka ett e-postmeddelande direkt till oss. Perfekt för specifika förfrågningar eller när du behöver bifoga filer."
+      },
+      "videocall": {
+        "title": "Live-demo och konsultation via videosamtal",
+        "description": "Föredrar du personlig interaktion? Boka en videomöte för en live-demonstration av Diktat AI, individuell konsultation eller för att diskutera dina krav i detalj.",
+        "link": "Boka möte nu"
+      },
+      "faq": {
+        "title": "Vanliga frågor",
+        "description": "Du kanske hittar ett svar på din fråga i vår FAQ.",
+        "link": "Gå till FAQ"
+      }
+    },
+    "response": {
+      "title": "Vad händer efter att du kontaktat oss?",
+      "description": "Vi strävar efter att behandla varje förfrågan snabbt och noggrant. Du kan vanligtvis förvänta dig ett första svar från oss inom 24-48 timmar på vardagar.",
+      "privacy": "Integritet är viktigt för oss: Dina uppgifter kommer att behandlas konfidentiellt och används uteslutande för att behandla din förfrågan i enlighet med vår {link} och GDPR-riktlinjer."
+    }
   }
 }
 </i18n>

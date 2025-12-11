@@ -199,6 +199,90 @@ const { t } = useI18n()
       "title": "Adviseurs & Coaches",
       "description": "Documenteer klantgesprekken en sessies efficiënt voor optimale naverwerking."
     }
+  },
+  "es": {
+    "title": "Profesiones para las que Diktat AI es indispensable",
+    "description": "Descubra cómo diferentes profesiones utilizan Diktat AI para hacer su trabajo diario más eficiente",
+    "journalists": {
+      "title": "Periodistas y editores",
+      "description": "Convierta rápidamente entrevistas, conferencias de prensa y grabaciones de investigación en texto editable."
+    },
+    "contentCreators": {
+      "title": "Creadores de contenido",
+      "description": "Cree sin esfuerzo transcripciones para notas de programa, subtítulos, artículos de blog o análisis de contenido."
+    },
+    "lawyers": {
+      "title": "Abogados y juristas",
+      "description": "Capture dictados, conversaciones con clientes o transcripciones de forma segura y conforme al RGPD como texto."
+    },
+    "students": {
+      "title": "Estudiantes y académicos",
+      "description": "Transcriba clases, seminarios y entrevistas para tesis o proyectos de investigación."
+    },
+    "businessLeaders": {
+      "title": "Líderes empresariales y ejecutivos",
+      "description": "Registre con precisión resultados de reuniones, ideas espontáneas o notas dictadas."
+    },
+    "consultants": {
+      "title": "Consultores y coaches",
+      "description": "Documente eficientemente conversaciones con clientes y sesiones para un seguimiento óptimo."
+    }
+  },
+  "fr": {
+    "title": "Professions pour lesquelles Diktat AI est indispensable",
+    "description": "Découvrez comment différentes professions utilisent Diktat AI pour rendre leur travail quotidien plus efficace",
+    "journalists": {
+      "title": "Journalistes et rédacteurs",
+      "description": "Convertissez rapidement interviews, conférences de presse et enregistrements de recherche en texte éditable."
+    },
+    "contentCreators": {
+      "title": "Créateurs de contenu",
+      "description": "Créez sans effort des transcriptions pour notes d'émission, sous-titres, articles de blog ou analyse de contenu."
+    },
+    "lawyers": {
+      "title": "Avocats et juristes",
+      "description": "Capturez dictées, conversations clients ou transcriptions de manière sécurisée et conforme au RGPD."
+    },
+    "students": {
+      "title": "Étudiants et universitaires",
+      "description": "Transcrivez cours, séminaires et interviews pour thèses ou projets de recherche."
+    },
+    "businessLeaders": {
+      "title": "Dirigeants et cadres",
+      "description": "Enregistrez avec précision résultats de réunions, idées spontanées ou notes dictées."
+    },
+    "consultants": {
+      "title": "Consultants et coachs",
+      "description": "Documentez efficacement conversations clients et sessions pour un suivi optimal."
+    }
+  },
+  "sv": {
+    "title": "Yrken för vilka Diktat AI är oumbärlig",
+    "description": "Upptäck hur olika yrkesgrupper använder Diktat AI för att göra sitt dagliga arbete mer effektivt",
+    "journalists": {
+      "title": "Journalister och redaktörer",
+      "description": "Omvandla snabbt intervjuer, presskonferenser och forskningsinspelningar till redigerbar text."
+    },
+    "contentCreators": {
+      "title": "Innehållsskapare",
+      "description": "Skapa enkelt transkriptioner för programanteckningar, undertexter, bloggartiklar eller innehållsanalys."
+    },
+    "lawyers": {
+      "title": "Jurister och advokater",
+      "description": "Fånga diktat, kundsamtal eller transkriptioner säkert och GDPR-kompatibelt som text."
+    },
+    "students": {
+      "title": "Studenter och akademiker",
+      "description": "Transkribera föreläsningar, seminarier och intervjuer för examensarbeten eller forskningsprojekt."
+    },
+    "businessLeaders": {
+      "title": "Företagsledare och chefer",
+      "description": "Registrera exakt mötesresultat, spontana idéer eller dikterade anteckningar."
+    },
+    "consultants": {
+      "title": "Konsulter och coacher",
+      "description": "Dokumentera effektivt kundsamtal och sessioner för optimal uppföljning."
+    }
   }
 }
 </i18n> 

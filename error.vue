@@ -163,6 +163,45 @@ function handleError() {
       "tryAgain": "Opnieuw proberen",
       "needHelp": "Hulp nodig? Neem contact met ons op via"
     }
+  },
+  "es": {
+    "error": {
+      "pageNotFound": "Página no encontrada",
+      "pageNotFoundMessage": "Lo sentimos, la página que busca no existe o ha sido movida.",
+      "somethingWentWrong": "Algo salió mal",
+      "somethingWentWrongMessage": "No pudimos encontrar la página que busca. Puede haber sido movida o no existe.",
+      "backHome": "Volver al inicio",
+      "backToApp": "Volver a la aplicación",
+      "getSupport": "Obtener soporte",
+      "tryAgain": "Intentar de nuevo",
+      "needHelp": "¿Necesita ayuda? Contáctenos en"
+    }
+  },
+  "fr": {
+    "error": {
+      "pageNotFound": "Page non trouvée",
+      "pageNotFoundMessage": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée.",
+      "somethingWentWrong": "Une erreur s'est produite",
+      "somethingWentWrongMessage": "Nous n'avons pas pu trouver la page que vous recherchez. Elle a peut-être été déplacée ou n'existe pas.",
+      "backHome": "Retour à l'accueil",
+      "backToApp": "Retour à l'application",
+      "getSupport": "Obtenir de l'aide",
+      "tryAgain": "Réessayer",
+      "needHelp": "Besoin d'aide ? Contactez-nous à"
+    }
+  },
+  "sv": {
+    "error": {
+      "pageNotFound": "Sidan hittades inte",
+      "pageNotFoundMessage": "Tyvärr, sidan du letar efter finns inte eller har flyttats.",
+      "somethingWentWrong": "Något gick fel",
+      "somethingWentWrongMessage": "Vi kunde inte hitta sidan du letar efter. Den kan ha flyttats eller finns inte.",
+      "backHome": "Tillbaka till startsidan",
+      "backToApp": "Tillbaka till appen",
+      "getSupport": "Få support",
+      "tryAgain": "Försök igen",
+      "needHelp": "Behöver du hjälp? Kontakta oss på"
+    }
   }
 }
 </i18n>

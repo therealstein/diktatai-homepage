@@ -125,6 +125,21 @@ const { loginUrl } = useAppUrl()
     "howitworks": "AI Transcriptie",
     "pricing": "Prijzen",
     "login": "Inloggen"
+  },
+  "es": {
+    "howitworks": "Transcripción IA",
+    "pricing": "Precios",
+    "login": "Iniciar sesión"
+  },
+  "fr": {
+    "howitworks": "Transcription IA",
+    "pricing": "Tarifs",
+    "login": "Se connecter"
+  },
+  "sv": {
+    "howitworks": "AI-transkribering",
+    "pricing": "Priser",
+    "login": "Logga in"
   }
 }
 </i18n>

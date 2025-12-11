@@ -128,6 +128,33 @@ useHead({
     "readMore": "Lees verder",
     "errorMessage": "Er is een fout opgetreden bij het laden van de vragen. Probeer het later opnieuw.",
     "metaDescription": "Ontdek onze verzameling van vragen en antwoorden."
+  },
+  "es": {
+    "title": "Preguntas",
+    "heroSubtitle": "Explore nuestras preguntas frecuentes y encuentre las respuestas que necesita",
+    "loading": "Cargando preguntas...",
+    "noQuestions": "No se encontraron preguntas.",
+    "readMore": "Leer más",
+    "errorMessage": "Ocurrió un error al cargar las preguntas. Por favor, inténtelo de nuevo más tarde.",
+    "metaDescription": "Explore nuestra colección de preguntas y respuestas."
+  },
+  "fr": {
+    "title": "Questions",
+    "heroSubtitle": "Explorez nos questions fréquemment posées et trouvez les réponses dont vous avez besoin",
+    "loading": "Chargement des questions...",
+    "noQuestions": "Aucune question trouvée.",
+    "readMore": "Lire la suite",
+    "errorMessage": "Une erreur s'est produite lors du chargement des questions. Veuillez réessayer plus tard.",
+    "metaDescription": "Explorez notre collection de questions et réponses."
+  },
+  "sv": {
+    "title": "Frågor",
+    "heroSubtitle": "Utforska våra vanliga frågor och hitta de svar du behöver",
+    "loading": "Laddar frågor...",
+    "noQuestions": "Inga frågor hittades.",
+    "readMore": "Läs mer",
+    "errorMessage": "Ett fel uppstod när frågorna laddades. Försök igen senare.",
+    "metaDescription": "Utforska vår samling av frågor och svar."
   }
 }
 </i18n>

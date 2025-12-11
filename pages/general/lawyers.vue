@@ -1108,6 +1108,381 @@ useHead({
         }
       }
     }
+  },
+  "es": {
+    "badge": {
+      "euServer": "Servidor en la UE"
+    },
+    "meta": {
+      "title": "Diktat AI para bufetes de abogados = Transcripción eficiente para despachos",
+      "description": "Diktat AI para bufetes: Transcripción eficiente de dictados legales, reuniones con clientes y notas. Cumple con RGPD y es seguro."
+    },
+    "hero": {
+      "title": "Transcribir dictados con IA cumpliendo el RGPD",
+      "subtitle": "Convierta sus dictados legales en segundos en escritos precisos - de forma segura y rápida"
+    },
+    "cta": {
+      "optimize": "Optimice ahora su práctica legal",
+      "start": "Probar gratis – con contrato de procesamiento",
+      "pricing": "Ver precios"
+    },
+    "sections": {
+      "indispensable": {
+        "title": "Diktat AI: Indispensable para la práctica legal moderna",
+        "lawyers": {
+          "title": "Abogados y juristas:",
+          "points": [
+            "Dicte escritos legales, notas, informes y correspondencia directamente.",
+            "Capture reuniones con clientes y resultados de discusiones fácilmente como texto.",
+            "Acelere el procesamiento de casos mediante la rápida disponibilidad de transcripciones."
+          ]
+        },
+        "refas": {
+          "title": "Asistentes legales y secretarios:",
+          "points": [
+            "Procese dictados de abogados en tiempo récord y cree documentos más rápido.",
+            "Reduzca errores de escritura y aumente la precisión en la creación de textos.",
+            "Gane tiempo para tareas más exigentes en la organización del despacho y atención al cliente."
+          ]
+        }
+      },
+      "process": {
+        "title": "Simple. Rápido. Confidencial.",
+        "description": "Nuestro proceso sencillo le ahorra horas valiosas. Transforme grabaciones de voz en textos editables y legalmente utilizables en pocos pasos.",
+        "steps": [
+          "Subir grabación: Inicie dictados, grabaciones de conversaciones, etc. con un clic.",
+          "Transcripción con IA: Conversión precisa mediante reconocimiento de voz especializado.",
+          "Procesamiento seguro: Estrictamente conforme al RGPD y cifrado de extremo a extremo.",
+          "Listo al instante: Texto formateado para descargar a sus archivos y software."
+        ]
+      },
+      "advantages": {
+        "title": "Su clara ventaja en la práctica legal con Diktat AI",
+        "description": "Diktat AI aporta valor medible a través de la automatización inteligente – específicamente para los requisitos del sector legal.",
+        "points": [
+          "Ahorro de tiempo masivo: Olvídese de horas escribiendo dictados o transcripciones. Gane tiempo para tareas legales principales y atención al cliente.",
+          "Mayor eficiencia del despacho: Haga más en menos tiempo. Acelere notablemente la creación de documentos legales, actas y notas.",
+          "Resultados precisos y utilizables: Reciba transcripciones de texto precisas de sus grabaciones como base confiable para su trabajo legal y documentación.",
+          "Máxima seguridad de datos y confidencialidad: Confíe en la estricta confidencialidad conforme al RGPD y el secreto profesional. Sus datos sensibles de clientes están seguros con nosotros.",
+          "Enfoque en asesoría legal y estrategia: Reduzca la rutina administrativa. Concentre su experiencia en el procesamiento de casos, reuniones con clientes y decisiones estratégicas."
+        ]
+      },
+      "workflow": {
+        "title": "Diktat AI se adapta al flujo de trabajo de su despacho",
+        "description": "Le facilitamos integrar transcripciones sin problemas en sus procesos de trabajo legal.",
+        "email": {
+          "title": "Disponible: Transcribir fácilmente por correo electrónico",
+          "description": "El camino más rápido a la transcripción terminada – sin necesidad de iniciar sesión. Envíe su archivo de audio (dictado, grabación de reunión) directamente como archivo adjunto por correo. Diktat AI entrega el texto de forma segura.",
+          "link": "Cómo funciona"
+        },
+        "integration": {
+          "title": "Disponible: Conexión directa con su software legal",
+          "description": "Integración perfecta para máxima eficiencia. Imagine: sus transcripciones llegan automáticamente donde las necesita – directamente en su gestión de casos o software del despacho.",
+          "button": "Solicitar solución personalizada"
+        },
+        "benefits": {
+          "title": "Por qué estas opciones son valiosas para su despacho:",
+          "points": [
+            "Flexibilidad: Elija el método que mejor se adapte a su forma de trabajar.",
+            "Ahorro de tiempo: Reduzca drásticamente los pasos manuales y tiempos de procesamiento.",
+            "Procesos fluidos: Integre transcripciones directamente en sus procesos establecidos del despacho."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Preguntas frecuentes sobre Diktat AI para bufetes de abogados",
+        "description": "Respuestas a las preguntas más importantes para abogados y personal legal.",
+        "questions": [
+          {
+            "title": "¿Qué hace exactamente Diktat AI para profesionales legales?",
+            "answer": "Diktat AI convierte automáticamente sus palabras habladas – ya sean dictados para escritos legales, reuniones con clientes, notas internas o notas de negociación – en texto escrito. Usted sube la grabación de audio, nuestra IA se encarga de la transcripción."
+          },
+          {
+            "title": "¿Es Diktat AI adecuado para mi bufete?",
+            "answer": "Absolutamente. Diktat AI es ideal para abogados, notarios, asistentes legales y bufetes completos o departamentos legales que regularmente necesitan transcribir dictados o grabaciones de conversaciones y quieren ahorrar tiempo y recursos."
+          },
+          {
+            "title": "¿Cómo ayuda Diktat AI a ahorrar tiempo en la práctica legal diaria?",
+            "answer": "La transcripción manual consume muchísimo tiempo. Diktat AI lo hace en una fracción del tiempo. Este tiempo ahorrado puede invertirlo directamente en trabajo con clientes, adquisición o planificación estratégica."
+          },
+          {
+            "title": "¿Están seguros mis datos de clientes con Diktat AI?",
+            "answer": "Sí. La seguridad de datos y la confidencialidad son nuestra máxima prioridad. Procesamos todos los datos estrictamente según el RGPD en servidores exclusivamente dentro de la UE. Su información sensible está protegida por medidas técnicas y organizativas."
+          },
+          {
+            "title": "¿Qué tan precisas son las transcripciones de contenido legal?",
+            "answer": "Nuestra IA ofrece alta precisión, especialmente con buena calidad de audio. Obtiene una base de texto sólida que puede revisar rápidamente y ajustar a terminología específica si es necesario. La inversión de tiempo es significativamente menor que escribir todo manualmente."
+          },
+          {
+            "title": "¿Qué grabaciones de audio puedo usar?",
+            "answer": "Use grabaciones de dictáfonos, smartphones, reuniones online (ej. Teams, Zoom – con consentimiento), reuniones con clientes (con consentimiento) y más. Se admiten formatos de audio comunes."
+          },
+          {
+            "title": "¿Es complicado de usar? ¿Necesito soporte de TI?",
+            "answer": "No. Diktat AI está diseñado intencionalmente para ser simple: suba la grabación, espere un momento, reciba el texto terminado. No se necesita instalación complicada ni capacitación. Puede empezar inmediatamente."
+          }
+        ]
+      },
+      "final": {
+        "title": "Basta de escribir tediosamente: Concéntrese en sus clientes.",
+        "description": "Diktat AI es su socio confiable para la conversión rápida y segura de voz a texto en el entorno del bufete. Optimice sus flujos de trabajo, aumente la eficiencia y recupere tiempo valioso.",
+        "links": {
+          "start": "Comenzar ahora",
+          "pricing": "Modelos de precios",
+          "security": "Estándares de seguridad"
+        }
+      }
+    }
+  },
+  "fr": {
+    "badge": {
+      "euServer": "Serveur dans l'UE"
+    },
+    "meta": {
+      "title": "Diktat AI pour cabinets d'avocats = Transcription efficace pour cabinets juridiques",
+      "description": "Diktat AI pour cabinets d'avocats : Transcription efficace des dictées juridiques, réunions clients et notes. Conforme au RGPD et sécurisé."
+    },
+    "hero": {
+      "title": "Transcrire des dictées de manière conforme au RGPD avec l'IA",
+      "subtitle": "Transformez vos dictées juridiques en quelques secondes en écrits précis - en toute sécurité et rapidité"
+    },
+    "cta": {
+      "optimize": "Optimisez maintenant votre pratique juridique",
+      "start": "Essai gratuit – avec contrat de traitement",
+      "pricing": "Voir les tarifs"
+    },
+    "sections": {
+      "indispensable": {
+        "title": "Diktat AI : Indispensable pour la pratique juridique moderne",
+        "lawyers": {
+          "title": "Avocats et juristes :",
+          "points": [
+            "Dictez directement les actes juridiques, notes, expertises et correspondance.",
+            "Capturez sans effort les réunions clients et résultats de discussions sous forme de texte.",
+            "Accélérez le traitement des dossiers grâce à la disponibilité rapide des transcriptions."
+          ]
+        },
+        "refas": {
+          "title": "Assistants juridiques et secrétaires :",
+          "points": [
+            "Traitez les dictées d'avocats en un temps record et créez des documents plus rapidement.",
+            "Réduisez les erreurs de frappe et augmentez la précision dans la création de textes.",
+            "Gagnez du temps pour des tâches plus exigeantes dans l'organisation du cabinet et le service client."
+          ]
+        }
+      },
+      "process": {
+        "title": "Simple. Rapide. Confidentiel.",
+        "description": "Notre processus simple vous fait gagner des heures précieuses. Transformez les enregistrements vocaux en textes éditables et juridiquement utilisables en quelques étapes.",
+        "steps": [
+          "Télécharger l'enregistrement : Lancez dictées, enregistrements de conversations, etc. en un clic.",
+          "Transcription IA : Conversion précise par reconnaissance vocale spécialisée.",
+          "Traitement sécurisé : Strictement conforme au RGPD et chiffré de bout en bout.",
+          "Prêt instantanément : Texte formaté à télécharger pour vos fichiers et logiciels."
+        ]
+      },
+      "advantages": {
+        "title": "Votre avantage clair dans la pratique juridique avec Diktat AI",
+        "description": "Diktat AI apporte une valeur mesurable grâce à l'automatisation intelligente – spécifiquement pour les exigences du secteur juridique.",
+        "points": [
+          "Gain de temps massif : Fini les heures de frappe de dictées ou transcriptions. Gagnez du temps pour les tâches juridiques principales et le service client.",
+          "Efficacité accrue du cabinet : Accomplissez plus en moins de temps. Accélérez notablement la création de documents juridiques, procès-verbaux et notes.",
+          "Résultats précis et utilisables : Recevez des transcriptions textuelles précises de vos enregistrements comme base fiable pour votre travail juridique et documentation.",
+          "Sécurité des données et confidentialité maximales : Comptez sur une stricte confidentialité conforme au RGPD et au secret professionnel. Vos données clients sensibles sont en sécurité chez nous.",
+          "Focus sur le conseil juridique et la stratégie : Réduisez la routine administrative. Concentrez votre expertise sur le traitement des dossiers, les réunions clients et les décisions stratégiques."
+        ]
+      },
+      "workflow": {
+        "title": "Diktat AI s'adapte au flux de travail de votre cabinet",
+        "description": "Nous vous facilitons l'intégration transparente des transcriptions dans vos processus de travail juridique.",
+        "email": {
+          "title": "Disponible : Transcrire simplement par e-mail",
+          "description": "Le moyen le plus rapide d'obtenir une transcription terminée – sans connexion nécessaire. Envoyez votre fichier audio (dictée, enregistrement de réunion) directement en pièce jointe par e-mail. Diktat AI renvoie le texte en toute sécurité.",
+          "link": "Comment ça marche"
+        },
+        "integration": {
+          "title": "Disponible : Connexion directe à votre logiciel juridique",
+          "description": "Intégration transparente pour une efficacité maximale. Imaginez : vos transcriptions arrivent automatiquement là où vous en avez besoin – directement dans votre gestion de dossiers ou logiciel de cabinet.",
+          "button": "Demander une solution personnalisée"
+        },
+        "benefits": {
+          "title": "Pourquoi ces options sont précieuses pour votre cabinet :",
+          "points": [
+            "Flexibilité : Choisissez la méthode qui correspond le mieux à votre façon de travailler.",
+            "Gain de temps : Réduisez drastiquement les étapes manuelles et les temps de traitement.",
+            "Processus fluides : Intégrez les transcriptions directement dans vos processus établis du cabinet."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Questions fréquentes sur Diktat AI pour cabinets d'avocats",
+        "description": "Réponses aux questions les plus importantes pour les avocats et le personnel juridique.",
+        "questions": [
+          {
+            "title": "Que fait exactement Diktat AI pour les professionnels du droit ?",
+            "answer": "Diktat AI convertit automatiquement vos paroles – que ce soit des dictées pour actes juridiques, réunions clients, notes internes ou notes de négociation – en texte écrit. Vous téléchargez l'enregistrement audio, notre IA s'occupe de la transcription."
+          },
+          {
+            "title": "Diktat AI est-il adapté à mon cabinet ?",
+            "answer": "Absolument. Diktat AI est idéal pour les avocats, notaires, assistants juridiques et cabinets complets ou départements juridiques qui doivent régulièrement transcrire des dictées ou enregistrements de conversations et souhaitent économiser du temps et des ressources."
+          },
+          {
+            "title": "Comment Diktat AI aide-t-il à gagner du temps dans la pratique juridique quotidienne ?",
+            "answer": "La transcription manuelle prend énormément de temps. Diktat AI le fait en une fraction du temps. Ce temps gagné peut être directement investi dans le travail client, l'acquisition ou la planification stratégique."
+          },
+          {
+            "title": "Mes données clients sont-elles en sécurité avec Diktat AI ?",
+            "answer": "Oui. La sécurité des données et la confidentialité sont notre priorité absolue. Nous traitons toutes les données strictement selon le RGPD sur des serveurs exclusivement dans l'UE. Vos informations sensibles sont protégées par des mesures techniques et organisationnelles."
+          },
+          {
+            "title": "Quelle est la précision des transcriptions de contenu juridique ?",
+            "answer": "Notre IA offre une grande précision, surtout avec une bonne qualité audio. Vous obtenez une base de texte solide que vous pouvez rapidement vérifier et ajuster à une terminologie spécifique si nécessaire. L'investissement en temps est significativement inférieur à tout écrire manuellement."
+          },
+          {
+            "title": "Quels enregistrements audio puis-je utiliser ?",
+            "answer": "Utilisez des enregistrements de dictaphones, smartphones, réunions en ligne (ex. Teams, Zoom – avec consentement), réunions clients (avec consentement) et plus. Les formats audio courants sont pris en charge."
+          },
+          {
+            "title": "Est-ce compliqué à utiliser ? Ai-je besoin d'un support informatique ?",
+            "answer": "Non. Diktat AI est intentionnellement conçu pour être simple : téléchargez l'enregistrement, attendez un moment, recevez le texte terminé. Pas d'installation compliquée ni de formation nécessaire. Vous pouvez commencer immédiatement."
+          }
+        ]
+      },
+      "final": {
+        "title": "Fini la frappe fastidieuse : Concentrez-vous sur vos clients.",
+        "description": "Diktat AI est votre partenaire fiable pour la conversion rapide et sécurisée de la voix en texte dans l'environnement du cabinet. Optimisez vos flux de travail, augmentez l'efficacité et récupérez un temps précieux.",
+        "links": {
+          "start": "Commencer maintenant",
+          "pricing": "Modèles de tarification",
+          "security": "Normes de sécurité"
+        }
+      }
+    }
+  },
+  "sv": {
+    "badge": {
+      "euServer": "Server i EU"
+    },
+    "meta": {
+      "title": "Diktat AI för advokatbyråer = Effektiv transkribering för juridiska firmor",
+      "description": "Diktat AI för advokatbyråer: Effektiv transkribering av juridiska diktat, klientmöten och anteckningar. GDPR-kompatibel och säker."
+    },
+    "hero": {
+      "title": "Transkribera diktat GDPR-kompatibelt med AI",
+      "subtitle": "Förvandla dina juridiska diktat på sekunder till precisa skrivelser - säkert och snabbt"
+    },
+    "cta": {
+      "optimize": "Optimera er advokatverksamhet nu",
+      "start": "Testa gratis – med databehandlingsavtal",
+      "pricing": "Se priser"
+    },
+    "sections": {
+      "indispensable": {
+        "title": "Diktat AI: Oumbärlig för modern advokatverksamhet",
+        "lawyers": {
+          "title": "Advokater och jurister:",
+          "points": [
+            "Diktera juridiska skrifter, anteckningar, utlåtanden och korrespondens direkt.",
+            "Fånga klientmöten och diskussionsresultat enkelt som text.",
+            "Påskynda ärendehanteringen genom snabb tillgång till transkriptioner."
+          ]
+        },
+        "refas": {
+          "title": "Juridiska assistenter och sekreterare:",
+          "points": [
+            "Behandla advokatdiktat på rekordtid och skapa dokument snabbare.",
+            "Minska skrivfel och öka precisionen vid textskapande.",
+            "Vinn tid för mer krävande uppgifter i byråorganisation och klientservice."
+          ]
+        }
+      },
+      "process": {
+        "title": "Enkelt. Snabbt. Konfidentiellt.",
+        "description": "Vår okomplicerade process sparar värdefulla timmar. Förvandla röstinspelningar till redigerbara, juridiskt användbara texter i några få steg.",
+        "steps": [
+          "Ladda upp inspelning: Starta diktat, samtalsinspelningar etc. med ett klick.",
+          "AI-transkribering: Precis konvertering genom specialiserad röstigenkänning.",
+          "Säker behandling: Strikt GDPR-kompatibel och end-to-end-krypterad.",
+          "Omedelbart klar: Formaterad text att ladda ner till era akter och programvara."
+        ]
+      },
+      "advantages": {
+        "title": "Er tydliga fördel i advokatverksamheten med Diktat AI",
+        "description": "Diktat AI ger mätbart mervärde genom smart automatisering – specifikt för kraven inom juridiken.",
+        "points": [
+          "Massiv tidsvinst: Slut med timslång avskrivning av diktat eller transkriptioner. Vinn tid för juridiska kärnuppgifter och klientservice.",
+          "Ökad byråeffektivitet: Åstadkom mer på kortare tid. Påskynda märkbart skapandet av juridiska dokument, protokoll och anteckningar.",
+          "Precisa och användbara resultat: Ta emot noggranna texttranskriptioner av era inspelningar som pålitlig grund för ert juridiska arbete och dokumentation.",
+          "Högsta datasäkerhet och sekretess: Lita på strikt konfidentialitet enligt GDPR och tystnadsplikt. Era känsliga klientdata är säkra hos oss.",
+          "Fokus på juridisk rådgivning och strategi: Minska administrativ rutin. Koncentrera er expertis på ärendehantering, klientmöten och strategiska beslut."
+        ]
+      },
+      "workflow": {
+        "title": "Diktat AI anpassar sig till er byrås arbetsflöde",
+        "description": "Vi gör det enkelt för er att sömlöst integrera transkriptioner i era juridiska arbetsprocesser.",
+        "email": {
+          "title": "Tillgängligt: Enkelt transkribera via e-post",
+          "description": "Snabbaste vägen till färdig transkription – helt utan inloggning. Skicka er ljudfil (diktat, mötesinspelning) direkt som bilaga via e-post. Diktat AI levererar texten säkert tillbaka.",
+          "link": "Så fungerar det"
+        },
+        "integration": {
+          "title": "Tillgängligt: Direkt anslutning till er juridiska programvara",
+          "description": "Sömlös integration för maximal effektivitet. Föreställ er: era transkriptioner hamnar automatiskt där ni behöver dem – direkt i er akthantering eller byråprogramvara.",
+          "button": "Begär skräddarsydd lösning"
+        },
+        "benefits": {
+          "title": "Varför dessa alternativ är värdefulla för er byrå:",
+          "points": [
+            "Flexibilitet: Välj den metod som bäst passar ert arbetssätt.",
+            "Tidsvinst: Minska manuella steg och behandlingstider drastiskt.",
+            "Sömlösa processer: Integrera transkriptioner direkt i era etablerade byråprocesser."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Vanliga frågor om Diktat AI för advokatbyråer",
+        "description": "Svar på de viktigaste frågorna för advokater och juridisk personal.",
+        "questions": [
+          {
+            "title": "Vad gör Diktat AI exakt för jurister?",
+            "answer": "Diktat AI omvandlar automatiskt era talade ord – oavsett om det är diktat för juridiska skrifter, klientmöten, interna anteckningar eller förhandlingsnoteringar – till skriven text. Ni laddar upp ljudinspelningen, vår AI sköter transkriberingen."
+          },
+          {
+            "title": "Är Diktat AI lämplig för min byrå?",
+            "answer": "Absolut. Diktat AI är idealisk för advokater, notarier, juridiska assistenter och hela byråer eller juridiska avdelningar som regelbundet behöver transkribera diktat eller samtalsinspelningar och vill spara tid och resurser."
+          },
+          {
+            "title": "Hur hjälper Diktat AI till att spara tid i den dagliga advokatverksamheten?",
+            "answer": "Manuell transkribering är extremt tidskrävande. Diktat AI gör det på en bråkdel av tiden. Denna vunna tid kan ni direkt investera i klientarbete, akkvistition eller strategisk planering."
+          },
+          {
+            "title": "Är mina klientdata säkra med Diktat AI?",
+            "answer": "Ja. Datasäkerhet och sekretess är vår högsta prioritet. Vi behandlar all data strikt enligt GDPR på servrar uteslutande inom EU. Er känsliga information skyddas genom tekniska och organisatoriska åtgärder."
+          },
+          {
+            "title": "Hur noggranna är transkriberingarna av juridiskt innehåll?",
+            "answer": "Vår AI levererar hög noggrannhet, särskilt vid god ljudkvalitet. Ni får en solid textbas som ni snabbt kan granska och vid behov anpassa till specifik terminologi. Tidsinsatsen är betydligt mindre än att skriva allt manuellt."
+          },
+          {
+            "title": "Vilka ljudinspelningar kan jag använda?",
+            "answer": "Använd inspelningar från dikteringsmaskiner, smartphones, onlinemöten (t.ex. Teams, Zoom – med samtycke), klientmöten (med samtycke) och mer. Vanliga ljudformat stöds."
+          },
+          {
+            "title": "Är det komplicerat att använda? Behöver jag IT-support?",
+            "answer": "Nej. Diktat AI är avsiktligt enkelt utformat: ladda upp inspelning, vänta en stund, få färdig text. Ingen komplicerad installation eller utbildning behövs. Ni kan starta omedelbart."
+          }
+        ]
+      },
+      "final": {
+        "title": "Slut med mödosam skrivning: Koncentrera er på era klienter.",
+        "description": "Diktat AI är er pålitliga partner för snabb och säker omvandling av tal till text i byrå-miljön. Optimera era arbetsflöden, öka effektiviteten och återvinn värdefull tid.",
+        "links": {
+          "start": "Börja nu",
+          "pricing": "Prismodeller",
+          "security": "Säkerhetsstandarder"
+        }
+      }
+    }
   }
 }
 </i18n>
