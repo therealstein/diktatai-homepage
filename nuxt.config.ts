@@ -26,6 +26,15 @@ export default defineNuxtConfig({
           href: "/favicon-16x16.png",
         },
         { rel: "manifest", href: "/site.webmanifest" },
+        // Preconnect to external origins for faster resource loading
+        {
+          rel: "preconnect",
+          href: "https://ph.diktat.ai",
+        },
+        {
+          rel: "preconnect",
+          href: "https://www.googletagmanager.com",
+        },
         // Preload LCP hero background image
         {
           rel: "preload",
@@ -33,7 +42,7 @@ export default defineNuxtConfig({
           as: "image",
           fetchpriority: "high",
         },
-        // Preload critical fonts
+        // Preload critical fonts used above-the-fold
         {
           rel: "preload",
           href: "/fonts/Inter-Regular.woff2",
@@ -43,14 +52,73 @@ export default defineNuxtConfig({
         },
         {
           rel: "preload",
-          href: "/fonts/PlusJakartaSans-SemiBold.woff2",
+          href: "/fonts/Inter-SemiBold.woff2",
           as: "font",
           type: "font/woff2",
           crossorigin: "anonymous",
         },
         {
-          rel: "stylesheet",
-          href: "/fonts/fonts.css",
+          rel: "preload",
+          href: "/fonts/PlusJakartaSans-Bold.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
+      ],
+      // Inline critical font CSS to eliminate render-blocking request
+      style: [
+        {
+          innerHTML: `
+            @font-face {
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              src: url('/fonts/Inter-Regular.woff2') format('woff2');
+              font-display: swap;
+            }
+            @font-face {
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 500;
+              src: url('/fonts/Inter-Medium.woff2') format('woff2');
+              font-display: swap;
+            }
+            @font-face {
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 600;
+              src: url('/fonts/Inter-SemiBold.woff2') format('woff2');
+              font-display: swap;
+            }
+            @font-face {
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 700;
+              src: url('/fonts/Inter-Bold.woff2') format('woff2');
+              font-display: swap;
+            }
+            @font-face {
+              font-family: 'Plus Jakarta Sans';
+              font-style: normal;
+              font-weight: 500;
+              src: url('/fonts/PlusJakartaSans-Medium.woff2') format('woff2');
+              font-display: swap;
+            }
+            @font-face {
+              font-family: 'Plus Jakarta Sans';
+              font-style: normal;
+              font-weight: 600;
+              src: url('/fonts/PlusJakartaSans-SemiBold.woff2') format('woff2');
+              font-display: swap;
+            }
+            @font-face {
+              font-family: 'Plus Jakarta Sans';
+              font-style: normal;
+              font-weight: 700;
+              src: url('/fonts/PlusJakartaSans-Bold.woff2') format('woff2');
+              font-display: swap;
+            }
+          `,
         },
       ],
       meta: [{ name: "theme-color", content: "#ffffff" }],
@@ -357,6 +425,27 @@ export default defineNuxtConfig({
       "/fragen/**": { prerender: true },
       "/en/questions": { prerender: true },
       "/en/questions/**": { prerender: true },
+      // Long cache for immutable static assets
+      "/fonts/**": {
+        headers: {
+          "Cache-Control": "public, max-age=31536000, immutable",
+        },
+      },
+      "/_nuxt-landing/**": {
+        headers: {
+          "Cache-Control": "public, max-age=31536000, immutable",
+        },
+      },
+      "/images/**": {
+        headers: {
+          "Cache-Control": "public, max-age=31536000, immutable",
+        },
+      },
+      "/*.webp": {
+        headers: {
+          "Cache-Control": "public, max-age=31536000, immutable",
+        },
+      },
       "/**": {
         headers: {
           "X-Frame-Options": "SAMEORIGIN",
