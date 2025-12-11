@@ -93,10 +93,12 @@ const questions = computed(() => {
 const pending = ref(false);
 const error = ref(null);
 
-// Set page title and meta
+// SEO Meta Tags with Canonical URL
+const { canonicalUrl } = useSeoCanonical();
 useHead({
   title: t("title"),
   meta: [{ name: "description", content: t("metaDescription") }],
+  link: [{ rel: "canonical", href: canonicalUrl.value }],
 });
 </script>
 
