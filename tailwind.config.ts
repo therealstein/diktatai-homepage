@@ -22,9 +22,11 @@ export default {
     require('@tailwindcss/typography'),
   ],
   daisyui: {
-    themes: [
-      "light",
-    ],
-    darkTheme: "light"
+    themes: ["light"],
+    darkTheme: false, // Disable dark theme to reduce CSS
+    base: true, // Include base styles
+    styled: true, // Include component styles
+    utils: true, // Include utility classes
+    logs: false, // Disable logs in production
   }
 } satisfies Config

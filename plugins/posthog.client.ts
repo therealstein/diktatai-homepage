@@ -1,7 +1,10 @@
 import { defineNuxtPlugin, useRuntimeConfig, useRouter } from '#app';
 import { nextTick } from 'vue';
-import posthog from 'posthog-js';
 import type { User } from '@supabase/supabase-js';
+
+// Lazy load PostHog to reduce initial bundle size
+let posthogInstance: any = null;
+let initPromise: Promise<any> | null = null;
 
 export default defineNuxtPlugin((nuxtApp) => {
   const runtimeConfig = useRuntimeConfig();
@@ -13,50 +16,84 @@ export default defineNuxtPlugin((nuxtApp) => {
     }
     return {
       provide: {
-        posthog: () => posthog,
+        posthog: () => null,
         trackAuth: {
-          identify: (user: User | null) => {},
-          trackRegistration: (user: User) => {},
-          trackLogin: (user: User) => {},
-          trackAccountActivation: (user: User) => {},
-          trackReturningUser: (user: User, daysSinceCreation: number) => {},
+          identify: (_user: User | null) => {},
+          trackRegistration: (_user: User) => {},
+          trackLogin: (_user: User) => {},
+          trackAccountActivation: (_user: User) => {},
+          trackReturningUser: (_user: User, _daysSinceCreation: number) => {},
         },
         trackEvent: (
-          eventName: string,
-          properties: Record<string, any> = {}
+          _eventName: string,
+          _properties: Record<string, any> = {}
         ) => {},
       },
     };
   }
 
-  const posthogClient = posthog.init(runtimeConfig.public.posthogPublicKey, {
-    api_host: runtimeConfig.public.posthogHost,
-    ui_host: 'eu.posthog.com',
-    person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
-    capture_pageview: false, // we add manual pageview capturing below
-    // Disable extra features to reduce bundle size and network requests
-    disable_surveys: true,
-    disable_session_recording: true,
-    autocapture: false,
-    capture_dead_clicks: false,
-    capture_performance: false,
-    loaded: (posthog) => {
-      if (import.meta.env.MODE === 'development') posthog.debug();
-    },
-  });
+  // Initialize PostHog lazily
+  const initPostHog = async (): Promise<any> => {
+    if (posthogInstance) return posthogInstance;
+    if (initPromise) return initPromise;
+
+    initPromise = import('posthog-js').then((module) => {
+      const posthog = module.default;
+      posthogInstance = posthog.init(runtimeConfig.public.posthogPublicKey, {
+        api_host: runtimeConfig.public.posthogHost,
+        ui_host: 'eu.posthog.com',
+        person_profiles: 'identified_only',
+        capture_pageview: false,
+        // Disable extra features to reduce bundle size and network requests
+        disable_surveys: true,
+        disable_session_recording: true,
+        autocapture: false,
+        capture_dead_clicks: false,
+        capture_performance: false,
+        loaded: (ph: any) => {
+          if (import.meta.env.MODE === 'development') ph.debug();
+        },
+      });
+      return posthogInstance;
+    });
+
+    return initPromise;
+  };
+
+  // Helper to safely call PostHog methods
+  const safeCapture = async (event: string, properties?: Record<string, any>) => {
+    const ph = await initPostHog();
+    if (ph) {
+      ph.capture(event, properties);
+    }
+  };
+
+  const safeIdentify = async (distinctId: string, properties?: Record<string, any>) => {
+    const ph = await initPostHog();
+    if (ph) {
+      ph.identify(distinctId, properties);
+    }
+  };
+
+  // Defer PostHog initialization to not block LCP
+  if (typeof window !== 'undefined') {
+    if ('requestIdleCallback' in window) {
+      (window as any).requestIdleCallback(() => initPostHog(), { timeout: 3000 });
+    } else {
+      setTimeout(initPostHog, 3000);
+    }
+  }
 
   // Make sure that pageviews are captured with each route change
   const router = useRouter();
   router.beforeEach((to, from) => {
     nextTick(() => {
       // Skip pageleave tracking for /app/ routes (tracked server-side)
-      // Matches both /app/ and /en/app/ (i18n prefixed routes)
       if (from.path.includes('/app/')) {
         return;
       }
 
-      // Capture page leave event for the page being left
-      posthog.capture('$pageleave', {
+      safeCapture('$pageleave', {
         from_url: from.fullPath,
         to_url: to.fullPath,
         leave_timestamp: new Date().toISOString(),
@@ -67,14 +104,13 @@ export default defineNuxtPlugin((nuxtApp) => {
   router.afterEach((to) => {
     nextTick(() => {
       // Skip pageview tracking for /app/ routes (tracked server-side)
-      // Matches both /app/ and /en/app/ (i18n prefixed routes)
       if (to.path.includes('/app/')) {
         return;
       }
 
-      posthog.capture('$pageview', {
+      safeCapture('$pageview', {
         '$current_url': 'https://diktat.ai' + to.fullPath,
-        "$pathname": to.fullPath
+        '$pathname': to.fullPath,
       });
     });
   });
@@ -82,8 +118,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   // Auth tracking functions
   const identifyUser = (user: User | null) => {
     if (!user) return;
-
-    posthog.identify(user.id, {
+    safeIdentify(user.id, {
       email: user.email,
       created_at: user.created_at,
       last_sign_in_at: user.last_sign_in_at,
@@ -91,7 +126,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   };
 
   const trackUserRegistration = (user: User) => {
-    posthog.capture('user_registered', {
+    safeCapture('user_registered', {
       user_id: user.id,
       email: user.email,
       auth_provider: user.app_metadata?.provider || 'email',
@@ -100,7 +135,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   };
 
   const trackAccountActivation = (user: User) => {
-    posthog.capture('account_activation', {
+    safeCapture('account_activation', {
       user_id: user.id,
       email: user.email,
       activation_date: new Date().toISOString(),
@@ -108,7 +143,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   };
 
   const trackUserLogin = (user: User) => {
-    posthog.capture('user_logged_in', {
+    safeCapture('user_logged_in', {
       user_id: user.id,
       email: user.email,
       auth_provider: user.app_metadata?.provider || 'email',
@@ -117,7 +152,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   };
 
   const trackReturningUser = (user: User, daysSinceCreation: number) => {
-    posthog.capture('returning_user_login', {
+    safeCapture('returning_user_login', {
       user_id: user.id,
       email: user.email,
       days_since_account_creation: daysSinceCreation,
@@ -126,8 +161,6 @@ export default defineNuxtPlugin((nuxtApp) => {
       current_login_timestamp: user.last_sign_in_at,
       account_created_date: user.created_at,
       auth_provider: user.app_metadata?.provider || 'email',
-      // Note: We cannot track actual "days since last login" because Supabase
-      // doesn't store previous login timestamps, only current login
       tracking_method: 'account_age_based',
     });
   };
@@ -136,12 +169,12 @@ export default defineNuxtPlugin((nuxtApp) => {
     eventName: string,
     properties: Record<string, any> = {}
   ) => {
-    posthog.capture(eventName, properties);
+    safeCapture(eventName, properties);
   };
 
   return {
     provide: {
-      posthog: () => posthogClient,
+      posthog: () => posthogInstance,
       trackAuth: {
         identify: identifyUser,
         trackRegistration: trackUserRegistration,

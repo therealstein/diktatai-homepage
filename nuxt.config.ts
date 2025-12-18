@@ -26,33 +26,29 @@ export default defineNuxtConfig({
           href: "/favicon-16x16.png",
         },
         { rel: "manifest", href: "/site.webmanifest" },
-        // Preconnect to external origins for faster resource loading
+        // DNS prefetch for external resources (faster than preconnect, less overhead)
         {
-          rel: "preconnect",
+          rel: "dns-prefetch",
           href: "https://ph.diktat.ai",
         },
         {
-          rel: "preconnect",
+          rel: "dns-prefetch",
           href: "https://www.googletagmanager.com",
         },
-        // Preload LCP hero background image
         {
-          rel: "preload",
-          href: "/herobg.webp",
-          as: "image",
-          fetchpriority: "high",
+          rel: "dns-prefetch",
+          href: "https://www.google.com",
         },
-        // Preload critical fonts used above-the-fold
+        // Preconnect to analytics (use crossorigin for CORS resources)
+        {
+          rel: "preconnect",
+          href: "https://ph.diktat.ai",
+          crossorigin: "anonymous",
+        },
+        // Preload critical fonts used above-the-fold (reduced set)
         {
           rel: "preload",
           href: "/fonts/Inter-Regular.woff2",
-          as: "font",
-          type: "font/woff2",
-          crossorigin: "anonymous",
-        },
-        {
-          rel: "preload",
-          href: "/fonts/Inter-SemiBold.woff2",
           as: "font",
           type: "font/woff2",
           crossorigin: "anonymous",
@@ -496,5 +492,31 @@ export default defineNuxtConfig({
           ? ["debugger"]
           : [],
     },
+    build: {
+      // Split vendor chunks for better caching
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            // Split large dependencies into separate chunks
+            'vue-vendor': ['vue', 'vue-router'],
+            'i18n': ['vue-i18n'],
+          },
+        },
+      },
+    },
+  },
+  // Experimental features for better performance
+  experimental: {
+    // Inline styles for faster initial render
+    inlineStyles: true,
+    // Tree-shake client-only components in server bundle
+    treeshakeClientOnly: true,
+    // Payload extraction for prerendered pages
+    payloadExtraction: true,
+  },
+  // Optimize module loading
+  features: {
+    // Inline styles from components for critical CSS
+    inlineStyles: true,
   },
 });
