@@ -61,6 +61,17 @@ Debug: locale={{ locale }}, questionsData={{ questionsData }}</pre
 const { t, locale } = useI18n({ useScope: "local" });
 const localePath = useLocalePath();
 
+// Questions only exist for 'de' and 'en' locales
+// Return 404 for all other locales
+const supportedLocales = ["de", "en"];
+if (!supportedLocales.includes(locale.value)) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: "Page Not Found",
+    fatal: true,
+  });
+}
+
 // Helper function to get the correct localized question path
 const getQuestionPath = (question: any) => {
   const slug = question.path.split("/").pop();
