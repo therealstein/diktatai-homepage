@@ -354,19 +354,22 @@ export default defineNuxtConfig({
       },
       questions: {
         de: "/fragen",
-        nl: "/vragen",
         en: "/questions",
-        es: "/preguntas",
-        fr: "/questions",
-        sv: "/fragor",
+        // Questions content only exists for de and en locales
+        // Setting to false prevents hreflang links and sitemap entries for unsupported locales
+        nl: false,
+        es: false,
+        fr: false,
+        sv: false,
       },
       "questions/[slug]": {
         de: "/fragen/[slug]",
-        nl: "/vragen/[slug]",
         en: "/questions/[slug]",
-        es: "/preguntas/[slug]",
-        fr: "/questions/[slug]",
-        sv: "/fragor/[slug]",
+        // Questions content only exists for de and en locales
+        nl: false,
+        es: false,
+        fr: false,
+        sv: false,
       },
     },
 
