@@ -410,19 +410,73 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: ["/fragen", "/en/questions"],
+      // Continue build even if crawled links return 404
+      // This is expected for auth pages and invalid locale combinations
+      failOnError: false,
       ignore: [
-        "/auth/login",
-        "/auth/register",
-        "/en/auth/login",
-        "/en/auth/register",
-        "/nl/auth/login",
-        "/nl/auth/register",
-        "/es/auth/login",
-        "/es/auth/register",
-        "/fr/auth/login",
-        "/fr/auth/register",
-        "/sv/auth/login",
-        "/sv/auth/register",
+        // Auth pages - all locales
+        "/auth/**",
+        "/*/auth/**",
+        "/**/auth/**",
+
+        // Questions only exist for de (/fragen) and en (/en/questions)
+        // Block all other locale + question path combinations
+        "/nl/fragen/**",
+        "/nl/questions/**",
+        "/es/fragen/**",
+        "/es/questions/**",
+        "/fr/fragen/**",
+        "/fr/questions/**",
+        "/sv/fragen/**",
+        "/sv/questions/**",
+        "/en/fragen/**",
+        // Also block English question slugs appearing under /fragen/ (German path)
+        "/fragen/whatsapp-voice-dictation-not-working",
+        "/fragen/microsoft-dictation-not-working",
+        "/fragen/mac-voice-dictation",
+        "/fragen/google-docs-voice-typing",
+        "/fragen/keyboard-shortcut-for-dictation",
+        "/fragen/excel-voice-input",
+        "/fragen/chatgpt-audio-to-text",
+        "/fragen/samsung-text-to-speech",
+        "/fragen/what-is-voice-dictation",
+        "/fragen/pc-voice-dictation-speech-to-text",
+
+        // Nested locale prefixes (invalid routes like /sv/nl/, /en/nl/, etc.)
+        "/*/nl/**",
+        "/*/en/**",
+        "/*/es/**",
+        "/*/fr/**",
+        "/*/sv/**",
+        "/*/de/**",
+
+        // Block sitemap XML files under locale prefixes (handled at root)
+        "/*/__sitemap__/**",
+        "/**/__sitemap__/**",
+        "/*/sitemap.xml",
+
+        // Block __nuxt_content API paths from being prerendered as pages
+        "/__nuxt_content/**",
+
+        // Block sample-page across all locales
+        "/sample-page",
+        "/*/sample-page",
+
+        // Block regulierte-branchen without suffix (redirected)
+        "/regulierte-branchen",
+        "/*/regulierte-branchen",
+
+        // Block ki-spracherkennung-funktionsweise (redirected)
+        "/ki-spracherkennung-funktionsweise",
+        "/*/ki-spracherkennung-funktionsweise",
+
+        // Block /how-it-works internal path
+        "/how-it-works",
+        "/*/how-it-works",
+
+        // Block /public-sector without suffix
+        "/public-sector",
+        "/*/public-sector",
       ],
     },
     routeRules: {
