@@ -24,7 +24,7 @@
     "jsonrepair": "^3.12.0",
     "marked": "^15.0.12",
     "mustache": "^4.2.0",
-    "nuxt": "^3.17.3",
+    "nuxt": "^4.2.2",
     "nuxt-directus": "^5.7.0",
     "posthog-js": "^1.281.0"
   },
