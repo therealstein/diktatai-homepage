@@ -371,6 +371,23 @@ export default defineNuxtConfig({
         fr: false,
         sv: false,
       },
+      // Blog content only exists in German
+      blog: {
+        de: "/blog",
+        en: false,
+        nl: false,
+        es: false,
+        fr: false,
+        sv: false,
+      },
+      "blog/[...slug]": {
+        de: "/blog/[...slug]",
+        en: false,
+        nl: false,
+        es: false,
+        fr: false,
+        sv: false,
+      },
     },
 
     detectBrowserLanguage: false,
