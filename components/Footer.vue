@@ -134,21 +134,23 @@
               <img v-else-if="locale === 'sv'" src="/SE.svg" alt="Swedish Flag" class="w-4 h-4" />
               <span class="text-sm text-gray-500">{{ getCurrentLocaleName }}</span>
             </div>
-            <a
-              href="#"
-              v-for="l in availableLocales"
-              :key="l.code"
-              @click.prevent.stop="setLocale(l.code)"
-              class="flex items-center gap-2 text-sm hover:text-primary transition-colors"
-            >
-              <img v-if="l.code === 'de'" src="/DE.svg" alt="German Flag" class="w-4 h-4" />
-              <img v-else-if="l.code === 'en'" src="/GB.svg" alt="British Flag" class="w-4 h-4" />
-              <img v-else-if="l.code === 'nl'" src="/NL.svg" alt="Dutch Flag" class="w-4 h-4" />
-              <img v-else-if="l.code === 'es'" src="/ES.svg" alt="Spanish Flag" class="w-4 h-4" />
-              <img v-else-if="l.code === 'fr'" src="/FR.svg" alt="French Flag" class="w-4 h-4" />
-              <img v-else-if="l.code === 'sv'" src="/SE.svg" alt="Swedish Flag" class="w-4 h-4" />
-              {{ l.name }}
-            </a>
+<template v-if="!isQuestionsPage">
+              <a
+                href="#"
+                v-for="l in availableLocales"
+                :key="l.code"
+                @click.prevent.stop="setLocale(l.code)"
+                class="flex items-center gap-2 text-sm hover:text-primary transition-colors"
+              >
+                <img v-if="l.code === 'de'" src="/DE.svg" alt="German Flag" class="w-4 h-4" />
+                <img v-else-if="l.code === 'en'" src="/GB.svg" alt="British Flag" class="w-4 h-4" />
+                <img v-else-if="l.code === 'nl'" src="/NL.svg" alt="Dutch Flag" class="w-4 h-4" />
+                <img v-else-if="l.code === 'es'" src="/ES.svg" alt="Spanish Flag" class="w-4 h-4" />
+                <img v-else-if="l.code === 'fr'" src="/FR.svg" alt="French Flag" class="w-4 h-4" />
+                <img v-else-if="l.code === 'sv'" src="/SE.svg" alt="Swedish Flag" class="w-4 h-4" />
+                {{ l.name }}
+              </a>
+            </template>
           </div>
         </div>
       </div>
@@ -158,6 +160,7 @@
 
 <script setup lang="ts">
 const { locale, locales, setLocale, t } = useI18n();
+const route = useRoute();
 
 const availableLocales = computed(() => {
   return locales.value.filter(i => i.code !== locale.value)
@@ -166,6 +169,12 @@ const availableLocales = computed(() => {
 const getCurrentLocaleName = computed(() => {
   const localeName = locales.value.find(l => l.code === locale.value)?.name;
   return localeName || t('language');
+});
+
+// Hide language selector on question pages (no translations available)
+const isQuestionsPage = computed(() => {
+  const path = route.path;
+  return path.startsWith('/fragen') || path.includes('/questions');
 });
 </script>
 
