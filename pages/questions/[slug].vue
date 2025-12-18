@@ -30,6 +30,17 @@ const route = useRoute();
 const slug = route.params.slug as string;
 const { locale } = useI18n();
 
+// Questions only exist for 'de' and 'en' locales
+// Return 404 for all other locales
+const supportedLocales = ["de", "en"];
+if (!supportedLocales.includes(locale.value)) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: "Page Not Found",
+    fatal: true,
+  });
+}
+
 // Fetch all questions and find the matching one
 const { data: allQuestions, pending } = await useAsyncData(`question-${locale.value}-${slug}`, () =>
   queryCollection('questions').all()
