@@ -1,26 +1,49 @@
-<script setup>
+<script setup lang="ts">
+declare global {
+  interface Window {
+    gtmLoaded?: boolean;
+    dataLayer: any[];
+    gtag: (...args: any[]) => void;
+  }
+}
+
 const route = useRoute();
 const { t } = useI18n();
 const head = useLocaleHead();
 
-// Google Tag Manager - deferred to reduce main thread blocking
-useHead({
-  script: [
-    {
-      async: true,
-      defer: true,
-      src: 'https://www.googletagmanager.com/gtag/js?id=AW-16950089138',
-      fetchpriority: 'low',
-    },
-    {
-      innerHTML: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'AW-16950089138');
-      `,
-    },
-  ],
+// Google Tag Manager - loaded after user interaction or 3 second delay to reduce LCP impact
+const loadGTM = () => {
+  if (window.gtmLoaded) return;
+  window.gtmLoaded = true;
+
+  const script = document.createElement('script');
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16950089138';
+  script.async = true;
+  document.head.appendChild(script);
+
+  window.dataLayer = window.dataLayer || [];
+  const gtag = (...args: any[]) => { window.dataLayer.push(args); };
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', 'AW-16950089138');
+};
+
+onMounted(() => {
+  // Load GTM after 3 seconds or on user interaction (whichever comes first)
+  const timeout = setTimeout(loadGTM, 3000);
+
+  const interactionEvents = ['mousedown', 'keydown', 'touchstart', 'scroll'];
+  const onInteraction = () => {
+    clearTimeout(timeout);
+    loadGTM();
+    interactionEvents.forEach(event => {
+      window.removeEventListener(event, onInteraction, { capture: true });
+    });
+  };
+
+  interactionEvents.forEach(event => {
+    window.addEventListener(event, onInteraction, { capture: true, passive: true });
+  });
 });
 </script>
 
