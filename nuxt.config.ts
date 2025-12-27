@@ -421,26 +421,25 @@ export default defineNuxtConfig({
 
         // Questions only exist for de (/fragen) and en (/en/questions)
         // Block all other locale + question path combinations
+        // Index pages
+        "/nl/vragen",
+        "/nl/vragen/**",
+        "/es/preguntas",
+        "/es/preguntas/**",
+        "/fr/questions",
+        "/fr/questions/**",
+        "/sv/fragor",
+        "/sv/fragor/**",
+        // Also block internal path patterns
         "/nl/fragen/**",
         "/nl/questions/**",
         "/es/fragen/**",
         "/es/questions/**",
         "/fr/fragen/**",
-        "/fr/questions/**",
         "/sv/fragen/**",
         "/sv/questions/**",
         "/en/fragen/**",
-        // Also block English question slugs appearing under /fragen/ (German path)
-        "/fragen/whatsapp-voice-dictation-not-working",
-        "/fragen/microsoft-dictation-not-working",
-        "/fragen/mac-voice-dictation",
-        "/fragen/google-docs-voice-typing",
-        "/fragen/keyboard-shortcut-for-dictation",
-        "/fragen/excel-voice-input",
-        "/fragen/chatgpt-audio-to-text",
-        "/fragen/samsung-text-to-speech",
-        "/fragen/what-is-voice-dictation",
-        "/fragen/pc-voice-dictation-speech-to-text",
+        // English question slugs under /fragen/ are now redirected via redirects.ts
 
         // Nested locale prefixes (invalid routes like /sv/nl/, /en/nl/, etc.)
         "/*/nl/**",
