@@ -1,9 +1,19 @@
 <template>
   <!-- Hero Section with background image -->
   <div
-    class="hero min-h-[85vh] relative bg-cover bg-center flex items-center justify-center"
-    style="background-image: url('/herobg.webp')"
+    class="hero min-h-[85vh] relative flex items-center justify-center"
   >
+    <!-- LCP Image - using <img> for better discovery and fetchpriority -->
+    <img
+      src="/herobg.webp"
+      alt=""
+      fetchpriority="high"
+      loading="eager"
+      decoding="async"
+      class="absolute inset-0 w-full h-full object-cover"
+      width="1920"
+      height="1080"
+    />
     <!-- Background overlay for better contrast -->
     <div
       class="absolute inset-0 bg-gradient-to-br from-indigo-900/30 via-purple-900/25 to-pink-900/20"

@@ -26,14 +26,18 @@ export default defineNuxtConfig({
           href: "/favicon-16x16.png",
         },
         { rel: "manifest", href: "/site.webmanifest" },
+        // Preload LCP image with high priority (hero background)
+        {
+          rel: "preload",
+          href: "/herobg.webp",
+          as: "image",
+          type: "image/webp",
+          fetchpriority: "high",
+        },
         // DNS prefetch for external resources (faster than preconnect, less overhead)
         {
           rel: "dns-prefetch",
           href: "https://ph.diktat.ai",
-        },
-        {
-          rel: "dns-prefetch",
-          href: "https://www.googletagmanager.com",
         },
         {
           rel: "dns-prefetch",
@@ -45,10 +49,30 @@ export default defineNuxtConfig({
           href: "https://ph.diktat.ai",
           crossorigin: "anonymous",
         },
-        // Preload critical fonts used above-the-fold (reduced set)
+        // Preconnect to Google Tag Manager
+        {
+          rel: "preconnect",
+          href: "https://www.googletagmanager.com",
+          crossorigin: "anonymous",
+        },
+        // Preload critical fonts used above-the-fold
         {
           rel: "preload",
           href: "/fonts/Inter-Regular.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
+        {
+          rel: "preload",
+          href: "/fonts/Inter-SemiBold.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
+        {
+          rel: "preload",
+          href: "/fonts/Inter-Bold.woff2",
           as: "font",
           type: "font/woff2",
           crossorigin: "anonymous",

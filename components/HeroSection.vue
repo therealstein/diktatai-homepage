@@ -1,7 +1,18 @@
 <template>
   <!-- Heldenbereich mit Hintergrundbild -->
-  <div class="hero min-h-[80vh] relative bg-cover bg-center flex items-center justify-center" style="background-image: url('/herobg.webp');">
-    <div class="hero-content text-center w-full px-4 py-6 md:py-12 flex flex-col md:flex-row md:justify-center items-center gap-8">
+  <div class="hero min-h-[80vh] relative flex items-center justify-center">
+    <!-- LCP Image - using <img> for better discovery and fetchpriority -->
+    <img
+      src="/herobg.webp"
+      alt=""
+      fetchpriority="high"
+      loading="eager"
+      decoding="async"
+      class="absolute inset-0 w-full h-full object-cover"
+      width="1920"
+      height="1080"
+    />
+    <div class="hero-content text-center w-full px-4 py-6 md:py-12 flex flex-col md:flex-row md:justify-center items-center gap-8 relative z-10">
       <!-- Hauptinhalt Box -->
       <div class="backdrop-blur-sm bg-white/20 p-6 md:p-10 rounded-3xl shadow-2xl border border-white/30 w-full md:w-3/5 lg:w-3/5">
         <div class="relative w-full flex justify-center mb-6 md:mb-8 px-4 md:px-8">
