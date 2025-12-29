@@ -4,7 +4,96 @@ type RedirectRule = {
   redirect: { to: string; statusCode: 301 | 302 | 307 | 308 };
 };
 
+// German question slugs - for generating redirects from wrong locale paths
+const germanQuestionSlugs = [
+  'excel-tabellen-per-spracheingabe-fullen-so-hilft-diktat-ai',
+  'google-docs-sprache-zu-text-so-diktieren-sie-texte-muhelos-und-sparen-zeit',
+  'kann-chatgpt-audio-in-text-umwandeln-die-uberraschende-antwort-und-clevere-alternativen',
+  'mac-sprachdiktat-so-diktierst-du-texte-statt-sie-zu-tippen-eine-anleitung',
+  'microsoft-sprachdiktat-funktioniert-nicht-hier-sind-ihre-losungsansatze',
+  'samsung-text-to-speech-so-lasst-du-dir-texte-einfach-vorlesen',
+  'sprachdiktat-am-pc-so-einfach-verwandeln-sie-sprache-in-text-eine-anleitung',
+  'was-ist-ein-sprachdiktat-mehr-als-nur-gesprochene-worte',
+  'welche-tastenkombination-fur-diktieren-ihr-wegweiser-zur-effizienten-spracheingabe',
+  'whatsapp-sprachdiktat-streikt-schnelle-losungen-und-die-professionelle-alternative',
+];
+
+// English question slugs - for generating redirects from wrong locale paths
+const englishQuestionSlugs = [
+  'chatgpt-audio-to-text',
+  'excel-voice-input',
+  'google-docs-voice-typing',
+  'keyboard-shortcut-for-dictation',
+  'mac-voice-dictation',
+  'microsoft-dictation-not-working',
+  'pc-voice-dictation-speech-to-text',
+  'samsung-text-to-speech',
+  'what-is-voice-dictation',
+  'whatsapp-voice-dictation-not-working',
+];
+
+// Generate redirects for German slugs appearing under wrong locale question paths
+function generateGermanSlugRedirects(): Record<string, RedirectRule> {
+  const redirects: Record<string, RedirectRule> = {};
+
+  // Locale prefixes and their question path patterns
+  const wrongLocalePaths = [
+    { prefix: '/en/questions', from: 'en' },
+    { prefix: '/nl/vragen', from: 'nl' },
+    { prefix: '/es/preguntas', from: 'es' },
+    { prefix: '/fr/questions', from: 'fr' },
+    { prefix: '/sv/fragor', from: 'sv' },
+  ];
+
+  for (const slug of germanQuestionSlugs) {
+    for (const { prefix } of wrongLocalePaths) {
+      redirects[`${prefix}/${slug}`] = {
+        redirect: { to: `/fragen/${slug}`, statusCode: 301 },
+      };
+    }
+  }
+
+  return redirects;
+}
+
+// Generate redirects for English slugs appearing under wrong locale question paths
+function generateEnglishSlugRedirects(): Record<string, RedirectRule> {
+  const redirects: Record<string, RedirectRule> = {};
+
+  // Locale prefixes and their question path patterns (excluding /en/questions which is correct)
+  const wrongLocalePaths = [
+    { prefix: '/nl/vragen', from: 'nl' },
+    { prefix: '/es/preguntas', from: 'es' },
+    { prefix: '/fr/questions', from: 'fr' },
+    { prefix: '/sv/fragor', from: 'sv' },
+    { prefix: '/fragen', from: 'de' }, // English slugs under German path
+  ];
+
+  for (const slug of englishQuestionSlugs) {
+    for (const { prefix } of wrongLocalePaths) {
+      redirects[`${prefix}/${slug}`] = {
+        redirect: { to: `/en/questions/${slug}`, statusCode: 301 },
+      };
+    }
+  }
+
+  return redirects;
+}
+
 export const redirects: Record<string, RedirectRule> = {
+  // Unsupported locale question index routes → redirect to German /fragen
+  '/nl/vragen': { redirect: { to: '/fragen', statusCode: 301 } },
+  '/es/preguntas': { redirect: { to: '/fragen', statusCode: 301 } },
+  '/fr/questions': { redirect: { to: '/fragen', statusCode: 301 } },
+  '/sv/fragor': { redirect: { to: '/fragen', statusCode: 301 } },
+
+  // Generated redirects for German question slugs under wrong locales
+  ...generateGermanSlugRedirects(),
+
+  // Generated redirects for English question slugs under wrong locales
+  ...generateEnglishSlugRedirects(),
+
+  // Additional question slug redirects that were previously being handled
   // Redirect incorrect /nl/ URLs with German slugs to correct Dutch slugs
   '/nl/behoerden-ki-sicherheit': {
     redirect: { to: '/nl/overheidssector-ai-beveiliging', statusCode: 301 },
@@ -27,46 +116,6 @@ export const redirects: Record<string, RedirectRule> = {
   '/nl/journalisten-und-redakteure-interviews-pressekonferenzen-recherche-aufnahmen-umwandeln': {
     redirect: {
       to: '/nl/journalisten-en-redacteuren-interviews-persconferenties-onderzoeksopnames-transcriberen',
-      statusCode: 301,
-    },
-  },
-
-  // English question slugs incorrectly under German /fragen/ → redirect to /en/questions/
-  '/fragen/whatsapp-voice-dictation-not-working': {
-    redirect: { to: '/en/questions/whatsapp-voice-dictation-not-working', statusCode: 301 },
-  },
-  '/fragen/microsoft-dictation-not-working': {
-    redirect: { to: '/en/questions/microsoft-dictation-not-working', statusCode: 301 },
-  },
-  '/fragen/mac-voice-dictation': {
-    redirect: { to: '/en/questions/mac-voice-dictation', statusCode: 301 },
-  },
-  '/fragen/google-docs-voice-typing': {
-    redirect: { to: '/en/questions/google-docs-voice-typing', statusCode: 301 },
-  },
-  '/fragen/keyboard-shortcut-for-dictation': {
-    redirect: { to: '/en/questions/keyboard-shortcut-for-dictation', statusCode: 301 },
-  },
-  '/fragen/excel-voice-input': {
-    redirect: { to: '/en/questions/excel-voice-input', statusCode: 301 },
-  },
-  '/fragen/chatgpt-audio-to-text': {
-    redirect: { to: '/en/questions/chatgpt-audio-to-text', statusCode: 301 },
-  },
-  '/fragen/samsung-text-to-speech': {
-    redirect: { to: '/en/questions/samsung-text-to-speech', statusCode: 301 },
-  },
-  '/fragen/what-is-voice-dictation': {
-    redirect: { to: '/en/questions/what-is-voice-dictation', statusCode: 301 },
-  },
-  '/fragen/pc-voice-dictation-speech-to-text': {
-    redirect: { to: '/en/questions/pc-voice-dictation-speech-to-text', statusCode: 301 },
-  },
-
-  // German question slugs incorrectly under English /en/questions/ → redirect to /fragen/
-  '/en/questions/whatsapp-sprachdiktat-streikt-schnelle-losungen-und-die-professionelle-alternative': {
-    redirect: {
-      to: '/fragen/whatsapp-sprachdiktat-streikt-schnelle-losungen-und-die-professionelle-alternative',
       statusCode: 301,
     },
   },
