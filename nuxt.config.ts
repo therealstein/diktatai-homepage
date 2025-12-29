@@ -477,6 +477,9 @@ export default defineNuxtConfig({
         // Block /public-sector without suffix
         "/public-sector",
         "/*/public-sector",
+
+        // Block incorrect locale + German slug combinations
+        "/es/juristen-und-anwaelte-diktate-mandantengespraeche-dsgvo-konform-aufzeichnen",
       ],
     },
     routeRules: {

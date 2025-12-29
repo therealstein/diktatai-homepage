@@ -13,6 +13,11 @@ export const redirects: Record<string, RedirectRule> = {
     redirect: { to: '/nl/bedrijven-ai-beveiliging', statusCode: 301 },
   },
 
+  // Redirect incorrect /es/ URLs with German slugs to correct Spanish slugs
+  '/es/juristen-und-anwaelte-diktate-mandantengespraeche-dsgvo-konform-aufzeichnen': {
+    redirect: { to: '/es/abogados-grabar-reuniones-clientes-cumplimiento-rgpd', statusCode: 301 },
+  },
+
   // Redirect auth pages to homepage
   '/auth/register': { redirect: { to: '/', statusCode: 301 } },
   '/en/auth/register': { redirect: { to: '/en/', statusCode: 301 } },
