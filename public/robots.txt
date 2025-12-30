@@ -1,12 +1,9 @@
 User-agent: *
 Allow: /
 
-# Block internal/auth paths
+# Block internal paths
 Disallow: /api/
 Disallow: /app/
-Disallow: /auth/
-Disallow: /en/auth/
-Disallow: /nl/auth/
 Disallow: /opt/
 Disallow: /general/
 
