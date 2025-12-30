@@ -130,8 +130,18 @@
       <p class="text-base text-base-content/70 max-w-2xl mx-auto mb-6">
         {{ t('reachOutText') }}
       </p>
+      <!-- Only show questions link for locales where questions page exists (de, en) -->
       <NuxtLinkLocale
+        v-if="hasQuestionsPage"
         to="questions"
+        class="font-display bg-purple-500 text-white text-xl font-bold py-4 px-12 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
+      >
+        {{ t('moreQuestions') }}
+      </NuxtLinkLocale>
+      <!-- For other locales, link to contact page instead -->
+      <NuxtLinkLocale
+        v-else
+        to="general-kontakt"
         class="font-display bg-purple-500 text-white text-xl font-bold py-4 px-12 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide"
       >
         {{ t('moreQuestions') }}
@@ -141,7 +151,12 @@
 </template>
 
 <script setup>
-const { t } = useI18n();
+const { t, locale } = useI18n();
+
+// Questions page only exists for de and en locales
+const hasQuestionsPage = computed(() => {
+  return ['de', 'en'].includes(locale.value);
+});
 
 // Generate FAQ Schema for SEO
 const faqSchema = computed(() => {

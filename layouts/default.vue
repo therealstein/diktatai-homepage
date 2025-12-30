@@ -11,6 +11,43 @@ const route = useRoute();
 const { t } = useI18n();
 const head = useLocaleHead();
 
+// Filter out malformed hreflang links that have double locale prefixes
+// This can happen when NuxtLinkLocale generates paths for routes set to false
+const filteredLinks = computed(() => {
+  if (!head.value?.link) return [];
+
+  // Regex to detect double locale prefixes like /fr/fr/, /en/sv/, /nl/en/, etc.
+  const doubleLocalePattern = /^\/(de|en|nl|es|fr|sv)\/(de|en|nl|es|fr|sv)\//;
+
+  // Also filter out question pages for locales that don't support them
+  const invalidQuestionPatterns = [
+    /^\/(nl|es|fr|sv)\/.*\/(questions|fragen|vragen|preguntas|fragor)\//,
+    /^\/(nl|es|fr|sv)\/(questions|fragen|vragen|preguntas|fragor)/,
+  ];
+
+  return head.value.link.filter((link: any) => {
+    if (!link.href) return true;
+
+    // Remove the domain to get the path
+    const href = link.href;
+    const url = href.startsWith('http') ? new URL(href).pathname : href;
+
+    // Check for double locale prefixes
+    if (doubleLocalePattern.test(url)) {
+      return false;
+    }
+
+    // Check for invalid question page links
+    for (const pattern of invalidQuestionPatterns) {
+      if (pattern.test(url)) {
+        return false;
+      }
+    }
+
+    return true;
+  });
+});
+
 // Google Tag Manager - loaded after user interaction or 3 second delay to reduce LCP impact
 const loadGTM = () => {
   if (window.gtmLoaded) return;
@@ -51,7 +88,7 @@ onMounted(() => {
   <div>
     <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
       <Head>
-        <template v-for="link in head.link" :key="link.hid">
+        <template v-for="link in filteredLinks" :key="link.hid">
           <Link
             :id="link.hid"
             :rel="link.rel"
