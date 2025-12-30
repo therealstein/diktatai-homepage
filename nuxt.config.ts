@@ -1,4 +1,5 @@
 import { redirects } from "./config/redirects";
+import { prerenderRoutes } from "./config/prerenderRoutes";
 
 export default defineNuxtConfig({
   compatibilityDate: "2025-03-03",
@@ -432,100 +433,11 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      crawlLinks: true,
-      routes: ["/fragen", "/en/questions"],
-      // Continue build even if crawled links return 404
-      // This is expected for auth pages and invalid locale combinations
+      // Disable crawling - only prerender explicitly listed routes
+      crawlLinks: false,
+      // Use explicit whitelist from config
+      routes: prerenderRoutes,
       failOnError: false,
-      ignore: [
-        // Auth pages - all locales (these don't exist on the landing page)
-        "/auth/**",
-        "/*/auth/**",
-        "/**/auth/**",
-        // Explicit auth paths for all locales
-        "/en/auth/**",
-        "/nl/auth/**",
-        "/es/auth/**",
-        "/fr/auth/**",
-        "/sv/auth/**",
-
-        // Questions only exist for de (/fragen) and en (/en/questions)
-        // Block all other locale + question path combinations
-        // Index pages
-        "/nl/vragen",
-        "/nl/vragen/**",
-        "/es/preguntas",
-        "/es/preguntas/**",
-        "/fr/questions",
-        "/fr/questions/**",
-        "/sv/fragor",
-        "/sv/fragor/**",
-        // Also block internal path patterns
-        "/nl/fragen/**",
-        "/nl/questions/**",
-        "/es/fragen/**",
-        "/es/questions/**",
-        "/fr/fragen/**",
-        "/sv/fragen/**",
-        "/sv/questions/**",
-        "/en/fragen/**",
-        // English question slugs under /fragen/ are now redirected via redirects.ts
-
-        // Nested locale prefixes (invalid routes like /sv/nl/, /en/nl/, etc.)
-        // These patterns catch URLs with double locale prefixes like /fr/fr/, /en/sv/, etc.
-        "/*/nl/**",
-        "/*/en/**",
-        "/*/es/**",
-        "/*/fr/**",
-        "/*/sv/**",
-        "/*/de/**",
-
-        // More explicit patterns for double locale prefix combinations with question paths
-        // These catch URLs like /fr/fr/questions/..., /sv/en/questions/..., etc.
-        "/*/questions/**",
-        "/*/fragen/**",
-        "/*/vragen/**",
-        "/*/preguntas/**",
-        "/*/fragor/**",
-
-        // Triple-nested patterns to catch any remaining edge cases
-        "/*/*/questions/**",
-        "/*/*/fragen/**",
-        "/*/*/vragen/**",
-        "/*/*/preguntas/**",
-        "/*/*/fragor/**",
-
-        // Block sitemap XML files under locale prefixes (handled at root)
-        "/*/__sitemap__/**",
-        "/**/__sitemap__/**",
-        "/*/sitemap.xml",
-
-        // Block __nuxt_content API paths from being prerendered as pages
-        "/__nuxt_content/**",
-
-        // Block sample-page across all locales
-        "/sample-page",
-        "/*/sample-page",
-
-        // Block regulierte-branchen without suffix (redirected)
-        "/regulierte-branchen",
-        "/*/regulierte-branchen",
-
-        // Block ki-spracherkennung-funktionsweise (redirected)
-        "/ki-spracherkennung-funktionsweise",
-        "/*/ki-spracherkennung-funktionsweise",
-
-        // Block /how-it-works internal path
-        "/how-it-works",
-        "/*/how-it-works",
-
-        // Block /public-sector without suffix
-        "/public-sector",
-        "/*/public-sector",
-
-        // Block incorrect locale + German slug combinations
-        "/es/juristen-und-anwaelte-diktate-mandantengespraeche-dsgvo-konform-aufzeichnen",
-      ],
     },
     routeRules: {
       "/how-it-works": { redirect: "/ki-transkription-wie-es-funktioniert" },

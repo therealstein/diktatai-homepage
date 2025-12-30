@@ -57,12 +57,19 @@
 <script setup lang="ts">
 import type { Collections } from "@nuxt/content";
 
+// Restrict this page to only de and en locales
+defineI18nRoute({
+  locales: ["de", "en"],
+});
+
 const { t, locale } = useI18n({ useScope: "local" });
 
 // Questions only exist for 'de' and 'en' locales
 // Return 404 for all other locales
 const supportedLocales = ["de", "en"];
-if (!supportedLocales.includes(locale.value)) {
+const currentLocale = locale.value || "de";
+
+if (!supportedLocales.includes(currentLocale)) {
   throw createError({
     statusCode: 404,
     statusMessage: "Page Not Found",
@@ -72,8 +79,8 @@ if (!supportedLocales.includes(locale.value)) {
 
 // Helper function to get the correct localized question path
 const getQuestionPath = (question: any) => {
-  const slug = question.path.split("/").pop();
-  if (locale.value === "de") {
+  const slug = question.path?.split("/").pop() || "";
+  if (currentLocale === "de") {
     return `/fragen/${slug}`;
   } else {
     return `/en/questions/${slug}`;
@@ -81,10 +88,16 @@ const getQuestionPath = (question: any) => {
 };
 
 // Query the locale-specific collection
-const collectionName = `questions_${locale.value}` as keyof Collections;
+const collectionName = `questions_${currentLocale}` as keyof Collections;
 const { data: questionsData, pending, error } = await useAsyncData(
-  `questions-${locale.value}`,
-  () => queryCollection(collectionName).all(),
+  `questions-${currentLocale}`,
+  async () => {
+    try {
+      return await queryCollection(collectionName).all();
+    } catch {
+      return [];
+    }
+  },
 );
 
 const questions = computed(() => questionsData.value || []);

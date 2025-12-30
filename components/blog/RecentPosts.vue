@@ -32,14 +32,19 @@
 
 <script setup lang="ts">
 const { t } = useI18n()
-const { path } = useRoute()
-const { data: recentPosts } = await useAsyncData('recent-posts', () =>
-  queryCollection('blog')
-    .where({ _path: { $ne: path } })
-    .sort({ date: -1 })
-    .limit(3)
-    .find()
-)
+const route = useRoute()
+const path = route.path || ''
+const { data: recentPosts } = await useAsyncData('recent-posts', async () => {
+  try {
+    return await queryCollection('blog')
+      .where({ _path: { $ne: path } })
+      .sort({ date: -1 })
+      .limit(3)
+      .find()
+  } catch {
+    return []
+  }
+})
 
 const formatDate = (date: string) => {
   return new Date(date).toLocaleDateString('de-DE', {

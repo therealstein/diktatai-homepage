@@ -74,14 +74,21 @@ const { t } = useI18n({
   useScope: "local",
 });
 const { locale } = useI18n();
+const currentLocale = locale.value || "de";
 
-const { path } = useRoute();
+const route = useRoute();
+const path = route.path;
 const { data: page } = await useAsyncData(`page-${path}`, async () => {
-  const result = await queryCollection("page")
-    .where("id", "LIKE", `%${locale.value}.md`)
-    .path(path)
-    .first();
-  return result;
+  if (!path) return null;
+  try {
+    const result = await queryCollection("page")
+      .where("id", "LIKE", `%${currentLocale}.md`)
+      .path(path)
+      .first();
+    return result;
+  } catch {
+    return null;
+  }
 });
 </script>
 

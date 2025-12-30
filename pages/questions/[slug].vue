@@ -28,6 +28,11 @@
 <script setup lang="ts">
 import type { Collections } from "@nuxt/content";
 
+// Restrict this page to only de and en locales
+defineI18nRoute({
+  locales: ["de", "en"],
+});
+
 const route = useRoute();
 const slug = route.params.slug as string;
 const { locale } = useI18n();
@@ -35,7 +40,9 @@ const { locale } = useI18n();
 // Questions only exist for 'de' and 'en' locales
 // Return 404 for all other locales
 const supportedLocales = ["de", "en"];
-if (!supportedLocales.includes(locale.value)) {
+const currentLocale = locale.value || "de";
+
+if (!supportedLocales.includes(currentLocale)) {
   throw createError({
     statusCode: 404,
     statusMessage: "Page Not Found",
@@ -44,10 +51,16 @@ if (!supportedLocales.includes(locale.value)) {
 }
 
 // Query the locale-specific collection
-const collectionName = `questions_${locale.value}` as keyof Collections;
+const collectionName = `questions_${currentLocale}` as keyof Collections;
 const { data: question, pending } = await useAsyncData(
-  `question-${locale.value}-${slug}`,
-  () => queryCollection(collectionName).path(`/${locale.value}/${slug}`).first(),
+  `question-${currentLocale}-${slug}`,
+  async () => {
+    try {
+      return await queryCollection(collectionName).path(`/${currentLocale}/${slug}`).first();
+    } catch {
+      return null;
+    }
+  },
 );
 
 // SEO Meta Tags with Canonical URL

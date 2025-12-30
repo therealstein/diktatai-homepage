@@ -44,9 +44,13 @@
 </template>
 
 <script setup>
-const { data: posts } = await useAsyncData('posts', () => 
-  queryCollection('blog').all()
-)
+const { data: posts } = await useAsyncData('posts', async () => {
+  try {
+    return await queryCollection('blog').all()
+  } catch {
+    return []
+  }
+})
 
 const formatDate = (date) => {
   return new Date(date).toLocaleDateString('en-US', {

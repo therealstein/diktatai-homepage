@@ -57,12 +57,20 @@
 </template>
 
 <script setup>
-const { path } = useRoute()
-const { data: post } = await useAsyncData(`post-${path}`, () => 
-  queryCollection('blog')
-    .path(path)
-    .first()
-)
+const route = useRoute()
+const path = route.path
+
+// Only query if path starts with /blog
+const { data: post } = await useAsyncData(`post-${path}`, async () => {
+  if (!path || !path.startsWith('/blog')) {
+    return null
+  }
+  try {
+    return await queryCollection('blog').path(path).first()
+  } catch {
+    return null
+  }
+})
 
 const formatDate = (date) => {
   return new Date(date).toLocaleDateString('en-US', {
