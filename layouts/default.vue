@@ -8,22 +8,47 @@ declare global {
 }
 
 const route = useRoute();
-const { t } = useI18n();
+const { t, locale } = useI18n();
 const head = useLocaleHead();
+
+// Supported locales for question pages
+const questionsSupportedLocales = ['de', 'en'];
+
+// Check if current page is a questions page
+const isQuestionsPage = computed(() => {
+  const path = route.path;
+  return path.includes('/fragen') || path.includes('/questions') ||
+         path.includes('/vragen') || path.includes('/preguntas') || path.includes('/fragor');
+});
+
+// For questions pages in unsupported locales, don't render any hreflang links
+// This prevents the prerender crawler from following malformed URLs
+const shouldRenderHreflang = computed(() => {
+  if (isQuestionsPage.value && !questionsSupportedLocales.includes(locale.value)) {
+    return false;
+  }
+  return true;
+});
 
 // Filter out malformed hreflang links that have double locale prefixes
 // This can happen when NuxtLinkLocale generates paths for routes set to false
 const filteredLinks = computed(() => {
+  // Don't render any hreflang links for questions pages in unsupported locales
+  if (!shouldRenderHreflang.value) {
+    return [];
+  }
+
   if (!head.value?.link) return [];
 
-  // Regex to detect double locale prefixes like /fr/fr/, /en/sv/, /nl/en/, etc.
-  const doubleLocalePattern = /^\/(de|en|nl|es|fr|sv)\/(de|en|nl|es|fr|sv)\//;
+  // All supported locales
+  const allLocales = ['de', 'en', 'nl', 'es', 'fr', 'sv'];
 
-  // Also filter out question pages for locales that don't support them
-  const invalidQuestionPatterns = [
-    /^\/(nl|es|fr|sv)\/.*\/(questions|fragen|vragen|preguntas|fragor)\//,
-    /^\/(nl|es|fr|sv)\/(questions|fragen|vragen|preguntas|fragor)/,
-  ];
+  // Regex to detect double locale prefixes like /fr/fr/, /en/sv/, /nl/en/, etc.
+  // Also matches any locale followed by another locale pattern (with or without trailing slash)
+  const doubleLocalePattern = /^\/(de|en|nl|es|fr|sv)\/(de|en|nl|es|fr|sv)(\/|$)/;
+
+  // Question-related path segments in all supported languages
+  const questionPathSegments = ['questions', 'fragen', 'vragen', 'preguntas', 'fragor'];
 
   return head.value.link.filter((link: any) => {
     if (!link.href) return true;
@@ -37,9 +62,21 @@ const filteredLinks = computed(() => {
       return false;
     }
 
-    // Check for invalid question page links
-    for (const pattern of invalidQuestionPatterns) {
-      if (pattern.test(url)) {
+    // Check for question page links to unsupported locales
+    // Valid question pages are only /fragen/... (de) and /en/questions/... (en)
+    const pathParts = url.split('/').filter(Boolean);
+
+    // Check if this is a question page link
+    const hasQuestionSegment = pathParts.some(part => questionPathSegments.includes(part));
+
+    if (hasQuestionSegment) {
+      // For question pages, only allow:
+      // - /fragen/... (German, no prefix)
+      // - /en/questions/... (English with prefix)
+      const isValidGermanQuestions = pathParts[0] === 'fragen';
+      const isValidEnglishQuestions = pathParts[0] === 'en' && pathParts[1] === 'questions';
+
+      if (!isValidGermanQuestions && !isValidEnglishQuestions) {
         return false;
       }
     }

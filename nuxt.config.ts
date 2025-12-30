@@ -471,29 +471,38 @@ export default defineNuxtConfig({
         "/en/fragen/**",
         // English question slugs under /fragen/ are now redirected via redirects.ts
 
-        // Nested locale prefixes (invalid routes like /sv/nl/, /en/nl/, etc.)
-        // These patterns catch URLs with double locale prefixes like /fr/fr/, /en/sv/, etc.
-        "/*/nl/**",
-        "/*/en/**",
-        "/*/es/**",
-        "/*/fr/**",
-        "/*/sv/**",
-        "/*/de/**",
+        // EXPLICIT double locale prefix patterns - every combination
+        // These are explicit because glob wildcards may not work reliably
+        // Pattern: /[locale1]/[locale2]/** where locale1 != locale2 is always invalid
+        // Also /[locale]/[locale]/** (same locale twice) is invalid
 
-        // More explicit patterns for double locale prefix combinations with question paths
-        // These catch URLs like /fr/fr/questions/..., /sv/en/questions/..., etc.
-        "/*/questions/**",
-        "/*/fragen/**",
-        "/*/vragen/**",
-        "/*/preguntas/**",
-        "/*/fragor/**",
+        // All combinations starting with /de/
+        "/de/de/**", "/de/en/**", "/de/nl/**", "/de/es/**", "/de/fr/**", "/de/sv/**",
+        // All combinations starting with /en/
+        "/en/de/**", "/en/en/**", "/en/nl/**", "/en/es/**", "/en/fr/**", "/en/sv/**",
+        // All combinations starting with /nl/
+        "/nl/de/**", "/nl/en/**", "/nl/nl/**", "/nl/es/**", "/nl/fr/**", "/nl/sv/**",
+        // All combinations starting with /es/
+        "/es/de/**", "/es/en/**", "/es/nl/**", "/es/es/**", "/es/fr/**", "/es/sv/**",
+        // All combinations starting with /fr/
+        "/fr/de/**", "/fr/en/**", "/fr/nl/**", "/fr/es/**", "/fr/fr/**", "/fr/sv/**",
+        // All combinations starting with /sv/
+        "/sv/de/**", "/sv/en/**", "/sv/nl/**", "/sv/es/**", "/sv/fr/**", "/sv/sv/**",
 
-        // Triple-nested patterns to catch any remaining edge cases
-        "/*/*/questions/**",
-        "/*/*/fragen/**",
-        "/*/*/vragen/**",
-        "/*/*/preguntas/**",
-        "/*/*/fragor/**",
+        // Question paths under unsupported locale prefixes (without double prefix)
+        // These catch /nl/vragen, /es/preguntas, etc. without the double locale
+        // Index pages (exact matches)
+        "/nl/questions", "/nl/fragen", "/nl/vragen", "/nl/preguntas", "/nl/fragor",
+        "/es/questions", "/es/fragen", "/es/vragen", "/es/preguntas", "/es/fragor",
+        "/fr/questions", "/fr/fragen", "/fr/vragen", "/fr/preguntas", "/fr/fragor",
+        "/sv/questions", "/sv/fragen", "/sv/vragen", "/sv/preguntas", "/sv/fragor",
+        // Subpages (wildcards)
+        "/nl/questions/**", "/nl/fragen/**", "/nl/vragen/**", "/nl/preguntas/**", "/nl/fragor/**",
+        "/es/questions/**", "/es/fragen/**", "/es/vragen/**", "/es/preguntas/**", "/es/fragor/**",
+        "/fr/questions/**", "/fr/fragen/**", "/fr/vragen/**", "/fr/preguntas/**", "/fr/fragor/**",
+        "/sv/questions/**", "/sv/fragen/**", "/sv/vragen/**", "/sv/preguntas/**", "/sv/fragor/**",
+        // German /fragen only, English /questions only - block wrong translations
+        "/en/fragen", "/en/fragen/**", "/de/questions", "/de/questions/**",
 
         // Block sitemap XML files under locale prefixes (handled at root)
         "/*/__sitemap__/**",
@@ -528,6 +537,96 @@ export default defineNuxtConfig({
       ],
     },
     routeRules: {
+      // Block all double-locale prefix paths from prerendering
+      // Pattern: /{locale}/{locale}/** is always invalid
+      "/de/de/**": { prerender: false },
+      "/de/en/**": { prerender: false },
+      "/de/nl/**": { prerender: false },
+      "/de/es/**": { prerender: false },
+      "/de/fr/**": { prerender: false },
+      "/de/sv/**": { prerender: false },
+      "/en/de/**": { prerender: false },
+      "/en/en/**": { prerender: false },
+      "/en/nl/**": { prerender: false },
+      "/en/es/**": { prerender: false },
+      "/en/fr/**": { prerender: false },
+      "/en/sv/**": { prerender: false },
+      "/nl/de/**": { prerender: false },
+      "/nl/en/**": { prerender: false },
+      "/nl/nl/**": { prerender: false },
+      "/nl/es/**": { prerender: false },
+      "/nl/fr/**": { prerender: false },
+      "/nl/sv/**": { prerender: false },
+      "/es/de/**": { prerender: false },
+      "/es/en/**": { prerender: false },
+      "/es/nl/**": { prerender: false },
+      "/es/es/**": { prerender: false },
+      "/es/fr/**": { prerender: false },
+      "/es/sv/**": { prerender: false },
+      "/fr/de/**": { prerender: false },
+      "/fr/en/**": { prerender: false },
+      "/fr/nl/**": { prerender: false },
+      "/fr/es/**": { prerender: false },
+      "/fr/fr/**": { prerender: false },
+      "/fr/sv/**": { prerender: false },
+      "/sv/de/**": { prerender: false },
+      "/sv/en/**": { prerender: false },
+      "/sv/nl/**": { prerender: false },
+      "/sv/es/**": { prerender: false },
+      "/sv/fr/**": { prerender: false },
+      "/sv/sv/**": { prerender: false },
+
+      // Block question pages for unsupported locales (index pages)
+      "/nl/vragen": { prerender: false },
+      "/nl/questions": { prerender: false },
+      "/nl/fragen": { prerender: false },
+      "/nl/preguntas": { prerender: false },
+      "/nl/fragor": { prerender: false },
+      "/es/preguntas": { prerender: false },
+      "/es/questions": { prerender: false },
+      "/es/fragen": { prerender: false },
+      "/es/vragen": { prerender: false },
+      "/es/fragor": { prerender: false },
+      "/fr/questions": { prerender: false },
+      "/fr/fragen": { prerender: false },
+      "/fr/vragen": { prerender: false },
+      "/fr/preguntas": { prerender: false },
+      "/fr/fragor": { prerender: false },
+      "/sv/fragor": { prerender: false },
+      "/sv/questions": { prerender: false },
+      "/sv/fragen": { prerender: false },
+      "/sv/vragen": { prerender: false },
+      "/sv/preguntas": { prerender: false },
+      "/en/fragen": { prerender: false },
+      "/de/questions": { prerender: false },
+      // Block question pages for unsupported locales (subpages)
+      "/nl/vragen/**": { prerender: false },
+      "/nl/questions/**": { prerender: false },
+      "/nl/fragen/**": { prerender: false },
+      "/nl/preguntas/**": { prerender: false },
+      "/nl/fragor/**": { prerender: false },
+      "/es/preguntas/**": { prerender: false },
+      "/es/questions/**": { prerender: false },
+      "/es/fragen/**": { prerender: false },
+      "/es/vragen/**": { prerender: false },
+      "/es/fragor/**": { prerender: false },
+      "/fr/questions/**": { prerender: false },
+      "/fr/fragen/**": { prerender: false },
+      "/fr/vragen/**": { prerender: false },
+      "/fr/preguntas/**": { prerender: false },
+      "/fr/fragor/**": { prerender: false },
+      "/sv/fragor/**": { prerender: false },
+      "/sv/questions/**": { prerender: false },
+      "/sv/fragen/**": { prerender: false },
+      "/sv/vragen/**": { prerender: false },
+      "/sv/preguntas/**": { prerender: false },
+      "/en/fragen/**": { prerender: false },
+      "/de/questions/**": { prerender: false },
+
+      // Auth pages don't exist
+      "/auth/**": { prerender: false },
+      "/*/auth/**": { prerender: false },
+
       "/how-it-works": { redirect: "/ki-transkription-wie-es-funktioniert" },
       "/en/__sitemap__/en-US.xml": { redirect: { to: "/__sitemap__/en-US.xml", statusCode: 301 } },
       "/nl/__sitemap__/nl-NL.xml": { redirect: { to: "/__sitemap__/nl-NL.xml", statusCode: 301 } },
