@@ -217,7 +217,7 @@ locale: en
 
 <li><strong>Data security according to EU standards:</strong> Your data is safe with us.</li>
 
-<p>So if you're looking for a robust solution that simply works and saves you valuable time, <a href="/preise">try Diktat AI for free</a> and experience the difference.</p>
+<p>So if you're looking for a robust solution that simply works and saves you valuable time, <a href="/en/pricing">try Diktat AI for free</a> and experience the difference.</p>
 
 <h2 class="wp-block-heading">Conclusion</h2>
 
