@@ -26,6 +26,8 @@
   </div>
 </template>
 <script setup lang="ts">
+import type { Collections } from "@nuxt/content";
+
 const route = useRoute();
 const slug = route.params.slug as string;
 const { locale } = useI18n();
@@ -41,22 +43,12 @@ if (!supportedLocales.includes(locale.value)) {
   });
 }
 
-// Fetch all questions and find the matching one
-const { data: allQuestions, pending } = await useAsyncData(`question-${locale.value}-${slug}`, () =>
-  queryCollection('questions').all()
+// Query the locale-specific collection
+const collectionName = `questions_${locale.value}` as keyof Collections;
+const { data: question, pending } = await useAsyncData(
+  `question-${locale.value}-${slug}`,
+  () => queryCollection(collectionName).path(`/${locale.value}/${slug}`).first(),
 );
-
-// Find the question that matches both locale and slug
-const question = computed(() => {
-  if (!allQuestions.value) return null;
-
-  // The path will be like /de/slug or /en/slug, so we need to match both locale and slug
-  return allQuestions.value.find(q => {
-    const pathParts = q.path.split('/').filter(Boolean);
-    const questionSlug = pathParts[pathParts.length - 1]; // Get the last part of the path
-    return q.locale === locale.value && questionSlug === slug;
-  });
-});
 
 // SEO Meta Tags with Canonical URL
 const { canonicalUrl } = useSeoCanonical();

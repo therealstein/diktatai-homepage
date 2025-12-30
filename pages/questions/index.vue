@@ -27,9 +27,6 @@
           class="max-w-md mx-auto p-8 bg-gray-50 rounded-lg border border-gray-200"
         >
           <p class="text-gray-500">{{ t("noQuestions") }}</p>
-          <pre class="mt-4 text-left text-xs">
-Debug: locale={{ locale }}, questionsData={{ questionsData }}</pre
-          >
         </div>
       </div>
 
@@ -58,8 +55,9 @@ Debug: locale={{ locale }}, questionsData={{ questionsData }}</pre
 </template>
 
 <script setup lang="ts">
+import type { Collections } from "@nuxt/content";
+
 const { t, locale } = useI18n({ useScope: "local" });
-const localePath = useLocalePath();
 
 // Questions only exist for 'de' and 'en' locales
 // Return 404 for all other locales
@@ -82,27 +80,14 @@ const getQuestionPath = (question: any) => {
   }
 };
 
-// Fetch all questions first to debug
-const { data: allQuestionsData } = await useAsyncData(`all-questions`, () =>
-  queryCollection("questions").all(),
+// Query the locale-specific collection
+const collectionName = `questions_${locale.value}` as keyof Collections;
+const { data: questionsData, pending, error } = await useAsyncData(
+  `questions-${locale.value}`,
+  () => queryCollection(collectionName).all(),
 );
 
-// Filter by locale in computed
-const questions = computed(() => {
-  const all = allQuestionsData.value || [];
-  console.log("All questions:", all.length, all);
-  const filtered = all.filter((q) => q.locale === locale.value);
-  console.log(
-    "Filtered questions for locale",
-    locale.value,
-    ":",
-    filtered.length,
-  );
-  return filtered;
-});
-
-const pending = ref(false);
-const error = ref(null);
+const questions = computed(() => questionsData.value || []);
 
 // SEO Meta Tags with Canonical URL
 const { canonicalUrl } = useSeoCanonical();
@@ -132,42 +117,6 @@ useHead({
     "readMore": "Weiterlesen",
     "errorMessage": "Beim Laden der Fragen ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
     "metaDescription": "Entdecken Sie unsere Sammlung von Fragen und Antworten."
-  },
-  "nl": {
-    "title": "Vragen",
-    "heroSubtitle": "Ontdek onze veelgestelde vragen en vind de antwoorden die u helpen",
-    "loading": "Vragen worden geladen...",
-    "noQuestions": "Geen vragen gevonden.",
-    "readMore": "Lees verder",
-    "errorMessage": "Er is een fout opgetreden bij het laden van de vragen. Probeer het later opnieuw.",
-    "metaDescription": "Ontdek onze verzameling van vragen en antwoorden."
-  },
-  "es": {
-    "title": "Preguntas",
-    "heroSubtitle": "Explore nuestras preguntas frecuentes y encuentre las respuestas que necesita",
-    "loading": "Cargando preguntas...",
-    "noQuestions": "No se encontraron preguntas.",
-    "readMore": "Leer más",
-    "errorMessage": "Ocurrió un error al cargar las preguntas. Por favor, inténtelo de nuevo más tarde.",
-    "metaDescription": "Explore nuestra colección de preguntas y respuestas."
-  },
-  "fr": {
-    "title": "Questions",
-    "heroSubtitle": "Explorez nos questions fréquemment posées et trouvez les réponses dont vous avez besoin",
-    "loading": "Chargement des questions...",
-    "noQuestions": "Aucune question trouvée.",
-    "readMore": "Lire la suite",
-    "errorMessage": "Une erreur s'est produite lors du chargement des questions. Veuillez réessayer plus tard.",
-    "metaDescription": "Explorez notre collection de questions et réponses."
-  },
-  "sv": {
-    "title": "Frågor",
-    "heroSubtitle": "Utforska våra vanliga frågor och hitta de svar du behöver",
-    "loading": "Laddar frågor...",
-    "noQuestions": "Inga frågor hittades.",
-    "readMore": "Läs mer",
-    "errorMessage": "Ett fel uppstod när frågorna laddades. Försök igen senare.",
-    "metaDescription": "Utforska vår samling av frågor och svar."
   }
 }
 </i18n>

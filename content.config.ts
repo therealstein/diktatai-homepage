@@ -24,13 +24,27 @@ export default defineContentConfig({
         locale: z.string(),
       }),
     }),
-    questions: defineCollection({
+    // Questions collections - separate per locale (de and en only)
+    questions_de: defineCollection({
       type: 'page',
-      source: 'questions/**/*.md',
+      source: {
+        include: 'questions/de/**/*.md',
+        prefix: '/de',
+      },
       schema: z.object({
         title: z.string(),
         description: z.string(),
-        locale: z.string(),
+      }),
+    }),
+    questions_en: defineCollection({
+      type: 'page',
+      source: {
+        include: 'questions/en/**/*.md',
+        prefix: '/en',
+      },
+      schema: z.object({
+        title: z.string(),
+        description: z.string(),
       }),
     }),
   },
