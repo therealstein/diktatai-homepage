@@ -438,10 +438,16 @@ export default defineNuxtConfig({
       // This is expected for auth pages and invalid locale combinations
       failOnError: false,
       ignore: [
-        // Auth pages - all locales
+        // Auth pages - all locales (these don't exist on the landing page)
         "/auth/**",
         "/*/auth/**",
         "/**/auth/**",
+        // Explicit auth paths for all locales
+        "/en/auth/**",
+        "/nl/auth/**",
+        "/es/auth/**",
+        "/fr/auth/**",
+        "/sv/auth/**",
 
         // Questions only exist for de (/fragen) and en (/en/questions)
         // Block all other locale + question path combinations
@@ -466,12 +472,28 @@ export default defineNuxtConfig({
         // English question slugs under /fragen/ are now redirected via redirects.ts
 
         // Nested locale prefixes (invalid routes like /sv/nl/, /en/nl/, etc.)
+        // These patterns catch URLs with double locale prefixes like /fr/fr/, /en/sv/, etc.
         "/*/nl/**",
         "/*/en/**",
         "/*/es/**",
         "/*/fr/**",
         "/*/sv/**",
         "/*/de/**",
+
+        // More explicit patterns for double locale prefix combinations with question paths
+        // These catch URLs like /fr/fr/questions/..., /sv/en/questions/..., etc.
+        "/*/questions/**",
+        "/*/fragen/**",
+        "/*/vragen/**",
+        "/*/preguntas/**",
+        "/*/fragor/**",
+
+        // Triple-nested patterns to catch any remaining edge cases
+        "/*/*/questions/**",
+        "/*/*/fragen/**",
+        "/*/*/vragen/**",
+        "/*/*/preguntas/**",
+        "/*/*/fragor/**",
 
         // Block sitemap XML files under locale prefixes (handled at root)
         "/*/__sitemap__/**",
