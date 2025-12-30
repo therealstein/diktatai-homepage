@@ -145,6 +145,12 @@ export default defineNuxtConfig({
       meta: [{ name: "theme-color", content: "#ffffff" }],
     },
   },
+  // Enforce no trailing slashes for consistent URLs
+  router: {
+    options: {
+      strict: true,
+    },
+  },
   i18n: {
     strategy: "prefix_except_default",
     defaultLocale: "de",
