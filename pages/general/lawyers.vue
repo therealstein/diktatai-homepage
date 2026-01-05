@@ -750,7 +750,7 @@ useHead({
     },
     "cta": {
       "optimize": "Jetzt Kanzleialltag optimieren",
-      "start": "Kostenlos testen – mit AV-Vertrag",
+      "start": "Jetzt ausprobieren",
       "pricing": "Preise ansehen"
     },
     "sections": {
