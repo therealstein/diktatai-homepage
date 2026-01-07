@@ -1,0 +1,193 @@
+---
+import '../styles/global.css';
+import NavBar from '../components/NavBar.astro';
+import Footer from '../components/Footer.astro';
+import { localeInfo, type Locale, getLocalePath, type RouteKey } from '../i18n/utils';
+
+interface Props {
+  title: string;
+  description: string;
+  locale?: Locale;
+  routeKey?: RouteKey;
+  image?: string;
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description,
+  locale = 'de',
+  routeKey,
+  image = '/diktatai-transkribieren.webp',
+  noindex = false
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const fullTitle = title.includes('Diktat AI') ? title : `${title} | Diktat AI`;
+
+// Build alternate URLs for hreflang (only if routeKey is provided)
+const alternateUrls = routeKey ? {
+  de: getLocalePath(routeKey, 'de'),
+  en: getLocalePath(routeKey, 'en'),
+  nl: getLocalePath(routeKey, 'nl'),
+  es: getLocalePath(routeKey, 'es'),
+  fr: getLocalePath(routeKey, 'fr'),
+  sv: getLocalePath(routeKey, 'sv'),
+} : null;
+
+// WebApplication Schema
+const webAppSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Diktat AI",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  }
+};
+
+// Organization Schema
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Diktat AI",
+  "url": "https://diktat.ai",
+  "logo": "https://diktat.ai/logo-dai.svg"
+};
+---
+
+<!DOCTYPE html>
+<html lang={localeInfo[locale].language} data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Hreflang tags -->
+    {alternateUrls && Object.entries(alternateUrls).map(([lang, path]) => (
+      path && <link rel="alternate" hreflang={lang} href={`https://diktat.ai${path}`} />
+    ))}
+    {alternateUrls?.de && (
+      <link rel="alternate" hreflang="x-default" href={`https://diktat.ai${alternateUrls.de}`} />
+    )}
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Preload LCP image -->
+    <link rel="preload" href="/herobg.webp" as="image" type="image/webp" fetchpriority="high" />
+
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://ph.diktat.ai" />
+    <link rel="dns-prefetch" href="https://www.google.com" />
+    <link rel="preconnect" href="https://ph.diktat.ai" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="anonymous" />
+
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/PlusJakartaSans-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Diktat AI" />
+    <meta property="og:image" content={`https://diktat.ai${image}`} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`https://diktat.ai${image}`} />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify(webAppSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+
+    <!-- Inline critical font CSS -->
+    <style is:inline>
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/fonts/Inter-Regular.woff2') format('woff2');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        src: url('/fonts/Inter-Medium.woff2') format('woff2');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/fonts/Inter-SemiBold.woff2') format('woff2');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/fonts/Inter-Bold.woff2') format('woff2');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        src: url('/fonts/PlusJakartaSans-Medium.woff2') format('woff2');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/fonts/PlusJakartaSans-SemiBold.woff2') format('woff2');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/fonts/PlusJakartaSans-Bold.woff2') format('woff2');
+        font-display: swap;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-base-100 text-base-content">
+    <NavBar locale={locale} />
+    <main>
+      <slot />
+    </main>
+    <Footer locale={locale} />
+
+    <!-- PostHog Analytics (deferred) -->
+    <script is:inline>
+      !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+      posthog.init('phc_rEnn5wxbM2FCvmYNEuRu2w8Onbs5WII8VfKylyZcSBs', {
+        api_host: 'https://ph.diktat.ai',
+        capture_pageview: true,
+        capture_pageleave: true,
+      });
+    </script>
+  </body>
+</html>
