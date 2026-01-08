@@ -1,8 +1,12 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import HeroSection from '../../components/HeroSection.astro';
-import BenefitsSection from '../../components/BenefitsSection.astro';
+import UserGroupsSection from '../../components/UserGroupsSection.astro';
 import HowItWorksSection from '../../components/HowItWorksSection.astro';
+import BenefitsSection from '../../components/BenefitsSection.astro';
+import IntegrationsSection from '../../components/IntegrationsSection.astro';
+import BusinessSolutionsSection from '../../components/BusinessSolutionsSection.astro';
+import FAQSection from '../../components/FAQSection.astro';
 import CTASection from '../../components/CTASection.astro';
 
 const locale = 'es';
@@ -15,7 +19,11 @@ const locale = 'es';
   routeKey="index"
 >
   <HeroSection locale={locale} />
-  <BenefitsSection locale={locale} />
+  <UserGroupsSection locale={locale} />
   <HowItWorksSection locale={locale} />
+  <BenefitsSection locale={locale} />
+  <IntegrationsSection locale={locale} />
+  <BusinessSolutionsSection locale={locale} />
+  <FAQSection locale={locale} />
   <CTASection locale={locale} />
 </Layout>
