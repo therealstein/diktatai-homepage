@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import NavBar from '../components/NavBar.astro';
 import Footer from '../components/Footer.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
 import { localeInfo, type Locale, getLocalePath, type RouteKey } from '../i18n/utils';
 
 interface Props {
@@ -179,15 +180,101 @@ const orgSchema = {
       <slot />
     </main>
     <Footer locale={locale} />
+    <ConsentBanner locale={locale} />
 
-    <!-- PostHog Analytics (deferred) -->
+    <!-- Google Tag Manager - loaded after user interaction or 3 second delay to reduce LCP impact -->
     <script is:inline>
-      !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-      posthog.init('phc_rEnn5wxbM2FCvmYNEuRu2w8Onbs5WII8VfKylyZcSBs', {
-        api_host: 'https://ph.diktat.ai',
-        capture_pageview: true,
-        capture_pageleave: true,
-      });
+      (function() {
+        var gtmLoaded = false;
+
+        function loadGTM() {
+          if (gtmLoaded) return;
+          gtmLoaded = true;
+
+          var script = document.createElement('script');
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16950089138';
+          script.async = true;
+          document.head.appendChild(script);
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { window.dataLayer.push(arguments); }
+          window.gtag = gtag;
+          gtag('js', new Date());
+          gtag('config', 'AW-16950089138');
+        }
+
+        // Load GTM after 3 seconds or on user interaction (whichever comes first)
+        var timeout = setTimeout(loadGTM, 3000);
+
+        var interactionEvents = ['mousedown', 'keydown', 'touchstart', 'scroll'];
+        function onInteraction() {
+          clearTimeout(timeout);
+          loadGTM();
+          interactionEvents.forEach(function(event) {
+            window.removeEventListener(event, onInteraction, { capture: true });
+          });
+        }
+
+        interactionEvents.forEach(function(event) {
+          window.addEventListener(event, onInteraction, { capture: true, passive: true });
+        });
+      })();
+    </script>
+
+    <!-- PostHog Analytics (deferred loading to not block LCP) -->
+    <script is:inline>
+      (function() {
+        var posthogLoaded = false;
+
+        function initPostHog() {
+          if (posthogLoaded) return;
+          posthogLoaded = true;
+
+          !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+
+          posthog.init('phc_rEnn5wxbM2FCvmYNEuRu2w8Onbs5WII8VfKylyZcSBs', {
+            api_host: 'https://ph.diktat.ai',
+            ui_host: 'eu.posthog.com',
+            person_profiles: 'identified_only',
+            capture_pageview: true,
+            capture_pageleave: true,
+            disable_surveys: true,
+            disable_session_recording: true,
+            autocapture: false,
+            capture_dead_clicks: false,
+            capture_performance: false,
+          });
+        }
+
+        // Defer PostHog initialization using requestIdleCallback or 3s timeout
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(initPostHog, { timeout: 3000 });
+        } else {
+          setTimeout(initPostHog, 3000);
+        }
+
+        // Global helper for custom event tracking (used by contact form, etc.)
+        window.trackPostHogEvent = function(eventName, properties) {
+          if (window.posthog && window.posthog.capture) {
+            window.posthog.capture(eventName, properties);
+          } else {
+            // Queue the event for when PostHog loads
+            window.posthogEventQueue = window.posthogEventQueue || [];
+            window.posthogEventQueue.push({ event: eventName, properties: properties });
+          }
+        };
+
+        // Process queued events once PostHog is ready
+        var checkPostHog = setInterval(function() {
+          if (window.posthog && window.posthog.capture && window.posthogEventQueue) {
+            window.posthogEventQueue.forEach(function(item) {
+              window.posthog.capture(item.event, item.properties);
+            });
+            window.posthogEventQueue = [];
+            clearInterval(checkPostHog);
+          }
+        }, 500);
+      })();
     </script>
   </body>
 </html>

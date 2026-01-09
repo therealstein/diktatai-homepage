@@ -113,3 +113,39 @@ The Astro homepage now includes all the same sections as the Nuxt homepage:
 - CTASection
 
 All 6 locales have been updated with the complete homepage sections.
+
+---
+
+## Functional Parity (Plugins, Tracking, Forms)
+
+**Added:** 2025-01-08
+
+### Analytics & Tracking
+- [x] **Google Tag Manager (GTM)** - AW-16950089138 with lazy loading (3s OR user interaction)
+- [x] **PostHog Analytics** - Deferred loading via requestIdleCallback + 3s timeout
+- [x] **PostHog Config** - Matching Nuxt config (disable_surveys, disable_session_recording, etc.)
+- [x] **Custom Event Tracking** - `trackPostHogEvent()` global helper function
+
+### Cookie Consent
+- [x] **ConsentBanner** - Created `components/ConsentBanner.astro`
+- [x] **i18n Support** - All 6 locales (de, en, nl, es, fr, sv)
+- [x] **localStorage** - `consent_shown` and `consent_accepted` tracking
+- [x] **Google Consent Mode** - Updates consent on accept
+
+### Contact Form
+- [x] **Honeypot Field** - Bot detection
+- [x] **PostHog Tracking** - `contact_form_submission` event
+- [x] **PostHog Tracking** - `contact_form_submission_full` event with details
+- [x] **All Form Fields** - name, email, subject, message, company, phone
+- [x] **Privacy Checkbox** - With locale-specific privacy link
+
+### Files Modified/Created
+- `src/components/ConsentBanner.astro` - NEW: Cookie consent banner
+- `src/layouts/Layout.astro` - UPDATED: GTM, PostHog deferred loading, ConsentBanner
+- `src/components/ContactPage.astro` - UPDATED: PostHog tracking events
+
+### Verification
+- [x] Build successful - 157 pages
+- [x] All critical functional features ported from Nuxt
+
+**See also:** `FUNCTIONAL_PARITY_CHECKLIST.md` for detailed comparison table.

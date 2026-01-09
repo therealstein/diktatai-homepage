@@ -295,6 +295,13 @@ const privacyPath = getLocalePath('privacy', locale);
     const successMessage = document.getElementById('success-message');
     const errorMessage = document.getElementById('error-message');
 
+    // Helper to track PostHog events (uses global helper from Layout)
+    function trackEvent(eventName: string, properties: Record<string, any>) {
+      if (typeof (window as any).trackPostHogEvent === 'function') {
+        (window as any).trackPostHogEvent(eventName, properties);
+      }
+    }
+
     if (form) {
       form.addEventListener('submit', async (e) => {
         e.preventDefault();
@@ -316,6 +323,27 @@ const privacyPath = getLocalePath('privacy', locale);
         loadingText?.classList.remove('hidden');
         successMessage?.classList.add('hidden');
         errorMessage?.classList.add('hidden');
+
+        // Track basic analytics event
+        trackEvent('contact_form_submission', {
+          subject: formData.get('subject'),
+          has_company: !!formData.get('company'),
+          has_phone: !!formData.get('phone'),
+          privacy_accepted: !!formData.get('privacyAccepted'),
+        });
+
+        // Track full form data as backup (excluding sensitive info)
+        const message = formData.get('message') as string;
+        trackEvent('contact_form_submission_full', {
+          subject: formData.get('subject'),
+          email: formData.get('email'),
+          company: formData.get('company'),
+          phone: formData.get('phone'),
+          privacy_accepted: !!formData.get('privacyAccepted'),
+          message: message,
+          message_length: message?.length || 0,
+          timestamp: new Date().toISOString(),
+        });
 
         try {
           const response = await fetch('/api/contact', {

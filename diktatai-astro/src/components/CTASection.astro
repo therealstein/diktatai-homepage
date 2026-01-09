@@ -10,29 +10,29 @@ const t = getTranslation(locale);
 const pricingPath = getLocalePath('pricing', locale);
 ---
 
-<section class="py-20 bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-700">
-  <div class="container mx-auto px-4 text-center">
-    <h2 class="text-4xl md:text-5xl font-bold font-display text-white mb-6">
-      {t('cta.title')}
-    </h2>
-    <p class="text-xl text-indigo-100 max-w-2xl mx-auto mb-10">
-      {t('cta.description')}
-    </p>
-    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <a
-        href={appUrls.register}
-        class="btn btn-lg bg-white text-indigo-600 hover:bg-indigo-50 border-0 font-bold shadow-xl"
-      >
-        {t('cta.startFree')}
-      </a>
-      {pricingPath && (
-        <a
-          href={pricingPath}
-          class="btn btn-lg btn-outline border-white text-white hover:bg-white/10 font-bold"
-        >
-          {t('cta.viewPricing')}
+<!-- Final CTA Section - Enhanced -->
+<div class="w-full py-16 bg-cover bg-center" style="background-image: url('/cta-web.webp');">
+  <div class="flex justify-center items-center text-center">
+    <div class="max-w-2xl backdrop-blur-sm bg-white/10 p-8 rounded-3xl shadow-2xl border border-white/20">
+      <h2 class="font-display text-4xl font-bold leading-tight tracking-tight mb-2">{t('cta.title')}</h2>
+      <p class="py-6 text-lg font-medium leading-relaxed">
+        {t('cta.description')}
+      </p>
+
+      <div class="flex flex-col md:flex-row items-center justify-center gap-4">
+        <a href={appUrls.register}>
+          <button class="font-display bg-pink-500 text-white text-xl font-bold py-4 px-12 rounded-full hover:bg-pink-600 transition-all shadow-lg tracking-wide">
+            {t('cta.startFree')}
+          </button>
         </a>
-      )}
+        {pricingPath && (
+          <a href={pricingPath}>
+            <button class="font-display border-2 border-white/70 bg-white/10 text-white text-xl font-bold py-4 px-12 rounded-full hover:bg-white/20 transition-all shadow-lg tracking-wide">
+              {t('cta.viewPricing')}
+            </button>
+          </a>
+        )}
+      </div>
     </div>
   </div>
-</section>
+</div>
